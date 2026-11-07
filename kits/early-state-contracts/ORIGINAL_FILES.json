@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "early-state-kit/research/game/climber/guided/minsup/mk_tap.py",
+      "project_path": "early-state-kit/research/game/climber/guided/minsup/mk_tap.py",
+      "sha256": "f8547f0ea192e61d47c5ed50e287276d0b80e17a53a05dd03c853b43482222e9",
+      "bytes": 804
+    },
+    {
+      "original": "early-state-kit/research/luna/L005/shapes.tsv",
+      "project_path": "early-state-kit/research/luna/L005/shapes.tsv",
+      "sha256": "f83cee2081ebe30a657798c2b2dfa1b275729493a82900edb44c464437011382",
+      "bytes": 415
+    },
+    {
+      "original": "early-state-kit/research/luna/L002/build_sparse42_fix4.sh",
+      "project_path": "early-state-kit/research/luna/L002/build_sparse42_fix4.sh",
+      "sha256": "d89883f021249771af57ffbe8d2e4fd7ca067b0fc8e0f5bdce0e7f3ff9b8a4ee",
+      "bytes": 1872
+    },
+    {
+      "original": "early-state-kit/research/luna/L005/run_fullstate_fix.sh",
+      "project_path": "early-state-kit/research/luna/L005/run_fullstate_fix.sh",
+      "sha256": "18d7b9c76a8ee2b119a286614d2db5f8882e640a4b29f027efc4b8602105a404",
+      "bytes": 2059
+    },
+    {
+      "original": "early-state-kit/check.py",
+      "project_path": "early-state-kit/check.py",
+      "sha256": "672d661668f785a7b2582aaa9cbf3b4a96b1293f961784a4849040abefb186ac",
+      "bytes": 4714
+    },
+    {
+      "original": "early-state-kit/README.md",
+      "project_path": "early-state-kit/README.md",
+      "sha256": "1794976dfd71234f38331558bd08dcdcdb97ef25b7cc9367f753341042deb6c9",
+      "bytes": 2853
+    },
+    {
+      "original": "early-state-kit/replay.py",
+      "project_path": "early-state-kit/replay.py",
+      "sha256": "cfafa3ad656c9f7bb49ba33003b27cf8f09a7eb7d02720562b8f08760f242d58",
+      "bytes": 1147
+    },
+    {
+      "original": "early-state-kit/PROVENANCE.json",
+      "project_path": "early-state-kit/PROVENANCE.json",
+      "sha256": "ec68a9bc558496bcc47e4ec06bb0778b8b63008a32f8ca84e7e87e7add5b8a38",
+      "bytes": 983
+    },
+    {
+      "original": "early-state-kit/MANIFEST.json",
+      "project_path": "early-state-kit/MANIFEST.json",
+      "sha256": "c291624dd695812996a688cf56cf6af24a494c0d9147fe4822d8b07f2b8e029f",
+      "bytes": 1012
+    }
+  ]
+}

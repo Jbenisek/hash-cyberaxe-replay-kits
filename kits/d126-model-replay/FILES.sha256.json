@@ -1,0 +1,85 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "d126-model-kit/check37.py": {
+      "bytes": 8845,
+      "sha256": "9e140d06f81e40049e6ce75be693ee3044096107f177a5bbc7e6f333726db233"
+    },
+    "d126-model-kit/check38.py": {
+      "bytes": 6093,
+      "sha256": "08dbbfd2f10a5b7b168a913b69011cc10f4f5b0e90ebcb0b3b503e8f0dd516e4"
+    },
+    "d126-model-kit/MANIFEST.json": {
+      "bytes": 1625,
+      "sha256": "e7e699382971a0813f8ba2cf36901d17396424368366bcaf9606c08dde083d37"
+    },
+    "d126-model-kit/model37.py": {
+      "bytes": 19102,
+      "sha256": "5a382ce398e4e7671145d49d0aedde6e9bf3dcc0f59b9076d9da285b3b250c04"
+    },
+    "d126-model-kit/model38.py": {
+      "bytes": 1144,
+      "sha256": "2abe5c854d04f544395884f360c6b987f04d58f1b5da7a053f902c46d2158387"
+    },
+    "d126-model-kit/price.py": {
+      "bytes": 6278,
+      "sha256": "1c066a7647f5ead8dc9e4eb650193b890c584010d5569c37b8088ba2368874a7"
+    },
+    "d126-model-kit/PROVENANCE.json": {
+      "bytes": 780,
+      "sha256": "361b5fd23427723e45a0fc345c4ca7abe8af378466e14923a22ef3ac3c9ea3db"
+    },
+    "d126-model-kit/README.md": {
+      "bytes": 4680,
+      "sha256": "1037342b7bec1108d73f8047e90e61ec06391b522b317ef39c755d6f4e699bfd"
+    },
+    "d126-model-kit/replay.py": {
+      "bytes": 1793,
+      "sha256": "c90ab91cf1d3cc849fce30fe6585c1ae5f3d0cf38ae4125a4cf2e037154c4822"
+    },
+    "d126-model-kit/runs/costs.json": {
+      "bytes": 132,
+      "sha256": "02c4ad8666084abdbdebd10a03edd972f47e5a7e7ae7aad6c800a49f6920aa0d"
+    },
+    "d126-model-kit/runs/pre1.json": {
+      "bytes": 200,
+      "sha256": "553e80c110fa3f1e83f86b8e34c2e6e92568ed3316a17cc5ef7456b4441a7cbd"
+    },
+    "d126-model-kit/runs/pre2.json": {
+      "bytes": 147,
+      "sha256": "ea062fb5984a8e7b51b3ef00a48af79a37724c56d12303ed0e967805d0a3ee4f"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2631,
+      "sha256": "9d28a45b1f5517f81b7a4dbee22563a0c596ce5e0d90a41f4e4efd0400a4d823"
+    },
+    "PROJECT.json": {
+      "bytes": 685,
+      "sha256": "9fef5ae455060729b9147ed442284a6737fe6223e086dc2c399d8139f6cce048"
+    },
+    "README.md": {
+      "bytes": 2687,
+      "sha256": "5592c0381c11492be384557259bb4eee6b18ba8821a739ad591dc0e98b5896df"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 43568,
+      "sha256": "a366f8c27198afdccd14e2e52e71306cc1e6c830e7083bab6ecda852a2a9a8b5"
+    }
+  }
+}

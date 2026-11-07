@@ -1,0 +1,23 @@
+{
+  "project_id": "hash-cyberaxe-p9-deletion-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "deletion_rows_checked": 18,
+    "peel_rows_checked": 7,
+    "unique_dimacs_structurally_checked": 5,
+    "final_retained_state_rows": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "minimality_proved": false,
+    "solver_run": false,
+    "proof_certificate_checked": false,
+    "scope": "Recorded row transformations, greedy policy, aliases and DIMACS structure only; not independent SAT/UNSAT certification."
+  },
+  "finite_replay": "passed"
+}

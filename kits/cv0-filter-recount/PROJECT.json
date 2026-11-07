@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-cv0-filter-recount",
+  "title": "Selected-CV F7: exact recount of retained samples",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "cv0-filter-recount.zip",
+  "source_archive_sha256": "dabdf1469b2a37611150ff9ed28f9ee05469b8ddcc4fc356211bc35d52bffa7e",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/cv0-filter-recount",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "cv0-filter-recount/replay.py"
+  ],
+  "expected": "cv0-filter",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

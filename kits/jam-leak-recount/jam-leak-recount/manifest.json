@@ -1,0 +1,17 @@
+{
+  "files": {
+    "README.txt": {
+      "bytes": 2050,
+      "sha256": "49506856ca9d71d1336a87eca098a1b6328464ac5af8660479b4ffce5cc4f10b"
+    },
+    "replay.py": {
+      "bytes": 2167,
+      "sha256": "3adbbd8d4ee1e0ed5daba606d1bd1310e05268e85949d8761824bad6f0b0e8a3"
+    },
+    "tables.json": {
+      "bytes": 20517,
+      "sha256": "8ffc8b035a7a7962cdfe3f40102a2e85642bf158b32b5624085519ca6178e5a7"
+    }
+  },
+  "scope": "Saved numerical counts only, not historical GPU execution certification."
+}

@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "original": "backward-schedule-kit/SCHED_TAILLIGHTEST_board_tail.txt",
+      "project_path": "backward-schedule-kit/SCHED_TAILLIGHTEST_board_tail.txt",
+      "sha256": "a44679e91014f36eff1eb148c56ea52424057d46120a3836f114e6c45a5a716e",
+      "bytes": 505
+    },
+    {
+      "original": "backward-schedule-kit/VALUE_SCREEN_PRICED_TRAILS_1031.tsv",
+      "project_path": "backward-schedule-kit/VALUE_SCREEN_PRICED_TRAILS_1031.tsv",
+      "sha256": "5d8f34821965db1472c9bfaa9b43cf8600cae18c8349eaca1ce83d17c6e13e2b",
+      "bytes": 588
+    },
+    {
+      "original": "backward-schedule-kit/reference.py",
+      "project_path": "backward-schedule-kit/reference.py",
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61",
+      "bytes": 3843
+    },
+    {
+      "original": "backward-schedule-kit/LESSON.md",
+      "project_path": "backward-schedule-kit/LESSON.md",
+      "sha256": "280ca1ef8b656cfff9be9287202193a335c1ac42f4b1a2ed3d3f2edb44f618fb",
+      "bytes": 5793
+    },
+    {
+      "original": "backward-schedule-kit/README.md",
+      "project_path": "backward-schedule-kit/README.md",
+      "sha256": "b1d190d24467373072746559012ade929ff4fb79ac69e5052c92f84c0d6d0493",
+      "bytes": 3555
+    },
+    {
+      "original": "backward-schedule-kit/replay.py",
+      "project_path": "backward-schedule-kit/replay.py",
+      "sha256": "86907ec96254a893e5c633d839c563800ea5d67be9de921ffb4a530975a18d82",
+      "bytes": 1204
+    },
+    {
+      "original": "backward-schedule-kit/check.py",
+      "project_path": "backward-schedule-kit/check.py",
+      "sha256": "e9e2f22c41263f8ade55986a9d838e14034d1094282e1181fc154c09e64486c2",
+      "bytes": 5328
+    },
+    {
+      "original": "backward-schedule-kit/MANIFEST.json",
+      "project_path": "backward-schedule-kit/MANIFEST.json",
+      "sha256": "8be922ed872c3d8a060a8617cf775bbbb26cb486d313090075cff5a702eb0948",
+      "bytes": 1077
+    }
+  ]
+}

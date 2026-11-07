@@ -1,0 +1,16 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "early-state-kit/research/luna/L005/run_fullstate_fix.sh",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "314bf2ef519e2b3d9901b40b5c8fcb3a673d879daba374dd4cbd962d1c6428da",
+      "original_bytes": 2061,
+      "published_sha256": "18d7b9c76a8ee2b119a286614d2db5f8882e640a4b29f027efc4b8602105a404",
+      "published_bytes": 2059
+    }
+  ]
+}

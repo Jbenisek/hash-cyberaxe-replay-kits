@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "boardpair-kit/boardpairs/gen_boardpair.py",
+      "project_path": "boardpair-kit/boardpairs/gen_boardpair.py",
+      "sha256": "4c20d1691d24288b210f5f7a0b302aee08ba02ddc8cb88eb7c72b6721470ddf7",
+      "bytes": 4873
+    },
+    {
+      "original": "boardpair-kit/kit/char_pair_profile.py",
+      "project_path": "boardpair-kit/kit/char_pair_profile.py",
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611",
+      "bytes": 12295
+    },
+    {
+      "original": "boardpair-kit/kit/sha_cnf.py",
+      "project_path": "boardpair-kit/kit/sha_cnf.py",
+      "sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa",
+      "bytes": 23585
+    },
+    {
+      "original": "boardpair-kit/kit/indep_verify.py",
+      "project_path": "boardpair-kit/kit/indep_verify.py",
+      "sha256": "dec3ad8f2be2ffaecc6e0e63801a12d75de19c3977685a8ff5133fde278b0513",
+      "bytes": 2816
+    },
+    {
+      "original": "boardpair-kit/boardpairs/wit/r38_s102.json",
+      "project_path": "boardpair-kit/boardpairs/wit/r38_s102.json",
+      "sha256": "18faa629b35329c05e9d0e20a42497e571f4553ad97d81049b2066b5cf3926a8",
+      "bytes": 629
+    },
+    {
+      "original": "boardpair-kit/boardpairs/wit/r37_tab17.json",
+      "project_path": "boardpair-kit/boardpairs/wit/r37_tab17.json",
+      "sha256": "e1ed5b4a89aad156050eb895a86c803b019ef926869bc5b378332a0a3fb879ed",
+      "bytes": 630
+    },
+    {
+      "original": "boardpair-kit/replay.py",
+      "project_path": "boardpair-kit/replay.py",
+      "sha256": "653945b9455362fa5dea296e44ba2a8a4949f1c8905ea4cc401298d738a20d66",
+      "bytes": 7944
+    },
+    {
+      "original": "boardpair-kit/README.md",
+      "project_path": "boardpair-kit/README.md",
+      "sha256": "d29af7425f35018dfc0de88ee62b31aaa75096c4579ea488c0ee1f0ff3993a10",
+      "bytes": 3829
+    },
+    {
+      "original": "boardpair-kit/MANIFEST.json",
+      "project_path": "boardpair-kit/MANIFEST.json",
+      "sha256": "e1d3a9e059ec57fb36b9fb3257437e43ed87f0b6e02742029140786f44444eb9",
+      "bytes": 2548
+    }
+  ]
+}

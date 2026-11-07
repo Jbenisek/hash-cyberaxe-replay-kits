@@ -1,0 +1,15 @@
+{
+  "project_id": "hash-cyberaxe-jam-leak-recount",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "histograms_checked": 7,
+    "leak_rows_checked": 61,
+    "groups": 7,
+    "shifts_reaching_row19": 48,
+    "nonzero_full_predicate_passes_in_seven_histograms": 0,
+    "scope": "Saved count reconciliation only. No GPU rerun, independent collision check, timing certification or general round barrier."
+  },
+  "finite_replay": "passed"
+}

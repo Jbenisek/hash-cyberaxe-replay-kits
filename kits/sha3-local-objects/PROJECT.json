@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sha3-local-objects",
+  "title": "SHA-3: exact local objects, explicit global limits",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sha3-local-objects.zip",
+  "source_archive_sha256": "fd26aac662fe392e92c789c246b15af414284bed720ed39c52ed7eaf5cab39f1",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sha3-local-objects",
+  "tool_families": [],
+  "original_payload_files": 11,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "sha3-scope-kit/replay.py"
+  ],
+  "expected": "sha3-scope",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

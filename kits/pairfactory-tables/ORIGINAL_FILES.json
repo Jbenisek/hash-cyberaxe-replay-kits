@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "original": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/CLASS_SUMMARY.tsv",
+      "project_path": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/CLASS_SUMMARY.tsv",
+      "sha256": "bb79a1ad081dfa51a7f88864e39125bad0968fc5772839c39791d9cff1f1976d",
+      "bytes": 6120
+    },
+    {
+      "original": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS.tsv",
+      "project_path": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS.tsv",
+      "sha256": "19eeb4e5456544ca27c75df0fcff769db5757219230a4ca2fd6894120af53edc",
+      "bytes": 3199
+    },
+    {
+      "original": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS2.tsv",
+      "project_path": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS2.tsv",
+      "sha256": "1aee1325f47de2fc4b669544bead85a0178394b3138ea951b27f5f63e69223c5",
+      "bytes": 5235
+    },
+    {
+      "original": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/TAILS_B.tsv",
+      "project_path": "pairfactory-tables-kit/research/game/climber/guided/pairfactory/TAILS_B.tsv",
+      "sha256": "f0ed76f70b78778889f3172a15b1b03cd9067804f287822ba78ae3580b2fe5a2",
+      "bytes": 535
+    },
+    {
+      "original": "pairfactory-tables-kit/check.py",
+      "project_path": "pairfactory-tables-kit/check.py",
+      "sha256": "bbc5c0fca0b01c0dc6cceb364f47c263ea268ffb02bfbcaf34290d4d8b17f6e0",
+      "bytes": 3508
+    },
+    {
+      "original": "pairfactory-tables-kit/README.md",
+      "project_path": "pairfactory-tables-kit/README.md",
+      "sha256": "16ea33ec66b5aa1dd347662ea4928df64cd3b9c9dae81729ca8f746cac9ff48d",
+      "bytes": 4910
+    },
+    {
+      "original": "pairfactory-tables-kit/replay.py",
+      "project_path": "pairfactory-tables-kit/replay.py",
+      "sha256": "4e3483d469875a85c2fc7c98558eaeec65e0c368557684a75de795a537861ce2",
+      "bytes": 1507
+    },
+    {
+      "original": "pairfactory-tables-kit/tail-observations.json",
+      "project_path": "pairfactory-tables-kit/tail-observations.json",
+      "sha256": "dcdf20639ca7f91ce237d77ffbe9ba7994aa6babdbc880af4f8adbb0d2985d3a",
+      "bytes": 481819
+    },
+    {
+      "original": "pairfactory-tables-kit/recount_tails.py",
+      "project_path": "pairfactory-tables-kit/recount_tails.py",
+      "sha256": "5ff536cd98c7df0ef9656766d4bcb046ed2589aa0d0c82448ba94ff3f8a17522",
+      "bytes": 2985
+    },
+    {
+      "original": "pairfactory-tables-kit/PROVENANCE.json",
+      "project_path": "pairfactory-tables-kit/PROVENANCE.json",
+      "sha256": "8d607eb447f05beda0b9f8115bc51017776f5afc68abd7450a59089d1bd01b75",
+      "bytes": 2491
+    },
+    {
+      "original": "pairfactory-tables-kit/MANIFEST.json",
+      "project_path": "pairfactory-tables-kit/MANIFEST.json",
+      "sha256": "1feea145ef9be4c8522f1bf74a34cd348506d50180747f2a4e1ae4d195d91371",
+      "bytes": 1664
+    }
+  ]
+}

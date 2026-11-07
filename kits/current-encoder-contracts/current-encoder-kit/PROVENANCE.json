@@ -1,0 +1,9 @@
+{
+  "original_path": "research/game/climber/guided/kit/sha_cnf.py",
+  "original_sha256": "c431c124e449c3b7939f2fdec373a8abb7ba3e651b2dc884c64d4aa03308faec",
+  "source_bytes_unchanged": true,
+  "older_reviewed_edition_sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa",
+  "edition_policy": "Separate lesson. Does not replace the older catalogue payload or transfer its certification.",
+  "checker": "New bounded publication audit; copied-module gate instrumentation plus independent arithmetic and serialized-clause evaluation.",
+  "scope": "Twelve deterministic circuit evaluations and four empty-range controls; no solver or research campaign."
+}

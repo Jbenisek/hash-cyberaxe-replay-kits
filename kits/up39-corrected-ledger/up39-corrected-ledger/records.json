@@ -1,0 +1,371 @@
+{
+  "format": "hashsmash-up39-corrected-ledger-v1",
+  "records": [
+    {
+      "id": "UP39_d1f818b92f02_p1",
+      "source_line": 1,
+      "original_fields": [
+        "UP39_d1f818b92f02_p1",
+        "UNSAT",
+        "22s",
+        "conflicts=203923",
+        "rc=20"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNSAT",
+      "reported_status": "UNSAT",
+      "reported_time_label": "22s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 203923,
+      "reported_exit_code": 20,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "control_R38_p8",
+      "source_line": 2,
+      "original_fields": [
+        "control_R38_p8",
+        "SAT",
+        "137s",
+        "conflicts=1894091",
+        "rc=10"
+      ],
+      "job_group_from_name": "control_R38",
+      "status_as_recorded": "SAT",
+      "reported_status": "SAT",
+      "reported_time_label": "137s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 1894091,
+      "reported_exit_code": 10,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p20",
+      "source_line": 3,
+      "original_fields": [
+        "UP39_d1f818b92f02_p20",
+        "UNKNOWN",
+        "900s",
+        "conflicts=9353296",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 9353296,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p18",
+      "source_line": 4,
+      "original_fields": [
+        "UP39_d1f818b92f02_p18",
+        "UNKNOWN",
+        "900s",
+        "conflicts=9854161",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 9854161,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p16",
+      "source_line": 5,
+      "original_fields": [
+        "UP39_d1f818b92f02_p16",
+        "UNKNOWN",
+        "900s",
+        "conflicts=9049206",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 9049206,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p14",
+      "source_line": 6,
+      "original_fields": [
+        "UP39_d1f818b92f02_p14",
+        "UNKNOWN",
+        "900s",
+        "conflicts=8193265",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 8193265,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p12",
+      "source_line": 7,
+      "original_fields": [
+        "UP39_d1f818b92f02_p12",
+        "UNKNOWN",
+        "900s",
+        "conflicts=8452832",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 8452832,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p10",
+      "source_line": 8,
+      "original_fields": [
+        "UP39_d1f818b92f02_p10",
+        "UNKNOWN",
+        "900s",
+        "conflicts=7760437",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 7760437,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p8",
+      "source_line": 9,
+      "original_fields": [
+        "UP39_d1f818b92f02_p8",
+        "UNKNOWN",
+        "900s",
+        "conflicts=7258601",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 7258601,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p4",
+      "source_line": 10,
+      "original_fields": [
+        "UP39_d1f818b92f02_p4",
+        "UNSAT",
+        "22s",
+        "conflicts=167853",
+        "rc=20"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNSAT",
+      "reported_status": "UNSAT",
+      "reported_time_label": "22s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 167853,
+      "reported_exit_code": 20,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p6",
+      "source_line": 11,
+      "original_fields": [
+        "UP39_d1f818b92f02_p6",
+        "UNKNOWN",
+        "900s",
+        "conflicts=6719709",
+        "rc=124"
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": "UNKNOWN",
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s",
+      "time_basis": "Unspecified seconds in the original ledger",
+      "reported_conflicts": 6719709,
+      "reported_exit_code": 124,
+      "restoration": "As recorded",
+      "correction": null,
+      "log_receipts": [],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated."
+    },
+    {
+      "id": "UP39_d1f818b92f02_p5",
+      "source_line": 12,
+      "original_fields": [
+        "UP39_d1f818b92f02_p5",
+        "",
+        "s",
+        "conflicts=NA",
+        "rc="
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": null,
+      "reported_status": "UNSAT",
+      "reported_time_label": "43s process-time (correction)",
+      "time_basis": "Rounded process time from correction; log reports 43.36 seconds",
+      "reported_conflicts": 421013,
+      "reported_exit_code": 20,
+      "restoration": "Restored from explicit correction and saved log",
+      "correction": {
+        "line": 13,
+        "text": "CORRECTION 2026-10-30 01:55: the UP39_d1f818b92f02_p5 line above was written with empty fields (shell escaping in my inline runner). Read from UP39_d1f818b92f02_p5_kissat.out: UNSAT, 421013 conflicts, 43s process-time."
+      },
+      "log_receipts": [
+        {
+          "line": 901,
+          "text": "s UNSATISFIABLE"
+        },
+        {
+          "line": 952,
+          "text": "c conflicts:                           421013             9709.53 per second"
+        },
+        {
+          "line": 1131,
+          "text": "c process-time:                            43s              43.36 seconds"
+        },
+        {
+          "line": 1135,
+          "text": "c exit 20"
+        }
+      ],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated.",
+      "logged_final_process_seconds": 43.36
+    },
+    {
+      "id": "UP39_d1f818b92f02_p7",
+      "source_line": 15,
+      "original_fields": [
+        "UP39_d1f818b92f02_p7",
+        "",
+        "s",
+        "conflicts=NA",
+        "rc="
+      ],
+      "job_group_from_name": "UP39",
+      "status_as_recorded": null,
+      "reported_status": "UNKNOWN",
+      "reported_time_label": "900s cap (correction)",
+      "time_basis": "Reported cap, not an elapsed time; final log process time is 898.67 seconds",
+      "reported_conflicts": 7154632,
+      "reported_exit_code": null,
+      "restoration": "Restored from explicit correction and saved log",
+      "correction": {
+        "line": 14,
+        "text": "CORRECTION 2026-10-30 02:02: UP39_d1f818b92f02_p7 also lost its RESULTS line to the same escaping fault. Read from UP39_d1f818b92f02_p7_kissat.out last progress line: UNKNOWN at the 900s cap, 7154632 conflicts at 879.25s."
+      },
+      "log_receipts": [
+        {
+          "line": 2039,
+          "text": "c - 879.25 78 196 65 487 187744 1 7154632 61327 2.7 130 47 2 18 23% 1361 177313 15788 25%"
+        },
+        {
+          "line": 2057,
+          "text": "c caught signal 15 (SIGTERM)"
+        },
+        {
+          "line": 2289,
+          "text": "c process-time:                        14m 59s             898.67 seconds"
+        },
+        {
+          "line": 2290,
+          "text": "c raising signal 15 (SIGTERM)"
+        }
+      ],
+      "evidence_limit": "Source-reported label only; original formula and proof/model are not revalidated.",
+      "reported_cap_seconds": 900,
+      "progress_seconds_as_printed": 879.25,
+      "logged_final_process_seconds": 898.67,
+      "terminal_signal_as_printed": "SIGTERM",
+      "terminal_solver_response_present": false
+    }
+  ],
+  "count": 13,
+  "reported_counts": {
+    "SAT": 1,
+    "UNSAT": 3,
+    "UNKNOWN": 9
+  },
+  "restored_rows": 2,
+  "full_solver_logs_included": 2,
+  "source_editions": [
+    {
+      "file": "originals/RESULTS.tsv",
+      "original_path": "research/game/climber/guided/d6full_head/sat5/up39/RESULTS.tsv",
+      "sha256": "9c0cddd3bfb7fb389a7575cc990c3232f2ab5567d27d4848f6b61d03b19102ee",
+      "bytes": 1157
+    },
+    {
+      "file": "originals/p5.out",
+      "original_path": "research/game/climber/guided/d6full_head/sat5/up39/UP39_d1f818b92f02_p5_kissat.out",
+      "sha256": "fe28418aee02b1045ad2d67528d1d71186a755d170ff51ed7112c835dfcfd4e8",
+      "bytes": 81095
+    },
+    {
+      "file": "originals/p7.out",
+      "original_path": "research/game/climber/guided/d6full_head/sat5/up39/UP39_d1f818b92f02_p7_kissat.out",
+      "sha256": "1b56b6eafcc058c89901771523bebcfb766338b5e167474f0df1191ea329fa90",
+      "bytes": 174756
+    }
+  ],
+  "formula_log_bindings_verified": false,
+  "validated_collision_pairs": 0,
+  "certificate_replays": 0,
+  "fresh_solver_runs": 0,
+  "minimum_condition_bound_proved": false,
+  "scope": "Recorded job outcomes and two restored table rows, not fresh SAT/UNSAT certification, collision verification, a condition minimum or attack pricing."
+}

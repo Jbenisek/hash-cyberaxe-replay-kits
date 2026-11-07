@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-schedule-cells",
+  "title": "When a condition has already been paid",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "schedule-cells.zip",
+  "source_archive_sha256": "bb5480a71c0c1bc79f1b6c669689d88a6d271d03387ce994ecc2ac3c47149d22",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/schedule-cells",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "schedule-cells-kit/replay.py"
+  ],
+  "expected": "schedule-cells",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

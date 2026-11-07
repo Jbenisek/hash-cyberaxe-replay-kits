@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_sha256": "a6e1cf0c62710affe52a7f46640e0892cfeac7b23b2a13f0a3824112a7425d2f",
+  "source_generator_invocations": 2,
+  "example_R": 40,
+  "example_E": 29,
+  "state_rows": 44,
+  "negative_index_rows": 4,
+  "signed_schedule_words_checked": 40,
+  "A_free_rows": [
+    0,
+    21
+  ],
+  "E_free_rows": [
+    0,
+    25
+  ],
+  "A_equal_from": 22,
+  "E_equal_from": 26,
+  "last_schedule_difference_row": 29,
+  "mismatched_E_argument_also_accepted": true,
+  "explicit_complete_message_or_IV_value_assignments_emitted": false,
+  "solver_runs": 0,
+  "collision_checks": 0,
+  "independent_condition_rank_proved": false,
+  "normalized_example_xml_sha256": "289b00417dd0d1268e5125494a8d66ef5c53d94981ab5afe09fd24b437c68f87",
+  "scope": "One pinned R40/E29 source-generator example against previously replayed schedule data. No solver, state completion, collision, independent-condition rank or attack price is certified."
+}

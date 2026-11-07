@@ -1,0 +1,15 @@
+{
+  "format": "hashsmash-count253-278-recount-v1",
+  "files": {
+    "originals/TRAIL39_CD_COUNT278_w8-12_s23.xml": "7728f48c1ad7166c8e5298a60b958b3f77595fb4798b4a307400585e2f152b0e",
+    "originals/TRAIL39_CD_COUNT253_w8-12_s23.xml": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+    "originals/TRAIL39_CD_COUNT253_39cd_w8-12_s3.xml": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+    "originals/FAN39_COUNT278_1101.tsv": "c706b596033cd5b2ae4a9e595118f6e249e06aac3c297aeba0c6904d4e7f96c9",
+    "originals/FAN39_COUNT253_1101.tsv": "c3aa48ff7aa0e69a5c0f3dfae77e60e783a4bdaf738d75383a3d7ea9aab73942",
+    "originals/FAN39_COUNT253_39cd_w8-12_s3_1101.tsv": "76f8fefff0f38e812b01013fa695379f2197ecb5f3b6ce78ec869ca0030e5fc0",
+    "replay.py": "44024d15df3306a0bf267f27da4a28b5688c53d11f55cca830170c0b30fa8127",
+    "README.txt": "4d2eadcf528ffb3a675e6b815bdaf4d8a57cbda85fc04c6b1f693b792d02d3a5",
+    "records.json": "96cc9a89ced863acce904e16720f51b333fc99fa0f87610c73af40354cd6b716"
+  },
+  "scope": "Retained numerical exports and finite recount, not formulas or proof certificates."
+}

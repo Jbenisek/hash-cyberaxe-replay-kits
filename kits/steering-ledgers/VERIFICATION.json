@@ -1,0 +1,94 @@
+{
+  "project_id": "hash-cyberaxe-steering-ledgers",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "alpha_inventory": {
+      "distinct_values": 64,
+      "summed_integer_counts": 4194304,
+      "minimum": 64772,
+      "maximum": 66184,
+      "count_generation_law": "Not identified from the table; neither exhaustive weighting nor sampled frequencies certified."
+    },
+    "class_snapshot": {
+      "rows": 21,
+      "unsat_labels": 15,
+      "unresolved_labels": 6,
+      "outside_inventory": [
+        "8fff9f70",
+        "cfffa070",
+        "f0005f70"
+      ]
+    },
+    "larger_saved_ledger": {
+      "rows": 67,
+      "unique_alpha_labels": 67,
+      "covers_all_64_inventory_values": true,
+      "return_codes": {
+        "20": 56,
+        "124": 11
+      },
+      "inventory_return_codes": {
+        "20": 53,
+        "124": 11
+      },
+      "unresolved_inventory_labels": [
+        "0fff9f30",
+        "efffa0d0",
+        "0fffa0d0",
+        "efff9f30",
+        "0fff5ed0",
+        "f0005f30",
+        "0fffa130",
+        "10005f30",
+        "100060d0",
+        "0fff6130",
+        "f00060d0"
+      ],
+      "same_hashed_instances_as_snapshot_proved": false
+    },
+    "census_shard": {
+      "final_rows": 8,
+      "interim_rows": 2,
+      "distinct_target_labels": 8,
+      "recorded_rung_sequence": [
+        {
+          "rounds": 38,
+          "words": "8,9,10,11,12",
+          "kicks": "16,17,26,28",
+          "verdict": "UNDECIDED",
+          "budget_level": 0,
+          "seconds": 13.1,
+          "how": "interim",
+          "target": "top_rec_d+2_R38",
+          "interim": true
+        },
+        {
+          "rounds": 38,
+          "words": "8,9,10,11,12",
+          "kicks": "16,17,26,28",
+          "verdict": "UNDECIDED",
+          "budget_level": 1,
+          "seconds": 34.8,
+          "how": "interim",
+          "target": "top_rec_d+2_R38",
+          "interim": true
+        },
+        {
+          "rounds": 38,
+          "words": "8,9,10,11,12",
+          "kicks": "16,17,26,28",
+          "verdict": "UNSAT",
+          "budget_level": 2,
+          "seconds": 37.4,
+          "how": "solve",
+          "target": "top_rec_d+2_R38",
+          "interim": false
+        }
+      ]
+    },
+    "scope": "Exact saved-record counts and joins only. No UNSAT certificate replay, CNF identity equivalence, exhaustive alpha-domain proof, sampling-law proof or attack-price claim. Timeout return codes remain unresolved. No original program executed."
+  },
+  "finite_replay": "passed"
+}

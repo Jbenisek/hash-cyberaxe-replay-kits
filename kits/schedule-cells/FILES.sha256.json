@@ -1,0 +1,61 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1378,
+      "sha256": "e3335e9e5b36f6368ccbe985dd8f0665b7e44e2bc0eb73d60e34d8d943952f12"
+    },
+    "PROJECT.json": {
+      "bytes": 663,
+      "sha256": "be2cef245de567a51211541f826c35cffe822d929218cf96cb70b90ac0e8f163"
+    },
+    "README.md": {
+      "bytes": 2544,
+      "sha256": "01ea2ffa3d92008cd28ae0d1dd0ac2ae258c4fc667958e78cabc13cc2a606eeb"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "schedule-cells-kit/check_cells.py": {
+      "bytes": 2796,
+      "sha256": "870a069cdbca5398fc157248b4b0c7a9e3eaef2ade87e988692d329e4e9cd27e"
+    },
+    "schedule-cells-kit/check_contract.py": {
+      "bytes": 6435,
+      "sha256": "8550b8bf56c370610f04fdb11f352d672a8fe3a50f1d1d2b4bdf592c1a353b07"
+    },
+    "schedule-cells-kit/chi37.txt": {
+      "bytes": 4856,
+      "sha256": "a13112c78c9a088c50c281c00d4d3a1acb1dda6ce1dd56aac434da87a3dc67f4"
+    },
+    "schedule-cells-kit/MANIFEST.json": {
+      "bytes": 751,
+      "sha256": "95acef83b200a7834398f682b35ab8c98262858df256329c813446149f143ee6"
+    },
+    "schedule-cells-kit/README.md": {
+      "bytes": 4039,
+      "sha256": "d4535e48ab980b72974dc315f382b3521a18e6edc766f5f810526a098b276921"
+    },
+    "schedule-cells-kit/replay.py": {
+      "bytes": 997,
+      "sha256": "367d6f0229bb09076a8731d69c9b43c5f1daec30975b1601edd239f9cc35edf6"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2868,
+      "sha256": "516c2002a3808af9c9f9570d151cf4fb02ec7903154ea455822537637474254a"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "project_id": "hash-cyberaxe-near-iv-prefix-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "saved_examples": 5,
+    "prefixes_through_row18": 4,
+    "b_c_d_at_standard_iv": 1,
+    "collisions_at39": 0,
+    "equal_digest_words_at39": 0,
+    "mask_editions": 7,
+    "distinct_prefix_projections": 2,
+    "hashlib_controls": 3,
+    "mutated_message_mask_rejections": 12,
+    "c_bit14_restore_first_bad_row": 7,
+    "scope": "Finite raw-block chosen-CV prefix checks, not standard-IV or padded-message collisions, an eight-pair population or an attack price."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-poseidon-rho-contracts",
+  "title": "A packed birthday walk: recovery mechanics, not a full-field success proof",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "poseidon-rho-contracts.zip",
+  "source_archive_sha256": "8d3722aa880724a07664c46db9f36fb1f8c79856d335eb372a2fe1c76b33bd94",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/poseidon-rho-contracts",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "rho-contract-kit/replay.py"
+  ],
+  "expected": "rho-contract",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

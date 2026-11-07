@@ -1,0 +1,57 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1099,
+      "sha256": "1dd40048ee3d377c3405c185f38d6592d24b1683774b2187bbb65c28365d380e"
+    },
+    "PROJECT.json": {
+      "bytes": 681,
+      "sha256": "13db4f38bc9c44879ff86dc9f1cf518999d2bec2fab289ba846d84456a98598c"
+    },
+    "README.md": {
+      "bytes": 2821,
+      "sha256": "3726dd37c5e2d7c7108204a3a7446770fc7ca48560fef98d22ec8db3ad0438cf"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "sparse-b-lemma/manifest.json": {
+      "bytes": 411,
+      "sha256": "c6530252e1f876076a4c063959d60394d024fb7bbb02ac0dbce8755ca8c9df74"
+    },
+    "sparse-b-lemma/PROOF.txt": {
+      "bytes": 2208,
+      "sha256": "009d55f26222e0e5c6e1ab9312a1f20504fc9aaeb1fb26840725313ab0e341ca"
+    },
+    "sparse-b-lemma/README.txt": {
+      "bytes": 1659,
+      "sha256": "a172a7daa6bf3d108cd90ef28d2973a95d4f7c8b9098019e88751bfad1b39570"
+    },
+    "sparse-b-lemma/replay.py": {
+      "bytes": 3462,
+      "sha256": "ac6a03facd48ce827494249e700bd19800388256a7acc4c08c9f64ee5814ad6f"
+    },
+    "sparse-b-lemma/theorem.json": {
+      "bytes": 455,
+      "sha256": "cd8fb4c2f5b8feb28236ad96b96d37b2bb07f15cb62e761aa3a2608b352eadfb"
+    },
+    "VERIFICATION.json": {
+      "bytes": 781,
+      "sha256": "1970a0cbbe0d0dc65e2e7d33dc87d678ac2b8ba79452c09412510a18dc0f369f"
+    }
+  }
+}

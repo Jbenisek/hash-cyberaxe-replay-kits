@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "current-encoder-kit/sha_cnf.py",
+      "project_path": "current-encoder-kit/sha_cnf.py",
+      "sha256": "c431c124e449c3b7939f2fdec373a8abb7ba3e651b2dc884c64d4aa03308faec",
+      "bytes": 27767
+    },
+    {
+      "original": "current-encoder-kit/check.py",
+      "project_path": "current-encoder-kit/check.py",
+      "sha256": "034bfa0a68e264146e7fa58bf072611a8ecc4d7cd97540e00c81164b5f92109f",
+      "bytes": 10481
+    },
+    {
+      "original": "current-encoder-kit/replay.py",
+      "project_path": "current-encoder-kit/replay.py",
+      "sha256": "1977dc38d25a4fbf1085dbec6dc8627881bcd928ec3b4c9612f7feecd723a1fd",
+      "bytes": 1206
+    },
+    {
+      "original": "current-encoder-kit/README.md",
+      "project_path": "current-encoder-kit/README.md",
+      "sha256": "de324a0086e22493e69fadc93b851673ca0688386e6ddfa80119e4270424c1ff",
+      "bytes": 4328
+    },
+    {
+      "original": "current-encoder-kit/PROVENANCE.json",
+      "project_path": "current-encoder-kit/PROVENANCE.json",
+      "sha256": "b0ffda4f58f6c71fb03b9e36596423520a95bb12eb9bad68e74f6ddb4b65e7e1",
+      "bytes": 672
+    },
+    {
+      "original": "current-encoder-kit/MANIFEST.json",
+      "project_path": "current-encoder-kit/MANIFEST.json",
+      "sha256": "c30bacaf25563bcaa157b8edd4bc67b19bb73c9a69a71df32a558c3a1be615f7",
+      "bytes": 746
+    }
+  ]
+}

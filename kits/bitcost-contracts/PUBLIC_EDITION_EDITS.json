@@ -1,0 +1,26 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "bitcost-kit/PROVENANCE.json",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "17618edc941707a67a019963c50d85eafeb4d9c726079d3249e35e0becf0c553",
+      "original_bytes": 491,
+      "published_sha256": "2394ec57e7bd3ba72757dcdba2f70f101452b86c0353e8a40194c56c3b2225a9",
+      "published_bytes": 498
+    },
+    {
+      "path": "bitcost-kit/README.md",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "da80ae1e4867fb8e6321d993121a2ba46fa0f3ca2a4db1adc6b0c44727207197",
+      "original_bytes": 3143,
+      "published_sha256": "236f0e7640c055c02fe8ad81b61c7bda09bdbc77330c2458b198b6dcd582dfd6",
+      "published_bytes": 3150
+    }
+  ]
+}

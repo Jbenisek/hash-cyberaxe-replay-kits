@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "xconv-lesson/geo.py",
+      "project_path": "xconv-lesson/geo.py",
+      "sha256": "cdd7ebc0e8172a55f0426afe2dab96b441ec843058912d4967fc3a391e1ead50",
+      "bytes": 708
+    },
+    {
+      "original": "xconv-lesson/xconv.py",
+      "project_path": "xconv-lesson/xconv.py",
+      "sha256": "010ef7da265de2774d9519d5c43bba2e2ed50915f0628cb402ff1302634786ad",
+      "bytes": 2006
+    },
+    {
+      "original": "xconv-lesson/xconv1.py",
+      "project_path": "xconv-lesson/xconv1.py",
+      "sha256": "88535ee7467250a93ce83597feb0c1feeae3f81291043f234b879662fae94e01",
+      "bytes": 1890
+    },
+    {
+      "original": "xconv-lesson/r15-ledger.json",
+      "project_path": "xconv-lesson/r15-ledger.json",
+      "sha256": "15693c5dc202216a65e8ff86d8214fa93692be72c8a05210550ee766056ead97",
+      "bytes": 489
+    },
+    {
+      "original": "xconv-lesson/r20-ledger.json",
+      "project_path": "xconv-lesson/r20-ledger.json",
+      "sha256": "199a7707ae22b5d84040d938ae715ef519e60b7cef4d448f567e61eb221abec5",
+      "bytes": 585
+    },
+    {
+      "original": "xconv-lesson/replay.py",
+      "project_path": "xconv-lesson/replay.py",
+      "sha256": "ec9eb4d46c65b88546e5fa140c004ed5f028779f902b953b80270778c755f437",
+      "bytes": 3793
+    },
+    {
+      "original": "xconv-lesson/check_interfaces.py",
+      "project_path": "xconv-lesson/check_interfaces.py",
+      "sha256": "cb34ec974caed6e2b4307105051c01fe87ce6dc2d069b9418993799873b6a14b",
+      "bytes": 4346
+    },
+    {
+      "original": "xconv-lesson/README.md",
+      "project_path": "xconv-lesson/README.md",
+      "sha256": "1e9f07e8a6630fb7f1cf6d1d3df08bc57ed88a3d99b85621b32f41eacf99ebba",
+      "bytes": 5339
+    },
+    {
+      "original": "xconv-lesson/MANIFEST.json",
+      "project_path": "xconv-lesson/MANIFEST.json",
+      "sha256": "41eaa54639e7a219ca303c831ffd8d87ac76f17f16146ed550dd338c69ad1cba",
+      "bytes": 1186
+    }
+  ]
+}

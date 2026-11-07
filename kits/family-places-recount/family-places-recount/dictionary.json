@@ -1,0 +1,101 @@
+{
+  "format": "hashsmash-family-places-dictionary-v1",
+  "source_root": "research/runs_1102/familymap",
+  "scope": "Saved research-table semantics and numerical recount. Neither SAT labels, chosen summary places, ranks nor shift flags certify compression collisions, contest eligibility or attack cost.",
+  "identity_rule": "Use normalized D and L together for a shape family, then R and shift for a cell. A word-D family in the ranked table intentionally groups multiple D/L families. Source shape IDs are labels, not formula hashes.",
+  "time_rule": "Saved times are solver-runtime observations rounded by the producer, not attack charges. A runtime slope is not a complexity exponent.",
+  "status_rule": "Retain SAT, UNSAT, IMPL_SAT, IMPL_UNSAT, MIXED, CONFLICT, CAP, UNK, HELD and NONE separately. No original solver or proof checker is rerun by the recount.",
+  "tables": {
+    "FAMILY_PLACES.tsv": {
+      "rows": 344539,
+      "row_key": ["shape_D", "shape_L", "x_R", "y_shift"],
+      "columns": {
+        "shape_id": "Producer's shape label. Not a CNF hash or a certificate identity.",
+        "shape_D": "Comma-separated normalized differing input-word positions, before applying y_shift.",
+        "shape_L": "Comma-separated normalized expanded differing-word positions, before applying y_shift. May be empty.",
+        "n_words": "Number of positions in shape_D.",
+        "n_kicks": "Number of positions in shape_L. A kick here means a differing expanded word, not only one particular sigma reappearance.",
+        "x_R": "Recorded step count R; steps use W0 through W(R-1). This is a family-query coordinate, not a claim that a collision exists.",
+        "y_shift": "Offset added to every normalized D and L index to recover the cell's absolute word indices.",
+        "R_minus_y": "Integer x_R minus y_shift. A coordinate difference, not an attack exponent.",
+        "best_verdict": "Producer-selected label at its highest evidence-priority tier. MIXED and CONFLICT must not be converted to clean SAT or UNSAT.",
+        "best_layer": "Layer supplying best_verdict: sched, state or blank. A state-model label is not automatically a value-level collision.",
+        "best_s": "Selected recorded runtime in seconds, where available; producer rounds to three significant digits.",
+        "sched": "Selected schedule-layer label. Schedule feasibility alone is insufficient for a compression-state trajectory.",
+        "sched_s": "Selected recorded schedule runtime in seconds, possibly blank.",
+        "sched_src": "Joined producer source/semantics tags, not exact formula or proof identities.",
+        "state": "Selected state-layer label under that source's semantics. Preserve the distinction from value-level results.",
+        "state_s": "Selected recorded state-layer runtime in seconds, possibly blank.",
+        "state_src": "Joined producer state-model tags, not a proof of a common sampling or initial-state law.",
+        "value": "Retained context strings such as base depth, first failing row, closure window, characteristic label or specimen count. These can concern individual characteristics rather than the whole family.",
+        "game_SUH": "Saved game SAT/UNSAT/HELD label counts. They are not a count of distinct formulas or independent theorems.",
+        "mine_sfs_research": "Saved semi-free-start depth context. Research-only observation, not a standard-IV collision claim.",
+        "flag_y6_board": "Y exactly when y_shift>=6. Despite its historical name, this arithmetic flag does not prove board eligibility.",
+        "flag_y8_r39pipe": "Y exactly when y_shift>=8. A coordinate screen, not proof that the r39 pipeline realizes or cheaply prices this cell."
+      }
+    },
+    "places_summary.tsv": {
+      "rows": 4344,
+      "row_key": ["D", "L"],
+      "selection_rule": "One selected place per D/L family with a producer-defined open place. Prefer strong recorded SAT/MIXED tiers when present, then highest R, higher tier and shorter available runtime. This policy is not a feasibility or optimality theorem.",
+      "columns": {
+        "sid": "Producer shape label.",
+        "D": "Normalized input-word support.",
+        "L": "Normalized expanded-word support.",
+        "nk": "Number of expanded support positions.",
+        "R": "Step count of the producer's selected place.",
+        "y": "Shift of that selected place.",
+        "rank": "Internal evidence-priority integer. Not attack work, condition count or probability.",
+        "layer": "Selected sched/state layer.",
+        "v": "Selected saved verdict, including MIXED if present.",
+        "t": "Selected recorded runtime, possibly blank.",
+        "ys": "Shifts with qualifying saved open labels at the selected R/tier. Not independently verified collision placements.",
+        "grad": "Compact labels near the selected R on the same shift line. S/U/M mean recorded SAT/UNSAT/MIXED; s/u mean implied labels; C means conflict; ~ is unresolved; * marks a weaker tier.",
+        "slope": "Producer's log2 runtime ratio divided by round distance between retained endpoints. Descriptive historical arithmetic, not asymptotic security or an attack exponent.",
+        "up": "Compact tag for R+1 at the selected shift.",
+        "ym": "Compact tag for the same R at shift y-1.",
+        "yp": "Compact tag for the same R at shift y+1.",
+        "side": "Producer's R+1 wall/open/unmeasured classification from saved or implied labels; no certificate is supplied by this field.",
+        "value": "Concatenated nearby value-context strings, truncated by the producer to 300 characters. Not an exhaustive underlying record."
+      }
+    },
+    "top_families.tsv": {
+      "rows": 177,
+      "row_key": ["D"],
+      "shared_columns_from": "places_summary.tsv",
+      "selection_rule": "Filter summary rows to R>=40 and internal tier>=4, group by normalized D, then choose one L per D by the saved rank policy. Value-context presence comes first, then kick count, shift screens, next-row wall label, tier and runtime. A displayed rank is not a priced frontier.",
+      "columns": {
+        "rank_no": "One-based position under that saved rank policy, not a scientific quality or cost measurement.",
+        "D": "Normalized input-word support used as the grouping key.",
+        "L": "Selected normalized expanded-word support for this D.",
+        "nk": "Number of positions in the selected L.",
+        "R": "Selected place's step count.",
+        "y": "Selected place's shift.",
+        "rank": "Internal evidence tier of the selected place.",
+        "layer": "Saved selected layer.",
+        "v": "Saved selected verdict. This edition contains 176 SAT labels and one MIXED label.",
+        "t": "Selected recorded runtime, possibly blank.",
+        "ys": "Other qualifying shifts listed by the summary producer.",
+        "grad": "The summary's compact neighboring-R tags, with implied and weak labels retained.",
+        "slope": "The summary's descriptive runtime slope, not an attack exponent.",
+        "up": "Summary tag for the next R at the selected shift.",
+        "ym": "Summary tag at the previous shift.",
+        "yp": "Summary tag at the next shift.",
+        "side": "Summary next-R classification; not a newly verified barrier.",
+        "n_trails": "Number of eligible summary D/L rows in this D group. Despite its name, this is not the number of numerical collision witnesses.",
+        "maxR": "Maximum selected R among eligible summary rows in this D group, not a proved maximum attainable round count.",
+        "value": "Selected row's possibly truncated value-context string.",
+        "sid": "Producer label of the selected D/L shape."
+      }
+    }
+  },
+  "recounted_totals": {
+    "distinct_D_L_families": 205176,
+    "ranked_rows_shift_ge6": 28,
+    "ranked_rows_shift_ge8": 22,
+    "full_map_MIXED": 68,
+    "full_map_CONFLICT": 11,
+    "proofs_replayed": 0
+  },
+  "credit": "the HASH$CyberAxe team's family-placement merge and ranking, with the source-identified game, schedule and state records it aggregates. The library audit independently recounts these saved tables and reproduces the saved ranking; it does not rerun or certify the original research."
+}

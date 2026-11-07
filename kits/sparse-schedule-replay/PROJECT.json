@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sparse-schedule-replay",
+  "title": "Sparse SHA-256 schedule checks, not collision checks",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sparse-schedule-replay.zip",
+  "source_archive_sha256": "3be996a1e1d6058198d2026119f84be2ea2e1cd64a1ba484e6a5addd12fd9223",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sparse-schedule-replay",
+  "tool_families": [],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "sparse-schedule-kit/replay.py"
+  ],
+  "expected": "sparse-schedule",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

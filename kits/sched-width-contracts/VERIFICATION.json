@@ -1,0 +1,256 @@
+{
+  "project_id": "hash-cyberaxe-sched-width-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_sha256": "f442b063a19cb413bd3d96698395b5ca44a32ef3e9942f1096446a048399d7a4",
+    "fixtures": [
+      {
+        "word_bits": 2,
+        "sigma0_rank": 1,
+        "sigma1_rank": 1,
+        "numerical_support": [
+          1
+        ],
+        "relaxation_has_empty_clause": true,
+        "message_a": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "message_b": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expanded_word16": [
+          0,
+          0
+        ],
+        "counterexamples": [
+          {
+            "sigma": "s0",
+            "word_index": 1,
+            "kernel_word": 1,
+            "numerical_support": [
+              1
+            ],
+            "full_cnf_satisfied": true,
+            "full_cnf_variables": 66,
+            "full_cnf_clauses_checked": 151,
+            "relaxation_has_empty_clause": true
+          },
+          {
+            "sigma": "s1",
+            "word_index": 14,
+            "kernel_word": 1,
+            "numerical_support": [
+              14
+            ],
+            "full_cnf_satisfied": true,
+            "full_cnf_variables": 66,
+            "full_cnf_clauses_checked": 151,
+            "relaxation_has_empty_clause": true
+          }
+        ]
+      },
+      {
+        "word_bits": 8,
+        "sigma0_rank": 8,
+        "sigma1_rank": 7,
+        "numerical_support": [
+          1,
+          16
+        ],
+        "relaxation_has_empty_clause": true,
+        "message_a": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "message_b": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expanded_word16": [
+          0,
+          72
+        ],
+        "counterexamples": [
+          {
+            "sigma": "s1",
+            "word_index": 14,
+            "kernel_word": 222,
+            "numerical_support": [
+              14
+            ],
+            "full_cnf_satisfied": true,
+            "full_cnf_variables": 290,
+            "full_cnf_clauses_checked": 867,
+            "relaxation_has_empty_clause": true
+          }
+        ]
+      },
+      {
+        "word_bits": 16,
+        "sigma0_rank": 16,
+        "sigma1_rank": 16,
+        "numerical_support": [
+          1,
+          16
+        ],
+        "relaxation_has_empty_clause": true,
+        "message_a": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "message_b": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expanded_word16": [
+          0,
+          4224
+        ],
+        "counterexamples": []
+      },
+      {
+        "word_bits": 32,
+        "sigma0_rank": 32,
+        "sigma1_rank": 32,
+        "numerical_support": [
+          1,
+          16
+        ],
+        "relaxation_has_empty_clause": true,
+        "message_a": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "message_b": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expanded_word16": [
+          0,
+          33570816
+        ],
+        "counterexamples": []
+      }
+    ],
+    "empty_model_mismatch_exit_code": 0,
+    "finding": "The lone-term rejection is unsound for scaled sigmas with nonzero kernels: two WB=2 controls and one WB=8 control give explicit valid message pairs and satisfy every direct-CNF clause, while the relaxation inserts an empty clause.",
+    "scope": "Exact finite reduced-width counterexamples and source behavior only. The standard 32-bit small sigmas are full-rank in the checked linear algebra; no 32-bit unsoundness, historical false verdict or collision is established. Only fixed-input clause propagation, no branching search, external solver, compiler or persistent process."
+  },
+  "finite_replay": "passed"
+}

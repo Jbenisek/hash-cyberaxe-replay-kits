@@ -1,0 +1,167 @@
+{
+  "project_id": "hash-cyberaxe-selector-guard-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:50.956742+00:00",
+    "source_sha256": "cb02f7a8615528db855d66c364288dd94f2c4ffe3de667f875b073c1f0b66811",
+    "source_bytes": 27421,
+    "fixtures": [
+      {
+        "granularity": "row",
+        "eqlink": false,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2150,
+        "emitted_clauses": 6519,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2150,
+        "passes": 3
+      },
+      {
+        "granularity": "row",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2810,
+        "emitted_clauses": 9722,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2709,
+        "passes": 2
+      },
+      {
+        "granularity": "row",
+        "eqlink": false,
+        "all_row_selectors_assumed": true,
+        "W0_side_b": 1,
+        "emitted_variables": 2150,
+        "emitted_clauses": 6519,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2150,
+        "passes": 2
+      },
+      {
+        "granularity": "row",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 0,
+        "emitted_variables": 2810,
+        "emitted_clauses": 9722,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2810,
+        "passes": 3
+      },
+      {
+        "granularity": "reg",
+        "eqlink": false,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2151,
+        "emitted_clauses": 6519,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2151,
+        "passes": 3
+      },
+      {
+        "granularity": "reg",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2811,
+        "emitted_clauses": 9722,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2710,
+        "passes": 2
+      },
+      {
+        "granularity": "reg",
+        "eqlink": false,
+        "all_row_selectors_assumed": true,
+        "W0_side_b": 1,
+        "emitted_variables": 2151,
+        "emitted_clauses": 6519,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2151,
+        "passes": 2
+      },
+      {
+        "granularity": "reg",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 0,
+        "emitted_variables": 2811,
+        "emitted_clauses": 9722,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2811,
+        "passes": 3
+      },
+      {
+        "granularity": "bit",
+        "eqlink": false,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2150,
+        "emitted_clauses": 6519,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2150,
+        "passes": 3
+      },
+      {
+        "granularity": "bit",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 1,
+        "emitted_variables": 2810,
+        "emitted_clauses": 9722,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2709,
+        "passes": 2
+      },
+      {
+        "granularity": "bit",
+        "eqlink": false,
+        "all_row_selectors_assumed": true,
+        "W0_side_b": 1,
+        "emitted_variables": 2150,
+        "emitted_clauses": 6519,
+        "conflict": true,
+        "all_clauses_satisfied": false,
+        "assigned_variables": 2150,
+        "passes": 2
+      },
+      {
+        "granularity": "bit",
+        "eqlink": true,
+        "all_row_selectors_assumed": false,
+        "W0_side_b": 0,
+        "emitted_variables": 2810,
+        "emitted_clauses": 9722,
+        "conflict": false,
+        "all_clauses_satisfied": true,
+        "assigned_variables": 2810,
+        "passes": 3
+      }
+    ],
+    "unit_propagator_controls": 4,
+    "independent_A0": [
+      "fc08884d",
+      "fc08884e"
+    ],
+    "finding": "EQLINK reasserts a guarded equality seed unconditionally. A fixed-input one-step instance satisfiable with every row selector false becomes unit-contradictory when EQLINK is enabled. Reproduced for row, reg and bit selector granularity.",
+    "mechanism": "apply_shape records eqpairs while c.guard is set. encode clears c.guard before eqlink; eqlink asserts each seed e without carrying its original guard.",
+    "scope": "Twelve fixed-input one-step CNF fixtures, four unit-propagator controls, no search or external solver. Not a claim about historical runs, other option combinations, full encoder soundness or collision discovery.",
+    "recommendation": "Do not combine EQLINK with relaxed row selectors for claims of prefix feasibility without a guard-aware correction and fresh tests. Preserve the historical edition and its artifacts; review any affected experimental configurations separately."
+  },
+  "finite_replay": "passed"
+}

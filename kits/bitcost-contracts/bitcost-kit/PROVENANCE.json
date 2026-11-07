@@ -1,0 +1,7 @@
+{
+  "source": "HASH$CyberAxe project export, newdoors/headaware/lens/bitcost.py",
+  "source_sha256": "254dd5cde6663e6f24ed4c1b2ed4a6820934408a3feb5a393b931dce6d2bc814",
+  "source_bytes_unchanged": true,
+  "scope": "Finite synthetic log contracts, not solver performance, probability or attack cost. Only copied bitcost source and temporary fixture files executed; historical logs and solver drivers untouched.",
+  "audit": "Publication synthetic-log controls, not historical search measurements."
+}

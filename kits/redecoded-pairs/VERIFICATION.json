@@ -1,0 +1,33 @@
+{
+  "project_id": "hash-cyberaxe-redecoded-pairs",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_file_rows": 155,
+    "distinct_unordered_pairs": 125,
+    "distinct_round_counts": {
+      "25": 1,
+      "28": 1,
+      "31": 1,
+      "36": 2,
+      "37": 22,
+      "38": 32,
+      "39": 66
+    },
+    "standard_iv_pairs": 0,
+    "known_answer_lengths": [
+      0,
+      3,
+      55,
+      56,
+      64,
+      135,
+      256
+    ],
+    "one_bit_equal_controls": 0,
+    "one_step_equal_controls": 2,
+    "scope": "Finite common-chosen-CV compression collisions with feedforward, not standard-IV hashes, original SAT-model verification, attack probabilities or new round records."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "source_path": "research/game/climber/guided/kit/sha_cnf.py",
+  "source_sha256": "cb02f7a8615528db855d66c364288dd94f2c4ffe3de667f875b073c1f0b66811",
+  "unchanged_source_bytes": true,
+  "checker": "New publication checker, not the historical selftest.",
+  "scope": "Twelve fixed-input one-step CNF fixtures, four unit-propagator controls, no search or external solver. Not a claim about historical runs, other option combinations, full encoder soundness or collision discovery.",
+  "finding": "EQLINK reasserts a guarded equality seed unconditionally. A fixed-input one-step instance satisfiable with every row selector false becomes unit-contradictory when EQLINK is enabled. Reproduced for row, reg and bit selector granularity."
+}

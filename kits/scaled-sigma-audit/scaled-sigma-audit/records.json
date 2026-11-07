@@ -1,0 +1,1407 @@
+{
+  "passed": true,
+  "source": "original/schedcnf3.py",
+  "source_sha256": "89083bdf81f33c236d94f4b253218789ac6a147cf700de7b643a8601b58b293f",
+  "scalar_sigma_controls": 1184,
+  "sigma_rank_table": [
+    {
+      "width": 1,
+      "sigma": 0,
+      "rank": 0,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 1,
+      "sigma": 1,
+      "rank": 0,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 2,
+      "sigma": 0,
+      "rank": 1,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 2,
+      "sigma": 1,
+      "rank": 1,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 3,
+      "sigma": 0,
+      "rank": 3,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 3,
+      "sigma": 1,
+      "rank": 2,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 4,
+      "sigma": 0,
+      "rank": 4,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 4,
+      "sigma": 1,
+      "rank": 3,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 5,
+      "sigma": 0,
+      "rank": 5,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 5,
+      "sigma": 1,
+      "rank": 3,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 6,
+      "sigma": 0,
+      "rank": 6,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 6,
+      "sigma": 1,
+      "rank": 6,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 7,
+      "sigma": 0,
+      "rank": 5,
+      "injective": false,
+      "nonzero_kernel": "0000003a"
+    },
+    {
+      "width": 7,
+      "sigma": 1,
+      "rank": 5,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 8,
+      "sigma": 0,
+      "rank": 8,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 8,
+      "sigma": 1,
+      "rank": 7,
+      "injective": false,
+      "nonzero_kernel": "000000de"
+    },
+    {
+      "width": 9,
+      "sigma": 0,
+      "rank": 9,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 9,
+      "sigma": 1,
+      "rank": 6,
+      "injective": false,
+      "nonzero_kernel": "00000001"
+    },
+    {
+      "width": 10,
+      "sigma": 0,
+      "rank": 10,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 10,
+      "sigma": 1,
+      "rank": 9,
+      "injective": false,
+      "nonzero_kernel": "000000bf"
+    },
+    {
+      "width": 11,
+      "sigma": 0,
+      "rank": 10,
+      "injective": false,
+      "nonzero_kernel": "000006a7"
+    },
+    {
+      "width": 11,
+      "sigma": 1,
+      "rank": 10,
+      "injective": false,
+      "nonzero_kernel": "00000579"
+    },
+    {
+      "width": 12,
+      "sigma": 0,
+      "rank": 12,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 12,
+      "sigma": 1,
+      "rank": 12,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 13,
+      "sigma": 0,
+      "rank": 13,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 13,
+      "sigma": 1,
+      "rank": 13,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 14,
+      "sigma": 0,
+      "rank": 14,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 14,
+      "sigma": 1,
+      "rank": 14,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 15,
+      "sigma": 0,
+      "rank": 14,
+      "injective": false,
+      "nonzero_kernel": "00006db6"
+    },
+    {
+      "width": 15,
+      "sigma": 1,
+      "rank": 15,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 16,
+      "sigma": 0,
+      "rank": 16,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 16,
+      "sigma": 1,
+      "rank": 16,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 17,
+      "sigma": 0,
+      "rank": 17,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 17,
+      "sigma": 1,
+      "rank": 16,
+      "injective": false,
+      "nonzero_kernel": "00012bf1"
+    },
+    {
+      "width": 18,
+      "sigma": 0,
+      "rank": 18,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 18,
+      "sigma": 1,
+      "rank": 17,
+      "injective": false,
+      "nonzero_kernel": "000257f1"
+    },
+    {
+      "width": 19,
+      "sigma": 0,
+      "rank": 19,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 19,
+      "sigma": 1,
+      "rank": 19,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 20,
+      "sigma": 0,
+      "rank": 19,
+      "injective": false,
+      "nonzero_kernel": "000c92f6"
+    },
+    {
+      "width": 20,
+      "sigma": 1,
+      "rank": 19,
+      "injective": false,
+      "nonzero_kernel": "0006aff6"
+    },
+    {
+      "width": 21,
+      "sigma": 0,
+      "rank": 20,
+      "injective": false,
+      "nonzero_kernel": "001954cf"
+    },
+    {
+      "width": 21,
+      "sigma": 1,
+      "rank": 21,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 22,
+      "sigma": 0,
+      "rank": 20,
+      "injective": false,
+      "nonzero_kernel": "000ba62d"
+    },
+    {
+      "width": 22,
+      "sigma": 1,
+      "rank": 21,
+      "injective": false,
+      "nonzero_kernel": "000d5ffb"
+    },
+    {
+      "width": 23,
+      "sigma": 0,
+      "rank": 23,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 23,
+      "sigma": 1,
+      "rank": 22,
+      "injective": false,
+      "nonzero_kernel": "004eeabc"
+    },
+    {
+      "width": 24,
+      "sigma": 0,
+      "rank": 24,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 24,
+      "sigma": 1,
+      "rank": 24,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 25,
+      "sigma": 0,
+      "rank": 25,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 25,
+      "sigma": 1,
+      "rank": 23,
+      "injective": false,
+      "nonzero_kernel": "009dd55e"
+    },
+    {
+      "width": 26,
+      "sigma": 0,
+      "rank": 26,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 26,
+      "sigma": 1,
+      "rank": 25,
+      "injective": false,
+      "nonzero_kernel": "01957fee"
+    },
+    {
+      "width": 27,
+      "sigma": 0,
+      "rank": 27,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 27,
+      "sigma": 1,
+      "rank": 27,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 28,
+      "sigma": 0,
+      "rank": 27,
+      "injective": false,
+      "nonzero_kernel": "0cf06adc"
+    },
+    {
+      "width": 28,
+      "sigma": 1,
+      "rank": 28,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 29,
+      "sigma": 0,
+      "rank": 28,
+      "injective": false,
+      "nonzero_kernel": "13777519"
+    },
+    {
+      "width": 29,
+      "sigma": 1,
+      "rank": 29,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 30,
+      "sigma": 0,
+      "rank": 29,
+      "injective": false,
+      "nonzero_kernel": "28a28a28"
+    },
+    {
+      "width": 30,
+      "sigma": 1,
+      "rank": 29,
+      "injective": false,
+      "nonzero_kernel": "0b33ffed"
+    },
+    {
+      "width": 31,
+      "sigma": 0,
+      "rank": 29,
+      "injective": false,
+      "nonzero_kernel": "3522fb38"
+    },
+    {
+      "width": 31,
+      "sigma": 1,
+      "rank": 31,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 32,
+      "sigma": 0,
+      "rank": 32,
+      "injective": true,
+      "nonzero_kernel": null
+    },
+    {
+      "width": 32,
+      "sigma": 1,
+      "rank": 32,
+      "injective": true,
+      "nonzero_kernel": null
+    }
+  ],
+  "unit_propagation_controls": 6,
+  "singular_width_sigma_cases": 30,
+  "one_step_schedule_counterexamples": [
+    {
+      "width": 1,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 1,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 2,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 2,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 3,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 4,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 5,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 7,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "0000003a",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 7,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 8,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "000000de",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 9,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000001",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 10,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "000000bf",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 11,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "000006a7",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 11,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00000579",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 15,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "00006db6",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 17,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "00012bf1",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 18,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "000257f1",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 20,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "000c92f6",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 20,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "0006aff6",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 21,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "001954cf",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 22,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "000ba62d",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 22,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "000d5ffb",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 23,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "004eeabc",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 25,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "009dd55e",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 26,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "01957fee",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 28,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "0cf06adc",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 29,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "13777519",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 30,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "28a28a28",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 30,
+      "sigma": 1,
+      "different_message_word": 14,
+      "kernel": "0b33ffed",
+      "direct_schedule_support": [
+        14
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    },
+    {
+      "width": 31,
+      "sigma": 0,
+      "different_message_word": 1,
+      "kernel": "3522fb38",
+      "direct_schedule_support": [
+        1
+      ],
+      "expanded_W16_equal": true,
+      "full_encoder_outcomes": [
+        {
+          "LEMMA": false,
+          "LIN": false,
+          "conflict": false,
+          "all_clauses_satisfied": true
+        },
+        {
+          "LEMMA": true,
+          "LIN": false,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        },
+        {
+          "LEMMA": true,
+          "LIN": true,
+          "conflict": true,
+          "all_clauses_satisfied": false
+        }
+      ],
+      "relax_contains_empty_clause_despite_real_schedule_pair": true
+    }
+  ],
+  "both_standard_32bit_sigmas_injective": true,
+  "source_module_top_level_executed": false,
+  "checker_mismatch_contract": {
+    "incomplete_model_deliberately_supplied": true,
+    "required_support": [
+      14
+    ],
+    "decoded_support": [],
+    "printed_MISMATCH": true,
+    "function_returned_normally": true,
+    "CLI_zero_status_on_normal_return": "DERIVED from the normal return of main, not a separate process measurement",
+    "stdout": "M1 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000\nM2 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000\ndifference support through word 16 : [] | wanted [14] -> MISMATCH\n",
+    "scope": "Exit-status-only wrappers must not accept this checker as a success gate. This does not show that any historical wrapper did so."
+  },
+  "external_solver_executed": false,
+  "production_files_changed": false,
+  "scope": "Exact GF(2) rank/kernel calculations and tiny one-step schedule/CNF controls. Proves reduced-width soundness failures in two pruning shortcuts for this source edition. Does not invalidate 32-bit sigma injectivity, certify the whole encoder, rerun any historical case or settle a 40-step family."
+}

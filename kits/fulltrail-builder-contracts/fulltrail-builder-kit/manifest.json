@@ -1,0 +1,12 @@
+{
+  "format": "hashsmash-fulltrail-builder-kit-v1",
+  "source_path": "research/cloud_jobs/API_FULLTRAIL_fulltrail.py",
+  "source_sha256": "1513a08d9ebd015d55070dbac441c9d7bb0be4ddf958ec173bf9cb8ffb979465",
+  "files": {
+    "fulltrail.py": "1513a08d9ebd015d55070dbac441c9d7bb0be4ddf958ec173bf9cb8ffb979465",
+    "replay.py": "1c3edd1295cbaf2e223503d095b2da17a5e9b4ec0fe8ddde58b6c932dce31d4a",
+    "README.txt": "c192f2b649db20bb75a4a56b83cfdaf94b2b20bfd1b17a9a1d467378a094e0db",
+    "example.pair": "8fd409c27126fc770cd5bb872666f3797bbf830e25b2cd6c326e95487b616b80"
+  },
+  "scope": "Finite query-builder interface controls, not a collision or solver result."
+}

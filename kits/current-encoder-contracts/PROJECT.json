@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-current-encoder-contracts",
+  "title": "Which output did the SHA encoder actually compare?",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "current-encoder-contracts.zip",
+  "source_archive_sha256": "79f16651009dd2d4d7408e42eb3e2a5ebe72c4fa5ecf954ef900e1124814eabb",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/current-encoder-contracts",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "current-encoder-kit/replay.py"
+  ],
+  "expected": "current-encoder",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

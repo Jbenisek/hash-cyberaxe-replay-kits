@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "walk-measure-kit/measure.py",
+      "project_path": "walk-measure-kit/measure.py",
+      "sha256": "ea3720d4bd96a2a28c8c54cadcba9f4f5f42c1d7b3f4d3f5fb65d30ac03e3629",
+      "bytes": 2785
+    },
+    {
+      "original": "walk-measure-kit/check_contract.py",
+      "project_path": "walk-measure-kit/check_contract.py",
+      "sha256": "75a03a3041de74b67234f9cc59793d3278af1f634c321e3ba7fd5b69ecedc758",
+      "bytes": 6033
+    },
+    {
+      "original": "walk-measure-kit/replay.py",
+      "project_path": "walk-measure-kit/replay.py",
+      "sha256": "4a008518af51b56b0cd9b9601500c383a1b71187175121295be25a888aac21ca",
+      "bytes": 958
+    },
+    {
+      "original": "walk-measure-kit/README.md",
+      "project_path": "walk-measure-kit/README.md",
+      "sha256": "a048f3d3cef8185b99dd688c9a3e18845659812cdbaf290f3658ce39d79906f0",
+      "bytes": 4695
+    },
+    {
+      "original": "walk-measure-kit/MANIFEST.json",
+      "project_path": "walk-measure-kit/MANIFEST.json",
+      "sha256": "f997bf38fbb57d9706d862b3a1ac4fcfa4ff8ab7e0ab991432dd283a8226634a",
+      "bytes": 603
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source_files": [
+    {
+      "path": "research/game/climber/guided/pairfactory/CLASS_SUMMARY.tsv",
+      "sha256": "bb79a1ad081dfa51a7f88864e39125bad0968fc5772839c39791d9cff1f1976d",
+      "rows": 128,
+      "columns": [
+        "#class",
+        "signs(5,7,8,14,16,29,30)",
+        "rule_good",
+        "n_priced",
+        "bestA",
+        "meanA",
+        "worstA",
+        "stageB(sig)"
+      ],
+      "record_id": "f7e9a84dd97d13cb7e74",
+      "published_bytes_match": true
+    },
+    {
+      "path": "research/game/climber/guided/pairfactory/RESULTS.tsv",
+      "sha256": "19eeb4e5456544ca27c75df0fcff769db5757219230a4ca2fd6894120af53edc",
+      "rows": 54,
+      "columns": [
+        "#job",
+        "source",
+        "band",
+        "kind",
+        "verdict",
+        "wall_s",
+        "cpu_s",
+        "indep",
+        "result",
+        "excl"
+      ],
+      "record_id": "69930bccd43bd8863f21",
+      "published_bytes_match": true
+    },
+    {
+      "path": "research/game/climber/guided/pairfactory/RESULTS2.tsv",
+      "sha256": "1aee1325f47de2fc4b669544bead85a0178394b3138ea951b27f5f63e69223c5",
+      "rows": 121,
+      "columns": [
+        "#job",
+        "class",
+        "try",
+        "source",
+        "band",
+        "verdict",
+        "wall_s",
+        "cpu_s",
+        "indep",
+        "result"
+      ],
+      "record_id": "2d1d650760c72d001502",
+      "published_bytes_match": true
+    },
+    {
+      "path": "research/game/climber/guided/pairfactory/TAILS_B.tsv",
+      "sha256": "f0ed76f70b78778889f3172a15b1b03cd9067804f287822ba78ae3580b2fe5a2",
+      "rows": 7,
+      "columns": [
+        "#sig",
+        "mean_lin",
+        "lcb999",
+        "dir"
+      ],
+      "record_id": "a0f884e921c8f5c8d4ec",
+      "published_bytes_match": true
+    }
+  ],
+  "source_bytes_unchanged": true,
+  "scope": "Exact saved-table parsing, internal rounded-value consistency and identities only. Reported INDEP_VERIFIED is a historical verifier label, not statistical independence. UNSAT/impossible labels are not replayed proof certificates. Tail estimates and confidence labels are not exact success laws.",
+  "tail_observations": {
+    "format": "numeric projection, not unchanged full original JSON",
+    "original_seed_files": 98,
+    "original_hashes_rechecked_before_packaging": true,
+    "projection_sha256": "dcdf20639ca7f91ce237d77ffbe9ba7994aa6babdbc880af4f8adbb0d2985d3a"
+  },
+  "audit": "Publication table recount only; original research executables not included."
+}

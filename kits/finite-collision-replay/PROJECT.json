@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-finite-collision-replay",
+  "title": "Finite collision replay kit",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "finite-collision-replay.zip",
+  "source_archive_sha256": "ce823ab7a795983d1e126598609da672e974cf77e2dcc960a93087fd9538a29d",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/finite-collision-replay",
+  "tool_families": [],
+  "original_payload_files": 4,
+  "replay_command": [
+    "{python}",
+    "replay.py"
+  ],
+  "expected": null,
+  "timeout_seconds": 300,
+  "require_passed": true
+}

@@ -1,0 +1,27 @@
+{
+  "project_id": "hash-cyberaxe-bitcost-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "controls": 13,
+    "first_success_not_fastest": 8,
+    "split_files_stall": 0.5,
+    "appended_runs_stall": 0,
+    "duplicate_path_stall": "2/3",
+    "held_and_unsat_same_score": true,
+    "later_sat_overrides_prior_unsat": true,
+    "leading_underscore_sat_becomes_stall": true,
+    "malformed_or_missing_skipped": true,
+    "unseen_prior": [
+      0.5,
+      1000000
+    ],
+    "nan_and_negative_times_accepted": true,
+    "headerless_first_observation_lost": true,
+    "source_sha256": "254dd5cde6663e6f24ed4c1b2ed4a6820934408a3feb5a393b931dce6d2bc814",
+    "empty_rank_writes_newline": true,
+    "scope": "Finite synthetic log contracts, not solver performance, probability or attack cost. Only copied bitcost source and temporary fixture files executed; historical logs and solver drivers untouched."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-newwords-transformations",
+  "title": "Three ways to free a trajectory",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "newwords-transformations.zip",
+  "source_archive_sha256": "eaf66ba047e599285777d2f623f515646e0f2863bc503230a76babfa5394ca50",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/newwords-transformations",
+  "tool_families": [],
+  "original_payload_files": 7,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "newwords-kit/replay.py"
+  ],
+  "expected": "newwords",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

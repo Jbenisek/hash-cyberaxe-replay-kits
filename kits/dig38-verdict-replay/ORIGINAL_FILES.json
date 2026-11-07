@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "dig38-verdict-kit/sources/analyze.py",
+      "project_path": "dig38-verdict-kit/sources/analyze.py",
+      "sha256": "457bdde652008dfbce2389eeb123b38d3b3cc11a8d2f5a43084234a5154ef843",
+      "bytes": 1805
+    },
+    {
+      "original": "dig38-verdict-kit/sources/build_records.py",
+      "project_path": "dig38-verdict-kit/sources/build_records.py",
+      "sha256": "af1679d1a0d28726eb36347a1a0ee516bd05805c78b4390d4e0aaef3c5cc2eee",
+      "bytes": 5547
+    },
+    {
+      "original": "dig38-verdict-kit/sources/b14R.txt",
+      "project_path": "dig38-verdict-kit/sources/b14R.txt",
+      "sha256": "2eaedf117163154bd8fe95e972fab07eea418cbd7b4322ee777f0948462c033d",
+      "bytes": 11249
+    },
+    {
+      "original": "dig38-verdict-kit/replay.py",
+      "project_path": "dig38-verdict-kit/replay.py",
+      "sha256": "33149b8758688dafee1fa05ba5a127a6f08e9c3c21aad94c1a816c1115ec2ec1",
+      "bytes": 3548
+    },
+    {
+      "original": "dig38-verdict-kit/README.md",
+      "project_path": "dig38-verdict-kit/README.md",
+      "sha256": "d2a2c0217f36d24751bf7e4b6df9de28fe39daa8d6630c8b3776e092996adfac",
+      "bytes": 2259
+    },
+    {
+      "original": "dig38-verdict-kit/MANIFEST.json",
+      "project_path": "dig38-verdict-kit/MANIFEST.json",
+      "sha256": "ac627ef603792865d4e1146b2cc83c57e636edfbb8d3307b52f2314fa58f9d34",
+      "bytes": 863
+    }
+  ]
+}

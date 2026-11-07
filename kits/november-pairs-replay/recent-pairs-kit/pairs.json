@@ -1,0 +1,385 @@
+{
+  "scope": "Four finite numerical objects, only one collision.",
+  "records": [
+    {
+      "id": "6a682aab67dfe33c6389d2dff585402fcda0a4e9540bfa255338835375145452",
+      "rounds": 39,
+      "word_bits": 32,
+      "chaining": [
+        [
+          "7c26242b",
+          "dc3fba8a",
+          "203e2a9a",
+          "91a5b2e0",
+          "dcf7cf9b",
+          "c78982f9",
+          "894e7dcd",
+          "8b93290c"
+        ],
+        [
+          "7c26242b",
+          "dc3fba8a",
+          "203e2a9a",
+          "91a5b2e0",
+          "dcf7cf9b",
+          "c78982f9",
+          "894e7dcd",
+          "8b93290c"
+        ]
+      ],
+      "messages": [
+        [
+          "a247aef7",
+          "d2929cc6",
+          "9db25158",
+          "79d9fb69",
+          "a960f705",
+          "30e3f354",
+          "5fbf7d7f",
+          "a6395b0a",
+          "72895c61",
+          "210771c6",
+          "b06bff8b",
+          "b69f804f",
+          "a946e11e",
+          "b05f04ad",
+          "43660038",
+          "d80d950f"
+        ],
+        [
+          "a247aef7",
+          "d2929cc6",
+          "9db25158",
+          "79d9fb69",
+          "a960f705",
+          "30e3f354",
+          "5fbf7d7f",
+          "a6395b0a",
+          "32895c61",
+          "298761c6",
+          "f06bff8b",
+          "b09da37b",
+          "a956f91e",
+          "b05f04ad",
+          "43660038",
+          "d80d950f"
+        ]
+      ],
+      "expected_collision": true,
+      "expected_outputs": [
+        [
+          "7741d70a",
+          "35e64a19",
+          "ad962c58",
+          "36dacdd9",
+          "9e87b2d0",
+          "56d0e1a5",
+          "37b9b8c6",
+          "ecfd0c42"
+        ],
+        [
+          "7741d70a",
+          "35e64a19",
+          "ad962c58",
+          "36dacdd9",
+          "9e87b2d0",
+          "56d0e1a5",
+          "37b9b8c6",
+          "ecfd0c42"
+        ]
+      ],
+      "sources": [
+        {
+          "path": "research/game/climber/guided/d6full_head/sat5/pub39_WITNESS.json",
+          "sha256": "df75a546e9c1a5691eaaf95771b773dabaac6543afce0695a97355b8b4cb1fa8"
+        }
+      ],
+      "lineage": "Project numerical control on a known published characteristic"
+    },
+    {
+      "id": "a4e1d51af4a8c7eabcceb1f3d83403ab06e707aa048026bf417dfe26f808c767",
+      "rounds": 39,
+      "word_bits": 32,
+      "chaining": [
+        [
+          "ba75b4ac",
+          "c3c9fd45",
+          "fce04f3a",
+          "6d620fdb",
+          "42559d01",
+          "b0a0cd10",
+          "729ca9bc",
+          "b284a572"
+        ],
+        [
+          "ba75b4ac",
+          "c3c9fd45",
+          "fce04f3a",
+          "6d620fdb",
+          "42559d01",
+          "b0a0cd10",
+          "729ca9bc",
+          "b284a572"
+        ]
+      ],
+      "messages": [
+        [
+          "e356dd3c",
+          "4f5267f8",
+          "8f8ec13b",
+          "22371c61",
+          "56836f2b",
+          "459501d1",
+          "8078899e",
+          "98947e61",
+          "4015ef31",
+          "06e98ffc",
+          "4babda4a",
+          "27809447",
+          "3bf9f3be",
+          "7b3b74e1",
+          "065f711d",
+          "6c6ead5e"
+        ],
+        [
+          "e356dd34",
+          "4f5267f8",
+          "8f8ec13b",
+          "22371c61",
+          "56836f2b",
+          "459501d1",
+          "8078899e",
+          "98947e61",
+          "7e73f1f1",
+          "06e99000",
+          "4babda4a",
+          "277f1447",
+          "3bf9f3be",
+          "7b3b74e1",
+          "065f711d",
+          "6c6ead5e"
+        ]
+      ],
+      "expected_collision": false,
+      "expected_outputs": [
+        [
+          "d0827038",
+          "cedde45c",
+          "c42f0211",
+          "49120c68",
+          "ea0154b9",
+          "cc76266d",
+          "9728cc93",
+          "a250a4c6"
+        ],
+        [
+          "2cde06cc",
+          "f25bc727",
+          "2206d27d",
+          "5029d0d4",
+          "1b07f21c",
+          "04ae6145",
+          "ef5471df",
+          "b56df3b3"
+        ]
+      ],
+      "sources": [
+        {
+          "path": "research/game/climber/guided/d6full_head/sat5/up39/UP39_d1f818b92f02_pair.json",
+          "sha256": "41c5b423bf4a32eb6604f647f95589d277d330c3a732bce89eb07807eba29a01"
+        }
+      ],
+      "lineage": "Project incomplete state candidate, not represented as a collision"
+    },
+    {
+      "id": "3c1396ce4ecd029edd27be91c2183c9c2919549dbe3ec3f0f48ef38b652ff265",
+      "rounds": 39,
+      "word_bits": 32,
+      "chaining": [
+        [
+          "b390ee83",
+          "29821ad3",
+          "dab1ca7b",
+          "fc355e00",
+          "13be0f15",
+          "7e96a98e",
+          "e4761863",
+          "8746fd83"
+        ],
+        [
+          "b390ee83",
+          "29821ad3",
+          "dab1ca7b",
+          "fc355e00",
+          "13be0f15",
+          "7e96a98e",
+          "e4761863",
+          "8746fd83"
+        ]
+      ],
+      "messages": [
+        [
+          "5658551e",
+          "e5844dd9",
+          "b223dfba",
+          "a8ac6b7f",
+          "9aec5e3c",
+          "851ac3c8",
+          "61aa2353",
+          "d9ec17b2",
+          "56e622b5",
+          "fdf9fc75",
+          "619e8702",
+          "7a890fb0",
+          "37428c38",
+          "3d3c6845",
+          "309ecba9",
+          "68bcbcd1"
+        ],
+        [
+          "56d8651e",
+          "e5844dd9",
+          "b223dfba",
+          "a8ac6b7f",
+          "9aec5e3c",
+          "851ac3c8",
+          "61aa2353",
+          "d9ec17b2",
+          "76e622b5",
+          "f9b9f475",
+          "419e8702",
+          "7f881d1a",
+          "374a9838",
+          "3d3c6845",
+          "309ecba9",
+          "68bcbcd1"
+        ]
+      ],
+      "expected_collision": false,
+      "expected_outputs": [
+        [
+          "d2d0005e",
+          "5a7de6f8",
+          "d74ea237",
+          "d25d72bf",
+          "b1169c7e",
+          "f59f01ea",
+          "458b1eba",
+          "24e92320"
+        ],
+        [
+          "fcf58888",
+          "5fb529d2",
+          "3777db70",
+          "7dbc5c20",
+          "9e28bfe5",
+          "07667b50",
+          "fe1e0f60",
+          "1e419f79"
+        ]
+      ],
+      "sources": [
+        {
+          "path": "research/game/climber/guided/d6full_head/sat5/up39b/UP39_ca42c00b637f_pair.json",
+          "sha256": "feed13834256f9475fe7fdd971d670f8d69406dd7f25b590a72b18e5b8e0e487"
+        }
+      ],
+      "lineage": "Project incomplete state candidate, not represented as a collision"
+    },
+    {
+      "id": "30fe57a0200df47804ff2e88e4878362366a50bedddbb41a538bd779e9354e67",
+      "rounds": 39,
+      "word_bits": 32,
+      "chaining": [
+        [
+          "4d87ce7e",
+          "065e7c06",
+          "e5a30fc8",
+          "beadc6b8",
+          "618431e4",
+          "86b77fb1",
+          "2377812d",
+          "e4709575"
+        ],
+        [
+          "4d87ce7e",
+          "065e7c06",
+          "e5a30fc8",
+          "beadc6b8",
+          "618431e4",
+          "86b77fb1",
+          "2377812d",
+          "e4709575"
+        ]
+      ],
+      "messages": [
+        [
+          "1968b3e0",
+          "d926b065",
+          "ba2ecbea",
+          "d1d9bba6",
+          "746d4b51",
+          "160d122b",
+          "bb53d378",
+          "2bad6543",
+          "41e4bb47",
+          "3f416758",
+          "fe9804cb",
+          "63a88c0f",
+          "0ceb1f8d",
+          "a28cd15a",
+          "77a1e994",
+          "d28e48a0"
+        ],
+        [
+          "19e8b3e0",
+          "d926b065",
+          "ba2ecbea",
+          "d1d9bba6",
+          "746d4b51",
+          "160d122b",
+          "bb53d378",
+          "2bad6543",
+          "61e4bb47",
+          "3b016f58",
+          "de9804cb",
+          "66a99ea5",
+          "0ce30b8d",
+          "a28cd15a",
+          "77a1e994",
+          "d28e48a0"
+        ]
+      ],
+      "expected_collision": false,
+      "expected_outputs": [
+        [
+          "12d014ce",
+          "45f664b0",
+          "700c65e0",
+          "48878f51",
+          "11cddd12",
+          "1dcb8e45",
+          "bc0342cf",
+          "9256a9f7"
+        ],
+        [
+          "969c74c4",
+          "d2dc0acd",
+          "5d6afee9",
+          "6b19ca97",
+          "89608c8c",
+          "9fb44cbb",
+          "2f7abb0e",
+          "2cfd3166"
+        ]
+      ],
+      "sources": [
+        {
+          "path": "research/game/climber/guided/d6full_head/sat5/up39c/UP39_0eee6dda67f2_pair.json",
+          "sha256": "4ce3dbff685dded16a51be187778f40b0a0ec9e5757cd266c1226732d22eca6f"
+        }
+      ],
+      "lineage": "Project incomplete state candidate, not represented as a collision"
+    }
+  ]
+}

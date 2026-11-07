@@ -1,0 +1,42 @@
+Sparse B's forced half-modulus difference
+
+Assume two word sequences obey the SHA-256 message expansion, with word width
+w and arithmetic modulo q=2^w. All words outside the stated support agree:
+  differing input words: 8,9,10,11,13,15
+  differing expanded rows through W39: 16,20,25,28,29.
+The stated support is EXACT: W13 must differ, not merely be allowed to differ.
+
+Define d_t=W_t(B)-W_t(A) modulo q. The exact recurrence gives
+
+W20 = sigma1(W18) + W13 + sigma0(W5)  + W4
+W29 = sigma1(W27) + W22 + sigma0(W14) + W13
+W36 = sigma1(W34) + W29 + sigma0(W21) + W20.
+
+The supports imply that W18,W5,W4,W27,W22,W14,W34,W21,W36 agree. Equal
+inputs give equal sigma outputs. Subtracting the two versions of each equation
+therefore yields d20=d13, d29=d13, and 0=d36=d29+d20=2*d13 modulo q.
+This uses common-addend cancellation, NOT sigma applied to an additive delta.
+
+For the representative integer d in [0,q), 2*d is divisible by q exactly at
+d=0 and d=q/2. W13 differs, excluding zero. Hence
+  d13=d20=d29=q/2=2^(w-1).
+Adding q/2 toggles only the highest bit. Thus each of the XOR differences at
+W13,W20,W29 is the top bit alone: 80000000 at width 32.
+
+No u/n direction is fixed: either side can have that bit set. This statement
+also holds for odd widths; it cannot imply an even-width-only existence law.
+If the support is only an allowed set and W13 may agree, the zero root remains
+and the forced nonzero XOR conclusion cannot be imposed unconditionally.
+
+This is a necessary implication, not existence of a pair satisfying the whole
+schedule. It says nothing about a compatible compression trajectory, initial
+state law, collision, trial probability, attack cost or contest eligibility.
+
+Scope of the program: exhaustive roots at widths 1..12 and finite local
+common-addend controls through width 32. These are not complete schedule
+witnesses. The universal argument is the proof above, not the finite sample.
+
+Credit: HASH$CyberAxe reported the sparse-B support and the row-36 top-bit observation
+in the team's November 2 research notes. The publication audit adds this
+explicit three-row derivation, assumptions, sign boundary and portable controls.
+No project novelty or full-width break is claimed.

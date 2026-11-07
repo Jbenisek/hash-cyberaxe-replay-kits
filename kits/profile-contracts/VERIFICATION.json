@@ -1,0 +1,202 @@
+{
+  "project_id": "hash-cyberaxe-profile-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "results": {
+      "sign_variant_contract": {
+        "flag_cases": [
+          {
+            "schedule_only": false,
+            "state_sign_relaxation": false,
+            "explicit_combo_list": false,
+            "outputs": 5
+          },
+          {
+            "schedule_only": false,
+            "state_sign_relaxation": false,
+            "explicit_combo_list": true,
+            "outputs": 4
+          },
+          {
+            "schedule_only": true,
+            "state_sign_relaxation": false,
+            "explicit_combo_list": false,
+            "outputs": 5
+          },
+          {
+            "schedule_only": true,
+            "state_sign_relaxation": false,
+            "explicit_combo_list": true,
+            "outputs": 4
+          },
+          {
+            "schedule_only": false,
+            "state_sign_relaxation": true,
+            "explicit_combo_list": false,
+            "outputs": 5
+          },
+          {
+            "schedule_only": false,
+            "state_sign_relaxation": true,
+            "explicit_combo_list": true,
+            "outputs": 4
+          },
+          {
+            "schedule_only": true,
+            "state_sign_relaxation": true,
+            "explicit_combo_list": false,
+            "outputs": 5
+          },
+          {
+            "schedule_only": true,
+            "state_sign_relaxation": true,
+            "explicit_combo_list": true,
+            "outputs": 4
+          }
+        ],
+        "generated_variants": 36,
+        "default_mirror_changes_only_W_signs": true,
+        "signed_state_pins_preserved_not_mirrored": true,
+        "partial_flip_expanded_rows_relaxed_to_x": true,
+        "source_untouched": true
+      },
+      "backscore_closed_form": {
+        "binary_difference_vectors": 2046,
+        "structured_full_width_vectors": 1442,
+        "random_full_width_vectors": 4096,
+        "naf_controls": 8193,
+        "step_bijection_and_noncoalescence_controls": 4096,
+        "eight_step_example": {
+          "dW": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "depth": 8,
+          "returned_knot": -1,
+          "demand": 1,
+          "score": 1
+        }
+      },
+      "sign_predictor_contract": {
+        "valid_schedule_fixture": {
+          "message_A": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "message_B": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "W16_A": "02004001",
+          "W16_B": "00000000",
+          "A_E_masks": "all wildcard",
+          "actual_original_and_mirror_schedules": "both explicitly satisfied",
+          "predicted_mirror_word_mode": "UNSAT",
+          "predicted_mirror_bit_mode": "UNSAT"
+        },
+        "component_counterexample": {
+          "equation": "x0+x1+x16=0 over GF(2)",
+          "component": [
+            0,
+            1,
+            16
+          ],
+          "proper_subset_0_1_satisfies": true,
+          "whole_component_satisfies": false
+        },
+        "unused_basis_counterexample": {
+          "row_masks": [
+            6,
+            3
+          ],
+          "returned_basis": [
+            3
+          ],
+          "correct_nonzero_null_vector": 7,
+          "scope": "classify discards this returned basis; its direct parity membership check does not use it."
+        }
+      },
+      "trail_family_contract": [
+        {
+          "case": "filename-not-content-step-key; signs-and-state-ignored; x-only-support-omitted",
+          "passed": true
+        },
+        {
+          "case": "last-duplicate-gate-row-replaces-earlier-SAT",
+          "passed": true
+        },
+        {
+          "case": "scientific-notation-time-is-not-counted-as-numeric",
+          "passed": true
+        },
+        {
+          "case": "equal-SAT-times-use-lexical-member-tiebreak",
+          "passed": true
+        },
+        {
+          "case": "multiple-decimal-points-pass-prefilter-then-crash-float; old-output-retained",
+          "passed": true
+        },
+        {
+          "case": "empty-third-gate-field-crashes-before-output",
+          "passed": true
+        },
+        {
+          "case": "source-row-order-preserved-in-signature-not-canonicalized",
+          "passed": true
+        }
+      ],
+      "backward_cli_contract": {
+        "backward_cli_cases": 18,
+        "inverse_row_comparisons": 1352,
+        "vacuous_horizons": [
+          0,
+          -1
+        ],
+        "reference_cli_hashlib_checks": 2000,
+        "reference_cli_inverse_checks": 20000,
+        "deterministic_hashlib_checks": 4,
+        "above64_raises_index_error": true
+      },
+      "closure_row_identity": 120
+    },
+    "scope": "Bounded text transformations, a closed-form diagnostic, and explicit counterexamples. No solver campaign, full collision, success rate or complete attack price."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "SCHED_TAILLIGHTEST_board_tail.txt",
+      "bytes": 505,
+      "sha256": "a44679e91014f36eff1eb148c56ea52424057d46120a3836f114e6c45a5a716e"
+    },
+    {
+      "path": "VALUE_SCREEN_PRICED_TRAILS_1031.tsv",
+      "bytes": 588,
+      "sha256": "5d8f34821965db1472c9bfaa9b43cf8600cae18c8349eaca1ce83d17c6e13e2b"
+    },
+    {
+      "path": "reference.py",
+      "bytes": 3843,
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61"
+    },
+    {
+      "path": "LESSON.md",
+      "bytes": 5793,
+      "sha256": "280ca1ef8b656cfff9be9287202193a335c1ac42f4b1a2ed3d3f2edb44f618fb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3555,
+      "sha256": "b1d190d24467373072746559012ade929ff4fb79ac69e5052c92f84c0d6d0493"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1204,
+      "sha256": "86907ec96254a893e5c633d839c563800ea5d67be9de921ffb4a530975a18d82"
+    },
+    {
+      "path": "check.py",
+      "bytes": 5328,
+      "sha256": "e9e2f22c41263f8ade55986a9d838e14034d1094282e1181fc154c09e64486c2"
+    }
+  ]
+}

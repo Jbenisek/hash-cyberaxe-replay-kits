@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "original": "mkxml-kit/mkxml.py",
+      "project_path": "mkxml-kit/mkxml.py",
+      "sha256": "5bb0481f32e86ddc83e7b02624c0ff437e31dd4785d3233510b28cf931528b4b",
+      "bytes": 15066
+    },
+    {
+      "original": "mkxml-kit/check_contract.py",
+      "project_path": "mkxml-kit/check_contract.py",
+      "sha256": "f75d473fe6b03f994e297ba3d5828b5bc2bcf7a81130a253d35379d7e74f3b42",
+      "bytes": 9574
+    },
+    {
+      "original": "mkxml-kit/replay.py",
+      "project_path": "mkxml-kit/replay.py",
+      "sha256": "2d78660d6cafb72137ee253ef75a44de9c194ff5abacf2aa2d35b53cfe3cd86d",
+      "bytes": 979
+    },
+    {
+      "original": "mkxml-kit/README.md",
+      "project_path": "mkxml-kit/README.md",
+      "sha256": "08948d5c63bc2f2746f5872b9585c2281a8df03ac05a93931d9c545e12765bff",
+      "bytes": 4206
+    },
+    {
+      "original": "mkxml-kit/control.found.txt",
+      "project_path": "mkxml-kit/control.found.txt",
+      "sha256": "18cf11691ee46513b857d1221676285c7b1c2b8775c758450b373e40d1660a15",
+      "bytes": 4928
+    },
+    {
+      "original": "mkxml-kit/control.xml",
+      "project_path": "mkxml-kit/control.xml",
+      "sha256": "4f78d53cc1fe6cd9909e9aea753e2afda386bc51c2d2abd0f8959ac5b3bcb6b9",
+      "bytes": 5611
+    },
+    {
+      "original": "mkxml-kit/MANIFEST.json",
+      "project_path": "mkxml-kit/MANIFEST.json",
+      "sha256": "6aae5406c1016408d24118fafe81624d5c5a4231aefb71aab67cd4107ae09122",
+      "bytes": 900
+    }
+  ]
+}

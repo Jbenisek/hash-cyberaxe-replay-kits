@@ -1,0 +1,151 @@
+model chi38: 38 steps, anchor row 13 (x and y rows 10..13 held), E-driven rows 16..21, lowest conditioned row 6
+  conditions: 47 two-bit/linear (printed), 44 in the attack model; 'except' words: W7
+  free word W6 (late): W6 rand late
+  free word W7 (late): W7 fset s0 03bff800 late
+  free word W8 (late): W8 cell late
+  relaxation E19coset
+  relaxation W23free
+WINDOW rows 22..37 event=out np 4096 m 256 mt2 1024 mw 256 mt 8192 threads 2 prefix-conditions prefix
+-- seed 9401
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+  E16 set under the prefix conditions: 80 values (enumerated 2^22 candidates)
+VSTAGE row 16 violators alive after resampling 2418 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 830 of 1048576, log2 est -43.9811
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65405 of 1048576, log2 est -56.9840
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 132655 of 1048576, log2 est -71.9667
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -77.9667
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 524986 of 1048576, log2 est -84.9648
+[s9401] prefix log2 P(rows 6..21) = -84.9648
+[s9401] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9401]   cells          rows 22..37:          507  rate 1.510978e-05 (log2 -16.0142) 95% [1.3851e-05, 1.6484e-05]  with exact 507
+[s9401]   EXACT          zero output difference after the last step:         1275  rate 3.799796e-05 (log2 -14.6837) 95% [3.5969e-05, 4.0142e-05]
+[s9401]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9401]     EXACT/cells = 2.51479 +- 0.16992  (log2 +1.3304)  halves 2.47287 +- 0.23469 | 2.55823 +- 0.24604
+[s9401]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -100.9789
+[s9401]   time 36.3 s
+-- seed 9402
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+VSTAGE row 16 violators alive after resampling 2409 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 830 of 1048576, log2 est -43.9811
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65407 of 1048576, log2 est -56.9839
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 131222 of 1048576, log2 est -71.9823
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -77.9823
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 524284 of 1048576, log2 est -84.9823
+[s9402] prefix log2 P(rows 6..21) = -84.9823
+[s9402] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9402]   cells          rows 22..37:          539  rate 1.606345e-05 (log2 -15.9259) 95% [1.4763e-05, 1.7478e-05]  with exact 539
+[s9402]   EXACT          zero output difference after the last step:         1359  rate 4.050136e-05 (log2 -14.5917) 95% [3.8405e-05, 4.2713e-05]
+[s9402]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9402]     EXACT/cells = 2.52134 +- 0.16691  (log2 +1.3342)  halves 2.38276 +- 0.20889 | 2.68273 +- 0.26952
+[s9402]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -100.9082
+[s9402]   time 37.6 s
+-- seed 9403
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+VSTAGE row 16 violators alive after resampling 2460 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 824 of 1048576, log2 est -43.9916
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65631 of 1048576, log2 est -56.9895
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 132007 of 1048576, log2 est -71.9792
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -77.9792
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 523979 of 1048576, log2 est -84.9801
+[s9403] prefix log2 P(rows 6..21) = -84.9801
+[s9403] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9403]   cells          rows 22..37:          523  rate 1.558661e-05 (log2 -15.9693) 95% [1.4307e-05, 1.6981e-05]  with exact 523
+[s9403]   EXACT          zero output difference after the last step:         1327  rate 3.954768e-05 (log2 -14.6260) 95% [3.7476e-05, 4.1734e-05]
+[s9403]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9403]     EXACT/cells = 2.53728 +- 0.17465  (log2 +1.3433)  halves 2.58015 +- 0.25222 | 2.49425 +- 0.24163
+[s9403]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -100.9494
+[s9403]   time 40.1 s
+-- seed 9404
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+VSTAGE row 16 violators alive after resampling 2493 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 764 of 1048576, log2 est -44.1006
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65276 of 1048576, log2 est -57.1064
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 131389 of 1048576, log2 est -72.1029
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -78.1029
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 524528 of 1048576, log2 est -85.1022
+[s9404] prefix log2 P(rows 6..21) = -85.1022
+[s9404] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9404]   cells          rows 22..37:          522  rate 1.555681e-05 (log2 -15.9721) 95% [1.4278e-05, 1.6950e-05]  with exact 522
+[s9404]   EXACT          zero output difference after the last step:         1384  rate 4.124641e-05 (log2 -14.5654) 95% [3.9130e-05, 4.3477e-05]
+[s9404]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9404]     EXACT/cells = 2.65134 +- 0.18115  (log2 +1.4067)  halves 2.69380 +- 0.26326 | 2.60985 +- 0.24939
+[s9404]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -101.0743
+[s9404]   time 40.9 s
+-- seed 9405
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+VSTAGE row 16 violators alive after resampling 2449 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 794 of 1048576, log2 est -44.0451
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65522 of 1048576, log2 est -57.0454
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 130578 of 1048576, log2 est -72.0508
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -78.0508
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 524353 of 1048576, log2 est -85.0507
+[s9405] prefix log2 P(rows 6..21) = -85.0507
+[s9405] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9405]   cells          rows 22..37:          508  rate 1.513958e-05 (log2 -16.0113) 95% [1.3879e-05, 1.6515e-05]  with exact 508
+[s9405]   EXACT          zero output difference after the last step:         1370  rate 4.082918e-05 (log2 -14.5800) 95% [3.8724e-05, 4.3049e-05]
+[s9405]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9405]     EXACT/cells = 2.69685 +- 0.18579  (log2 +1.4313)  halves 2.69141 +- 0.25745 | 2.70238 +- 0.26819
+[s9405]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -101.0620
+[s9405]   time 43.1 s
+-- seed 9406
+  init: 4096 particles, acceptance 1.000000 (rows 14..15)
+VSTAGE row 16 violators alive after resampling 2478 of 4096
+  stage 16 (E-driven, list of 80): accepted 1048576 of 1048576, log2 est -25.6781
+VSTAGE row 17 violators alive after resampling 0 of 4096
+  stage 17 (E-driven): forced  8 bits, accepted 778 of 1048576, log2 est -44.0744
+VSTAGE row 18 violators alive after resampling 0 of 4096
+  stage 18 (E-driven): forced  9 bits, accepted 65279 of 1048576, log2 est -57.0801
+VSTAGE row 19 violators alive after resampling 0 of 4096
+  stage 19 (E-driven): forced 12 bits, accepted 133211 of 1048576, log2 est -72.0568
+VSTAGE row 20 violators alive after resampling 0 of 4096
+  stage 20 (E-driven): forced  6 bits, accepted 1048576 of 1048576, log2 est -78.0568
+VSTAGE row 21 violators alive after resampling 0 of 4096
+  stage 21 (E-driven): forced  6 bits, accepted 524493 of 1048576, log2 est -85.0562
+[s9406] prefix log2 P(rows 6..21) = -85.0562
+[s9406] samples 33554432 (late words redrawn per sample), prefix broken by redraw 0, y-anchor inconsistent 0, replay mismatches 0
+[s9406]   cells          rows 22..37:          518  rate 1.543760e-05 (log2 -15.9832) 95% [1.4164e-05, 1.6826e-05]  with exact 518
+[s9406]   EXACT          zero output difference after the last step:         1317  rate 3.924966e-05 (log2 -14.6370) 95% [3.7186e-05, 4.1427e-05]
+[s9406]   ratios to 'cells' (95% cluster-robust over particles; halves = particles split in two):
+[s9406]     EXACT/cells = 2.54247 +- 0.17483  (log2 +1.3462)  halves 2.43416 +- 0.23125 | 2.67089 +- 0.26535
+[s9406]   log2 P(rows 6..37, model cells) = prefix + log2 rate(cells) = -101.0394
+[s9406]   time 39.5 s
+== summary over 6 seed(s): EXACT/cells 2.57684 +- 0.07171
+== summary: log2 P(rows 6..37, model cells) mean -101.0020, seed sd 0.0668 (seeds: -100.9789 -100.9082 -100.9494 -101.0743 -101.0620 -101.0394)
+VTAG class 0 (base prefix holds) N 201326592 CELLS 3117 EXACT 8032
+VTAG class 1 (violates base prefix) N 0 CELLS 0 EXACT 0
+VTAG exact samples hashed independently 8032, false collisions 0
+== pooled over 6 seeds: samples 201326592
+   cells          3117 (with exact 3117)
+   EXACT          8032
+   EXACT/cells pooled 2.57684 ; per-seed mean 2.57735, seed-to-seed sd 0.07698, 95% of the mean +- 0.06159
+exit 0

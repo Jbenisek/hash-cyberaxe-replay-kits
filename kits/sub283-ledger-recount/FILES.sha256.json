@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2180,
+      "sha256": "39440d86ff6e835fd81d79735b190be43d042c8bfb46ce792e97af48a3b03542"
+    },
+    "PROJECT.json": {
+      "bytes": 676,
+      "sha256": "254887b684517db1de50d6ca90783155ee3c23b0c9917489be64fd0cf2672486"
+    },
+    "README.md": {
+      "bytes": 2531,
+      "sha256": "4d7e3c69d8e3586b94dddf2d3987beed27c6da7b0793c71026c196b8028fb8ca"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "sub283-ledger-recount/DRAT266_1101.txt": {
+      "bytes": 65,
+      "sha256": "487d244db1166840fc6c0e4849517f6b72a3931012ae022b3f17df351a7cfeb5"
+    },
+    "sub283-ledger-recount/manifest.json": {
+      "bytes": 1260,
+      "sha256": "5b12f8e6cb39fecb34400c29e6a8a8dd4194622f0d9719202166e9b88edd2baf"
+    },
+    "sub283-ledger-recount/POCKET266_1101.tsv": {
+      "bytes": 1294,
+      "sha256": "bc47fb3c1016fe491344e2d9ef0e70ddc9208ea22ac79e8a350ac3b23eff9cdd"
+    },
+    "sub283-ledger-recount/POCKET268_1101.tsv": {
+      "bytes": 9337,
+      "sha256": "f2c3c989e7fc4c281320a31ce30ead831f51b0e126660168c9d5228edab30606"
+    },
+    "sub283-ledger-recount/README.txt": {
+      "bytes": 2012,
+      "sha256": "b4c7a1cb065310e60c343882b2e84a781acd83091bd965f85bf509c1dd0910d0"
+    },
+    "sub283-ledger-recount/records.json": {
+      "bytes": 118643,
+      "sha256": "c849414ec605cc0eb0ae861cc55c19d3f30bfc7a37069456a200f47b510df1a4"
+    },
+    "sub283-ledger-recount/replay.py": {
+      "bytes": 5394,
+      "sha256": "17433ce670b37b6927cf87ca02da33a32773cc61526cfc7d256d1055e85fa726"
+    },
+    "sub283-ledger-recount/SUB283_ORACLE_1101.tsv": {
+      "bytes": 1133,
+      "sha256": "f30e57365845cc0b3ecfa4becb01b6c67b8b8f7ecdb4e2622b0bab6143d9afae"
+    },
+    "sub283-ledger-recount/WIDEMAP283_v2_1101.tsv": {
+      "bytes": 791,
+      "sha256": "c2a70ed917cd0db5210817cf3db2008a5e3f8795902e98b0157ea063de2cca39"
+    },
+    "VERIFICATION.json": {
+      "bytes": 1958,
+      "sha256": "c3a5b34db2be37fe1a0c609f1379c675b8d2e64a19d9df9ce635f347e3874b5b"
+    }
+  }
+}

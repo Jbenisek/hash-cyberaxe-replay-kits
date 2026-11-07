@@ -1,0 +1,22 @@
+alpha	beta	verdict	seconds	witness	classes	L
+8fff9f70	03011296	UNSAT(alpha not reachable from W10 row: not in the 64-value set)	1	-	-	-
+cfffa070	03011296	UNSAT(alpha not reachable from W10 row: not in the 64-value set)	1	-	-	-
+f0005f70	03011296	UNSAT(alpha not reachable from W10 row: not in the 64-value set)	1	-	-	-
+100060f0	03011296	UNSAT (earlier steer/RES.txt)	24	-	-	-
+f00060f0	03011296	TIMEOUT 600 (earlier steer/RES.txt)	601	-	-	-
+0fff60d0	03011296	UNSAT	11	-	-	-
+0fff9f30	03011296	running/timeout	80.82	-	-	-
+efffa0d0	03011296	running/timeout	82.45	-	-	-
+0fffa0d0	03011296	running/timeout	81.68	-	-	-
+efff9f30	03011296	running/timeout	130.28	-	-	-
+0fff5ed0	03011296	running/timeout	128.68	-	-	-
+f0009f10	03011296	UNSAT	71.72	-	-	-
+f0006110	03011296	UNSAT	85.88	-	-	-
+efff60f0	03011296	UNSAT	71.77	-	-	-
+10009ed0	03011296	UNSAT	73.92	-	-	-
+0fff9ed0	03011296	UNSAT	94.91	-	-	-
+efff60d0	03011296	UNSAT	96.49	-	-	-
+efff6110	03011296	UNSAT	57.72	-	-	-
+0fffa110	03011296	UNSAT	44.68	-	-	-
+10009f10	03011296	UNSAT	40.05	-	-	-
+efff9ed0	03011296	UNSAT	83.05	-	-	-

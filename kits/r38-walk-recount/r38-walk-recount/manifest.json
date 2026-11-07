@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "files": {
+    "ledger.json": {
+      "bytes": 10818,
+      "sha256": "49ee1d816d6365e37c894829282a34fb2bbc2bd7c949e810cab1a47a7fd10ca4"
+    },
+    "README.txt": {
+      "bytes": 3145,
+      "sha256": "0abb3dc113cfed4d74b6c97db483ba67741e30e48244f3614b8865fb2d793ca6"
+    },
+    "recount.py": {
+      "bytes": 4747,
+      "sha256": "de63b605cf46a54656c0b76b7fb25eed31bb9db8b8a83ef69915e2df10dad391"
+    },
+    "replay.py": {
+      "bytes": 1461,
+      "sha256": "e565167c6b7bc69afd091c2a70de0ac55435d3aa5207823a1c0de9a788f192e3"
+    }
+  },
+  "scope": "Independent rational reconstruction and certified displayed rounding under a fixed inherited budget. Not a proof of ctz pricing, success law, implementation completeness or memory bound.",
+  "archived_comparison_source_sha256": "7fd7e84f666611f85417126ed5bcd458fe5c821a8c6fbf94f32c721085f54eef",
+  "imported_source_bundled": false
+}

@@ -1,0 +1,15 @@
+UP39_d1f818b92f02_p1	UNSAT	22s	conflicts=203923	rc=20
+control_R38_p8	SAT	137s	conflicts=1894091	rc=10
+UP39_d1f818b92f02_p20	UNKNOWN	900s	conflicts=9353296	rc=124
+UP39_d1f818b92f02_p18	UNKNOWN	900s	conflicts=9854161	rc=124
+UP39_d1f818b92f02_p16	UNKNOWN	900s	conflicts=9049206	rc=124
+UP39_d1f818b92f02_p14	UNKNOWN	900s	conflicts=8193265	rc=124
+UP39_d1f818b92f02_p12	UNKNOWN	900s	conflicts=8452832	rc=124
+UP39_d1f818b92f02_p10	UNKNOWN	900s	conflicts=7760437	rc=124
+UP39_d1f818b92f02_p8	UNKNOWN	900s	conflicts=7258601	rc=124
+UP39_d1f818b92f02_p4	UNSAT	22s	conflicts=167853	rc=20
+UP39_d1f818b92f02_p6	UNKNOWN	900s	conflicts=6719709	rc=124
+UP39_d1f818b92f02_p5		s	conflicts=NA	rc=
+CORRECTION 2026-10-30 01:55: the UP39_d1f818b92f02_p5 line above was written with empty fields (shell escaping in my inline runner). Read from UP39_d1f818b92f02_p5_kissat.out: UNSAT, 421013 conflicts, 43s process-time.
+CORRECTION 2026-10-30 02:02: UP39_d1f818b92f02_p7 also lost its RESULTS line to the same escaping fault. Read from UP39_d1f818b92f02_p7_kissat.out last progress line: UNKNOWN at the 900s cap, 7154632 conflicts at 879.25s.
+UP39_d1f818b92f02_p7		s	conflicts=NA	rc=

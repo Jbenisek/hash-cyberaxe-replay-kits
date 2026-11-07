@@ -1,0 +1,70 @@
+{
+  "project_id": "hash-cyberaxe-poseidon-xconv-lesson",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "small_composition_candidates": 1011,
+    "impulse_cases": 8568,
+    "interface_cases": [
+      {
+        "case": "boundary-stages-match-per-index-count-model",
+        "parameter_triples": 360,
+        "passed": true
+      },
+      {
+        "case": "negative-layer-count-vacuously-returns-empty-split",
+        "passed": true
+      },
+      {
+        "case": "both-phase-counters-drop-partial-group-and-reject-zero-divisor",
+        "passed": true
+      },
+      {
+        "case": "mixed-radix-group-accepts-nonmultiple-length-through-floor-division",
+        "passed": true
+      },
+      {
+        "case": "power-of-two-model-rejects-output-window-overrun",
+        "passed": true
+      },
+      {
+        "case": "three-original-main-entrypoints-run-without-transform-or-file-output",
+        "passed": true
+      }
+    ],
+    "boundary_parameter_triples": 360,
+    "rows": [
+      {
+        "profile": "r15",
+        "K": 55512,
+        "length": 262144,
+        "last_output_index": 222047,
+        "largest_wrapped_index": 70926,
+        "first_output_index": 111024,
+        "extension_ops": 38798611185121190,
+        "total_ops": 42874961544213795950,
+        "ledger_time_log2": 56.16421,
+        "ledger_score": "90.92629",
+        "recorded_baseline_score": 90.94721,
+        "arithmetic_scope": "Integer accounting identities exactly replayed; floating-point logs cross-checked. Inherited kernel charges, memory law and attack premises are not independently certified."
+      },
+      {
+        "profile": "r20",
+        "K": 173472348,
+        "length": 805306368,
+        "last_output_index": 693889391,
+        "largest_wrapped_index": 235527718,
+        "first_output_index": 346944696,
+        "extension_ops": 192142231084688695830,
+        "total_ops": 191900093359099308848156,
+        "ledger_time_log2": 68.03182,
+        "ledger_score": "114.40225",
+        "recorded_baseline_score": 114.42508,
+        "arithmetic_scope": "Integer accounting identities exactly replayed; floating-point logs cross-checked. Inherited kernel charges, memory law and attack premises are not independently certified."
+      }
+    ],
+    "scope": "Fixed historical ledger replay, finite DP checks and alias-free output certificate. No NTT allocation, collision search, imported proof text or submission action."
+  },
+  "finite_replay": "passed"
+}

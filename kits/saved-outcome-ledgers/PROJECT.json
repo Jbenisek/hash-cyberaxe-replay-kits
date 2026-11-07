@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-saved-outcome-ledgers",
+  "title": "SAVED OUTCOME LEDGERS / BOUNDED RECOUNT",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "saved-outcome-ledgers.zip",
+  "source_archive_sha256": "487f67cceaf698556183b2ea83b61ce5514ba2940d2ca2ef1510ec2a9a5419b3",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/saved-outcome-ledgers",
+  "tool_families": [],
+  "original_payload_files": 11,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "saved-outcome-ledgers-kit/replay.py"
+  ],
+  "expected": "saved-outcome-ledgers",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

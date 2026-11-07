@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "original": "family-places-recount/originals/FAMILY_PLACES.tsv",
+      "project_path": "family-places-recount/originals/FAMILY_PLACES.tsv",
+      "sha256": "5fb090aadd7a3ed09d4eaa990af4bc87e42c448dd593f5f0be4ed237e75b49b9",
+      "bytes": 32710661
+    },
+    {
+      "original": "family-places-recount/originals/places_summary.tsv",
+      "project_path": "family-places-recount/originals/places_summary.tsv",
+      "sha256": "f79b6b39d2eed575f333fc9cd72513b722d262e21484d10da9c9546a84f1d5af",
+      "bytes": 469706
+    },
+    {
+      "original": "family-places-recount/originals/top_families.tsv",
+      "project_path": "family-places-recount/originals/top_families.tsv",
+      "sha256": "fab20a4d290c54b0f17caf05cfce30b5ade547469375602e84b527bceba69c6f",
+      "bytes": 21097
+    },
+    {
+      "original": "family-places-recount/dictionary.json",
+      "project_path": "family-places-recount/dictionary.json",
+      "sha256": "d941891224ab244f785c452fd34333711ab9165470be3f5f3ab3bd5913921189",
+      "bytes": 8203
+    },
+    {
+      "original": "family-places-recount/README.txt",
+      "project_path": "family-places-recount/README.txt",
+      "sha256": "2e57629aaa08e74d0d6e24f31e5585c96cf7959cff96efd8ee0cfa3a70ccf398",
+      "bytes": 3783
+    },
+    {
+      "original": "family-places-recount/replay.py",
+      "project_path": "family-places-recount/replay.py",
+      "sha256": "dd01d3eee7073ec1f6235d788cb8ddb069c5526cc3669ee8d37c02ae88be5ea6",
+      "bytes": 5855
+    },
+    {
+      "original": "family-places-recount/records.json",
+      "project_path": "family-places-recount/records.json",
+      "sha256": "a378b7f73c97e664de7e761728c942b7397be35b6842a6a36a0be61d21624fff",
+      "bytes": 13841
+    },
+    {
+      "original": "family-places-recount/manifest.json",
+      "project_path": "family-places-recount/manifest.json",
+      "sha256": "82474a0973578a5260db4a6c7863c2b30e98aaef48398b553da6a110324f0e52",
+      "bytes": 725
+    }
+  ]
+}

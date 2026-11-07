@@ -1,0 +1,16 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "current-encoder-kit/sha_cnf.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "b887c9f80dd01afdf4281f60a3f14289d7547d239a50ec86b4c515b0e0827c57",
+      "original_bytes": 27758,
+      "published_sha256": "c431c124e449c3b7939f2fdec373a8abb7ba3e651b2dc884c64d4aa03308faec",
+      "published_bytes": 27767
+    }
+  ]
+}

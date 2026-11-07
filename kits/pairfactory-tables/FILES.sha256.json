@@ -1,0 +1,81 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2956,
+      "sha256": "0c6c42547fe2d336b2ef6a82a217fd590495e28da7b273522db5e97f1f9a240f"
+    },
+    "pairfactory-tables-kit/check.py": {
+      "bytes": 3508,
+      "sha256": "bbc5c0fca0b01c0dc6cceb364f47c263ea268ffb02bfbcaf34290d4d8b17f6e0"
+    },
+    "pairfactory-tables-kit/MANIFEST.json": {
+      "bytes": 1664,
+      "sha256": "1feea145ef9be4c8522f1bf74a34cd348506d50180747f2a4e1ae4d195d91371"
+    },
+    "pairfactory-tables-kit/PROVENANCE.json": {
+      "bytes": 2491,
+      "sha256": "8d607eb447f05beda0b9f8115bc51017776f5afc68abd7450a59089d1bd01b75"
+    },
+    "pairfactory-tables-kit/README.md": {
+      "bytes": 4910,
+      "sha256": "16ea33ec66b5aa1dd347662ea4928df64cd3b9c9dae81729ca8f746cac9ff48d"
+    },
+    "pairfactory-tables-kit/recount_tails.py": {
+      "bytes": 2985,
+      "sha256": "5ff536cd98c7df0ef9656766d4bcb046ed2589aa0d0c82448ba94ff3f8a17522"
+    },
+    "pairfactory-tables-kit/replay.py": {
+      "bytes": 1507,
+      "sha256": "4e3483d469875a85c2fc7c98558eaeec65e0c368557684a75de795a537861ce2"
+    },
+    "pairfactory-tables-kit/research/game/climber/guided/pairfactory/CLASS_SUMMARY.tsv": {
+      "bytes": 6120,
+      "sha256": "bb79a1ad081dfa51a7f88864e39125bad0968fc5772839c39791d9cff1f1976d"
+    },
+    "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS.tsv": {
+      "bytes": 3199,
+      "sha256": "19eeb4e5456544ca27c75df0fcff769db5757219230a4ca2fd6894120af53edc"
+    },
+    "pairfactory-tables-kit/research/game/climber/guided/pairfactory/RESULTS2.tsv": {
+      "bytes": 5235,
+      "sha256": "1aee1325f47de2fc4b669544bead85a0178394b3138ea951b27f5f63e69223c5"
+    },
+    "pairfactory-tables-kit/research/game/climber/guided/pairfactory/TAILS_B.tsv": {
+      "bytes": 535,
+      "sha256": "f0ed76f70b78778889f3172a15b1b03cd9067804f287822ba78ae3580b2fe5a2"
+    },
+    "pairfactory-tables-kit/tail-observations.json": {
+      "bytes": 481819,
+      "sha256": "dcdf20639ca7f91ce237d77ffbe9ba7994aa6babdbc880af4f8adbb0d2985d3a"
+    },
+    "PROJECT.json": {
+      "bytes": 687,
+      "sha256": "8aeda494e4210cf5e2ae5c955150e6e962f8c6e6dd9420c54469da7f36132b8c"
+    },
+    "README.md": {
+      "bytes": 2558,
+      "sha256": "889df3756be52ec912ba278bdb92f9232d0b15c6ec64a66bbe0c15d01e16d352"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 4632,
+      "sha256": "5b970b688fff6bc0f6267becbc93782f3521dd56cc01222d1729ebef46ba934a"
+    }
+  }
+}

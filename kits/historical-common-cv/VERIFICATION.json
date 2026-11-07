@@ -1,0 +1,22 @@
+{
+  "project_id": "hash-cyberaxe-historical-common-cv",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "distinct_pairs": 1286,
+    "round_counts": {
+      "36": 179,
+      "37": 478,
+      "38": 156,
+      "39": 473
+    },
+    "source_receipts": 1288,
+    "standard_iv_pairs": 0,
+    "forty_round_pairs": 0,
+    "solver_runs": 0,
+    "claim_prices_certified": 0,
+    "scope": "Historical common-nonstandard-CV compression equalities only; not standard-IV hash collisions, legal padding, discovery credit or an attack price."
+  },
+  "finite_replay": "passed"
+}

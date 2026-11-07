@@ -1,0 +1,53 @@
+{
+  "project_id": "hash-cyberaxe-fulltrail-builder-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:12.234492+00:00",
+    "source": "fulltrail.py",
+    "source_sha256": "1513a08d9ebd015d55070dbac441c9d7bb0be4ddf958ec173bf9cb8ffb979465",
+    "cases": [
+      {
+        "case": "valid39",
+        "exit_code": 0,
+        "state_rows_checked": 43,
+        "W_rows_checked": 39,
+        "W_bit_symbols_checked": 1248,
+        "fixture_type": "synthetic, not a collision"
+      },
+      {
+        "case": "identical input messages",
+        "observed": "Accepted and emits all-equal W rows; builder does not itself reject trivial input."
+      },
+      {
+        "case": "seventeenth message word",
+        "observed": "Silently ignored on both sides."
+      },
+      {
+        "case": "R=0",
+        "observed": "Accepted; emits the four initial state rows only. No target-profile range check."
+      },
+      {
+        "case": "out-of-range 33-bit input word",
+        "observed": "Accepted and affects expansion even though the initial printed row shows only low32 bits. Reject such input before use."
+      },
+      {
+        "case": "15-word input",
+        "observed": "Fails with IndexError rather than a validated input diagnostic."
+      }
+    ],
+    "sign_direction": "The inspected writer emits u for first-side bit 1 / second-side bit 0, and n for first-side bit 0 / second-side bit 1. Bind this direction to the chosen encoder; do not assume another tool uses the same convention.",
+    "semantic_boundary": "The output fixes schedule difference symbols and asks for common initial and terminal A/E rows. It does not pin the supplied message values, provide a witness, run an encoder or solver, prove the encoding sound, enforce padding, or establish an ordinary standard-IV hash collision.",
+    "safe_use_contract": [
+      "Supply exactly 16 valid hexadecimal 32-bit words on each M1/M2 line.",
+      "Validate a target-supported R externally, and require a nontrivial word difference.",
+      "Write only to a fresh output path; the original builder overwrites its destination.",
+      "Treat emitted XML as a query specification. Validate the downstream encoder, sign convention and returned numerical pair separately."
+    ],
+    "research_search_executed": false,
+    "production_files_changed": false,
+    "scope": "Six tiny isolated builder fixtures. A synthetic XML fixture is not a SHA-256 collision or a full-trail feasibility certificate."
+  },
+  "finite_replay": "passed"
+}

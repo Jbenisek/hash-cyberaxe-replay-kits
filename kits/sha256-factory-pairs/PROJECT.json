@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sha256-factory-pairs",
+  "title": "Thirty-three collisions and nine schedule examples",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sha256-factory-pairs.zip",
+  "source_archive_sha256": "5a00593b6a36b5886387b022e43288dbef042f0ce48f33cda6a58f63df3e3b40",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sha256-factory-pairs",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "node",
+    "factory-pairs-kit/replay.cjs"
+  ],
+  "expected": "factory-pairs",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

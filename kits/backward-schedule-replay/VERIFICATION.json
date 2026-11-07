@@ -1,0 +1,108 @@
+{
+  "project_id": "hash-cyberaxe-backward-schedule-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "brief_sha256": "240693f413317f71eac17265aeadbd60096dd2eb858ed1b9a4bd51b697551dab",
+    "original_brief_checked": false,
+    "random_backward_pairs": 1024,
+    "round_trips": 2048,
+    "hashlib_controls": 4,
+    "pair_source": "SCHED_TAILLIGHTEST_board_tail.txt",
+    "pair_sha256": "a44679e91014f36eff1eb148c56ea52424057d46120a3836f114e6c45a5a716e",
+    "messages": [
+      [
+        "ffffffff",
+        "ffffffff",
+        "ffffffff",
+        "bbfd7bfe",
+        "6e2336d1",
+        "ffffffff",
+        "ffffffff",
+        "ffff55ff",
+        "a2004040",
+        "52120911",
+        "bbe00d8c",
+        "7ffd13d2",
+        "bcfc7110",
+        "e26af25f",
+        "6889b7b9",
+        "662bc0af"
+      ],
+      [
+        "ffffffff",
+        "ffffffff",
+        "ffffffff",
+        "bbfd7bfe",
+        "6e2336d1",
+        "ffffffff",
+        "ffffffff",
+        "ffff55ff",
+        "a2004048",
+        "42100910",
+        "bbe00d84",
+        "40016a51",
+        "bd017110",
+        "e26af25f",
+        "6889b7b9",
+        "662bc0af"
+      ]
+    ],
+    "support": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      17,
+      24,
+      26
+    ],
+    "xor_weights": {
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 20,
+      "12": 8,
+      "16": 3,
+      "17": 1,
+      "24": 2,
+      "26": 1
+    },
+    "late_xor_weight": 7,
+    "standard_iv_collision": false,
+    "standard_iv_outputs": [
+      [
+        "0fd13310",
+        "db751bd3",
+        "eb8d981d",
+        "838e37d8",
+        "99b1ad82",
+        "00328525",
+        "edc751bc",
+        "e6de1618"
+      ],
+      [
+        "8cd512da",
+        "77dc1e5f",
+        "69809d15",
+        "bef16820",
+        "953f7b67",
+        "f6a079a2",
+        "8a73e38a",
+        "56c2f6d9"
+      ]
+    ],
+    "screen_table_sha256": "5d8f34821965db1472c9bfaa9b43cf8600cae18c8349eaca1ce83d17c6e13e2b",
+    "screen_rows": 16,
+    "screen_distinct_trails": 8,
+    "screen_cuts": [
+      17,
+      38
+    ],
+    "scope": "Exact saved schedule witness and finite backward identities. The saved table has sixteen reported UNSAT rows for eight trails, not sixteen distinct trails. No UNSAT certificate, strict global minimum, independent-condition rank, real attack price or complete solver implementation audited."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,63 @@
+{
+  "project_id": "hash-cyberaxe-sparsedoor-price-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:08:01.724323+00:00",
+    "source_sha256": "e3a88e025bc3fd6cbd80d37f37c249288d3303a5510cb557c381ec408f2324a2",
+    "cases": [
+      {
+        "case": "synthetic-24-window-zero-variance-statistics-and-q-ordering",
+        "passed": true
+      },
+      {
+        "case": "synthetic-73-window-zero-variance-statistics-and-q-ordering",
+        "passed": true
+      },
+      {
+        "case": "only-first-json-array-entry-used-extra-entries-ignored",
+        "passed": true
+      },
+      {
+        "case": "unsupported-window-count-25-fails-hardcoded-factor-lookup",
+        "passed": true
+      },
+      {
+        "case": "empty-input-glob-fails-before-price",
+        "passed": true
+      },
+      {
+        "case": "zero-claw-denominator-fails",
+        "passed": true
+      },
+      {
+        "case": "empty-window-array-fails",
+        "passed": true
+      },
+      {
+        "case": "negative-estimated-claw-lower-bound-prints-stats-then-domain-error",
+        "passed": true
+      }
+    ],
+    "synthetic_outputs": [
+      {
+        "windows": 24,
+        "printed_board_times": [
+          108.16402,
+          109.22982
+        ]
+      },
+      {
+        "windows": 73,
+        "printed_board_times": [
+          108.16402,
+          109.22982
+        ]
+      }
+    ],
+    "path_literal_relocations": 1,
+    "scope": "Eight synthetic interface controls, not historical window recounts. Floating statistical estimates and inherited q are not exact success bounds; Fraction wraps already-rounded work. No sparse-head cost or new attack price is proved."
+  },
+  "finite_replay": "passed"
+}

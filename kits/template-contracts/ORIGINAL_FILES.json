@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "template-contracts-kit/extract.py",
+      "project_path": "template-contracts-kit/extract.py",
+      "sha256": "defe4d79fffa4ea40b37abab8f781b137f9ac2044d0d1faf0795ed24dd9cc5cb",
+      "bytes": 1349
+    },
+    {
+      "original": "template-contracts-kit/filltmpl.py",
+      "project_path": "template-contracts-kit/filltmpl.py",
+      "sha256": "4622198f9a101ee7d2ab09f87cf61bb70a9bb4ba9b0df828e3c155314781ad79",
+      "bytes": 529
+    },
+    {
+      "original": "template-contracts-kit/mktmpl.py",
+      "project_path": "template-contracts-kit/mktmpl.py",
+      "sha256": "ca6dfd7f02ff33d4089376f0a50cec6e02002fc2402715c21423e7f6b34812f8",
+      "bytes": 3618
+    },
+    {
+      "original": "template-contracts-kit/newrow.py",
+      "project_path": "template-contracts-kit/newrow.py",
+      "sha256": "003eab8c9a3a92639e8b8d372e05b5ba9b900acdc12840093c20782363f795fe",
+      "bytes": 1567
+    },
+    {
+      "original": "template-contracts-kit/loo_test.py",
+      "project_path": "template-contracts-kit/loo_test.py",
+      "sha256": "28d5c805933dccba30da90e28bef48613f6296ccd1fdc7807d81b1f5503db88a",
+      "bytes": 2577
+    },
+    {
+      "original": "template-contracts-kit/check_contracts.py",
+      "project_path": "template-contracts-kit/check_contracts.py",
+      "sha256": "e10d9dd7d6dc08f612d9c4ec9557113e50fdcece26b8400372f91ce131da6a79",
+      "bytes": 6927
+    },
+    {
+      "original": "template-contracts-kit/replay.py",
+      "project_path": "template-contracts-kit/replay.py",
+      "sha256": "c6f7ffffc245ea0459ed1550697214fc70239c88737d6cb7515089a2de7b2436",
+      "bytes": 1645
+    },
+    {
+      "original": "template-contracts-kit/README.md",
+      "project_path": "template-contracts-kit/README.md",
+      "sha256": "a0bed38af0a7412f5560c84cec411907ba1a27be6a8977440c7fe311a6d801fc",
+      "bytes": 3120
+    },
+    {
+      "original": "template-contracts-kit/MANIFEST.json",
+      "project_path": "template-contracts-kit/MANIFEST.json",
+      "sha256": "ce0098c774d7402a6d30b2444bfcd6bddaab1780c235113df408ae4cdbdcf160",
+      "bytes": 1184
+    }
+  ]
+}

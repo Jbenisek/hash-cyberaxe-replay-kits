@@ -1,0 +1,31 @@
+{
+  "project_id": "hash-cyberaxe-dig38-verdict-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_hashes_checked": 3,
+    "historical_parser_output": "b14R     NO-VIOLATOR seeds 6 E16set 80 prefix -85.023 N0 201326592 EX0 8032 N1 0 EX1 0 UBgain 1.0004 gain x1.0000 frow {} alive_rows [16] die_at 17 false 0 exit 0",
+    "record_builder_label": "NECESSARY (violators alive rows [16], die at row 17, never reach the window)",
+    "synthetic_controls": [
+      {
+        "N1": 0,
+        "EX1": 0,
+        "printed_label": "NO-VIOLATOR"
+      },
+      {
+        "N1": 1,
+        "EX1": 0,
+        "printed_label": "NECESSARY"
+      },
+      {
+        "N1": 1,
+        "EX1": 1,
+        "printed_label": "LEVER?"
+      }
+    ],
+    "builder_top_level_executed": false,
+    "scope": "Copied-log parsing and extracted classifier only. No sampler, solver, collision verification, necessity proof or validation of the printed statistical bound."
+  },
+  "finite_replay": "passed"
+}

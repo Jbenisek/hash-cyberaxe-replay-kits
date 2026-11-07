@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "original": "sha3-scope-kit/data/drop_k1.json",
+      "project_path": "sha3-scope-kit/data/drop_k1.json",
+      "sha256": "6cb04758e03ee64e75e8b03cbf5d9216881483d10aa559ccce5666068902aa28",
+      "bytes": 4195
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k2.json",
+      "project_path": "sha3-scope-kit/data/drop_k2.json",
+      "sha256": "0b50be798419bec2c730c14e109555156a09350ceff5ffa3b3f225986609a063",
+      "bytes": 3697
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k5.json",
+      "project_path": "sha3-scope-kit/data/drop_k5.json",
+      "sha256": "35b8c0c435708cbeee36c237f220767c13540f72190004e4b5b44a0608d1e805",
+      "bytes": 3162
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k6.json",
+      "project_path": "sha3-scope-kit/data/drop_k6.json",
+      "sha256": "8033d7a3f700974f0f92fa064b0f76b2065c70b1404edb14d23531e93adb8523",
+      "bytes": 3990
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k8.json",
+      "project_path": "sha3-scope-kit/data/drop_k8.json",
+      "sha256": "b8a3e379ad93030a28b3f3ed430958068bef785d49991d8fc3c269abf8bf542d",
+      "bytes": 3783
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k9.json",
+      "project_path": "sha3-scope-kit/data/drop_k9.json",
+      "sha256": "ded90b3384a8c4d88628c2350ba0067742e07128cc01060b6d4ffc0cf8ca7681",
+      "bytes": 4197
+    },
+    {
+      "original": "sha3-scope-kit/data/drop_k11.json",
+      "project_path": "sha3-scope-kit/data/drop_k11.json",
+      "sha256": "9ae7d1802df88cd540375704aa84354c37b0fdcf526adac853edf8079489331b",
+      "bytes": 4404
+    },
+    {
+      "original": "sha3-scope-kit/replay.py",
+      "project_path": "sha3-scope-kit/replay.py",
+      "sha256": "10794b990d0303c231c1bd1953bca695a255d037c24a8ee414428a71edfa472b",
+      "bytes": 6973
+    },
+    {
+      "original": "sha3-scope-kit/README.md",
+      "project_path": "sha3-scope-kit/README.md",
+      "sha256": "a026efe588be0454bb1b7ef25237913cdeaa4eb01b37266d3c01939ededc81ed",
+      "bytes": 4911
+    },
+    {
+      "original": "sha3-scope-kit/SOURCES.json",
+      "project_path": "sha3-scope-kit/SOURCES.json",
+      "sha256": "69e1a79b5a38e417e98863c3ff0136bab3e32032c8e45cbff969d7e6ffaeea94",
+      "bytes": 3296
+    },
+    {
+      "original": "sha3-scope-kit/MANIFEST.json",
+      "project_path": "sha3-scope-kit/MANIFEST.json",
+      "sha256": "46779ee16a21f85a7381a211482e72958702d20f28b82092afba716d6c28e1c0",
+      "bytes": 1519
+    }
+  ]
+}

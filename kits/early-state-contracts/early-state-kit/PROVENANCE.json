@@ -1,0 +1,23 @@
+{
+  "source_files": [
+    {
+      "path": "research/game/climber/guided/minsup/mk_tap.py",
+      "sha256": "f8547f0ea192e61d47c5ed50e287276d0b80e17a53a05dd03c853b43482222e9"
+    },
+    {
+      "path": "research/luna/L005/shapes.tsv",
+      "sha256": "f83cee2081ebe30a657798c2b2dfa1b275729493a82900edb44c464437011382"
+    },
+    {
+      "path": "research/luna/L002/build_sparse42_fix4.sh",
+      "sha256": "58ad605e7dd58ea3a88754c523a59dac08169184e5e5077e2cd4840543dda781"
+    },
+    {
+      "path": "research/luna/L005/run_fullstate_fix.sh",
+      "sha256": "505fc7a14b98b51ac2b6b5f9f29b846f391750ef8d23c5e1be277a755015debf"
+    }
+  ],
+  "source_bytes_unchanged": true,
+  "scope": "Only copied mk_tap text generation and 8-bit additive controls were executed. Launchers were read, not run. No SAT verdict, solver certificate, 32-bit collision, cost or corrected-shape satisfiability is established.",
+  "checker": "New publication audit. Only the copied XML generator is executed."
+}

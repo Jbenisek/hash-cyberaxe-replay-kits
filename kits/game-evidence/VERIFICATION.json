@@ -1,0 +1,19 @@
+{
+  "project_id": "hash-cyberaxe-game-evidence",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "meter_records": 70,
+    "distinct_meter_pair_identities": 57,
+    "standard_iv_records": 33,
+    "collisions": 0,
+    "difference_group_rows": 293,
+    "saved_group_record_count": 1417,
+    "reported_horizon_records": 70,
+    "unknown_horizons": 46,
+    "known_answer_and_mutation_controls": true,
+    "scope": "Exact replay of numerical compression traces and table arithmetic. No schedule-group equivalence, independent-trial law, horizon feasibility, padding eligibility or complete price certified."
+  },
+  "finite_replay": "passed"
+}

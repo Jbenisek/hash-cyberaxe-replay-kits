@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-pairfactory-tables",
+  "title": "Read the table before counting the result",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "pairfactory-tables.zip",
+  "source_archive_sha256": "d7cd0f9b2fc08848fc3c7c48b9b7ef87c9251ea0dca335cbbcb2b09b2e2c4a45",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/pairfactory-tables",
+  "tool_families": [],
+  "original_payload_files": 11,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "pairfactory-tables-kit/replay.py"
+  ],
+  "expected": "pairfactory-tables",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

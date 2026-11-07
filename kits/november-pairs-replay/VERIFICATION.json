@@ -1,0 +1,41 @@
+{
+  "project_id": "hash-cyberaxe-november-pairs-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "known_answer": "SHA-256 abc",
+    "candidates": 4,
+    "collisions": 1,
+    "noncollisions": 3,
+    "mutation_and_one_step_extension_rejected": true,
+    "results": [
+      {
+        "id": "6a682aab67dfe33c6389d2dff585402fcda0a4e9540bfa255338835375145452",
+        "rounds": 39,
+        "shared_chosen_cv": true,
+        "collision": true
+      },
+      {
+        "id": "a4e1d51af4a8c7eabcceb1f3d83403ab06e707aa048026bf417dfe26f808c767",
+        "rounds": 39,
+        "shared_chosen_cv": true,
+        "collision": false
+      },
+      {
+        "id": "3c1396ce4ecd029edd27be91c2183c9c2919549dbe3ec3f0f48ef38b652ff265",
+        "rounds": 39,
+        "shared_chosen_cv": true,
+        "collision": false
+      },
+      {
+        "id": "30fe57a0200df47804ff2e88e4878362366a50bedddbb41a538bd779e9354e67",
+        "rounds": 39,
+        "shared_chosen_cv": true,
+        "collision": false
+      }
+    ],
+    "scope": "Finite full-width chosen-CV compression replay. The three noncolliding state candidates are not claimed collisions. No standard-IV collision, padding eligibility or discovery-price claim."
+  },
+  "finite_replay": "passed"
+}

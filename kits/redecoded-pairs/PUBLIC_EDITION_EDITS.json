@@ -1,0 +1,16 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "redecoded-pairs/current-decode.txt",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "7ed36ae6325509c3519fa885f665faaa7fb13046ebe2c0933e7d9d656daab283",
+      "original_bytes": 1711,
+      "published_sha256": "82b538e1d1b4c68cfcb0c8864f0a3bff8e601335876bb1641c536a61a866da18",
+      "published_bytes": 1719
+    }
+  ]
+}

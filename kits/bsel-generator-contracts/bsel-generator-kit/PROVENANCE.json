@@ -1,0 +1,10 @@
+{
+  "source_path": "research/blake3_r3/bsel/pkg/blake3/experiments/bsrho.py",
+  "source_sha256": "b72dd6a3705e844959fdff8ed4f4805484f3d24ae068fd6a9f06992d6cd8a8c1",
+  "wasm_path": "research/blake3_r3/bsel/gen_c/gen.wasm",
+  "wasm_sha256": "0918ee3fcc92fb33164ccb9898d2c5b1cf2a28d80e7a3aeee12b031de48648f1",
+  "unchanged_source_and_wasm": true,
+  "new_helpers": "Finite publication checks, not historical research launchers.",
+  "compile_provenance_limit": "Retained C text matches embedded source after newline normalization; no fresh compiler build was performed.",
+  "independent_reference_bundled": false
+}

@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "finished_at": "2026-11-07T21:22:53.135001+00:00",
+  "source_sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa",
+  "input_files": [
+    {
+      "path": "research/tools/indep_sha256_check.py",
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61"
+    }
+  ],
+  "results": {
+    "standard_hashlib_controls": 4,
+    "gate_truth_assignments": 80,
+    "shape_truth_assignments": 64,
+    "complete_trace_fixtures": [
+      {
+        "steps": 1,
+        "chaining": "iv",
+        "constant_offset": 0,
+        "native_xor": false,
+        "variables": 1075,
+        "cnf_clauses": 2747,
+        "xor_clauses": 0,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 4,
+        "chaining": "free",
+        "constant_offset": 0,
+        "native_xor": false,
+        "variables": 4041,
+        "cnf_clauses": 15081,
+        "xor_clauses": 0,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 17,
+        "chaining": "iv",
+        "constant_offset": 0,
+        "native_xor": false,
+        "variables": 14368,
+        "cnf_clauses": 64073,
+        "xor_clauses": 0,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 39,
+        "chaining": "free",
+        "constant_offset": 0,
+        "native_xor": false,
+        "variables": 41802,
+        "cnf_clauses": 187833,
+        "xor_clauses": 0,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 3,
+        "chaining": "iv",
+        "constant_offset": 7,
+        "native_xor": false,
+        "variables": 2583,
+        "cnf_clauses": 9775,
+        "xor_clauses": 0,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": false
+      },
+      {
+        "steps": 1,
+        "chaining": "iv",
+        "constant_offset": 0,
+        "native_xor": true,
+        "variables": 1075,
+        "cnf_clauses": 1623,
+        "xor_clauses": 281,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 4,
+        "chaining": "free",
+        "constant_offset": 0,
+        "native_xor": true,
+        "variables": 4041,
+        "cnf_clauses": 6489,
+        "xor_clauses": 2148,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 17,
+        "chaining": "iv",
+        "constant_offset": 0,
+        "native_xor": true,
+        "variables": 14368,
+        "cnf_clauses": 28133,
+        "xor_clauses": 8985,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 39,
+        "chaining": "free",
+        "constant_offset": 0,
+        "native_xor": true,
+        "variables": 41802,
+        "cnf_clauses": 76093,
+        "xor_clauses": 27935,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": true
+      },
+      {
+        "steps": 3,
+        "chaining": "iv",
+        "constant_offset": 7,
+        "native_xor": true,
+        "variables": 2583,
+        "cnf_clauses": 4867,
+        "xor_clauses": 1227,
+        "all_generated_clauses_satisfied": true,
+        "independent_state_matches": true,
+        "decoder_reference_matches": false
+      }
+    ],
+    "duplicate_rows_keep_last": true,
+    "empty_model_decodes_trivial_equal_pair": true,
+    "nonzero_KOFF_is_not_honored_by_decoder_reference": true
+  },
+  "scope": "Finite 32-bit CNF/native-XOR gate and trace fixtures, shape semantics and decoder negative controls. No solver, complete-model validation, reduced-width certification or proof of all optional modes."
+}

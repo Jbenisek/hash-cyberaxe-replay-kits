@@ -1,0 +1,784 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-02T11:25:17.976577+00:00",
+  "scope": "Saved histogram sums and cross-table joins, not a GPU rerun, collision verification or general family barrier.",
+  "sources": {
+    "GPU_JAMMAP_1101.txt": {
+      "sha256": "86a3689b1221b419f2373c6bf4e0315430356393d6c30061726939dbd67a993a",
+      "bytes": 1820
+    },
+    "GPU_LEAKMAP_1101.tsv": {
+      "sha256": "f8d10d3c40013e277b8b62d480b4afaae4e779ef04b8660b3f3731020fb351b8",
+      "bytes": 4183
+    },
+    "cvabsorb_gpu.cu": {
+      "sha256": "36e05438513dafa14fd121249da9114ecc9fbd3c3c9a8f5cbc8509734a8285d2",
+      "bytes": 7221
+    },
+    "cvabsorb2_gpu.cu": {
+      "sha256": "0998326828b6b1f315cc97e40a6fed5d740dcf474e978d3df54dd6b09effe727",
+      "bytes": 10583
+    }
+  },
+  "histograms_checked": 7,
+  "leak_rows_checked": 61,
+  "groups": [
+    {
+      "steps": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "specimens": 10,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 18
+    },
+    {
+      "steps": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "specimens": 10,
+      "shifts_reaching_row19": 48,
+      "deepest_nonzero_failure_row": 19
+    },
+    {
+      "steps": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d31",
+      "specimens": 1,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 18
+    },
+    {
+      "steps": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "specimens": 10,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 18
+    },
+    {
+      "steps": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "specimens": 10,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 18
+    },
+    {
+      "steps": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "specimens": 10,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 18
+    },
+    {
+      "steps": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "specimens": 10,
+      "shifts_reaching_row19": 0,
+      "deepest_nonzero_failure_row": 17
+    }
+  ],
+  "histograms": [
+    {
+      "steps": 37,
+      "delta": "d28",
+      "key": "f17a31bfeb3e",
+      "histogram": {
+        "16": 3758096384,
+        "17": 536870656,
+        "18": 255,
+        "37": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 18,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 536870911
+    },
+    {
+      "steps": 37,
+      "delta": "d29",
+      "key": "7145c1282b25",
+      "histogram": {
+        "16": 2147483648,
+        "17": 2147418256,
+        "18": 65385,
+        "19": 6,
+        "37": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 19,
+      "nonzero_shifts_reaching_row19": 6,
+      "nonzero_shifts_passing_row16": 2147483647
+    },
+    {
+      "steps": 37,
+      "delta": "d31",
+      "key": "7f313731c456",
+      "histogram": {
+        "16": 2147483648,
+        "17": 2147474880,
+        "18": 8767,
+        "37": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 18,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 2147483647
+    },
+    {
+      "steps": 38,
+      "delta": "d29",
+      "key": "d1f818b92f02",
+      "histogram": {
+        "16": 4290772992,
+        "17": 4194303,
+        "38": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 17,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 4194303
+    },
+    {
+      "steps": 38,
+      "delta": "d29",
+      "key": "f90d87fa8fec",
+      "histogram": {
+        "16": 4227858432,
+        "17": 67106945,
+        "18": 1918,
+        "38": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 18,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 67108863
+    },
+    {
+      "steps": 39,
+      "delta": "d30",
+      "key": "e04415e3cfc9",
+      "histogram": {
+        "16": 4261412864,
+        "17": 33554417,
+        "18": 14,
+        "39": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 18,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 33554431
+    },
+    {
+      "steps": 39,
+      "delta": "d28",
+      "key": "1c87b1645c0f",
+      "histogram": {
+        "16": 4294552320,
+        "17": 414975,
+        "39": 1
+      },
+      "domain_shifts": 4294967296,
+      "full_predicate_passes": 1,
+      "reported_hit_shifts": [
+        "00000000"
+      ],
+      "nonzero_full_predicate_passes": 0,
+      "deepest_nonzero_failure_row": 17,
+      "nonzero_shifts_reaching_row19": 0,
+      "nonzero_shifts_passing_row16": 414975
+    }
+  ],
+  "leak_rows": [
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "f17a31bfeb3e",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "6da90fa8c6a7",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "651af2505f0f",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "2e1b06a4d145",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "36a4c1681b07",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "370c481e680e",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "40107aa4cd7a",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "56e18e539a85",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "6aa48b3c8264",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6,7,9,14}+L{22,23}",
+      "delta": "d28",
+      "key": "713a0515c820",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -3.000000002687229
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "7145c1282b25",
+      "deepest_row": 19,
+      "shifts_to_19plus": 6,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "407698660213",
+      "deepest_row": 19,
+      "shifts_to_19plus": 4,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "4aa60d0fc661",
+      "deepest_row": 19,
+      "shifts_to_19plus": 3,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "69b5071edc75",
+      "deepest_row": 19,
+      "shifts_to_19plus": 4,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "7ca87b95e72f",
+      "deepest_row": 19,
+      "shifts_to_19plus": 7,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "f580b931c641",
+      "deepest_row": 19,
+      "shifts_to_19plus": 4,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "18af6c97e599",
+      "deepest_row": 19,
+      "shifts_to_19plus": 10,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "ece6d83cd59d",
+      "deepest_row": 19,
+      "shifts_to_19plus": 4,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "6d411e86be35",
+      "deepest_row": 19,
+      "shifts_to_19plus": 3,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d29",
+      "key": "a2ff3e633d1e",
+      "deepest_row": 19,
+      "shifts_to_19plus": 3,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 37,
+      "family": "W{6..10,14,15}+L{22,24}",
+      "delta": "d31",
+      "key": "7f313731c456",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -1.0000000006718073
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "d1f818b92f02",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -10.000000343965343
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "50257c47044f",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -10.000000343965343
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "0035a4af6a77",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "013ae0e0f5a8",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "132e83f5fb61",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.000000171982661
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "184bfc71e065",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -10.000000343965343
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "1af19a3a3a49",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "1c8aa951d84d",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "2dee0dacc927",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7,8,10,15}+L{23,24}",
+      "delta": "d29",
+      "key": "3a0e1557da5c",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -9.415037728589063
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "f90d87fa8fec",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "ca42c00b637f",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "0eee6dda67f2",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "4d281f64122e",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "fec753d8a2db",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "c46a24a12172",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "80ca4e0239a2",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -6.000000021497832
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "242186bcb38f",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "25933e939c57",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 38,
+      "family": "W{7..11,15}+L{16,23,25}",
+      "delta": "d29",
+      "key": "a0e6366224c9",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "e04415e3cfc9",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "010c13f8edc1",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "02c7fa74c3a6",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "03ff40baad94",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "0424426e4299",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "05064a0bc3ab",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "0820a3be9968",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "0930f405663b",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "0966d8eeb7b8",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d30",
+      "key": "09a3a934e9f2",
+      "deepest_row": 18,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -7.000000042995663
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "1c87b1645c0f",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -13.337335101061294
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "9e26560cc992",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "0f9a2e47ddfd",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "1ebeac346432",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "22d72922ab7a",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "2b0409785bef",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "37877c47e3f5",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "728d40334a74",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "a190ee7b7bde",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    },
+    {
+      "h": 39,
+      "family": "W{8..12}+L{16,17,24,26}",
+      "delta": "d28",
+      "key": "ae8575187cf0",
+      "deepest_row": 17,
+      "shifts_to_19plus": 0,
+      "pass16_log2": -12.669085309591818
+    }
+  ],
+  "pass16_denominator": 4294967296,
+  "pass16_numerator": "Nonzero shifts whose first failing row is greater than16; subtract the d=0 control.",
+  "pass16_caveat": "The recorded ratio excludes d=0 from the numerator, but retains all2^32 shifts in the denominator. It is not the conditional rate on the2^32-1 nonzero shifts.",
+  "predicate_caveat": "fwd returns R after supplied A/E/W masks pass. It does not independently compare eight feedforward digest words. Exact characteristic and pair identities remain needed.",
+  "mode_caveat": "These seven logs identify h-absorb. Do not mix them with hg or invN back-inversion runs.",
+  "new_pair_correction": "Each saved histogram has one full predicate pass, d=0: the unchanged input. The printed label new pairs does not make it new.",
+  "kernel_review_only": true,
+  "gpu_executed": false,
+  "new_discovery_claim": false
+}

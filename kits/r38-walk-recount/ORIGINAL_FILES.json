@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "r38-walk-recount/ledger.json",
+      "project_path": "r38-walk-recount/ledger.json",
+      "sha256": "49ee1d816d6365e37c894829282a34fb2bbc2bd7c949e810cab1a47a7fd10ca4",
+      "bytes": 10818
+    },
+    {
+      "original": "r38-walk-recount/manifest.json",
+      "project_path": "r38-walk-recount/manifest.json",
+      "sha256": "97afe40f7e9c0c1b826c5016b7c001c0fbd899b9bec5634277ce6bfbcae0c620",
+      "bytes": 936
+    },
+    {
+      "original": "r38-walk-recount/README.txt",
+      "project_path": "r38-walk-recount/README.txt",
+      "sha256": "0abb3dc113cfed4d74b6c97db483ba67741e30e48244f3614b8865fb2d793ca6",
+      "bytes": 3145
+    },
+    {
+      "original": "r38-walk-recount/recount.py",
+      "project_path": "r38-walk-recount/recount.py",
+      "sha256": "de63b605cf46a54656c0b76b7fb25eed31bb9db8b8a83ef69915e2df10dad391",
+      "bytes": 4747
+    },
+    {
+      "original": "r38-walk-recount/replay.py",
+      "project_path": "r38-walk-recount/replay.py",
+      "sha256": "e565167c6b7bc69afd091c2a70de0ac55435d3aa5207823a1c0de9a788f192e3",
+      "bytes": 1461
+    }
+  ]
+}

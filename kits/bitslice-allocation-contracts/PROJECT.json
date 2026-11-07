@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-bitslice-allocation-contracts",
+  "title": "BIT-SLICED BLAKE3 / ALLOCATION AND COUNTING CONTROLS",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "bitslice-allocation-contracts.zip",
+  "source_archive_sha256": "e08e0e39d70fab7be0b9d827c5fe16b5cc7330ca1b9fb7e1d2f2ac8056707013",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/bitslice-allocation-contracts",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "bitslice-allocation-kit/replay.py"
+  ],
+  "expected": "bitslice-allocation",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

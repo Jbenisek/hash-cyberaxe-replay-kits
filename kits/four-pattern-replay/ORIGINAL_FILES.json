@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "original": "four-pattern-kit/verify_alts.py",
+      "project_path": "four-pattern-kit/verify_alts.py",
+      "sha256": "697fc57c17b2be84b34ccb90b23e16fb121cdd8e2f796f8cd1319e9a1b55b8d3",
+      "bytes": 1364
+    },
+    {
+      "original": "four-pattern-kit/sha256_ref.py",
+      "project_path": "four-pattern-kit/sha256_ref.py",
+      "sha256": "7c500e4aa1bb30b8da994faf72a889dfa53d82b6cf114812429b7f91e7559a5d",
+      "bytes": 3830
+    },
+    {
+      "original": "four-pattern-kit/indep_sha256_check.py",
+      "project_path": "four-pattern-kit/indep_sha256_check.py",
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61",
+      "bytes": 3843
+    },
+    {
+      "original": "four-pattern-kit/alt_G1_verify.json",
+      "project_path": "four-pattern-kit/alt_G1_verify.json",
+      "sha256": "ea7f0632a981822b2f66fae3384a087ea44f8d467814dac96177f2295f1517d2",
+      "bytes": 1055
+    },
+    {
+      "original": "four-pattern-kit/alt_G2_verify.json",
+      "project_path": "four-pattern-kit/alt_G2_verify.json",
+      "sha256": "735911cc91f8aa585bfd3008b9d650a7eac36f033c0c8553b27ff5026d8235d4",
+      "bytes": 1054
+    },
+    {
+      "original": "four-pattern-kit/alt_G12_verify.json",
+      "project_path": "four-pattern-kit/alt_G12_verify.json",
+      "sha256": "b64eaaea8c378c815a50ea1bd652fba06a909e2d15c9f62e80a52080690e1fea",
+      "bytes": 1097
+    },
+    {
+      "original": "four-pattern-kit/i_all52_verify.json",
+      "project_path": "four-pattern-kit/i_all52_verify.json",
+      "sha256": "413aeb74d54ca64fe60131d82de5596ce9e27eadf0c2b96448591559016a327b",
+      "bytes": 1097
+    },
+    {
+      "original": "four-pattern-kit/check_contract.py",
+      "project_path": "four-pattern-kit/check_contract.py",
+      "sha256": "b6690c8da06d7c9b701fed454fb1d26e654b706e1cf16a1a271b8eeb7f0de968",
+      "bytes": 6972
+    },
+    {
+      "original": "four-pattern-kit/replay.py",
+      "project_path": "four-pattern-kit/replay.py",
+      "sha256": "0ed784aeed763b15f73a766bd23174b38d462e843c28e263a578caa5e27f7955",
+      "bytes": 1183
+    },
+    {
+      "original": "four-pattern-kit/README.md",
+      "project_path": "four-pattern-kit/README.md",
+      "sha256": "e84e92c614c7e5785898c6ad53583d3d03b2700e4c0bbb0d762fdcd188839dd5",
+      "bytes": 3236
+    },
+    {
+      "original": "four-pattern-kit/MANIFEST.json",
+      "project_path": "four-pattern-kit/MANIFEST.json",
+      "sha256": "99a0ac902980b8b5200b2df2525f0023484a0ac0b29ed3c5dd338451b0b55cb0",
+      "bytes": 1179
+    }
+  ]
+}

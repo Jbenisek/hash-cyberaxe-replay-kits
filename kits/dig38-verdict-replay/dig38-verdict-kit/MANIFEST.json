@@ -1,0 +1,30 @@
+{
+  "scope": "Saved-label provenance and finite parser controls, not cryptographic replay.",
+  "files": [
+    {
+      "path": "sources/analyze.py",
+      "bytes": 1805,
+      "sha256": "457bdde652008dfbce2389eeb123b38d3b3cc11a8d2f5a43084234a5154ef843"
+    },
+    {
+      "path": "sources/build_records.py",
+      "bytes": 5547,
+      "sha256": "af1679d1a0d28726eb36347a1a0ee516bd05805c78b4390d4e0aaef3c5cc2eee"
+    },
+    {
+      "path": "sources/b14R.txt",
+      "bytes": 11249,
+      "sha256": "2eaedf117163154bd8fe95e972fab07eea418cbd7b4322ee777f0948462c033d"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 3548,
+      "sha256": "33149b8758688dafee1fa05ba5a127a6f08e9c3c21aad94c1a816c1115ec2ec1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2259,
+      "sha256": "d2a2c0217f36d24751bf7e4b6df9de28fe39daa8d6630c8b3776e092996adfac"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "fulltrail-builder-kit/example.pair": {
+      "bytes": 344,
+      "sha256": "8fd409c27126fc770cd5bb872666f3797bbf830e25b2cd6c326e95487b616b80"
+    },
+    "fulltrail-builder-kit/fulltrail.py": {
+      "bytes": 1564,
+      "sha256": "1513a08d9ebd015d55070dbac441c9d7bb0be4ddf958ec173bf9cb8ffb979465"
+    },
+    "fulltrail-builder-kit/manifest.json": {
+      "bytes": 660,
+      "sha256": "becd1e629110faf653ead375282d131bea53b4f0d5232a28f26c86283227a5fe"
+    },
+    "fulltrail-builder-kit/README.txt": {
+      "bytes": 2718,
+      "sha256": "c192f2b649db20bb75a4a56b83cfdaf94b2b20bfd1b17a9a1d467378a094e0db"
+    },
+    "fulltrail-builder-kit/replay.py": {
+      "bytes": 6574,
+      "sha256": "1c3edd1295cbaf2e223503d095b2da17a5e9b4ec0fe8ddde58b6c932dce31d4a"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1175,
+      "sha256": "923e142a1c5a1fa137c17cb175b4e040a667f58578cc0d980fd96923ef699e17"
+    },
+    "PROJECT.json": {
+      "bytes": 745,
+      "sha256": "6f28fb91008ed17ffdfcebb4e5859e38b036170892d797b66d849f44309a579e"
+    },
+    "README.md": {
+      "bytes": 2992,
+      "sha256": "5788c89ec4557926bd5e9dd71ce6394112264ffe37715ca2bb13896c3dbbb93b"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2631,
+      "sha256": "4fa0ec845068e035fe8bfe2a7242ec63b5ba1755e314b18ae028ac5b7b9b48af"
+    }
+  }
+}

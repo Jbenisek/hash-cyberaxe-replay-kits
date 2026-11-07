@@ -1,0 +1,112 @@
+{
+  "source_pins": {
+    "previous": {
+      "path": "research/game/climber/guided/kit/sha_cnf_pre_vfix_1101.py",
+      "sha256": "b887c9f80dd01afdf4281f60a3f14289d7547d239a50ec86b4c515b0e0827c57"
+    },
+    "current": {
+      "path": "research/game/climber/guided/kit/sha_cnf.py",
+      "sha256": "8a464a18f298873141384d8d6bf42df6f551cfac55f9a8d5c03ce6942fa36ebc"
+    }
+  },
+  "cases": [
+    {
+      "name": "clean-v-lines",
+      "input": "s SATISFIABLE\nv 2 -3 0\n",
+      "expected": {
+        "previous": [
+          1,
+          0
+        ],
+        "current": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "statistics-after-model",
+      "input": "s SATISFIABLE\nv 2 -3 0\nc statistics -2 3 0\n",
+      "expected": {
+        "previous": [
+          0,
+          1
+        ],
+        "current": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "bare-model-with-comments",
+      "input": "2 -3 0\nc statistics -2 3 0\n",
+      "expected": {
+        "previous": [
+          0,
+          1
+        ],
+        "current": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "statistics-before-model",
+      "input": "c statistics -2 3 0\nv 2 -3 0\n",
+      "expected": {
+        "previous": [
+          1,
+          0
+        ],
+        "current": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "missing-assignment-defaults",
+      "input": "s SATISFIABLE\nv 2 0\n",
+      "expected": {
+        "previous": [
+          1,
+          0
+        ],
+        "current": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "contradictory-last-value-wins",
+      "input": "v 2 -3 0\nv -2 3 0\n",
+      "expected": {
+        "previous": [
+          0,
+          1
+        ],
+        "current": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "indented-prefix-outside-contract",
+      "input": " v 2 -3 0\n c statistics -2 3 0\n",
+      "expected": {
+        "previous": [
+          0,
+          1
+        ],
+        "current": [
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}

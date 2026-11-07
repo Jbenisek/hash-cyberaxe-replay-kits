@@ -1,0 +1,50 @@
+{
+  "project_id": "hash-cyberaxe-scaled-sigma-audit",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "singular_width_sigma_cases": 30,
+    "singular_widths_by_sigma": {
+      "0": [
+        1,
+        2,
+        7,
+        11,
+        15,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        31
+      ],
+      "1": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        20,
+        22,
+        23,
+        25,
+        26,
+        30
+      ]
+    },
+    "both_standard_32bit_sigmas_injective": true,
+    "source_sha256": "89083bdf81f33c236d94f4b253218789ac6a147cf700de7b643a8601b58b293f",
+    "external_solver_executed": false,
+    "production_files_changed": false
+  },
+  "finite_replay": "passed"
+}

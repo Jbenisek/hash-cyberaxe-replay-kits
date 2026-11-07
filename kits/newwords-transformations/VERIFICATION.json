@@ -1,0 +1,169 @@
+{
+  "project_id": "hash-cyberaxe-newwords-transformations",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:34.453460+00:00",
+    "input_files": [
+      {
+        "path": "research/game/climber/guided/newwords/nw.py",
+        "sha256": "7f78c0ea2113ad2dad0719073befea20862001ff801c81f456e060b026382a1b"
+      },
+      {
+        "path": "research/game/climber/guided/newwords/nw2.py",
+        "sha256": "ae862e7e76a1c482344337251b51ec7c42e7cf8474fc84f7cfac9ee0d878841f"
+      },
+      {
+        "path": "research/game/climber/guided/newwords/nw3.py",
+        "sha256": "234f7071722859e1fb7d6483dd3fc1f29309f5d53cbf6620c99dc51efda7d628"
+      },
+      {
+        "path": "research/game/climber/guided/kit/char_pair_profile.py",
+        "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611"
+      }
+    ],
+    "scope": "Nine synthetic characteristic-text transformations and two char CLI controls. No seed corpus, CNF generation, SAT solve, message collision or success-rate check.",
+    "results": {
+      "transformations": [
+        {
+          "module": "nw",
+          "band": "b0811",
+          "n": 39,
+          "file": "nw_b0811.xml",
+          "freed_state_rows": [],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw",
+          "band": "b1215",
+          "n": 39,
+          "file": "nw_b1215.xml",
+          "freed_state_rows": [],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw",
+          "band": "b1619",
+          "n": 39,
+          "file": "nw_b1619.xml",
+          "freed_state_rows": [],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw2",
+          "band": "b0811",
+          "n": 39,
+          "file": "nw2_b0811.xml",
+          "freed_state_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw2",
+          "band": "b1215",
+          "n": 39,
+          "file": "nw2_b1215.xml",
+          "freed_state_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw2",
+          "band": "b1619",
+          "n": 39,
+          "file": "nw2_b1619.xml",
+          "freed_state_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw3",
+          "band": "b0811",
+          "n": 39,
+          "file": "nw3_b0811.xml",
+          "freed_state_rows": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw3",
+          "band": "b1215",
+          "n": 39,
+          "file": "nw3_b1215.xml",
+          "freed_state_rows": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        },
+        {
+          "module": "nw3",
+          "band": "b1619",
+          "n": 39,
+          "file": "nw3_b1619.xml",
+          "freed_state_rows": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "schedule_rows_free": 39,
+          "passed": true
+        }
+      ],
+      "char_cli_without_band_leaves_state_rows_unchanged": 2
+    }
+  },
+  "finite_replay": "passed"
+}

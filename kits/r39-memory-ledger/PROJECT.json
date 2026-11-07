@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-r39-memory-ledger",
+  "title": "Historical r39 memory ledger: numerical replay",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "r39-memory-ledger.zip",
+  "source_archive_sha256": "6c26b9e1c883912048bb41badd59830e6f2d7e2896da8ebb5de40d3d8f0330f2",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/r39-memory-ledger",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "r39-memory-ledger/replay.py"
+  ],
+  "expected": "r39-memory",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

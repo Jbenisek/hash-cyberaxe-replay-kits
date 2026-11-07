@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "original": "up39-corrected-ledger/manifest.json",
+      "project_path": "up39-corrected-ledger/manifest.json",
+      "sha256": "d78e15abee646ce78a595f675d98fd7e2769bba5b16c2a4d430d4d7d589b6a2a",
+      "bytes": 527
+    },
+    {
+      "original": "up39-corrected-ledger/originals/p5.out",
+      "project_path": "up39-corrected-ledger/originals/p5.out",
+      "sha256": "fe28418aee02b1045ad2d67528d1d71186a755d170ff51ed7112c835dfcfd4e8",
+      "bytes": 81095
+    },
+    {
+      "original": "up39-corrected-ledger/originals/p7.out",
+      "project_path": "up39-corrected-ledger/originals/p7.out",
+      "sha256": "1b56b6eafcc058c89901771523bebcfb766338b5e167474f0df1191ea329fa90",
+      "bytes": 174756
+    },
+    {
+      "original": "up39-corrected-ledger/originals/RESULTS.tsv",
+      "project_path": "up39-corrected-ledger/originals/RESULTS.tsv",
+      "sha256": "9c0cddd3bfb7fb389a7575cc990c3232f2ab5567d27d4848f6b61d03b19102ee",
+      "bytes": 1157
+    },
+    {
+      "original": "up39-corrected-ledger/README.txt",
+      "project_path": "up39-corrected-ledger/README.txt",
+      "sha256": "e7a54b1d42ed9475c1d41bb14ff0c2d041e62c19421ad3a205ff0107d7d0a697",
+      "bytes": 2316
+    },
+    {
+      "original": "up39-corrected-ledger/records.json",
+      "project_path": "up39-corrected-ledger/records.json",
+      "sha256": "668d6c17b682f0b52a33ecdb8520ffec14cc7fe51c6664cb9a29708110104055",
+      "bytes": 12304
+    },
+    {
+      "original": "up39-corrected-ledger/replay.py",
+      "project_path": "up39-corrected-ledger/replay.py",
+      "sha256": "947f058a1bc206fc555b7d5cf41b7f14a4992a26a48f0111e745bef90739cfaa",
+      "bytes": 8357
+    }
+  ]
+}

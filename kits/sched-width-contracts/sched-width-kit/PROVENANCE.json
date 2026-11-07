@@ -1,0 +1,7 @@
+{
+  "source": "HASH$CyberAxe project export, newdoors/headaware/lens/schedcnf.py",
+  "source_sha256": "f442b063a19cb413bd3d96698395b5ca44a32ef3e9942f1096446a048399d7a4",
+  "source_bytes_unchanged": true,
+  "scope": "Exact finite reduced-width counterexamples and source behavior only. The standard 32-bit small sigmas are full-rank in the checked linear algebra; no 32-bit unsoundness, historical false verdict or collision is established. Only fixed-input clause propagation, no branching search, external solver, compiler or persistent process.",
+  "audit": "Publication finite-check implementation; not a historical solver run."
+}

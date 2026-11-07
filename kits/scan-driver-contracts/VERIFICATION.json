@@ -1,0 +1,70 @@
+{
+  "project_id": "hash-cyberaxe-scan-driver-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_sha256": "67ec37d0470e8677bf54f4addaefe4e2dd2720a55a43d780946b4e8e8db6f9fa",
+    "finished_at": "2026-11-06T01:07:46.679591+00:00",
+    "cases": [
+      {
+        "name": "round-cap-is-45-not-header-41",
+        "passed": true
+      },
+      {
+        "name": "above-cap-also-generates-lower-round",
+        "passed": true
+      },
+      {
+        "name": "final-kick-normal-versus-self-only",
+        "passed": true
+      },
+      {
+        "name": "earlier-neighbour-can-suppress-later-exact-target",
+        "passed": true
+      },
+      {
+        "name": "empty-message-support-fails-before-encoding",
+        "passed": true
+      },
+      {
+        "name": "units-and-label-parsing-do-not-check-solver-exit-code",
+        "passed": true
+      },
+      {
+        "name": "positive-calibration-result-aborts",
+        "passed": true
+      },
+      {
+        "name": "timeouts-climb-ladder-and-stay-undecided",
+        "passed": true
+      },
+      {
+        "name": "resume-skips-any-non-undecided-label",
+        "passed": true
+      },
+      {
+        "name": "sat-superset-pruning-reuses-last-solver-statistics",
+        "passed": true
+      },
+      {
+        "name": "unsat-subset-pruning",
+        "passed": true
+      },
+      {
+        "name": "stale-base-can-be-combined-with-new-literal-map",
+        "passed": true
+      }
+    ],
+    "source_functions_extracted": [
+      "arg",
+      "build_queries",
+      "fmt",
+      "main",
+      "neighbours"
+    ],
+    "actual_encoder_or_solver_executed": false,
+    "scope": "Twelve bounded fixtures of pinned query generation and driver control flow. Encoder, SAT/UNSAT truth, operating-system process management and historical campaign coverage are not certified."
+  },
+  "finite_replay": "passed"
+}

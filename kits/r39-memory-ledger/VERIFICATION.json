@@ -1,0 +1,15 @@
+{
+  "project_id": "hash-cyberaxe-r39-memory-ledger",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "table_rows": 13,
+    "computed_total_bytes": 1042624,
+    "headroom_bytes": 5952,
+    "queue_unexplained_allowance_bytes": 32,
+    "program_liveness_verified": false,
+    "scope": "Historical table arithmetic only. Not a liveness proof, compiler census, current filing price, success bound or collision replay."
+  },
+  "finite_replay": "passed"
+}

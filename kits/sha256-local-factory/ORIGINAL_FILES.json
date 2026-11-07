@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "original": "local-factory-kit/indep_sha256_check.py",
+      "project_path": "local-factory-kit/indep_sha256_check.py",
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61",
+      "bytes": 3843
+    },
+    {
+      "original": "local-factory-kit/replay.py",
+      "project_path": "local-factory-kit/replay.py",
+      "sha256": "110276a708c9e9aed9520161f3384f8223f3888b1df54435419bc6fb33cca681",
+      "bytes": 3856
+    },
+    {
+      "original": "local-factory-kit/README.md",
+      "project_path": "local-factory-kit/README.md",
+      "sha256": "d1221935b74b2010ed6a49983a4146be49b0de0133a5c6c3c9278541349ca884",
+      "bytes": 3441
+    },
+    {
+      "original": "local-factory-kit/pairs/37_d28_651af2505f0f_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/37_d28_651af2505f0f_s40000.pair.txt",
+      "sha256": "871e08228e9fd3313c93ce0ff70125b638efb74eb3eadf791fb6dbea71187d38",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/pairs/37_d28_6da90fa8c6a7_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/37_d28_6da90fa8c6a7_s40000.pair.txt",
+      "sha256": "871e08228e9fd3313c93ce0ff70125b638efb74eb3eadf791fb6dbea71187d38",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/pairs/37_d28_f17a31bfeb3e_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/37_d28_f17a31bfeb3e_s40000.pair.txt",
+      "sha256": "871e08228e9fd3313c93ce0ff70125b638efb74eb3eadf791fb6dbea71187d38",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/pairs/38_d29_0035a4af6a77_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/38_d29_0035a4af6a77_s40000.pair.txt",
+      "sha256": "63f39332d74a85a29366276343e62c92ebc63305b8dacb67788270f811ca086c",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/pairs/38_d29_50257c47044f_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/38_d29_50257c47044f_s40000.pair.txt",
+      "sha256": "63f39332d74a85a29366276343e62c92ebc63305b8dacb67788270f811ca086c",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/pairs/38_d29_d1f818b92f02_s40000.pair.txt",
+      "project_path": "local-factory-kit/pairs/38_d29_d1f818b92f02_s40000.pair.txt",
+      "sha256": "63f39332d74a85a29366276343e62c92ebc63305b8dacb67788270f811ca086c",
+      "bytes": 856
+    },
+    {
+      "original": "local-factory-kit/records.json",
+      "project_path": "local-factory-kit/records.json",
+      "sha256": "4a8ee2a5c32d4c43dabcaab0166c29d182bce2305156ed8927c7b5ada70f2b5e",
+      "bytes": 2396
+    },
+    {
+      "original": "local-factory-kit/MANIFEST.json",
+      "project_path": "local-factory-kit/MANIFEST.json",
+      "sha256": "6f2f0003102e8c5957440743c7d36a2251c6dcb12c9dcbd65317ce9adf876418",
+      "bytes": 1660
+    }
+  ]
+}

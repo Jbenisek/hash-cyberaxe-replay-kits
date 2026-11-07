@@ -1,0 +1,12 @@
+{
+  "project_id": "hash-cyberaxe-sha256-drat-certificates",
+  "scope": "File identities only; DRAT proof replay requires the documented external checker.",
+  "source_bytes_preserved": true,
+  "output": {
+    "identities_checked": 11,
+    "proof_replay_performed": false,
+    "scope": "Exact CNF/proof objects. No claim of full encoder correctness, novelty, a universal round barrier or an attack price.",
+    "next_step": "Identity verification only. Supply --checker /absolute/path/to/drat-trim to replay proofs."
+  },
+  "finite_replay": "passed"
+}

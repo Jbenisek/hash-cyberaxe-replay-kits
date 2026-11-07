@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "original": "bsel-generator-kit/bsrho.py",
+      "project_path": "bsel-generator-kit/bsrho.py",
+      "sha256": "b72dd6a3705e844959fdff8ed4f4805484f3d24ae068fd6a9f06992d6cd8a8c1",
+      "bytes": 65956
+    },
+    {
+      "original": "bsel-generator-kit/gen.wasm",
+      "project_path": "bsel-generator-kit/gen.wasm",
+      "sha256": "0918ee3fcc92fb33164ccb9898d2c5b1cf2a28d80e7a3aeee12b031de48648f1",
+      "bytes": 4433
+    },
+    {
+      "original": "bsel-generator-kit/allocation_check.py",
+      "project_path": "bsel-generator-kit/allocation_check.py",
+      "sha256": "0195a741bcfbe8c02c92c9a949d8a479995665130d2f44d3fb6fcbe0f4ad7b4c",
+      "bytes": 1694
+    },
+    {
+      "original": "bsel-generator-kit/probe.cjs",
+      "project_path": "bsel-generator-kit/probe.cjs",
+      "sha256": "ac6f6ad5364d856fefff1786509ebc7418aefc40ec62cdbee779a9d9a3f207d2",
+      "bytes": 3012
+    },
+    {
+      "original": "bsel-generator-kit/replay.py",
+      "project_path": "bsel-generator-kit/replay.py",
+      "sha256": "3e83bad274b67e0ed045872855f31523256461cf66a701937914842771a74519",
+      "bytes": 3314
+    },
+    {
+      "original": "bsel-generator-kit/README.txt",
+      "project_path": "bsel-generator-kit/README.txt",
+      "sha256": "35678821884759169740dfd943994955bc46ec4d6552f570e90644d4cde94e02",
+      "bytes": 2103
+    },
+    {
+      "original": "bsel-generator-kit/PROVENANCE.json",
+      "project_path": "bsel-generator-kit/PROVENANCE.json",
+      "sha256": "67af002f8f27d84b01270c8b297a4f9674ad9e93f03260d8b05eddba4d756499",
+      "bytes": 609
+    },
+    {
+      "original": "bsel-generator-kit/MANIFEST.json",
+      "project_path": "bsel-generator-kit/MANIFEST.json",
+      "sha256": "ea1df5160d4cc165f160add5c020097221fd3721aba9b551179cda758f38cf98",
+      "bytes": 1042
+    }
+  ]
+}

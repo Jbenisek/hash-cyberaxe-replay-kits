@@ -1,0 +1,30 @@
+{
+  "project_id": "hash-cyberaxe-bitslice-allocation-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "results": [
+      {
+        "source": "single_block.py",
+        "source_sha256": "b8341c83cfbdfd05cc52bd99d8a5e97ac46c0e008549082da4be5d764b917bfa",
+        "step_instructions_checked": 19022,
+        "register_extent": 771,
+        "tamper_controls_rejected": 2,
+        "artificial_duplicate_count": 2,
+        "artificial_equal_pairs": 3
+      },
+      {
+        "source": "fixed_prefix.py",
+        "source_sha256": "4f46578df1c1bec00b363b269bd139833fd61c3f734f4c5513685f60cd2ee943",
+        "step_instructions_checked": 18869,
+        "register_extent": 771,
+        "tamper_controls_rejected": 2,
+        "artificial_duplicate_count": 2,
+        "artificial_equal_pairs": 3
+      }
+    ],
+    "scope": "The generated straight-line program and register assignment agree structurally. This does not prove universal hash-generator correctness, caller/handler allocation, historical search execution, success probability or full attack price. The repeated-entry counterexample uses artificial outputs, not hash collisions."
+  },
+  "finite_replay": "passed"
+}

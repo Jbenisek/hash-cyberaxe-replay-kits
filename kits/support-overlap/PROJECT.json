@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-support-overlap",
+  "title": "Same support does not mean the same experiment",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "support-overlap.zip",
+  "source_archive_sha256": "eaf27249b004f87a32ec6e2bb6edd2ce429925964f29f308a2bf7565c387dffc",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/support-overlap",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "overlap-kit/replay.py"
+  ],
+  "expected": "support-overlap",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

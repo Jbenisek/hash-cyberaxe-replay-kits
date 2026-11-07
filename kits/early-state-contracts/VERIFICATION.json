@@ -1,0 +1,217 @@
+{
+  "project_id": "hash-cyberaxe-early-state-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:07.000578+00:00",
+    "checker_sha256": "672d661668f785a7b2582aaa9cbf3b4a96b1293f961784a4849040abefb186ac",
+    "source_sha256": "f8547f0ea192e61d47c5ed50e287276d0b80e17a53a05dd03c853b43482222e9",
+    "input_files": [
+      {
+        "path": "research/game/climber/guided/minsup/mk_tap.py",
+        "sha256": "f8547f0ea192e61d47c5ed50e287276d0b80e17a53a05dd03c853b43482222e9"
+      },
+      {
+        "path": "research/luna/L005/shapes.tsv",
+        "sha256": "f83cee2081ebe30a657798c2b2dfa1b275729493a82900edb44c464437011382"
+      },
+      {
+        "path": "research/luna/L002/build_sparse42_fix4.sh",
+        "sha256": "d89883f021249771af57ffbe8d2e4fd7ca067b0fc8e0f5bdce0e7f3ff9b8a4ee"
+      },
+      {
+        "path": "research/luna/L005/run_fullstate_fix.sh",
+        "sha256": "18d7b9c76a8ee2b119a286614d2db5f8882e640a4b29f027efc4b8602105a404"
+      }
+    ],
+    "cases": [
+      {
+        "shape": "ms41",
+        "steps": 41,
+        "first_required_word": 0,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "240fa26733da827012df389fdd8b5c7596342101f4891e3b2c4b08af1dc7a39c"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "f6735a6829b7d166d6aab0ac9722b4ef7c18a09acae237cfa68036d9bacee248"
+          }
+        }
+      },
+      {
+        "shape": "ms42",
+        "steps": 42,
+        "first_required_word": 1,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "0e6c84e2f5ea547875114f76eb58b823ecf6839eedeb737a265096d0c6211cfb"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "e83ebfaf6b35902a0331f7d4dbf0f1f7d2d89682550cf2aac8f09a634daf8545"
+          }
+        }
+      },
+      {
+        "shape": "ms43",
+        "steps": 43,
+        "first_required_word": 2,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "fbf9609b7dbac4767b96989e76c608f96c1f6dd8a4db3d7ebb9c21dabc4d71eb"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "4346b29f94597926d4f45cfdad7d321abd3072c3f82ceb0349891336e1325b16"
+          }
+        }
+      },
+      {
+        "shape": "ms41b",
+        "steps": 41,
+        "first_required_word": 2,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "27451f4250b8241b8d0d6be8e0296e7a69f2932bfe9d6b67aa595c8538bb1647"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "64ad026ac5c8de43b78318ba86a3750e8620c3ebd3eca51d30c85cb5cb4321ea"
+          }
+        }
+      },
+      {
+        "shape": "ms43b",
+        "steps": 43,
+        "first_required_word": 1,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "285658d36fb6dcaaf4b80adae05c0dc415f47c3059268859bcbc5b4aa36b35de"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "cc5cc2a7a3abbbfd0c7f8b43bd589c4bd8b3c21572105aea11da5b073c52fc2a"
+          }
+        }
+      },
+      {
+        "shape": "sp42_0",
+        "steps": 42,
+        "first_required_word": 8,
+        "old_first_difference_contradiction": false,
+        "templates": {
+          "old": {
+            "first_word_state_free": true,
+            "xml_sha256": "97da0bbbca3908f638772bfaa9211d33e585e40009e093dfc29df3d799fb8fa3"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "97da0bbbca3908f638772bfaa9211d33e585e40009e093dfc29df3d799fb8fa3"
+          }
+        }
+      },
+      {
+        "shape": "sp42_1",
+        "steps": 42,
+        "first_required_word": 8,
+        "old_first_difference_contradiction": false,
+        "templates": {
+          "old": {
+            "first_word_state_free": true,
+            "xml_sha256": "8a645e9f0d592ac3c67b0b302470b721654b562f7303301e26eb323e95bab5d2"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "8a645e9f0d592ac3c67b0b302470b721654b562f7303301e26eb323e95bab5d2"
+          }
+        }
+      },
+      {
+        "shape": "sp42_2",
+        "steps": 42,
+        "first_required_word": 8,
+        "old_first_difference_contradiction": false,
+        "templates": {
+          "old": {
+            "first_word_state_free": true,
+            "xml_sha256": "3cf637ce3fe2bdf0100c7bcf474dbaa210ebce090099b118a7695c27d3698a56"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "3cf637ce3fe2bdf0100c7bcf474dbaa210ebce090099b118a7695c27d3698a56"
+          }
+        }
+      },
+      {
+        "shape": "sp42_3",
+        "steps": 43,
+        "first_required_word": 5,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "c970820d3426081434185ace90fa85f31081a8fd7cbf33a90ee44f590fe5eddb"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "bf16582ba795d69013f76cf16acce9e8f91e255fddd30ee1cc43b4b510993f6c"
+          }
+        }
+      },
+      {
+        "shape": "sp42_4",
+        "steps": 44,
+        "first_required_word": 0,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "e0333a134429382554fd6fce0d922a66330df295d79ed335b2ffa250dfd1306f"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "b92c6a8685713aa97a354e63f3e55beaa9983869057f1b692b4ba70cfb390546"
+          }
+        }
+      },
+      {
+        "shape": "sp42_5",
+        "steps": 45,
+        "first_required_word": 0,
+        "old_first_difference_contradiction": true,
+        "templates": {
+          "old": {
+            "first_word_state_free": false,
+            "xml_sha256": "09dd8b147ef5efb725c6e6f3884ef602e6cd39f410fa754cc086afa696b4a7a3"
+          },
+          "corrected": {
+            "first_word_state_free": true,
+            "xml_sha256": "6258ccbbe211062e4e389af066a222dbf60724d3108bfc3a83136039fb77237d"
+          }
+        }
+      }
+    ],
+    "results": {
+      "saved_shapes": 11,
+      "generated_templates": 22,
+      "old_first_difference_contradictions": 8,
+      "not_excluded_by_this_obstruction": 3,
+      "toy_additive_injectivity_controls": 65536,
+      "unsorted_first_word_is_not_minimum": true
+    },
+    "scope": "Only copied mk_tap text generation and 8-bit additive controls were executed. Launchers were read, not run. No SAT verdict, solver certificate, 32-bit collision, cost or corrected-shape satisfiability is established."
+  },
+  "finite_replay": "passed"
+}

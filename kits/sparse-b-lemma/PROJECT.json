@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sparse-b-lemma",
+  "title": "Sparse B: finite controls for a lossless top-bit implication",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sparse-b-lemma.zip",
+  "source_archive_sha256": "b6e0977e6a7197318fc103fc84cae69717b4a142531a706ad54a4c73ea3b15b9",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sparse-b-lemma",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "sparse-b-lemma/replay.py"
+  ],
+  "expected": "sparse-b-lemma",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

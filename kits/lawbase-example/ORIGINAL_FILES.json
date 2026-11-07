@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "original": "lawbase-example/README.txt",
+      "project_path": "lawbase-example/README.txt",
+      "sha256": "edff5cbc626d9c77985f8a546fee338269bf23c54f1d01972bea6f343f09e2bc",
+      "bytes": 3319
+    },
+    {
+      "original": "lawbase-example/golden-b32-records.json",
+      "project_path": "lawbase-example/golden-b32-records.json",
+      "sha256": "be99263dfcb05708a7354c8e71aa24bf56f019a960474132714510d7ca48b734",
+      "bytes": 11154
+    },
+    {
+      "original": "lawbase-example/manifest.json",
+      "project_path": "lawbase-example/manifest.json",
+      "sha256": "c933dfc2086f5573bc0bceefe73c971582a7cdd97d086c4a8424c3da6035957a",
+      "bytes": 722
+    },
+    {
+      "original": "lawbase-example/originals/LIFT_s9.check",
+      "project_path": "lawbase-example/originals/LIFT_s9.check",
+      "sha256": "e299a74cc0629b5dbfd467b796a017e6491e532f15c597628b2fc7d096d155f6",
+      "bytes": 438
+    },
+    {
+      "original": "lawbase-example/originals/example-R40-E29.xml",
+      "project_path": "lawbase-example/originals/example-R40-E29.xml",
+      "sha256": "7a61f9afcb5609c30bd5afb5b661c453fe3ec7dbc837cb577bdb032c053ccdcf",
+      "bytes": 4979
+    },
+    {
+      "original": "lawbase-example/originals/lawbase.py",
+      "project_path": "lawbase-example/originals/lawbase.py",
+      "sha256": "a6e1cf0c62710affe52a7f46640e0892cfeac7b23b2a13f0a3824112a7425d2f",
+      "bytes": 1314
+    },
+    {
+      "original": "lawbase-example/records.json",
+      "project_path": "lawbase-example/records.json",
+      "sha256": "db2c579a47c6ea2a5bafdb465f388ebb38f400c5df40422040669133b7b65896",
+      "bytes": 937
+    },
+    {
+      "original": "lawbase-example/replay.py",
+      "project_path": "lawbase-example/replay.py",
+      "sha256": "1a97bfbc4cd2d9c381281524bdd04a1eeab94d1a19a5a04f0ff382aa02f5b0c8",
+      "bytes": 5882
+    }
+  ]
+}

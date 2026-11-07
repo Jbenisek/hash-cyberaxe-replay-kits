@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-encoder-summary-contracts",
+  "title": "Encoder and summary contracts: reproduce the interface boundaries",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "encoder-summary-contracts.zip",
+  "source_archive_sha256": "7ba5e479ac9180b69c1f279f6f41ebf1abf41251eb67b6247290e037adc0d300",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/encoder-summary-contracts",
+  "tool_families": [
+    "sha-pair-encoder"
+  ],
+  "original_payload_files": 15,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "encoder-summary-kit/replay.py"
+  ],
+  "expected": "encoder-summary",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

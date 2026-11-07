@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-steering-ledgers",
+  "title": "A ledger is a record of an experiment, not its proof",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "steering-ledgers.zip",
+  "source_archive_sha256": "91864752d1b3ff8aec3bec6d8180af2c2a1d66a7c8127a0e6be4515e108ec19c",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/steering-ledgers",
+  "tool_families": [],
+  "original_payload_files": 9,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "steering-ledgers-kit/replay.py"
+  ],
+  "expected": "steering-ledgers",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

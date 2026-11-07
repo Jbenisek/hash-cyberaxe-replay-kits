@@ -1,0 +1,25 @@
+{
+  "files": {
+    "cv0fresh1.bin": {
+      "bytes": 4194304,
+      "sha256": "f33e3e203fd0073a2674d94688c93fe05c3e25f55bd0de285ceecebd89424e1e"
+    },
+    "cv0pick2.bin": {
+      "bytes": 4194304,
+      "sha256": "e74d2aba29de3d696f9c09a7dae564b68e35629c34cfdf87479c858e55f2e322"
+    },
+    "README.txt": {
+      "bytes": 2027,
+      "sha256": "7c81ff704bc8177ab27751a101bb16c76793f40150e6dbd761eb8a66ab2e2be0"
+    },
+    "records.json": {
+      "bytes": 26446,
+      "sha256": "aa083a2e7b6140de5fa7da6ab1b7fd64e5b6d96e0661c11c39e8a7a230837f90"
+    },
+    "replay.py": {
+      "bytes": 4203,
+      "sha256": "3077c74faa3eba9825423337b7a9c00e642d19a9939f297ba3ecde16f96c02a8"
+    }
+  },
+  "scope": "Exact recount of two retained sampled pools and 70 recorded filter rows. Not an exact population success law, new sampling, or complete attack price."
+}

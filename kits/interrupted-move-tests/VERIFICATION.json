@@ -1,0 +1,15 @@
+{
+  "project_id": "hash-cyberaxe-interrupted-move-tests",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "table_rows": 6,
+    "source_table_cells": 18,
+    "interrupted_tests": 2,
+    "solver_verdicts_replayed": 0,
+    "minimum_core_proved": false,
+    "new_compute_requested": false
+  },
+  "finite_replay": "passed"
+}

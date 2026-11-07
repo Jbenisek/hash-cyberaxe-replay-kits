@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-fulltrail-builder-contracts",
+  "title": "Full-trail XML builder: finite interface controls",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "fulltrail-builder-contracts.zip",
+  "source_archive_sha256": "ff6ffac9aaaf2bd89ff18d3ff9ad18a37a58fd72593115c979cf6c2b94c5d946",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/fulltrail-builder-contracts",
+  "tool_families": [
+    "sha-pair-encoder"
+  ],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "fulltrail-builder-kit/replay.py"
+  ],
+  "expected": "fulltrail-builder",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

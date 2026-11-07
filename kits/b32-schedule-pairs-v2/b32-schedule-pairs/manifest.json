@@ -1,0 +1,13 @@
+{
+  "format": "hashsmash-b32-schedule-kit-v2",
+  "files": {
+    "replay.py": "6bfb525a0d539958757eea977d9f537e2ee2c2d58fad9fd86a7f13e8cd619fc7",
+    "README.txt": "8022af8d29b63ed617c1bb1085ff9a40ec29575931075a8cee7ec22fe35d4fde",
+    "records.json": "be99263dfcb05708a7354c8e71aa24bf56f019a960474132714510d7ca48b734",
+    "originals/LIFT_s1.check": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+    "originals/LIFT_s1.check_research": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+    "originals/LIFT_s2.check": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367",
+    "originals/LIFT_s2.check_research": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367",
+    "originals/LIFT_s9.check": "e299a74cc0629b5dbfd467b796a017e6491e532f15c597628b2fc7d096d155f6"
+  }
+}

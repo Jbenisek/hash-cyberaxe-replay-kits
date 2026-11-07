@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "early-state-kit/check.py": {
+      "bytes": 4714,
+      "sha256": "672d661668f785a7b2582aaa9cbf3b4a96b1293f961784a4849040abefb186ac"
+    },
+    "early-state-kit/MANIFEST.json": {
+      "bytes": 1012,
+      "sha256": "c291624dd695812996a688cf56cf6af24a494c0d9147fe4822d8b07f2b8e029f"
+    },
+    "early-state-kit/PROVENANCE.json": {
+      "bytes": 983,
+      "sha256": "ec68a9bc558496bcc47e4ec06bb0778b8b63008a32f8ca84e7e87e7add5b8a38"
+    },
+    "early-state-kit/README.md": {
+      "bytes": 2853,
+      "sha256": "1794976dfd71234f38331558bd08dcdcdb97ef25b7cc9367f753341042deb6c9"
+    },
+    "early-state-kit/replay.py": {
+      "bytes": 1147,
+      "sha256": "cfafa3ad656c9f7bb49ba33003b27cf8f09a7eb7d02720562b8f08760f242d58"
+    },
+    "early-state-kit/research/game/climber/guided/minsup/mk_tap.py": {
+      "bytes": 804,
+      "sha256": "f8547f0ea192e61d47c5ed50e287276d0b80e17a53a05dd03c853b43482222e9"
+    },
+    "early-state-kit/research/luna/L002/build_sparse42_fix4.sh": {
+      "bytes": 1872,
+      "sha256": "d89883f021249771af57ffbe8d2e4fd7ca067b0fc8e0f5bdce0e7f3ff9b8a4ee"
+    },
+    "early-state-kit/research/luna/L005/run_fullstate_fix.sh": {
+      "bytes": 2059,
+      "sha256": "18d7b9c76a8ee2b119a286614d2db5f8882e640a4b29f027efc4b8602105a404"
+    },
+    "early-state-kit/research/luna/L005/shapes.tsv": {
+      "bytes": 415,
+      "sha256": "f83cee2081ebe30a657798c2b2dfa1b275729493a82900edb44c464437011382"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2206,
+      "sha256": "97d69d2e1cfa729b76e0f4bf6aec2318e417c43fe9a8561ea182952154776a33"
+    },
+    "PROJECT.json": {
+      "bytes": 680,
+      "sha256": "487d6bbd1c3cfd3b2d99015a5fa19ac2372aaed872ca406db938f5843adeeb8b"
+    },
+    "README.md": {
+      "bytes": 2780,
+      "sha256": "70cd625e906b6e60d1f4a85283131474480bc193be20be4b7aa70290994515a2"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 7436,
+      "sha256": "b5d14dcb99bd8c4c2f1169886b1ef89f800fdca680ea16f6e1d7b3503fd19192"
+    }
+  }
+}

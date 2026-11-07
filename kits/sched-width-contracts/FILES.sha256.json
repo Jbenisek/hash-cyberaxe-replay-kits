@@ -1,0 +1,61 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1331,
+      "sha256": "c6b4f65ee79154fa7fc05bf3e42d16ba1a0e678444ec458e928649be9dd709d2"
+    },
+    "PROJECT.json": {
+      "bytes": 679,
+      "sha256": "3c025c0d6719f818fe8b3b9f0e2195d5c7b740a7da1a98369821b4aed355b86b"
+    },
+    "README.md": {
+      "bytes": 2780,
+      "sha256": "5effe18877aeeb412c26e5afc46323830f7ed65fd7ed70c94ef52ef16f87c15d"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "sched-width-kit/check.py": {
+      "bytes": 5146,
+      "sha256": "0388cbb652b409efae3cff5253d4906db6436658f0ed732694684205390e3c9a"
+    },
+    "sched-width-kit/MANIFEST.json": {
+      "bytes": 746,
+      "sha256": "aae2139668238b116e853f7b7c60fb6dd96bbbe4b584fd5305b357de78f99bd0"
+    },
+    "sched-width-kit/PROVENANCE.json": {
+      "bytes": 633,
+      "sha256": "e4b65a9137020fee05df0532b39c4bbd5f21c13436fc75ace0fcd641061f2470"
+    },
+    "sched-width-kit/README.md": {
+      "bytes": 3095,
+      "sha256": "ac4f37c2c6fb5572c2a016f595821cd0bcdc2588aaec1a717b74b47caedb51ad"
+    },
+    "sched-width-kit/replay.py": {
+      "bytes": 1255,
+      "sha256": "6cb67f7d290700d505cf634966f7f9c70a3cd45432e3f57297182b550b3ad059"
+    },
+    "sched-width-kit/schedcnf.py": {
+      "bytes": 11095,
+      "sha256": "f442b063a19cb413bd3d96698395b5ca44a32ef3e9942f1096446a048399d7a4"
+    },
+    "VERIFICATION.json": {
+      "bytes": 5178,
+      "sha256": "9628c935c74c5cdc9d8ff473b3c5530f1d1473db4972abff6181f98cb97ad227"
+    }
+  }
+}

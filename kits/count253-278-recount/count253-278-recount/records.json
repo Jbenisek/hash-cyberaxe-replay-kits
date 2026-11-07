@@ -1,0 +1,323 @@
+{
+  "format": "hashsmash-count253-278-recount-v1",
+  "source_pins": {
+    "TRAIL39_CD_COUNT278_w8-12_s23.xml": "7728f48c1ad7166c8e5298a60b958b3f77595fb4798b4a307400585e2f152b0e",
+    "TRAIL39_CD_COUNT253_w8-12_s23.xml": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+    "TRAIL39_CD_COUNT253_39cd_w8-12_s3.xml": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+    "FAN39_COUNT278_1101.tsv": "c706b596033cd5b2ae4a9e595118f6e249e06aac3c297aeba0c6904d4e7f96c9",
+    "FAN39_COUNT253_1101.tsv": "c3aa48ff7aa0e69a5c0f3dfae77e60e783a4bdaf738d75383a3d7ea9aab73942",
+    "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv": "76f8fefff0f38e812b01013fa695379f2197ecb5f3b6ce78ec869ca0030e5fc0"
+  },
+  "xml_exports": [
+    {
+      "file": "TRAIL39_CD_COUNT278_w8-12_s23.xml",
+      "sha256": "7728f48c1ad7166c8e5298a60b958b3f77595fb4798b4a307400585e2f152b0e",
+      "filename_count": 278,
+      "state_value_bits": 159,
+      "state_difference_bits": 102,
+      "STATE": 261,
+      "input_W": 17,
+      "TOTAL": 278,
+      "row_records": 43,
+      "whole_query_question_marks": 1,
+      "legacy_question_marks": 1,
+      "extended_state_symbols_not_interpreted": {
+        "B": 1,
+        "7": 1
+      },
+      "extended_W_symbols_not_interpreted": {},
+      "filename_equals_STATE": false,
+      "filename_equals_TOTAL": true
+    },
+    {
+      "file": "TRAIL39_CD_COUNT253_w8-12_s23.xml",
+      "sha256": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+      "filename_count": 253,
+      "state_value_bits": 138,
+      "state_difference_bits": 98,
+      "STATE": 236,
+      "input_W": 17,
+      "TOTAL": 253,
+      "row_records": 43,
+      "whole_query_question_marks": 3,
+      "legacy_question_marks": 3,
+      "extended_state_symbols_not_interpreted": {
+        "B": 1
+      },
+      "extended_W_symbols_not_interpreted": {},
+      "filename_equals_STATE": false,
+      "filename_equals_TOTAL": true
+    },
+    {
+      "file": "TRAIL39_CD_COUNT253_39cd_w8-12_s3.xml",
+      "sha256": "245b6f2780e8c4808bb32d9191ba862dfbd7e8fd5052dbd207138851c2e7a56d",
+      "filename_count": 253,
+      "state_value_bits": 138,
+      "state_difference_bits": 98,
+      "STATE": 236,
+      "input_W": 17,
+      "TOTAL": 253,
+      "row_records": 43,
+      "whole_query_question_marks": 3,
+      "legacy_question_marks": 3,
+      "extended_state_symbols_not_interpreted": {
+        "B": 1
+      },
+      "extended_W_symbols_not_interpreted": {},
+      "filename_equals_STATE": false,
+      "filename_equals_TOTAL": true
+    }
+  ],
+  "distinct_XML_byte_editions": 2,
+  "byte_alias_groups": [
+    [
+      "TRAIL39_CD_COUNT253_w8-12_s23.xml",
+      "TRAIL39_CD_COUNT253_39cd_w8-12_s3.xml"
+    ]
+  ],
+  "fan_tables": [
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "sha256": "c706b596033cd5b2ae4a9e595118f6e249e06aac3c297aeba0c6904d4e7f96c9",
+      "rows": 10,
+      "recorded_labels": {
+        "UNSATISFIABLE": 10
+      }
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "sha256": "c3aa48ff7aa0e69a5c0f3dfae77e60e783a4bdaf738d75383a3d7ea9aab73942",
+      "rows": 10,
+      "recorded_labels": {
+        "UNSATISFIABLE": 10
+      }
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "sha256": "76f8fefff0f38e812b01013fa695379f2197ecb5f3b6ce78ec869ca0030e5fc0",
+      "rows": 10,
+      "recorded_labels": {
+        "UNSATISFIABLE": 4,
+        "HELD": 6
+      }
+    }
+  ],
+  "fan_rows": [
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed2",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 122,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed1",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 132,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed3",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 110,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed5",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 157,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed7",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 105,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed9",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 105,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed17",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 111,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed13",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 169,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed33",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 102,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT278_1101.tsv",
+      "seed": "seed65",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 118,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed2",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 57,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed33",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 65,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed13",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 67,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed17",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 97,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed65",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 110,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed7",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 113,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed5",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 117,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed3",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 122,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed9",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 134,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_1101.tsv",
+      "seed": "seed1",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 136,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed2",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 90,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed1",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed3",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed5",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed7",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed9",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed13",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 111,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed33",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 108,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed17",
+      "recorded_status": "UNSATISFIABLE",
+      "recorded_seconds": 171,
+      "registry": "-"
+    },
+    {
+      "file": "FAN39_COUNT253_39cd_w8-12_s3_1101.tsv",
+      "seed": "seed65",
+      "recorded_status": "HELD",
+      "recorded_seconds": 180,
+      "registry": "-"
+    }
+  ],
+  "recorded_label_totals": {
+    "UNSATISFIABLE": 24,
+    "HELD": 6
+  },
+  "proofs_replayed": 0,
+  "scope": "Literal counts and retained labels only. Filename totals are not STATE counts; these masks have question marks. Extended relation symbols are not interpreted, and log filenames do not establish CNF/run identities."
+}

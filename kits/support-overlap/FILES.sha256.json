@@ -1,0 +1,57 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1093,
+      "sha256": "ba439dcbd77494e595b7fa988fd7dd33eefdeec683ca28d86b5e294358ef1bb7"
+    },
+    "overlap-kit/check_contract.py": {
+      "bytes": 4224,
+      "sha256": "f763b2ffc055aba8019e896f5f55fae14e4db48cd27026b6ee56336f4367835a"
+    },
+    "overlap-kit/dariia_overlap.py": {
+      "bytes": 1726,
+      "sha256": "8415c9b129ddd0ab1ad5a16e91564326e7471109e1a0a8e1d2c1c25574eab8dd"
+    },
+    "overlap-kit/MANIFEST.json": {
+      "bytes": 610,
+      "sha256": "f71b6cf47c388e38d302f42bda7c506955aa576160e938947385433b28c2c84b"
+    },
+    "overlap-kit/README.md": {
+      "bytes": 3685,
+      "sha256": "a64e768253b2d3d304dac5b6389359bc9c017232b85ab010d37217163492826d"
+    },
+    "overlap-kit/replay.py": {
+      "bytes": 921,
+      "sha256": "4dc2eed629fd10874cc9678131cd11e5da295444005b6151029786d4837edd42"
+    },
+    "PROJECT.json": {
+      "bytes": 668,
+      "sha256": "b21ead67eef8380c9b5a04b67ee7aa41aee54c043cadfe44664f380220faff4a"
+    },
+    "README.md": {
+      "bytes": 2546,
+      "sha256": "676aa9f561fbb14dc653aa21d4c3ed673dc1df85adc3604437187e9025823b17"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2483,
+      "sha256": "8742f9a86151c281cb008ad324d212ea3b25adea4b01e485e80ea8041469d664"
+    }
+  }
+}

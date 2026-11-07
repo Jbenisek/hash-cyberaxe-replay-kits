@@ -1,0 +1,94 @@
+{
+  "project_id": "hash-cyberaxe-support-overlap",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:08:03.080588+00:00",
+    "source_sha256": "8415c9b129ddd0ab1ad5a16e91564326e7471109e1a0a8e1d2c1c25574eab8dd",
+    "cases": [
+      {
+        "name": "order_is_normalized",
+        "passed": true,
+        "overlap_agree_disagree": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "different_caps_and_conflicting_external_labels_still_agree",
+        "passed": true,
+        "overlap_agree_disagree": [
+          1,
+          1,
+          0
+        ],
+        "warning": "Weight cap is not in the join key. A set containing both SAT and UNSAT agrees with either local label."
+      },
+      {
+        "name": "last_local_decided_row_wins",
+        "passed": true,
+        "overlap_agree_disagree": [
+          1,
+          0,
+          1
+        ],
+        "warning": "This fixture fixes row order inside one file. Glob order across several files is not specified."
+      },
+      {
+        "name": "missing_local_glob_is_not_an_error",
+        "passed": true,
+        "overlap_agree_disagree": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "repeated_external_rows_are_one_support",
+        "passed": true,
+        "overlap_agree_disagree": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "duplicate_word_indices_are_not_set_normalized",
+        "passed": true,
+        "overlap_agree_disagree": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "undecided_labels_are_not_decided_supports",
+        "passed": true,
+        "overlap_agree_disagree": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "missing_external_file",
+        "passed": true,
+        "rejected_with": "FileNotFoundError"
+      },
+      {
+        "name": "missing_required_header",
+        "passed": true,
+        "rejected_with": "KeyError"
+      },
+      {
+        "name": "malformed_local_word",
+        "passed": true,
+        "rejected_with": "ValueError"
+      }
+    ],
+    "scope": "Ten synthetic copied-source interface controls. Historical 3,063 supports are not recounted; equal support labels do not establish equal models, checked UNSAT certificates or collision witnesses."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-scaled-sigma-audit",
+  "title": "Scaled sigma assumptions: a finite encoder audit",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "scaled-sigma-audit.zip",
+  "source_archive_sha256": "cff6e87dd5930a858d885e706bc8eb46d633746a33ff7c3c0b7d217aca421948",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/scaled-sigma-audit",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "scaled-sigma-audit/replay.py"
+  ],
+  "expected": "scaled-sigma",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

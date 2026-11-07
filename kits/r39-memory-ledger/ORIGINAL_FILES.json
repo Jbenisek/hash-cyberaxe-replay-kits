@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "r39-memory-ledger/manifest.json",
+      "project_path": "r39-memory-ledger/manifest.json",
+      "sha256": "b00ed451132eab577bc88cf0b6f19dea32e55535d6b644bfcae4151129bca24e",
+      "bytes": 352
+    },
+    {
+      "original": "r39-memory-ledger/originals/section6.txt",
+      "project_path": "r39-memory-ledger/originals/section6.txt",
+      "sha256": "9aadb937a355c4836db1ef3ee267c5029f50e3875bd1b48863ac3a934bb41cf0",
+      "bytes": 6497
+    },
+    {
+      "original": "r39-memory-ledger/README.txt",
+      "project_path": "r39-memory-ledger/README.txt",
+      "sha256": "49de7817302ae14d7cfd7db026a71c8be5d84bfa535128013898aa1422492626",
+      "bytes": 1682
+    },
+    {
+      "original": "r39-memory-ledger/records.json",
+      "project_path": "r39-memory-ledger/records.json",
+      "sha256": "dadd328f382518a91fc432c2d53af524a106ca2390d9b5254fae348b661b82f8",
+      "bytes": 2504
+    },
+    {
+      "original": "r39-memory-ledger/replay.py",
+      "project_path": "r39-memory-ledger/replay.py",
+      "sha256": "cffe8fe86e9dfc6b122a13a9a6d22080ae60e49fc2d327dbf319144ef710fc66",
+      "bytes": 4416
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sha256-pairs39-replay",
+  "title": "SHA-256: 60 finite 39-step pairs",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sha256-pairs39-replay.zip",
+  "source_archive_sha256": "b858e35f682fde5285b55c4dead78b3ebd8ee2b41b022df28c9bf51c2a9a29a6",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sha256-pairs39-replay",
+  "tool_families": [],
+  "original_payload_files": 7,
+  "replay_command": [
+    "node",
+    "research/public_library/qa/replay_pairs39.cjs"
+  ],
+  "expected": {
+    "source_rows": 61,
+    "distinct_pairs": 60,
+    "verified": 60,
+    "failed": 0,
+    "previously_published": 1,
+    "new_verified": 59,
+    "standard_iv": 0,
+    "one_step_collisions": 0
+  },
+  "timeout_seconds": 300,
+  "require_passed": false
+}

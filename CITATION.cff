@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "HASH$CyberAxe: replay kits"
+type: software
+authors:
+  - given-names: Jeremy
+    family-names: Benisek
+    alias: CyberAxe
+    website: "https://cyberaxe.dev/"
+url: "https://hashcyberaxe.com/"
+repository-code: "https://github.com/Jbenisek/hash-cyberaxe-replay-kits"
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: "2026-11-06"
+abstract: "Small, self-contained kits that each reproduce one published HASH$CyberAxe result, recount or teaching example from its saved data. Every kit has its own README, the exact input files and check_project.py, which verifies the files and, with --replay, reruns the kit's finite replay. Use them to check a claim yourself, learn a method on a small worked example, or start a fork."
+keywords:
+  - cryptanalysis
+  - SHA-256
+  - BLAKE3
+  - SHA-3
+  - Poseidon
+  - reproducibility

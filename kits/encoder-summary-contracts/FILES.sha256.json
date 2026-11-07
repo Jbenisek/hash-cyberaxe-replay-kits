@@ -1,0 +1,105 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "encoder-summary-kit/MANIFEST.json": {
+      "bytes": 2552,
+      "sha256": "e0c1dcb1c05ed37ab2b4e75059ac6b4e4be76df17b2f65faaf2c8423b8e13318"
+    },
+    "encoder-summary-kit/README.md": {
+      "bytes": 3901,
+      "sha256": "fe43237f1cd6f4e29adf4915e10e2bf48fcfe555da2e2b98f14ca40b6765adcf"
+    },
+    "encoder-summary-kit/replay.py": {
+      "bytes": 1615,
+      "sha256": "66f3d5ea1a1ef7acca16a936b52936d1f4fec9b8bf9f674275d95599f4804d04"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k1.json": {
+      "bytes": 4195,
+      "sha256": "6cb04758e03ee64e75e8b03cbf5d9216881483d10aa559ccce5666068902aa28"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k11.json": {
+      "bytes": 4404,
+      "sha256": "9ae7d1802df88cd540375704aa84354c37b0fdcf526adac853edf8079489331b"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k2.json": {
+      "bytes": 3697,
+      "sha256": "0b50be798419bec2c730c14e109555156a09350ceff5ffa3b3f225986609a063"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k5.json": {
+      "bytes": 3162,
+      "sha256": "35b8c0c435708cbeee36c237f220767c13540f72190004e4b5b44a0608d1e805"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k6.json": {
+      "bytes": 3990,
+      "sha256": "8033d7a3f700974f0f92fa064b0f76b2065c70b1404edb14d23531e93adb8523"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k8.json": {
+      "bytes": 3783,
+      "sha256": "b8a3e379ad93030a28b3f3ed430958068bef785d49991d8fc3c269abf8bf542d"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k9.json": {
+      "bytes": 4197,
+      "sha256": "ded90b3384a8c4d88628c2350ba0067742e07128cc01060b6d4ffc0cf8ca7681"
+    },
+    "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/summ_drop.py": {
+      "bytes": 928,
+      "sha256": "d08b8c36a1b694f03a3d8301a768f9fd7ed2e22eb715e37b7bffe603b703ca49"
+    },
+    "encoder-summary-kit/research/game/climber/guided/minsup/sha_cnf.py": {
+      "bytes": 23585,
+      "sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa"
+    },
+    "encoder-summary-kit/research/public_library/qa/minsup-encoder-runtime-report.json": {
+      "bytes": 4275,
+      "sha256": "2f72a858c4e9639e136614dc0e1a1af8acfc101cf1735f70032723f3e4399089"
+    },
+    "encoder-summary-kit/research/public_library/qa/sha3-ablation-summary-runtime-report.json": {
+      "bytes": 2534,
+      "sha256": "b6f92cc2661fdc208325d70b58fc0d7ac27ef64fc6f7de0505fdd2559b511c6e"
+    },
+    "encoder-summary-kit/research/public_library/scripts/check_minsup_encoder_contract.py": {
+      "bytes": 6715,
+      "sha256": "e899cc09402a71f0b613ce143008abd35f91bbf2d3d8d84cfeb6d441a76e964f"
+    },
+    "encoder-summary-kit/research/public_library/scripts/check_sha3_ablation_summary.py": {
+      "bytes": 3341,
+      "sha256": "b46a24bcbcb43f8ebedca7ff0a4355991c843e41b154566c7ed61f4707f49aee"
+    },
+    "encoder-summary-kit/research/tools/indep_sha256_check.py": {
+      "bytes": 3843,
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 4407,
+      "sha256": "e7770c737dbe37a309b15e842b5c9725d6c3e9512564cedbe2db0b8685295d91"
+    },
+    "PROJECT.json": {
+      "bytes": 752,
+      "sha256": "cab2d6e0db02fe4c7cea77d14f6ee6aefe11c9a98e04e4a305c189e91bdc69aa"
+    },
+    "README.md": {
+      "bytes": 3017,
+      "sha256": "74897fa9d32ad8f6442e873d1cf7093f62ab7e51c4981a97c4b71bf42e1c308f"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 5625,
+      "sha256": "23cdbb82f5c76da93ca8b773b6de8cab27f295c5b911fe7d7d11aed9446cfd19"
+    }
+  }
+}

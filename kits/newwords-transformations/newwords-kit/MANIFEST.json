@@ -1,0 +1,35 @@
+{
+  "scope": "Synthetic source-transformation lesson only; no collision search.",
+  "files": [
+    {
+      "path": "newwords/nw.py",
+      "bytes": 3917,
+      "sha256": "7f78c0ea2113ad2dad0719073befea20862001ff801c81f456e060b026382a1b"
+    },
+    {
+      "path": "newwords/nw2.py",
+      "bytes": 4369,
+      "sha256": "ae862e7e76a1c482344337251b51ec7c42e7cf8474fc84f7cfac9ee0d878841f"
+    },
+    {
+      "path": "newwords/nw3.py",
+      "bytes": 4386,
+      "sha256": "234f7071722859e1fb7d6483dd3fc1f29309f5d53cbf6620c99dc51efda7d628"
+    },
+    {
+      "path": "kit/char_pair_profile.py",
+      "bytes": 12295,
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 3824,
+      "sha256": "f90252308f13ac6c10ab86694afb3ff1aad6cf1a4308dc512830ad41c61510b7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2967,
+      "sha256": "34832742896f24be0dd7ca94ce8293bf481445fb60f42b0c45e0f17c2c301f96"
+    }
+  ]
+}

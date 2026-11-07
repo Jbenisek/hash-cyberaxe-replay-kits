@@ -1,0 +1,20 @@
+{
+  "project_id": "hash-cyberaxe-up39-corrected-ledger",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "records": 13,
+    "restored_rows": 2,
+    "reported_counts": {
+      "SAT": 1,
+      "UNSAT": 3,
+      "UNKNOWN": 9
+    },
+    "full_logs_checked": 2,
+    "certificate_replays": 0,
+    "formula_log_bindings_verified": false,
+    "scope": "Recorded job outcomes and two restored table rows, not fresh SAT/UNSAT certification, collision verification, a condition minimum or attack pricing."
+  },
+  "finite_replay": "passed"
+}

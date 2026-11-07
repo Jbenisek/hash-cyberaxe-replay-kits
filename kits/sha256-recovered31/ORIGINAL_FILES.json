@@ -1,0 +1,220 @@
+{
+  "files": [
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A18-21_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A18-21_s1.json",
+      "sha256": "02a01b3098904685fe6703a8e635fe6dadde1fdf46c2e0392f67dd0cb6a6660d",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A30-33_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A30-33_s1.json",
+      "sha256": "15feda6d52b107b9000c8bc708b6280946bf658a7b4fb0dc74b1f5680a3e1ada",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E32-35_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E32-35_s1.json",
+      "sha256": "1dabdb188e459d8b8d329ff29803bc90ad37aba0f3e7f254874086bfba6ee1f3",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE24-27_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE24-27_s1.json",
+      "sha256": "1f3d7a51c74589bdecb74cb126292e06bb9b8c5f5b12972dbfdeac97bfadbb80",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE26-29_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE26-29_s1.json",
+      "sha256": "24d8fdf028c38b7eca61da4c22456be83b129ed4949afd6debb8d249b0a48ece",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E16-19_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E16-19_s1.json",
+      "sha256": "2c8f16830aec03b7be09b864cf656539315b1a8a8d84e2e3a93f8be04a574019",
+      "bytes": 904
+    },
+    {
+      "original": "research/game/climber/guided/newpairs_1027/FOUND_pub39w11v.txt",
+      "project_path": "research/game/climber/guided/newpairs_1027/FOUND_pub39w11v.txt",
+      "sha256": "345676958a9fa3ebf9ec73ed477b784be5f564207512a993f85dd1a9629cbd88",
+      "bytes": 458
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E24-27_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E24-27_s1.json",
+      "sha256": "37aec014d7fbe4addba0007a98768ef7b14a20a85814d531217f7cea7402be96",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A26-29_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A26-29_s1.json",
+      "sha256": "38adfcd0e55a3ba9490efbb9787d42a9dcf8e28f2b948038a742f535c8bf0838",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E20-23_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E20-23_s1.json",
+      "sha256": "3a1eec1e61dd4cf9cb2b9a0218d276a6c1ca879b5fa5ba55d47478e5e814a7e9",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE32-35_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE32-35_s1.json",
+      "sha256": "3cc6fbca03133c432c618072467f8dce6543e56c77ba91e6038e276bd28dd946",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E14-17_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E14-17_s1.json",
+      "sha256": "412a480c7e3328f9fb3475864678fccc402b5a17b21f3ea84a8e8557d7ba1bd5",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E30-33_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E30-33_s1.json",
+      "sha256": "50dcb2b969a43175984a89960a444e3b3c53fc3efebcf5b19e64ebaadc44df93",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E22-25_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E22-25_s1.json",
+      "sha256": "524382f6ad709b84ad19cb7869b3181a3f1e89cf7d1adb74aca68e1a09e708ab",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E28-31_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E28-31_s1.json",
+      "sha256": "5d2176bc2fb602c446d73fd98de4c593a7b95d2af61ef59f8539d2f3f104f297",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A16-19_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A16-19_s1.json",
+      "sha256": "82e1d37574143e8bd9acb4e341a6a718654321fb8558ba0e3bece37800a26a8b",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A14-17_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A14-17_s1.json",
+      "sha256": "88debc283d0bbca1b110dfaa9d4680e465a1112f0b6fd53cca76e8e34e77e629",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A22-25_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A22-25_s1.json",
+      "sha256": "8adf98faf6ab18530f3f7d1a62a5f5cdd4894101628aa7785a5212a8d9aea118",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A32-35_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A32-35_s1.json",
+      "sha256": "98e66733ea043b73d8d9e6edb35455cb1c2afab1749e820e6ef7a6ca15a382f7",
+      "bytes": 904
+    },
+    {
+      "original": "research/game/climber/guided/FOUND_p39char_s108_WITNESS.json",
+      "project_path": "research/game/climber/guided/FOUND_p39char_s108_WITNESS.json",
+      "sha256": "9babb5c10605eba5bf5aabeee71dcdfe601c2a57c5608f2d4553d7b59c7f4f90",
+      "bytes": 797
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE18-21_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE18-21_s1.json",
+      "sha256": "a737f8ff3523b132ed3833c8f2487a5b3fd44561bccc78a10a3aa7b137e5238a",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A28-31_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A28-31_s1.json",
+      "sha256": "ab46bf93920478229d49a067b126a20dae1a560c1e69f02f4ab7b265509b85b9",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE28-31_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE28-31_s1.json",
+      "sha256": "ac00ecbd5da5ebf41e9eba3a5b1f98772ae675936b9cf79189702963212f5ed9",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E26-29_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E26-29_s1.json",
+      "sha256": "bf37c99f672006f99435859c2823c789e3783a91203ae0e3a29e8d93ca02371c",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A14-17_s2.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A14-17_s2.json",
+      "sha256": "bfc7aab19ac521dd4e45deef946c470aa92dfc4241379b755bec724a7bbf776e",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE30-33_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE30-33_s1.json",
+      "sha256": "c3f6c8dd84ccccdc0ddebe23bbf4a6387a903f00dfa7acdaf3aadc9cfc85453b",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE22-25_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE22-25_s1.json",
+      "sha256": "d269f23badae6be15128bdc6034e1ca28b59b6feee897dc3b4f95376fce02e6c",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_E18-21_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_E18-21_s1.json",
+      "sha256": "d343a2453f1282cff462bb861c51f111cfe16b41ef9cf567470de3e7c37045db",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A20-23_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A20-23_s1.json",
+      "sha256": "e5c0d91565ac9cf67f8a8df4861f5beb330037a8866ba31416c24b7a300c2d22",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_AE20-23_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_AE20-23_s1.json",
+      "sha256": "ef1ec3b0a6c8c7c092f3b3cb0b99ab775cd483408b946745e34f41abec42b4f6",
+      "bytes": 905
+    },
+    {
+      "original": "research/luna/L002/witnesses/FOUND_x_A24-27_s1.json",
+      "project_path": "research/luna/L002/witnesses/FOUND_x_A24-27_s1.json",
+      "sha256": "f3834177787ec537d4ec134c6b393b134b747f5740937749ba47a0e1c19a587a",
+      "bytes": 904
+    },
+    {
+      "original": "research/luna/audit_packets/RESOLVE_1028.tsv",
+      "project_path": "research/luna/audit_packets/RESOLVE_1028.tsv",
+      "sha256": "2f864931bfd85c558309bcc2586484d201359fcaf4cfb304c9566ccce7ceb37c",
+      "bytes": 15847
+    },
+    {
+      "original": "research/public_library/qa/replay_resolve31.cjs",
+      "project_path": "research/public_library/qa/replay_resolve31.cjs",
+      "sha256": "164eb635c640e9044d505d8903f43c482e914a52899b6f63875fe0237da9a72b",
+      "bytes": 6045
+    },
+    {
+      "original": "normalized-witnesses.json",
+      "project_path": "normalized-witnesses.json",
+      "sha256": "8fbfc08567e1f5d0c31abc4b70c1be441f1ef83d353a1706d7f9834d898b62a4",
+      "bytes": 85945
+    },
+    {
+      "original": "README.md",
+      "project_path": "README_ORIGINAL.md",
+      "sha256": "781963d19c4d6513e6d269d0622ecc264cf2217cd54352a99e8796405bac423f",
+      "bytes": 1057
+    },
+    {
+      "original": "MANIFEST.json",
+      "project_path": "MANIFEST.json",
+      "sha256": "feb4b1fed9d9a621921ae8fc77cc5427ff40b6deac72ca56c2e1ee55336bb94e",
+      "bytes": 6533
+    }
+  ]
+}

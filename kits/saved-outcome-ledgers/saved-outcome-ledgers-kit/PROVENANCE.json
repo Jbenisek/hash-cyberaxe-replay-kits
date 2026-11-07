@@ -1,0 +1,47 @@
+{
+  "source_files": [
+    {
+      "path": "research/levers_1021/oracle_results.tsv",
+      "sha256": "bc7666aae1d5cc6bbbdb236bd8e0e48cff8e3ec562b0223684984431bc658db1",
+      "bytes": 192,
+      "source_url": "archive/research/levers_1021/oracle_results.tsv",
+      "original_present": false,
+      "tested_edition": "retained publication bytes"
+    },
+    {
+      "path": "research/luna/L002/SPARSE42_RESULTS.tsv",
+      "sha256": "72bec6cc2004e27cff29b6cedc7f8e100fc19194064bda86515d5158eaac9c91",
+      "bytes": 317,
+      "source_url": "archive/research/luna/L002/SPARSE42_RESULTS.tsv",
+      "original_present": true,
+      "tested_edition": "retained publication bytes"
+    },
+    {
+      "path": "research/luna/audit_packets/RESOLVE_1028.tsv",
+      "sha256": "2f864931bfd85c558309bcc2586484d201359fcaf4cfb304c9566ccce7ceb37c",
+      "bytes": 15847,
+      "source_url": "archive/research/luna/audit_packets/RESOLVE_1028.tsv",
+      "original_present": true,
+      "tested_edition": "retained publication bytes"
+    },
+    {
+      "path": "research/runs_1101/s42/HORIZON.tsv",
+      "sha256": "97c95887d154af936d3d0f5b768cfe8df81439b06d9f25beb37cac49e4ec6261",
+      "bytes": 294,
+      "source_url": "archive/research/runs_1101/s42/HORIZON.tsv",
+      "original_present": true,
+      "tested_edition": "retained publication bytes"
+    },
+    {
+      "path": "research/runs_1101/s42/design/FIX_SCAN.tsv",
+      "sha256": "89f589ecd009dc656955d37cde7b8307d0b64fe0cefdc1fedb021b0169912128",
+      "bytes": 276,
+      "source_url": "archive/research/runs_1101/s42/design/FIX_SCAN.tsv",
+      "original_present": true,
+      "tested_edition": "retained publication bytes"
+    }
+  ],
+  "unchanged_retained_bytes": true,
+  "scope": "Retained-byte identity and finite saved-ledger parsing only. No solver, generator, oracle or proof certificate executed. VERIFIED and UNSAT labels remain historical labels; existing independent witness replays are separate evidence. Propagation markers and recorded horizons are not complete solver decisions. Missing original oracle source remains explicitly unavailable.",
+  "recount": "New publication checker, not an original research executable."
+}

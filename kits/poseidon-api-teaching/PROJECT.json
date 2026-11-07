@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-poseidon-api-teaching",
+  "title": "Poseidon reference API: a complete finite recipe",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "poseidon-api-teaching.zip",
+  "source_archive_sha256": "f3f054a1bcd5fa3cd94ab832fb48b4c19cc007c925025fe04caf63497692f3cc",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/poseidon-api-teaching",
+  "tool_families": [
+    "poseidon-reference"
+  ],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "poseidon-api-kit/replay.py"
+  ],
+  "expected": "poseidon-api",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

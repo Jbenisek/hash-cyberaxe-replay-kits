@@ -1,0 +1,57 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1165,
+      "sha256": "8f58ff8417879082e6236e2ba85855794cf395efd0fd55e1b54ad22aeb4794ee"
+    },
+    "PROJECT.json": {
+      "bytes": 737,
+      "sha256": "c116748c38cbab154a8a6036a1525184432304dee495066abf6c97392d532bf8"
+    },
+    "README.md": {
+      "bytes": 3000,
+      "sha256": "a744953c6fcf8a32f2871ea378d5c12875a8c53e1e0df3a61b5ef5a5a07e0312"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "sparsedoor-price-kit/check_contract.py": {
+      "bytes": 4294,
+      "sha256": "7bea1b9afd0a7738f1187a41a367fd940a3b76dcab030af7725642a73645a6ce"
+    },
+    "sparsedoor-price-kit/MANIFEST.json": {
+      "bytes": 458,
+      "sha256": "796fc756d5d91d486fa09b774261dfb8e8c94c2aa56a556b8112cecf8fc15eb5"
+    },
+    "sparsedoor-price-kit/price.py": {
+      "bytes": 2905,
+      "sha256": "e3a88e025bc3fd6cbd80d37f37c249288d3303a5510cb557c381ec408f2324a2"
+    },
+    "sparsedoor-price-kit/README.md": {
+      "bytes": 2947,
+      "sha256": "f2766a9de17b90409dfb35b7015b2b3bf1969bdeafa8a972cca6e297a124b5bf"
+    },
+    "sparsedoor-price-kit/replay.py": {
+      "bytes": 859,
+      "sha256": "be270a33fbb7c0a9137637dac5c00f60ae893ed127c2636d4b63a2eeb599d46c"
+    },
+    "VERIFICATION.json": {
+      "bytes": 1822,
+      "sha256": "6da8316c8bd2e117a106e63e8f1943bc2fc5b2665666ac3a5e4200c0235f2c8c"
+    }
+  }
+}

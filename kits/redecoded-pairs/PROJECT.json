@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-redecoded-pairs",
+  "title": "SAVED PAIRS, REPLAYED; DECODER COMMENTS, ISOLATED",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "redecoded-pairs.zip",
+  "source_archive_sha256": "951fe51394269304f2574aee3fbcae8f0cad0a5abb1d0623e44e9e9c0a447351",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/redecoded-pairs",
+  "tool_families": [],
+  "original_payload_files": 9,
+  "replay_command": [
+    "node",
+    "redecoded-pairs/replay.cjs"
+  ],
+  "expected": "redecoded-pairs",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

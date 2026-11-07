@@ -1,0 +1,105 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "near-iv-prefix-replay/manifest.json": {
+      "bytes": 2714,
+      "sha256": "2d5a4e44b76695948c07d31e2296bec4e24bdc7b1a137d4871c4c329701dbbf4"
+    },
+    "near-iv-prefix-replay/NEARIV_283_rows0-15_Eside_absorbed_cv22bits.txt": {
+      "bytes": 381,
+      "sha256": "ca4e6179ffb1f0b9cb254e1ce303846db303d2c27fdbf742a6366b4c605c2f9e"
+    },
+    "near-iv-prefix-replay/NEARIV_283_rows0-18_Aside_first_059d0bed4a7a.txt": {
+      "bytes": 857,
+      "sha256": "3a6ed5bcdd08c219ea85199275138abdaa2de82308632a74be62940fbf989a7f"
+    },
+    "near-iv-prefix-replay/NEARIV_283_rows0-18_Aside_first_f738861d2f88.txt": {
+      "bytes": 857,
+      "sha256": "5cf6c6136484fd03a7f2bd94499ff4114ca54e459b0c3e2fa7893b8dff46fec7"
+    },
+    "near-iv-prefix-replay/NEARIV_283_rows0-18_cv46bits_cvwalk.txt": {
+      "bytes": 857,
+      "sha256": "89c155e2cf39348506ee1427507f2105b2da8aca64ee3af22b23cbac1aca658e"
+    },
+    "near-iv-prefix-replay/NEARIV_283_rows0-18_cv57bits_multi_c92ca22bd8ed.txt": {
+      "bytes": 857,
+      "sha256": "392f34caff2867b421e86e06468f454232e58b1ab22838c11727c790e74c9172"
+    },
+    "near-iv-prefix-replay/README.txt": {
+      "bytes": 2135,
+      "sha256": "48086dadfb95b5861c3af1bb0327c033857d5b7eda0bb21fa579a9ff1d454155"
+    },
+    "near-iv-prefix-replay/records.json": {
+      "bytes": 171879,
+      "sha256": "313ea3c985b96b9c356599db48ce0290772a572a8a7289b13fb817614bb15b67"
+    },
+    "near-iv-prefix-replay/replay.py": {
+      "bytes": 8197,
+      "sha256": "1d809551e5e367a215459f5fb58bf52e873d4bcbf287a93fc6bdae2ed2fb1eb4"
+    },
+    "near-iv-prefix-replay/sha256_reference.py": {
+      "bytes": 3843,
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39g_w16-19_s41_strip_c1.xml": {
+      "bytes": 4818,
+      "sha256": "81d729a8f6e77a62ed1008b07858b1e9ee6d117cfcaf364a1924aa54e6103601"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39i_w16-18_s48_strip_c1.xml": {
+      "bytes": 4818,
+      "sha256": "81d729a8f6e77a62ed1008b07858b1e9ee6d117cfcaf364a1924aa54e6103601"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39i_w16-18_s50_strip_c1.xml": {
+      "bytes": 4818,
+      "sha256": "81d729a8f6e77a62ed1008b07858b1e9ee6d117cfcaf364a1924aa54e6103601"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39n_neg_w16-19_s41_strip_c1.xml": {
+      "bytes": 4818,
+      "sha256": "1fbe16d5e6872fde43c73892f2865d663f22ab29119efc60ecf846c7054955dd"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39o_neg_w16-18_s48_strip_c1_L3600.xml": {
+      "bytes": 4818,
+      "sha256": "57adaabf2d6539e072dc92326cf8d10b6357a10bcb4783877fd2a783686f9136"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_cc39o_neg_w16-18_s50_strip_c1_L3600.xml": {
+      "bytes": 4818,
+      "sha256": "57adaabf2d6539e072dc92326cf8d10b6357a10bcb4783877fd2a783686f9136"
+    },
+    "near-iv-prefix-replay/TRAIL39_283_sk_skel01_w16-19_s41_strip_c1.xml": {
+      "bytes": 4818,
+      "sha256": "1fbe16d5e6872fde43c73892f2865d663f22ab29119efc60ecf846c7054955dd"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 4792,
+      "sha256": "2743df4eb58016a818393bb91414d19cd2a1ffd58ee0b04b1c3ceff93de0abb0"
+    },
+    "PROJECT.json": {
+      "bytes": 696,
+      "sha256": "241c38f0d5bc55d88431a159b3d85c00bff1ed48fbf99f22e798c038557be9cb"
+    },
+    "README.md": {
+      "bytes": 2805,
+      "sha256": "862ec4d8dc4af7d445821ae6ffab7d86f8efc0540929625d59a98d94e8e21543"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 696,
+      "sha256": "a18621f1fe3fe299de5181b1fceeff8d6b0d753b32f73499cf42a2fe7f8e63d2"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-family-places-recount",
+  "title": "SHA-256 family placements: inspect the saved data, keep the evidence layers apart",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "family-places-recount.zip",
+  "source_archive_sha256": "44a293e6d1284cc0692e744f0bd1269335a1b5fa5ae9dacf2541052799594816",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/family-places-recount",
+  "tool_families": [],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "family-places-recount/replay.py"
+  ],
+  "expected": "family-places",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

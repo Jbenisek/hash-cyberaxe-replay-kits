@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "finite-saved-pair-replay-and-parser-contract",
+  "files": {
+    "current-decode.txt": {
+      "bytes": 1719,
+      "sha256": "82b538e1d1b4c68cfcb0c8864f0a3bff8e601335876bb1641c536a61a866da18"
+    },
+    "decoder-control.py": {
+      "bytes": 2251,
+      "sha256": "1fbe09a4a0643d62a26de4c3610edfcc8d11f11ced5a8f1e440ef20f55e0af28"
+    },
+    "decoder-fixtures.json": {
+      "bytes": 2226,
+      "sha256": "54a320ccda2514105767f442515b3b37d16ae0638774a12374b0037e5aa3663e"
+    },
+    "pairs.json": {
+      "bytes": 282719,
+      "sha256": "ebb8b174e952ce1d85eac996f11ab4d167489c722c00f3bf5e9605a9f420e12c"
+    },
+    "previous-decode.txt": {
+      "bytes": 1560,
+      "sha256": "87f884490c41dd549b5ea647d86b29b6e5fed884e0fe78be316bffe3e5daa3ad"
+    },
+    "README.txt": {
+      "bytes": 3238,
+      "sha256": "5a849e856da1a55a7be51c97b6ecdbf7ff9b575a7fa0d8e3770bf41ea877769a"
+    },
+    "reference.cjs": {
+      "bytes": 2184,
+      "sha256": "907c17a1f23f763538d28337fcd263ef94258c00116263ad388091e9cc66a211"
+    },
+    "replay.cjs": {
+      "bytes": 3331,
+      "sha256": "ac83596ae5e55be757eb0c8731671d4b8b7450604c5f94b5a734581d59374a01"
+    }
+  },
+  "arithmetic_source_sha256": "02423b6a93925e64cf2ba265daa3db1d51290f419609b0f95d6cc938c672da88",
+  "decoder_extracts": {
+    "previous": {
+      "path": "research/game/climber/guided/kit/sha_cnf_pre_vfix_1101.py",
+      "sha256": "b887c9f80dd01afdf4281f60a3f14289d7547d239a50ec86b4c515b0e0827c57",
+      "start_line": 385,
+      "end_line": 413,
+      "scope": "Exact decoder-function extract, not the full encoder"
+    },
+    "current": {
+      "path": "research/game/climber/guided/kit/sha_cnf.py",
+      "sha256": "8a464a18f298873141384d8d6bf42df6f551cfac55f9a8d5c03ce6942fa36ebc",
+      "start_line": 325,
+      "end_line": 354,
+      "scope": "Exact decoder-function extract, not the full encoder"
+    }
+  },
+  "scope": "Finite independent compression replay of saved pairs, including feedforward under their common chosen CV. Not a SAT model/characteristic proof, source-map provenance certification, standard-IV collision, new round record, success rate or work-factor result."
+}

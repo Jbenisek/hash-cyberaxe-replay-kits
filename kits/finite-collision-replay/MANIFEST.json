@@ -1,0 +1,20 @@
+{
+  "scope": "Fresh independent checker and attributed numerical witness/parameter data.",
+  "files": [
+    {
+      "path": "replay.py",
+      "bytes": 8973,
+      "sha256": "4b2f07d3c601033a52e487bc2a9a92a22d773c7b138024b52add91b8c1a99811"
+    },
+    {
+      "path": "data.json",
+      "bytes": 177932,
+      "sha256": "bee54836f9aa3aa01799b4340ba35e861f1c27e02e1adcdfd6c662d093e312d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4765,
+      "sha256": "a5fb13eff741244dc6205f32570700c5cdce0131561f6b06f2f88f2c9edfeb72"
+    }
+  ]
+}

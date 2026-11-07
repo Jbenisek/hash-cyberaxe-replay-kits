@@ -1,0 +1,35 @@
+## 6. Memory, exact by construction
+
+Bytes, including everything the program holds at its peak:
+
+| item | bytes |
+| --- | ---: |
+| register file, 256 x 32 | 8,192 |
+| body records: 2 kernel images x 710 x 5 | 7,100 |
+| other instructions: (1192 executed-block + 1100 routines + 1765 generator and relocation) x 36 | 146,052 |
+| table: 26,052 words x 32 (171,008 records of 39 bits, packed) | 833,664 |
+| lane array, 256 words | 8,192 |
+| stage-1 save area, 32 words (also holds a parked stage-2 bank, by swap) | 1,024 |
+| parked stage-2 scalars (`cur`, `it2`, `bact`, `live`, `occ`, `nf`), 6 words | 192 |
+| queue, 3584 pairs x 8 bytes (4 per word) | 28,704 |
+| stage-2 lane records (256 x 32 bits: shorter trail's id, in-place flag, wheel link), 32 words | 1,024 |
+| timing wheel, 2048 buckets x 2 | 4,096 |
+| free-slot stack, 128 x 8 bits, 4 words | 128 |
+| constants and counters, 128 words | 4,096 |
+| advice: the published pair, `CV_PUB`, `M`, `M'` | 160 |
+| **total** | **1,042,624 = 2^19.9918** (2^20 = 1,048,576; 5,952 bytes spare) |
+
+The generator's scratch (15.9 KB static, 8 KB stack) lies inside the table region during the generation; the table is cleared after the generation, so the scratch adds nothing to the peak. Setup and the run have the same peak: there is no solver, no search campaign and no preprocessing buffer. Three of these numbers are hand counts: the 1100 routine instructions (a rolled 39-step compression 350, the pair builder and verification 400, window constants 170, run constants 120, driver loops 60; each counted from the source), the generator's 1753 WebAssembly instructions (lines of the clang wasm32 listing) plus 12 for the relocation pass, and the peak of 48 scalar registers beside the kernel's 206 (50 are left; including the occupancy mask `occ`, the waiting pair `pw` and the stage-1 limit register `lim` of the id stop; the itemized table below). The 1192 executed-block instructions are the program's own census (`Mach.blk`: for each of its 61 named code blocks, the largest number of operations of one straight-line pass, a load or store counted as its 3 instructions and a subroutine body counted once, in its own block, its call in the caller's block and its return in its own), taken as the per-block maximum over all 24 measured windows and the forced park/resume/cut walk and the forced id-exhaustion walk of `r39-window-small` trial 4, so every branch of every block is included (blocks with alternative arms are split: `hit_m` and `hit_n` each contain their own inlined record write, the stage-2 completion arms `cb_in`, `cb_free`, `cb_move`, `cb_drop` and the launch arms `l_half`, `l_f2s`, `l_single`, `l_pair` are separate blocks, as are the XOR-delta restart routine `delta_lanes` and the hit-group driver blocks `hb_init`, `hb_sel`, `hb_close`, `hb_add`, `hb_last` and the group routine's `hb_ext`, `hb_v`, `hb_lp`, `hb_ins`; `qins` and `qflush` are single blocks whose optional arm is one subroutine call, so their largest pass contains both arms; a caller block of the group routine keeps exactly its 2-operation call; the counted loops `bank_sw`, `bank_in`, `bank_out` and the driver tests `w_end`, `iter1h` are declared at their static size): `bank_in` 12, `bank_out` 12, `bank_sw` 18, `cb_a` 21, `cb_drop` 2, `cb_free` 5, `cb_in` 2, `cb_move` 11, `claw_f8` 29, `claw_filter` 30, `claw_w17` 57, `cmp1` 31, `cmp2` 67, `cut_lane` 17, `delta_lanes` 74, `extract25` 74, `extract32x2` 96, `find_lane` 26, `fpop` 9, `hb_add` 7, `hb_close` 2, `hb_ext` 1, `hb_init` 3, `hb_ins` 1, `hb_last` 2, `hb_lp` 2, `hb_sel` 6, `hb_v` 4, `hit_a` 38, `hit_c` 9, `hit_m` 22, `hit_n` 17, `insert_lane` 94, `iter1` 7, `iter1c` 3, `iter1h` 8, `l_end` 2, `l_f2s` 2, `l_half` 1, `l_pair` 16, `l_single` 7, `l_try` 11, `launch` 6, `launch_t` 4, `link` 32, `merge` 28, `move_lane` 130, `qflush` 5, `qins` 11, `qpop` 8, `qpush` 15, `s2_fl` 1, `s2_in` 20, `s2_init` 22, `s2_out` 20, `s2_q` 4, `s2_step` 2, `s2_susp` 4, `w_end` 6, `w_s2` 1, `wheel_check` 15. A single window reaches 1182 to 1192 of these 1192 (a window without a trail cut or a park does not execute every block); `r39-window-small` hard-asserts its per-trial `blk_census`.
+
+Scalars live across a stage-2 kernel step (the point where the kernel holds all of its at most 206 registers; every other value of the program is a relocated immediate operand of a 36-byte instruction, as in Section 4, or lives in counted memory):
+
+| group | scalars | count |
+| --- | --- | ---: |
+| run driver | window count (halt `B`), charged-work counter (halt `W_BUDGET`), success flag | 3 |
+| stage-1 state kept through stage 2 | iteration counter `it`, stage-1 limit `lim`, trail-id counter `idc`, stage-1 bank parity `sv` | 4 |
+| stage-2 state | `cur`, `it2`, `bact`, `live`, `occ`, `nf`, queue cursors `qi`, `qn`, waiting pair `pw`, final-call flag (the insert-batch registers `QW`, `QZ`, `QG` are flushed before and re-zeroed after the step, so they are not live across it) | 10 |
+| per-window claw constants (register operands of `claw`) | `CA1`, `cv[0]`, `cv[1]`, `cv[2]`, `cv[4]`, `cv[5]`, `c[1]` | 7 |
+| **live across the stage-2 kernel step** | | **24** |
+
+The deepest point of the program, the `W17` test of a claw inside a stage-2 merge (the kernel is not running there, but its 206 registers are still counted as taken), adds at most 12 short-lived values (the merge loop's `full`, `low`, `l`; the claw's `a0`, `u`, `a1`, `e0`, `e1`, the `w2` accumulator and three operator temporaries) to the 24 and the 3 insert-batch registers `QW`, `QZ`, `QG`, i.e. 39 at the deepest stage-2 point. In stage 1 (stage 2 parked in memory or idle), the DP-hit group handler of change (6) holds the 3 driver, the 4 stage-1 and the 7 claw-constant registers and the queue count `qn` (15) and at most 24 values of the handler (the hit mask; the group mask `G` and windows `W`; the lane-index register `HL`, its count `nl` and cursor `i`; the extracted word `Z`; the insert accumulators `ZI`, `GI`; `low`, `l`, `r`; and at most 12 table, record and queue-push temporaries), i.e. 39. The deepest call nesting is 3 levels (`hit_group` -> `qpush`, `extract` or `delta_lanes` in stage 1; `qins` -> `qflush` -> `insert_lane` in a stage-2 completion or launch), so at most 3 static link registers come on top of either peak: at most 42. The claim uses a hand count of 48 scalar registers (itemized peaks 39 in stage 2 and 39 in stage 1 including `qn`, plus at most 3 static link registers, at most 48), and 206 + 48 <= 256.
+

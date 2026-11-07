@@ -1,0 +1,168 @@
+{
+  "project_id": "hash-cyberaxe-poseidon-api-teaching",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_sha256": "344246fc03ae862cd42beabcade902edea45d23df6cb62751f741c3df636f171",
+    "results": {
+      "numerical_data_sha256": "dd6dd429e8b69c6271bc438de48054c6bf912f47635d243a2a94be3e3778d7ae",
+      "passed_checks": [
+        "parameter_crosscopy_round_constants",
+        "parameter_crosscopy_mds",
+        "full_permutation_0",
+        "full_permutation_1",
+        "full_permutation_2",
+        "full_permutation_3",
+        "full_permutation_4",
+        "full_permutation_5",
+        "full_permutation_6",
+        "full_permutation_7",
+        "full_permutation_8",
+        "full_permutation_9",
+        "full_permutation_10",
+        "full_hash_0",
+        "full_schedule_agreement_0",
+        "full_hash_1",
+        "full_schedule_agreement_1",
+        "full_hash_2",
+        "full_schedule_agreement_2",
+        "full_hash_3",
+        "full_schedule_agreement_3",
+        "full_hash_4",
+        "full_schedule_agreement_4",
+        "full_hash_5",
+        "full_schedule_agreement_5",
+        "full_hash_6",
+        "full_schedule_agreement_6",
+        "full_hash_7",
+        "full_schedule_agreement_7",
+        "full_hash_8",
+        "full_schedule_agreement_8",
+        "full_hash_9",
+        "full_schedule_agreement_9",
+        "full_hash_10",
+        "full_schedule_agreement_10",
+        "r2_original_indices",
+        "witness_0",
+        "mutation_r3",
+        "witness_1",
+        "mutation_r4",
+        "witness_2",
+        "mutation_r5",
+        "witness_3",
+        "mutation_r2",
+        "witness_4",
+        "witness_5",
+        "mutation_r1",
+        "witness_6",
+        "witness_7",
+        "witness_8",
+        "witness_9",
+        "witness_10",
+        "witness_11",
+        "witness_12",
+        "witness_13",
+        "witness_14",
+        "witness_15",
+        "witness_16",
+        "witness_17",
+        "witness_18",
+        "witness_19",
+        "witness_20",
+        "witness_21",
+        "witness_22",
+        "witness_23",
+        "witness_24",
+        "witness_25",
+        "witness_26",
+        "witness_27",
+        "witness_28",
+        "witness_29",
+        "witness_30",
+        "witness_31",
+        "witness_32"
+      ],
+      "rejected_invalid_inputs": [
+        "noncanonical_nk_0",
+        "noncanonical_rho_0",
+        "noncanonical_nk_1",
+        "noncanonical_rho_1",
+        "noncanonical_nk_2",
+        "noncanonical_rho_2",
+        "noncanonical_nk_3",
+        "noncanonical_rho_3",
+        "noncanonical_nk_4",
+        "noncanonical_rho_4",
+        "noncanonical_nk_5",
+        "noncanonical_rho_5",
+        "byte_input_0",
+        "byte_input_1",
+        "byte_input_2",
+        "byte_input_3",
+        "byte_input_4",
+        "encoded_modulus",
+        "schedule_-1",
+        "schedule_57"
+      ],
+      "distinct_witnesses": 33,
+      "mutated_profiles": 5,
+      "log_checker_contract": {
+        "cases": [
+          {
+            "case": "no-input-files-exit-zero-without-a-witness",
+            "passed": true
+          },
+          {
+            "case": "log-without-parsed-digest-is-skipped-with-zero-exit",
+            "passed": true
+          },
+          {
+            "case": "uppercase-hex-digest-is-not-parsed-and-file-is-skipped",
+            "passed": true
+          },
+          {
+            "case": "r1-default-positive-with-reference-only-no-organizer",
+            "passed": true
+          },
+          {
+            "case": "explicit-r2-positive-original-index-schedule",
+            "passed": true
+          },
+          {
+            "case": "incorrect-supplied-digest-rejected",
+            "passed": true
+          },
+          {
+            "case": "identical-message-pair-rejected-despite-equal-hashes",
+            "passed": true
+          },
+          {
+            "case": "last-duplicate-tag-overwrites-earlier-digest",
+            "passed": true
+          },
+          {
+            "case": "noncanonical-field-input-rejected-by-reference",
+            "passed": true
+          },
+          {
+            "case": "digest-present-but-required-field-missing-fails",
+            "passed": true
+          },
+          {
+            "case": "invalid-round-environment-rejected",
+            "passed": true
+          },
+          {
+            "case": "out-of-range-partial-round-count-rejected",
+            "passed": true
+          }
+        ],
+        "scope": "Twelve copied-source log-parser controls with public numerical witnesses. Organizer executable deliberately unavailable. No search, full-round collision, attack probability or dual-verifier certification. r counts partial rounds plus eight full rounds."
+      }
+    },
+    "elapsed_wall_seconds": 0.031,
+    "scope": "Finite archived API replay using already-published numerical parameters/vectors. Eleven full permutation and eleven full-hash known answers, full/reduced API agreement, 33 reduced-profile witnesses, five mutations and invalid-input controls. No search, success-rate or attack-cost proof. Twelve log-checker controls additionally reproduce reference-only behavior with organizer imports explicitly blocked."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,214 @@
+{
+  "project_id": "hash-cyberaxe-current-encoder-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:00.427168+00:00",
+    "source_sha256": "c431c124e449c3b7939f2fdec373a8abb7ba3e651b2dc884c64d4aa03308faec",
+    "copied_full_source_loaded": true,
+    "external_solver_or_search": false,
+    "fixtures": [
+      {
+        "name": "w8-free",
+        "width": 8,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 1125,
+        "clauses": 3541,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w8-iv",
+        "width": 8,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "iv",
+        "diffvars": false,
+        "variables": 657,
+        "clauses": 2181,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w8-changed-False",
+        "width": 8,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 1125,
+        "clauses": 3541,
+        "unsatisfied_clauses": 3,
+        "expected_complete_assignment_pass": false
+      },
+      {
+        "name": "w8-changed-True",
+        "width": 8,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": true,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 1125,
+        "clauses": 3525,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w8-offset",
+        "width": 8,
+        "rounds": 1,
+        "koff": 5,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 1125,
+        "clauses": 3541,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w8-schedule",
+        "width": 8,
+        "rounds": 17,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": true,
+        "variables": 8853,
+        "clauses": 38761,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w32-free",
+        "width": 32,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 4677,
+        "clauses": 15061,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w32-iv",
+        "width": 32,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "iv",
+        "diffvars": false,
+        "variables": 2769,
+        "clauses": 9477,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w32-changed-False",
+        "width": 32,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 4677,
+        "clauses": 15061,
+        "unsatisfied_clauses": 3,
+        "expected_complete_assignment_pass": false
+      },
+      {
+        "name": "w32-changed-True",
+        "width": 32,
+        "rounds": 1,
+        "koff": 0,
+        "truncation": true,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 4677,
+        "clauses": 14997,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w32-offset",
+        "width": 32,
+        "rounds": 1,
+        "koff": 5,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": false,
+        "variables": 4677,
+        "clauses": 15061,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      },
+      {
+        "name": "w32-schedule",
+        "width": 32,
+        "rounds": 17,
+        "koff": 0,
+        "truncation": false,
+        "feedforward": true,
+        "chaining": "free",
+        "diffvars": true,
+        "variables": 36978,
+        "clauses": 162877,
+        "unsatisfied_clauses": 0,
+        "expected_complete_assignment_pass": true
+      }
+    ],
+    "vacuous_ranges": [
+      {
+        "setting": "PREHEAD_K",
+        "rows": "1-0",
+        "identical_to_no_cap": true
+      },
+      {
+        "setting": "PREHEAD_K",
+        "rows": "4-6",
+        "identical_to_no_cap": true
+      },
+      {
+        "setting": "PREHEAD_ROWCAP",
+        "rows": "1-0",
+        "identical_to_no_cap": true
+      },
+      {
+        "setting": "PREHEAD_ROWCAP",
+        "rows": "4-6",
+        "identical_to_no_cap": true
+      }
+    ],
+    "findings": [
+      "FEEDFWD gate values agree with CV plus independent working-state arithmetic in all named fixtures.",
+      "TRUNC224 equates seven words; a compensated h/message change passes the seven-word predicate but fails all-eight equality.",
+      "Decoder outputs-equal is working-state equality, not the feedforward or truncated predicate. It also accepts and displays an unsatisfying model without checking clauses.",
+      "KOFF=5 is applied by the circuit but not sha_ref/decode, and the map omits the offset and truncation setting.",
+      "Reversed or absent positive preheader ranges produce byte-identical CNF to no cap.",
+      "No opposite constant A/E input literals occur in these fixtures. The separate synthetic constant-accounting issue does not demonstrate a real-instance failure."
+    ],
+    "limits": "Twelve fixed-input circuit evaluations, four range controls; no SAT search, probability estimate, all-option validation, or historical-verdict audit. Source files unchanged."
+  },
+  "finite_replay": "passed"
+}

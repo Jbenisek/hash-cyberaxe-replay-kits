@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "sparse-b-lemma/replay.py",
+      "project_path": "sparse-b-lemma/replay.py",
+      "sha256": "ac6a03facd48ce827494249e700bd19800388256a7acc4c08c9f64ee5814ad6f",
+      "bytes": 3462
+    },
+    {
+      "original": "sparse-b-lemma/README.txt",
+      "project_path": "sparse-b-lemma/README.txt",
+      "sha256": "a172a7daa6bf3d108cd90ef28d2973a95d4f7c8b9098019e88751bfad1b39570",
+      "bytes": 1659
+    },
+    {
+      "original": "sparse-b-lemma/PROOF.txt",
+      "project_path": "sparse-b-lemma/PROOF.txt",
+      "sha256": "009d55f26222e0e5c6e1ab9312a1f20504fc9aaeb1fb26840725313ab0e341ca",
+      "bytes": 2208
+    },
+    {
+      "original": "sparse-b-lemma/theorem.json",
+      "project_path": "sparse-b-lemma/theorem.json",
+      "sha256": "cd8fb4c2f5b8feb28236ad96b96d37b2bb07f15cb62e761aa3a2608b352eadfb",
+      "bytes": 455
+    },
+    {
+      "original": "sparse-b-lemma/manifest.json",
+      "project_path": "sparse-b-lemma/manifest.json",
+      "sha256": "c6530252e1f876076a4c063959d60394d024fb7bbb02ac0dbce8755ca8c9df74",
+      "bytes": 411
+    }
+  ]
+}

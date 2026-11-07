@@ -1,0 +1,7 @@
+{
+  "project_id": "hash-cyberaxe-sha256-witness-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output_text": "PASS: 4 standard SHA-256 vectors; 54 39-step semi-free-start pairs; 1 negative control.\nScope: chosen common chaining value; full 32-bit words; not fixed-IV SHA-256 collision evidence.\n",
+  "finite_replay": "passed"
+}

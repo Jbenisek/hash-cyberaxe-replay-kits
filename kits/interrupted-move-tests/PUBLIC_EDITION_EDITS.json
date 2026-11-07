@@ -1,0 +1,26 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "interrupted-move-tests/originals/TRICKS_RESULTS_1101.md",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "37d6b5774e06fd8f6db446a59b646410e6baa3e88541dee85de33ba83d53f36e",
+      "original_bytes": 2382,
+      "published_sha256": "41dce1c89b095f2fc601b988ac2a2fe8fa812a4162a4187be161ccb22edc6345",
+      "published_bytes": 2396
+    },
+    {
+      "path": "interrupted-move-tests/records.json",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "8c219a7f8792bf8cc2582384dc3296c97cfae5bd12a6a2d5bba09e1a8d991180",
+      "original_bytes": 5193,
+      "published_sha256": "7050737991991c78c394e8006b2505ea932722be0873594936c5a4386657a0a4",
+      "published_bytes": 5200
+    }
+  ]
+}

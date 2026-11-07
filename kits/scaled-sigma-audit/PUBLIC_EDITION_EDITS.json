@@ -1,0 +1,26 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "scaled-sigma-audit/original/schedcnf3.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "5fec10614fb315e2abb173a4b5076f1ea8d8829654c380b6f199d476c04b745f",
+      "original_bytes": 13344,
+      "published_sha256": "89083bdf81f33c236d94f4b253218789ac6a147cf700de7b643a8601b58b293f",
+      "published_bytes": 13359
+    },
+    {
+      "path": "scaled-sigma-audit/README.txt",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "4c2e9cc36965856e2ec9015868346b9bd6234c745d5be16d769ff0cfa8a9c796",
+      "original_bytes": 3892,
+      "published_sha256": "7040fbd88d84d9f8a4029f2eb6bac006b8d39bec278f245510a06b5ce578c927",
+      "published_bytes": 3908
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2116,
+      "sha256": "8ccf45ba6c2a783be3b9ad0a8a7292b32f73791d7a4633a7de4795b047f01b12"
+    },
+    "PROJECT.json": {
+      "bytes": 720,
+      "sha256": "8890c5716e35339d59931f0acd285abced1b1edb98ee01e09aff76cd8c9057a5"
+    },
+    "README.md": {
+      "bytes": 2745,
+      "sha256": "72ffe90ed08dfbdc654bf797c0c257cf7ea6fb102426c75c5ef7a2cd75028f4f"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "template-contracts-kit/check_contracts.py": {
+      "bytes": 6927,
+      "sha256": "e10d9dd7d6dc08f612d9c4ec9557113e50fdcece26b8400372f91ce131da6a79"
+    },
+    "template-contracts-kit/extract.py": {
+      "bytes": 1349,
+      "sha256": "defe4d79fffa4ea40b37abab8f781b137f9ac2044d0d1faf0795ed24dd9cc5cb"
+    },
+    "template-contracts-kit/filltmpl.py": {
+      "bytes": 529,
+      "sha256": "4622198f9a101ee7d2ab09f87cf61bb70a9bb4ba9b0df828e3c155314781ad79"
+    },
+    "template-contracts-kit/loo_test.py": {
+      "bytes": 2577,
+      "sha256": "28d5c805933dccba30da90e28bef48613f6296ccd1fdc7807d81b1f5503db88a"
+    },
+    "template-contracts-kit/MANIFEST.json": {
+      "bytes": 1184,
+      "sha256": "ce0098c774d7402a6d30b2444bfcd6bddaab1780c235113df408ae4cdbdcf160"
+    },
+    "template-contracts-kit/mktmpl.py": {
+      "bytes": 3618,
+      "sha256": "ca6dfd7f02ff33d4089376f0a50cec6e02002fc2402715c21423e7f6b34812f8"
+    },
+    "template-contracts-kit/newrow.py": {
+      "bytes": 1567,
+      "sha256": "003eab8c9a3a92639e8b8d372e05b5ba9b900acdc12840093c20782363f795fe"
+    },
+    "template-contracts-kit/README.md": {
+      "bytes": 3120,
+      "sha256": "a0bed38af0a7412f5560c84cec411907ba1a27be6a8977440c7fe311a6d801fc"
+    },
+    "template-contracts-kit/replay.py": {
+      "bytes": 1645,
+      "sha256": "c6f7ffffc245ea0459ed1550697214fc70239c88737d6cb7515089a2de7b2436"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2497,
+      "sha256": "04fec703e021c341d9590f7c6683688acf7ae4714e62c61884c2566db6393c02"
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "project_id": "hash-cyberaxe-seed-prefix-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "hashlib_controls": 4,
+    "results": {
+      "value_seed_contract": {
+        "cases": [
+          {
+            "distinct_chaining_values": false,
+            "fix": 4,
+            "value_rows": "7-8",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": false,
+            "fix": 4,
+            "value_rows": "18",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": false,
+            "fix": 19,
+            "value_rows": "",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": false,
+            "fix": 4,
+            "value_rows": "",
+            "NOZERO": "1",
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": false,
+            "fix": 4,
+            "value_rows": "",
+            "NOZERO": "0",
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": false,
+            "fix": 4,
+            "value_rows": "5-3",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 4,
+            "value_rows": "7-8",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 4,
+            "value_rows": "18",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 19,
+            "value_rows": "",
+            "NOZERO": null,
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 4,
+            "value_rows": "",
+            "NOZERO": "1",
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 4,
+            "value_rows": "",
+            "NOZERO": "0",
+            "rows_checked": 24
+          },
+          {
+            "distinct_chaining_values": true,
+            "fix": 4,
+            "value_rows": "5-3",
+            "NOZERO": null,
+            "rows_checked": 24
+          }
+        ],
+        "total_rows_checked": 288,
+        "negative_row_argument_rejected": 2,
+        "value_or_fixed_rows_override_closing_pins": true,
+        "NOZERO_string_zero_disables_closing_pins": true,
+        "descending_range_silently_empty": true,
+        "distinct_chaining_values_accepted": true
+      },
+      "extended_prefix_verifiers": [
+        {
+          "tool": "verify_full.py",
+          "case": "reference-generated maximum supported CLI prefix",
+          "exit_code": 0,
+          "endpoint": 39
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "invalid A condition still exits zero",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "unknown symbol z treated as unconstrained",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "negative endpoint vacuous pass",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "above implemented CLI range raises IndexError",
+          "exit_code": 1,
+          "endpoint": 40
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "reference-generated maximum supported CLI prefix",
+          "exit_code": 0,
+          "endpoint": 38
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "invalid A condition still exits zero",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "unknown symbol z treated as unconstrained",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "negative endpoint vacuous pass",
+          "exit_code": 0
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "above implemented CLI range raises IndexError",
+          "exit_code": 1,
+          "endpoint": 39
+        },
+        {
+          "tool": "both",
+          "case": "full checks W; cv ignores the contradictory W row"
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "absent W field has zero W violations"
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "second chaining value ignored; both runs use first"
+        },
+        {
+          "tool": "verify_cv.py",
+          "case": "second chaining value ignored; both runs use first"
+        },
+        {
+          "tool": "verify_full.py",
+          "case": "--iv overrides declared chain and reports mismatch without rejecting"
+        }
+      ],
+      "pair_characteristic_contract": [
+        {
+          "case": "normal-prefix-free-gap-and-forced-closure",
+          "rows": 14,
+          "schedule_rows": 10,
+          "passed": true,
+          "additional_expanded_schedule_and_prefix_steps": [
+            17,
+            39,
+            64
+          ]
+        },
+        {
+          "case": "fixed-prefix-overrides-overlapping-zero-tail",
+          "passed": true
+        },
+        {
+          "case": "NOZERO-string-zero-disables-tail-despite-printed-zero-label",
+          "passed": true
+        },
+        {
+          "case": "uppercase-pair-format-not-supported",
+          "passed": true
+        },
+        {
+          "case": "tied-score-mixed-missing-and-string-shot-ids-crash-sort",
+          "passed": true
+        },
+        {
+          "case": "meter-values-independent-trace-match",
+          "rows": 2,
+          "passed": true
+        },
+        {
+          "case": "rejected-chain-record-reserves-shot-id-and-missing-ids-collapse",
+          "passed": true
+        },
+        {
+          "case": "rerun-overwrites-current-table-and-appends-history-again",
+          "passed": true
+        }
+      ]
+    },
+    "scope": "Finite writer and prefix-predicate controls on disposable fixtures, including deliberate failures. No solver, feasibility, collision, attack-price or success-law certification."
+  },
+  "finite_replay": "passed"
+}

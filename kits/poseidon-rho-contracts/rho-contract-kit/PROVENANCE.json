@@ -1,0 +1,8 @@
+{
+  "source_path": "research/levers_1022/pos_r56_fix2/rho.py",
+  "source_sha256": "b5bd922909b12d8871b381c7a1bc4255541241b45df0adb18fe5ad4c3f53773c",
+  "unchanged_source_bytes": true,
+  "recovery": "Exact pinned historical source recovered from the project archive; original live path absent.",
+  "checker": "New publication audit. Full fixed-field step/reference fixtures and exhaustive tiny graph recovery, not a full-field walk.",
+  "full_field_success_premise_H1_proved": false
+}

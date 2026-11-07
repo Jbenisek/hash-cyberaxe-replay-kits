@@ -1,0 +1,9 @@
+{
+  "format": "hashsmash-sparse-b-lemma-kit-v1",
+  "files": {
+    "replay.py": "ac6a03facd48ce827494249e700bd19800388256a7acc4c08c9f64ee5814ad6f",
+    "README.txt": "a172a7daa6bf3d108cd90ef28d2973a95d4f7c8b9098019e88751bfad1b39570",
+    "PROOF.txt": "009d55f26222e0e5c6e1ab9312a1f20504fc9aaeb1fb26840725313ab0e341ca",
+    "theorem.json": "cd8fb4c2f5b8feb28236ad96b96d37b2bb07f15cb62e761aa3a2608b352eadfb"
+  }
+}

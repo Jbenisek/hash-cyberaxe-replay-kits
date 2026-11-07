@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-walk-measure-contracts",
+  "title": "First repeat is not yet a collision",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "walk-measure-contracts.zip",
+  "source_archive_sha256": "7e513f3ec21fb97e397a26605b13921c43f06b8fd0b8e9f28b508ffcb7710f14",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/walk-measure-contracts",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "walk-measure-kit/replay.py"
+  ],
+  "expected": "walk-measure",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

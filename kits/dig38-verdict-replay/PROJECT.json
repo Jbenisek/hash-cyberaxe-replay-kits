@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-dig38-verdict-replay",
+  "title": "A log, two labels: SHA-256 research provenance",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "dig38-verdict-replay.zip",
+  "source_archive_sha256": "dd6944fca9f7a549db78417c0e822a6bfce8c488d47c576f8de60662a00f6a3d",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/dig38-verdict-replay",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "dig38-verdict-kit/replay.py"
+  ],
+  "expected": "dig38-verdict",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

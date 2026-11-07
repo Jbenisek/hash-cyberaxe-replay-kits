@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-b32-schedule-pairs",
+  "title": "Two full-width sparse-B schedules: exact numerical replay",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "b32-schedule-pairs.zip",
+  "source_archive_sha256": "a5bf2e364ee16c7ff7ce57708051ae2a9c443333f982372386838887ace2fb38",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/b32-schedule-pairs",
+  "tool_families": [],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "b32-schedule-pairs/replay.py"
+  ],
+  "expected": "b32-schedules",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

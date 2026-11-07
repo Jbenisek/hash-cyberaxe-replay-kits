@@ -1,0 +1,65 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "MANIFEST.json": {
+      "bytes": 1149,
+      "sha256": "2efc9727d01fb342d92febdda20385610c36ae5e2aa5f2dc1acf394b17596368"
+    },
+    "normalized-witnesses.json": {
+      "bytes": 238590,
+      "sha256": "ce746538403100a2a7690c741cfcbaa3fcd9b7b37a776174ed9c6c539844c1fe"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1655,
+      "sha256": "d4f581988d641d241f0996a72e996108ecc05d93ffd4e4af0b894e8572259b59"
+    },
+    "PROJECT.json": {
+      "bytes": 852,
+      "sha256": "ebdc6abb61c4953a945e01ab36d224f6d5e9a1575497ded9b35f695399948821"
+    },
+    "README.md": {
+      "bytes": 2493,
+      "sha256": "c8292dee1d4e45088e2a18af0ff803edad2705e1f1784f77bad605b6cc100aaa"
+    },
+    "README_ORIGINAL.md": {
+      "bytes": 1328,
+      "sha256": "304faf32770a1f41f6af7acd9deb52a7e1af59d0cc49e7d8a22863e5b52866b3"
+    },
+    "research/game/climber/guided/PAIRS_39.tsv": {
+      "bytes": 24606,
+      "sha256": "6624ad62c17b8d07d1ec7635d3f04d707257be33c770bdd3f5a4841df0abc6c0"
+    },
+    "research/public_library/qa/replay_pairs39.cjs": {
+      "bytes": 6263,
+      "sha256": "02423b6a93925e64cf2ba265daa3db1d51290f419609b0f95d6cc938c672da88"
+    },
+    "research/public_library/qa/resolve31-normalized.json": {
+      "bytes": 85945,
+      "sha256": "8fbfc08567e1f5d0c31abc4b70c1be441f1ef83d353a1706d7f9834d898b62a4"
+    },
+    "research/public_library/site/data/witnesses.json": {
+      "bytes": 43853,
+      "sha256": "d15d53e15a83b486940ed25151201f450726c664f1f9c2c30374e0783b81d3c0"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 260853,
+      "sha256": "8cdae2caa9f67f70c614bedf6e40fffb3d2e82d32aeebf7243a3c5ce42e29b92"
+    }
+  }
+}

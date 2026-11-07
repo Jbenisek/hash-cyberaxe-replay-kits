@@ -1,0 +1,113 @@
+{
+  "project_id": "hash-cyberaxe-boardpair-teaching",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "standard_abc": true,
+    "cases": [
+      {
+        "seed": "r37_tab17",
+        "rounds": 37,
+        "raw_C1_count": 61,
+        "checks": [
+          {
+            "control": "positive",
+            "rounds": 37,
+            "verified": true,
+            "elapsed_seconds": 0.047
+          },
+          {
+            "control": "one_more_step",
+            "rounds": 38,
+            "verified": false,
+            "elapsed_seconds": 0.031
+          },
+          {
+            "control": "mutated_message",
+            "rounds": 37,
+            "verified": false,
+            "elapsed_seconds": 0.047
+          },
+          {
+            "control": "identical_messages",
+            "rounds": 37,
+            "verified": false,
+            "elapsed_seconds": 0.047
+          }
+        ]
+      },
+      {
+        "seed": "r38_s102",
+        "rounds": 38,
+        "raw_C1_count": 84,
+        "checks": [
+          {
+            "control": "positive",
+            "rounds": 38,
+            "verified": true,
+            "elapsed_seconds": 0.032
+          },
+          {
+            "control": "one_more_step",
+            "rounds": 39,
+            "verified": false,
+            "elapsed_seconds": 0.046
+          },
+          {
+            "control": "mutated_message",
+            "rounds": 38,
+            "verified": false,
+            "elapsed_seconds": 0.032
+          },
+          {
+            "control": "identical_messages",
+            "rounds": 38,
+            "verified": false,
+            "elapsed_seconds": 0.032
+          }
+        ]
+      }
+    ],
+    "encodings": [
+      {
+        "seed": "r37_tab17",
+        "mode": "ctl",
+        "variables": 78743,
+        "clauses": 361617,
+        "pins": 512,
+        "elapsed_seconds": 0.641,
+        "cnf_sha256": "7809d0448acc6f4b49c78961c49d71bafa574e28e38f2706a60421208ec54285"
+      },
+      {
+        "seed": "r37_tab17",
+        "mode": "real",
+        "variables": 78743,
+        "clauses": 361618,
+        "pins": 512,
+        "elapsed_seconds": 0.875,
+        "cnf_sha256": "014659f3d1a268bc1b764f0285048c5d6e65bd27e04e7e38304f611d8d9ed819"
+      },
+      {
+        "seed": "r38_s102",
+        "mode": "ctl",
+        "variables": 81173,
+        "clauses": 372897,
+        "pins": 512,
+        "elapsed_seconds": 0.64,
+        "cnf_sha256": "971955a5109149d77295cd16df8b26b8537bf8b6ba4ebfc5b81734c57e9586b9"
+      },
+      {
+        "seed": "r38_s102",
+        "mode": "real",
+        "variables": 81173,
+        "clauses": 372898,
+        "pins": 512,
+        "elapsed_seconds": 0.813,
+        "cnf_sha256": "c6d4f104f181c28770f483fe4ad8d85abb2601b9bb8a844527de6a5d60d80ec2"
+      }
+    ],
+    "scope": "Two finite shared-chosen-CV controls, three negative controls per seed. Optional encoder checks verify serialization, pin units and exclusion clause, not full CNF equivalence or a solver result."
+  },
+  "finite_replay": "passed"
+}

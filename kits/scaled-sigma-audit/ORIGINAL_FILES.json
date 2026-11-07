@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "scaled-sigma-audit/original/schedcnf3.py",
+      "project_path": "scaled-sigma-audit/original/schedcnf3.py",
+      "sha256": "89083bdf81f33c236d94f4b253218789ac6a147cf700de7b643a8601b58b293f",
+      "bytes": 13359
+    },
+    {
+      "original": "scaled-sigma-audit/replay.py",
+      "project_path": "scaled-sigma-audit/replay.py",
+      "sha256": "d3d041d811e97521001853f899b2775ef7cf36c6b4a1945d8afeed6405d9e97f",
+      "bytes": 8898
+    },
+    {
+      "original": "scaled-sigma-audit/README.txt",
+      "project_path": "scaled-sigma-audit/README.txt",
+      "sha256": "e97234d17e1268134b62f59ee2053f8e18fc4a8fcd7e793ee75dd897354a1e52",
+      "bytes": 3908
+    },
+    {
+      "original": "scaled-sigma-audit/records.json",
+      "project_path": "scaled-sigma-audit/records.json",
+      "sha256": "f056ccc0635ea40b4ff5c2477e937781ddc0f35348d8bcca0e2a8b7816e89559",
+      "bytes": 31515
+    },
+    {
+      "original": "scaled-sigma-audit/manifest.json",
+      "project_path": "scaled-sigma-audit/manifest.json",
+      "sha256": "aa8d5c4e25a408fd1f46dcce7a725a3274f04b834aacc820a16804ec1530ccf8",
+      "bytes": 427
+    }
+  ]
+}

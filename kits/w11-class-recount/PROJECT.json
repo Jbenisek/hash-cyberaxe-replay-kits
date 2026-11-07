@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-w11-class-recount",
+  "title": "Why this signed word cube has 128 equally sized classes",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "w11-class-recount.zip",
+  "source_archive_sha256": "7238ca02304bed86e816f9e7240630893af91b5da57ef591d4d1e05a8400a5c6",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/w11-class-recount",
+  "tool_families": [
+    "w11-classes"
+  ],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "w11-class-kit/replay.py"
+  ],
+  "expected": "w11",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

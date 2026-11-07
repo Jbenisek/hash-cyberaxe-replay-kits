@@ -1,0 +1,37 @@
+{
+  "files": {
+    "DRAT266_1101.txt": {
+      "bytes": 65,
+      "sha256": "487d244db1166840fc6c0e4849517f6b72a3931012ae022b3f17df351a7cfeb5"
+    },
+    "POCKET266_1101.tsv": {
+      "bytes": 1294,
+      "sha256": "bc47fb3c1016fe491344e2d9ef0e70ddc9208ea22ac79e8a350ac3b23eff9cdd"
+    },
+    "POCKET268_1101.tsv": {
+      "bytes": 9337,
+      "sha256": "f2c3c989e7fc4c281320a31ce30ead831f51b0e126660168c9d5228edab30606"
+    },
+    "README.txt": {
+      "bytes": 2012,
+      "sha256": "b4c7a1cb065310e60c343882b2e84a781acd83091bd965f85bf509c1dd0910d0"
+    },
+    "records.json": {
+      "bytes": 118643,
+      "sha256": "c849414ec605cc0eb0ae861cc55c19d3f30bfc7a37069456a200f47b510df1a4"
+    },
+    "replay.py": {
+      "bytes": 5394,
+      "sha256": "17433ce670b37b6927cf87ca02da33a32773cc61526cfc7d256d1055e85fa726"
+    },
+    "SUB283_ORACLE_1101.tsv": {
+      "bytes": 1133,
+      "sha256": "f30e57365845cc0b3ecfa4becb01b6c67b8b8f7ecdb4e2622b0bab6143d9afae"
+    },
+    "WIDEMAP283_v2_1101.tsv": {
+      "bytes": 791,
+      "sha256": "c2a70ed917cd0db5210817cf3db2008a5e3f8795902e98b0157ea063de2cca39"
+    }
+  },
+  "scope": "Integrity of saved data and recount code; no authenticity signature or certificate validation."
+}

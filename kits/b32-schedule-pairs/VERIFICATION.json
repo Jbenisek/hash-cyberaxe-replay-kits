@@ -1,0 +1,30 @@
+{
+  "project_id": "hash-cyberaxe-b32-schedule-pairs",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "checked_at": "2026-11-06T01:06:47.885293+00:00",
+    "source_root": "<project>\\b32-schedule-pairs\\originals",
+    "source_pins": {
+      "LIFT_s1.check": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+      "LIFT_s1.check_research": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+      "LIFT_s2.check": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367",
+      "LIFT_s2.check_research": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367"
+    },
+    "source_file_names": 4,
+    "distinct_numerical_pairs": 2,
+    "independent_expansion_checked_words": 160,
+    "forced_top_bit_relations_checked": 6,
+    "W13_orientations": [
+      "0-to-1",
+      "1-to-0"
+    ],
+    "common_word_mutations_rejected": 2,
+    "projection_sha256": "6c8397ce4cc967c3c2701915d5c3ddb9d4fc4e2f327d8b0133187f0a9776c2e9",
+    "original_encoder_or_solver_executed": false,
+    "production_files_changed": false,
+    "scope": "Two exact full-width message-schedule pairs for sparse B. No chaining value, compatible full state, legal whole-message padding, compression collision or attack price is established."
+  },
+  "finite_replay": "passed"
+}

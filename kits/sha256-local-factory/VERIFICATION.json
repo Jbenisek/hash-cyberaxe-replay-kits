@@ -1,0 +1,60 @@
+{
+  "project_id": "hash-cyberaxe-sha256-local-factory",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "records": [
+      {
+        "member": "pairs/37_d28_651af2505f0f_s40000.pair.txt",
+        "rounds": 37,
+        "duplicate_of": null,
+        "feedforward_digest": "fe7f95a62f08d5677ea91380721f761431101e37dc4ac3f1c0d92099cc701fef",
+        "standard_iv": false
+      },
+      {
+        "member": "pairs/37_d28_6da90fa8c6a7_s40000.pair.txt",
+        "rounds": 37,
+        "duplicate_of": "pairs/37_d28_651af2505f0f_s40000.pair.txt",
+        "feedforward_digest": "fe7f95a62f08d5677ea91380721f761431101e37dc4ac3f1c0d92099cc701fef",
+        "standard_iv": false
+      },
+      {
+        "member": "pairs/37_d28_f17a31bfeb3e_s40000.pair.txt",
+        "rounds": 37,
+        "duplicate_of": "pairs/37_d28_651af2505f0f_s40000.pair.txt",
+        "feedforward_digest": "fe7f95a62f08d5677ea91380721f761431101e37dc4ac3f1c0d92099cc701fef",
+        "standard_iv": false
+      },
+      {
+        "member": "pairs/38_d29_0035a4af6a77_s40000.pair.txt",
+        "rounds": 38,
+        "duplicate_of": null,
+        "feedforward_digest": "9afe67a29d990a43b580398abd10b7bf25974ae8aaaa25ec50920e28dce17243",
+        "standard_iv": false
+      },
+      {
+        "member": "pairs/38_d29_50257c47044f_s40000.pair.txt",
+        "rounds": 38,
+        "duplicate_of": "pairs/38_d29_0035a4af6a77_s40000.pair.txt",
+        "feedforward_digest": "9afe67a29d990a43b580398abd10b7bf25974ae8aaaa25ec50920e28dce17243",
+        "standard_iv": false
+      },
+      {
+        "member": "pairs/38_d29_d1f818b92f02_s40000.pair.txt",
+        "rounds": 38,
+        "duplicate_of": "pairs/38_d29_0035a4af6a77_s40000.pair.txt",
+        "feedforward_digest": "9afe67a29d990a43b580398abd10b7bf25974ae8aaaa25ec50920e28dce17243",
+        "standard_iv": false
+      }
+    ],
+    "distinct_identities": 2,
+    "duplicate_files": 4,
+    "hashlib_controls": 4,
+    "mutation_controls": 6,
+    "one_step_noncollisions": 6,
+    "full_64_step_noncollisions": 6,
+    "scope": "Finite numerical replay of six saved files, two chosen-CV identities. No solver, launcher, attack rate, standard-IV collision or global novelty claim."
+  },
+  "finite_replay": "passed"
+}

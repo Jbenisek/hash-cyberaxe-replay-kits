@@ -1,0 +1,90 @@
+{
+ "collision": true,
+ "violations_with_flips_applied": [],
+ "flipped_values_ok": true,
+ "CV": [
+  "db43645b",
+  "be3af3a4",
+  "9b4c701e",
+  "26ae162f",
+  "482b5a50",
+  "e7eded5e",
+  "a922dcc3",
+  "48a915d3"
+ ],
+ "MX": [
+  "1b565f3e",
+  "82de6f71",
+  "28d44b26",
+  "ed9d7f9c",
+  "e47cabda",
+  "ea34d6ce",
+  "86dffec7",
+  "f753971d",
+  "bf0d78e1",
+  "6d1a90dd",
+  "faa1d3e0",
+  "56aed439",
+  "cc2dbbc2",
+  "dd2ba0fc",
+  "bd1d3f7b",
+  "7dd43a81"
+ ],
+ "MY": [
+  "1b565f3e",
+  "82de6f71",
+  "28d44b26",
+  "ed9d7f9c",
+  "e47cabda",
+  "ea34d6ce",
+  "a6dffec7",
+  "f3139f1d",
+  "9f0d78e1",
+  "681b8277",
+  "faa9c7e0",
+  "56aed439",
+  "cc2dbbc2",
+  "dd2ba0fc",
+  "b95d377b",
+  "5dd43a81"
+ ],
+ "digest": "0a3b98a3905426aee120f66db0759f2b7ed23d8e70a24de047505fb0890f2bdf",
+ "flip_bits_in_trace": [
+  [
+   "E",
+   18,
+   1,
+   0
+  ],
+  [
+   "E",
+   18,
+   10,
+   0
+  ],
+  [
+   "E",
+   18,
+   11,
+   0
+  ],
+  [
+   "E",
+   18,
+   28,
+   1
+  ],
+  [
+   "E",
+   18,
+   29,
+   0
+  ],
+  [
+   "E",
+   19,
+   29,
+   0
+  ]
+ ]
+}

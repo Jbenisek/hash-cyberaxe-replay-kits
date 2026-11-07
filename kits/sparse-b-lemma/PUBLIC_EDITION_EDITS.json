@@ -1,0 +1,26 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "sparse-b-lemma/PROOF.txt",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "a6a9cc817acce33c27e97a793872b940f9d3d2d311cf2bd4836a71304f50d0a3",
+      "original_bytes": 2201,
+      "published_sha256": "009d55f26222e0e5c6e1ab9312a1f20504fc9aaeb1fb26840725313ab0e341ca",
+      "published_bytes": 2208
+    },
+    {
+      "path": "sparse-b-lemma/README.txt",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "4aba8e9360afa7d7ac60fa58a1ab71336c44687725f7e3baeaf3541aefe6a6e2",
+      "original_bytes": 1652,
+      "published_sha256": "a172a7daa6bf3d108cd90ef28d2973a95d4f7c8b9098019e88751bfad1b39570",
+      "published_bytes": 1659
+    }
+  ]
+}

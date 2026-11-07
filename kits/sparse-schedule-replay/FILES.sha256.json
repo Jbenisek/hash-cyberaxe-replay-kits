@@ -1,0 +1,69 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1868,
+      "sha256": "5ec50808731cfa79cf41b2c67940d58d86143f76c294e1e723ffe77504c274a0"
+    },
+    "PROJECT.json": {
+      "bytes": 703,
+      "sha256": "7b8e786f229a18d41b4ff9a85cad5d2c98eb9edeb0dc000bb56e480dc011dc03"
+    },
+    "README.md": {
+      "bytes": 2574,
+      "sha256": "42b473e9985f8ab2cd35123086d8562f2074bba348a7a0d9180c8f9f61ea0d94"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "sparse-schedule-kit/check_contract.py": {
+      "bytes": 3601,
+      "sha256": "bf44b1f6d4fe7892f950995d44e97987bd271eb69caba6dcaaf517779369a327"
+    },
+    "sparse-schedule-kit/code/explore.py": {
+      "bytes": 1636,
+      "sha256": "c080f33d4193f64316338e25e81ac8bb9295f8a806e0db1f08c81ea373c5fb2d"
+    },
+    "sparse-schedule-kit/code/modular.py": {
+      "bytes": 1226,
+      "sha256": "9cf365f15e8c18e47ea3f29071dab3a8e44a987de10f0b4b386933c9fb532fc6"
+    },
+    "sparse-schedule-kit/data/results.json": {
+      "bytes": 56469,
+      "sha256": "cd747b161427cea4c6ca4b943cdeb8a6925092ec2a776d3d803eaf49cc584530"
+    },
+    "sparse-schedule-kit/MANIFEST.json": {
+      "bytes": 1055,
+      "sha256": "d6e11ef1792adf90cd4bf543be48ec489c38538f58bb66bf39a4013d5fd50a9a"
+    },
+    "sparse-schedule-kit/README.md": {
+      "bytes": 2447,
+      "sha256": "1b289bcbb6487236ae1f9defe1b1f4dca373aea9dae8db06ff236e78377a31fe"
+    },
+    "sparse-schedule-kit/replay.py": {
+      "bytes": 930,
+      "sha256": "f9ed9d81c193cd1b7738444800e85c5cbd9ce545318ac285a27e57a61893d04c"
+    },
+    "sparse-schedule-kit/verify.py": {
+      "bytes": 3528,
+      "sha256": "e3aba6d0e0a4747566a52c96fd0eb57fc885e46ef138874c015711ac1bb13b35"
+    },
+    "VERIFICATION.json": {
+      "bytes": 1791,
+      "sha256": "60a20fd63a2cf2528c4dd11845c46b5623b6bd9b99b95d61500dbcdaf815b4a3"
+    }
+  }
+}

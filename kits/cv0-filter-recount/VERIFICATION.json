@@ -1,0 +1,16 @@
+{
+  "project_id": "hash-cyberaxe-cv0-filter-recount",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "rows_recounted": 70,
+    "pool_words": 2097152,
+    "backend": "numpy",
+    "scalar_vector_comparisons": 9450,
+    "new_samples": 0,
+    "population_success_law_proved": false,
+    "scope": "Exact count on two retained sampled pools, not a certified population probability or attack price."
+  },
+  "finite_replay": "passed"
+}

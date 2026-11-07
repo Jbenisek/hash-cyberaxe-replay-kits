@@ -1,0 +1,117 @@
+{
+  "format": "hashsmash-interrupted-move-tests-v1",
+  "source_path": "research/runs_1101/tricks/TRICKS_RESULTS_1101.md",
+  "source_sha256": "41dce1c89b095f2fc601b988ac2a2fe8fa812a4162a4187be161ccb22edc6345",
+  "recorded_date": "2026-11-01 (MST, as labelled)",
+  "records": [
+    {
+      "id": "T1",
+      "source_line": 8,
+      "recorded_test": "T1 work-in R39 core",
+      "recorded_move": "re-complete rows 10-15",
+      "recorded_comparison": "WORSE: no char in 3x180 s (baseline trail = 276 s); two value checks UNKNOWN 119.6 s",
+      "reader_group": "core",
+      "status": "NO_COMPLETION_WITHIN_REPORTED_CAP",
+      "reported_facts": {
+        "search_trials": 3,
+        "search_cap_seconds_each": 180,
+        "baseline_seconds": "276",
+        "value_checks_UNKNOWN": 2,
+        "value_duration_seconds_reported": "119.6"
+      },
+      "qualification": "The source says WORSE, but capped non-completions and one reported baseline time do not certify an algorithmic cost ratio or a distributional ranking."
+    },
+    {
+      "id": "T2",
+      "source_line": 9,
+      "recorded_test": "T2 word tunnel 39->40",
+      "recorded_move": "shift {W0,W4} door",
+      "recorded_comparison": "INCOMPLETE: 2 of 16 lanes started, both cut mid-solve (~18 s), no verdict. Launch verified only (s1_w0_4 reproduces HASH$CyberAxe door byte-for-byte). RERUN NEEDED",
+      "reader_group": "tunnel",
+      "status": "INTERRUPTED_NOT_A_VERDICT",
+      "reported_facts": {
+        "started_lanes": 2,
+        "planned_lanes": 16,
+        "interrupt_seconds_approx": 18,
+        "final_verdicts_reported": 0
+      },
+      "qualification": "Only two lanes started and both were interrupted. A launch/reproduction control is not a negative verdict on the construction. Match any later completion by exact instance identity."
+    },
+    {
+      "id": "T3",
+      "source_line": 10,
+      "recorded_test": "T3 core-pin on p9 (value-UNSAT)",
+      "recorded_move": "CAP-20 deletion map, then work-in",
+      "recorded_comparison": "DARKNESS MAPPED: 18-probe core map done; work-in has no completion (base is value-UNSAT). Signal below",
+      "reader_group": "core",
+      "status": "MAP_WITHOUT_COMPLETED_WORK_IN",
+      "reported_facts": {
+        "map_probes": 18,
+        "map_cap_seconds": 20,
+        "completed_work_in_reported": false
+      },
+      "qualification": "A core-map observation is not a minimum-core proof. Read this note with the later p9 FREED-column, EQLINK and UNKNOWN-deletion corrections; no individual formula is reclassified here."
+    },
+    {
+      "id": "T4",
+      "source_line": 11,
+      "recorded_test": "T4 lightning head/tail",
+      "recorded_move": "junction sweep J=8..32",
+      "recorded_comparison": "INCOMPLETE: 2 of 14 lanes started, both cut mid-solve (~13 s), no verdict. RERUN NEEDED",
+      "reader_group": "junction",
+      "status": "INTERRUPTED_NOT_A_VERDICT",
+      "reported_facts": {
+        "started_lanes": 2,
+        "planned_lanes": 14,
+        "interrupt_seconds_approx": 13,
+        "final_verdicts_reported": 0
+      },
+      "qualification": "An interrupted partial junction sweep does not show that all planned junctions fail. This account does not claim that later team work never completed them."
+    },
+    {
+      "id": "T5",
+      "source_line": 12,
+      "recorded_test": "T5 keep-one-block 39",
+      "recorded_move": "one 4-row block only",
+      "recorded_comparison": "SAME: 16/16 UNKNOWN 60 s; no single block fails fast. Signal below",
+      "reader_group": "core",
+      "status": "UNKNOWN_NOT_SAT",
+      "reported_facts": {
+        "UNKNOWN_results": 16,
+        "cap_seconds": 60,
+        "multi_block_necessity_proved": false
+      },
+      "qualification": "UNKNOWN at a time cap does not prove any single-block formula SAT. The note therefore does not establish that a contradiction requires multiple blocks. Conflict-count gradients are descriptive, not SAT/UNSAT or necessity certificates."
+    },
+    {
+      "id": "T6",
+      "source_line": 13,
+      "recorded_test": "T6 snap sweep door40",
+      "recorded_move": "rotate r=0..31",
+      "recorded_comparison": "SAME: only r0 undecided; r1-r31 UNSAT 0.6-0.7 s, 0 conflicts. Rotation is not the lever",
+      "reader_group": "rotation",
+      "status": "REPORTED_UNSAT_SUBSET_NOT_GENERAL_BARRIER",
+      "reported_facts": {
+        "rotations_with_reported_UNSAT": 31,
+        "unresolved_rotation": 0,
+        "elapsed_seconds_range_reported": [
+          "0.6",
+          "0.7"
+        ],
+        "conflicts_reported": 0
+      },
+      "qualification": "These are recorded outcomes under one pinned door setup, not freshly replayed proofs or a theorem that rotation can never help another construction."
+    }
+  ],
+  "count": 6,
+  "source_table_cells": 18,
+  "interrupted_partial_tests": [
+    "T2",
+    "T4"
+  ],
+  "independently_replayed_solver_verdicts": 0,
+  "minimum_core_proved": false,
+  "later_completions_reconciled": false,
+  "new_compute_requested": false,
+  "scope": "Exact historical table transcription and bounded interpretation. No solver, model, proof-certificate or attack-price replay. Archived proposed tests are not current operating instructions."
+}

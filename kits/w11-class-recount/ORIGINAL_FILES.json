@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "w11-class-kit/CLASSVALS3.tsv",
+      "project_path": "w11-class-kit/CLASSVALS3.tsv",
+      "sha256": "f60a2431780b58f284e40ed8b66bb1ea9cd361d5184bae1b4998782bcab32e54",
+      "bytes": 3401
+    },
+    {
+      "original": "w11-class-kit/CLASSVALS3_k8.tsv",
+      "project_path": "w11-class-kit/CLASSVALS3_k8.tsv",
+      "sha256": "29e85248691ee3237b5ba708a578dc01bfdbfc7287bc01462a803f236699b7cc",
+      "bytes": 28392
+    },
+    {
+      "original": "w11-class-kit/replay.py",
+      "project_path": "w11-class-kit/replay.py",
+      "sha256": "5f1996720d18f32f241946a64d33dfd0a1f3b87aa0462b9dc54abd85c848515d",
+      "bytes": 6271
+    },
+    {
+      "original": "w11-class-kit/README.md",
+      "project_path": "w11-class-kit/README.md",
+      "sha256": "52b1184da846ebba61255957c7c3607532a3603e01a4edb7e047ceba963c37c4",
+      "bytes": 4391
+    },
+    {
+      "original": "w11-class-kit/MANIFEST.json",
+      "project_path": "w11-class-kit/MANIFEST.json",
+      "sha256": "8d51f45271f309655ed3d23dc6629a4323780b50124e2c72d6a75b88a5323abb",
+      "bytes": 689
+    }
+  ]
+}

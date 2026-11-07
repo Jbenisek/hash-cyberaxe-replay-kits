@@ -1,0 +1,69 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "lawbase-example/golden-b32-records.json": {
+      "bytes": 11154,
+      "sha256": "be99263dfcb05708a7354c8e71aa24bf56f019a960474132714510d7ca48b734"
+    },
+    "lawbase-example/manifest.json": {
+      "bytes": 722,
+      "sha256": "c933dfc2086f5573bc0bceefe73c971582a7cdd97d086c4a8424c3da6035957a"
+    },
+    "lawbase-example/originals/example-R40-E29.xml": {
+      "bytes": 4979,
+      "sha256": "7a61f9afcb5609c30bd5afb5b661c453fe3ec7dbc837cb577bdb032c053ccdcf"
+    },
+    "lawbase-example/originals/lawbase.py": {
+      "bytes": 1314,
+      "sha256": "a6e1cf0c62710affe52a7f46640e0892cfeac7b23b2a13f0a3824112a7425d2f"
+    },
+    "lawbase-example/originals/LIFT_s9.check": {
+      "bytes": 438,
+      "sha256": "e299a74cc0629b5dbfd467b796a017e6491e532f15c597628b2fc7d096d155f6"
+    },
+    "lawbase-example/README.txt": {
+      "bytes": 3319,
+      "sha256": "edff5cbc626d9c77985f8a546fee338269bf23c54f1d01972bea6f343f09e2bc"
+    },
+    "lawbase-example/records.json": {
+      "bytes": 937,
+      "sha256": "db2c579a47c6ea2a5bafdb465f388ebb38f400c5df40422040669133b7b65896"
+    },
+    "lawbase-example/replay.py": {
+      "bytes": 5882,
+      "sha256": "1a97bfbc4cd2d9c381281524bdd04a1eeab94d1a19a5a04f0ff382aa02f5b0c8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1872,
+      "sha256": "c7053b62ce29fe444b1ac270b871daf54c902bbaeb9e7906ee34e757aa203109"
+    },
+    "PROJECT.json": {
+      "bytes": 701,
+      "sha256": "6a850044f727308d49fe395480fd232f2586edc455735fcf8b66c7a94285c6d8"
+    },
+    "README.md": {
+      "bytes": 2743,
+      "sha256": "1ab298c749a6efcd4f31b81514967e641af3840cfc7a17605d0100591901088e"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 1186,
+      "sha256": "b8562594e0de1a083455146a0e292c5b39c70d039a3c06e86ebfb3f232aa78cf"
+    }
+  }
+}

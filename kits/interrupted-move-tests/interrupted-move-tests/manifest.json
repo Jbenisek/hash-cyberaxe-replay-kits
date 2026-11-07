@@ -1,0 +1,9 @@
+{
+  "format": "hashsmash-interrupted-move-kit-v1",
+  "files": {
+    "originals/TRICKS_RESULTS_1101.md": "41dce1c89b095f2fc601b988ac2a2fe8fa812a4162a4187be161ccb22edc6345",
+    "replay.py": "a3dff0f965048c478d3ed4937c1371e40b73d350ff7b8bf9be9bd43cad3e8bf5",
+    "README.txt": "2771c89696af2c31859ade55c57447a4e78524d4160022a421af0c3931f8454e",
+    "records.json": "43cf709d349ab26b8a6b81ba1e0d624f4c3353114284bf6271fd55756f33a36d"
+  }
+}

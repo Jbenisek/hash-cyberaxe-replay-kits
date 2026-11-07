@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1942,
+      "sha256": "29038e73046ba16fc43e7aee33e0cb417663b2f6531ff393a569866e1c7d7119"
+    },
+    "PROJECT.json": {
+      "bytes": 691,
+      "sha256": "5a2423c9d198a44b565323b11ddd70b63965a559620441310b419385c59f8e97"
+    },
+    "README.md": {
+      "bytes": 2706,
+      "sha256": "cb7825062c04bda2656d1cd1e7bb8c8eebd74e620045a281bddef094881447a3"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2549,
+      "sha256": "2ed0544fde73842708b29860c06850633c923567d85bfa300cc11ea397b251ee"
+    },
+    "xconv-lesson/check_interfaces.py": {
+      "bytes": 4346,
+      "sha256": "cb34ec974caed6e2b4307105051c01fe87ce6dc2d069b9418993799873b6a14b"
+    },
+    "xconv-lesson/geo.py": {
+      "bytes": 708,
+      "sha256": "cdd7ebc0e8172a55f0426afe2dab96b441ec843058912d4967fc3a391e1ead50"
+    },
+    "xconv-lesson/MANIFEST.json": {
+      "bytes": 1186,
+      "sha256": "41eaa54639e7a219ca303c831ffd8d87ac76f17f16146ed550dd338c69ad1cba"
+    },
+    "xconv-lesson/r15-ledger.json": {
+      "bytes": 489,
+      "sha256": "15693c5dc202216a65e8ff86d8214fa93692be72c8a05210550ee766056ead97"
+    },
+    "xconv-lesson/r20-ledger.json": {
+      "bytes": 585,
+      "sha256": "199a7707ae22b5d84040d938ae715ef519e60b7cef4d448f567e61eb221abec5"
+    },
+    "xconv-lesson/README.md": {
+      "bytes": 5339,
+      "sha256": "1e9f07e8a6630fb7f1cf6d1d3df08bc57ed88a3d99b85621b32f41eacf99ebba"
+    },
+    "xconv-lesson/replay.py": {
+      "bytes": 3793,
+      "sha256": "ec9eb4d46c65b88546e5fa140c004ed5f028779f902b953b80270778c755f437"
+    },
+    "xconv-lesson/xconv.py": {
+      "bytes": 2006,
+      "sha256": "010ef7da265de2774d9519d5c43bba2e2ed50915f0628cb402ff1302634786ad"
+    },
+    "xconv-lesson/xconv1.py": {
+      "bytes": 1890,
+      "sha256": "88535ee7467250a93ce83597feb0c1feeae3f81291043f234b879662fae94e01"
+    }
+  }
+}

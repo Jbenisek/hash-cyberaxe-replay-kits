@@ -1,0 +1,8 @@
+R	39
+carry_positions	2208
+admissible_subspace_dim	1
+admissible_weight1_bits	1125
+weight0_inconsistent	False
+fixed_point_from_weight0	False
+fixed_point_from_any_weight1	False
+best_mismatch	781

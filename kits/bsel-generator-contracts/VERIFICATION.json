@@ -1,0 +1,24 @@
+{
+  "project_id": "hash-cyberaxe-bsel-generator-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_sha256": "b72dd6a3705e844959fdff8ed4f4805484f3d24ae068fd6a9f06992d6cd8a8c1",
+    "wasm_sha256": "0918ee3fcc92fb33164ccb9898d2c5b1cf2a28d80e7a3aeee12b031de48648f1",
+    "compiled_chunks": 6,
+    "instructions_checked": 11718,
+    "register_extent": 771,
+    "negative_controls_rejected": 2,
+    "wasm_calls_compared": 2,
+    "memory_limits": {
+      "min": 3,
+      "max": 16
+    },
+    "memory_bytes": 196608,
+    "q_hex": "31fa69aa55a62f3fdab0c8ed9316d10ac1708c9a78484ce907e6d78bc99adee1",
+    "instruction_sha256": "f50fb3f0f6a28f8c48d403729a5b8de1716c41a54b9ed5b7d41f1a989377120d",
+    "scope": "Generated allocation and retained wasm program/mask identity only. No new C compilation, independent hash-reference replay, target-machine pricing, native host-memory bound, collision search or success-probability proof."
+  },
+  "finite_replay": "passed"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-seed-prefix-contracts",
+  "title": "Seed writer and prefix-checker teaching kit",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "seed-prefix-contracts.zip",
+  "source_archive_sha256": "516307df67a70b3a9755654b0f19af3950cbf1ddbb3637c37bd2fde83e845bfc",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/seed-prefix-contracts",
+  "tool_families": [
+    "independent-sha-checks",
+    "seed-characteristics"
+  ],
+  "original_payload_files": 12,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "seed-prefix-kit/replay.py"
+  ],
+  "expected": "seed-prefix",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "b32-schedule-pairs/replay.py",
+      "project_path": "b32-schedule-pairs/replay.py",
+      "sha256": "6bfb525a0d539958757eea977d9f537e2ee2c2d58fad9fd86a7f13e8cd619fc7",
+      "bytes": 6392
+    },
+    {
+      "original": "b32-schedule-pairs/README.txt",
+      "project_path": "b32-schedule-pairs/README.txt",
+      "sha256": "8022af8d29b63ed617c1bb1085ff9a40ec29575931075a8cee7ec22fe35d4fde",
+      "bytes": 2048
+    },
+    {
+      "original": "b32-schedule-pairs/records.json",
+      "project_path": "b32-schedule-pairs/records.json",
+      "sha256": "be99263dfcb05708a7354c8e71aa24bf56f019a960474132714510d7ca48b734",
+      "bytes": 11154
+    },
+    {
+      "original": "b32-schedule-pairs/originals/LIFT_s1.check",
+      "project_path": "b32-schedule-pairs/originals/LIFT_s1.check",
+      "sha256": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+      "bytes": 438
+    },
+    {
+      "original": "b32-schedule-pairs/originals/LIFT_s1.check_research",
+      "project_path": "b32-schedule-pairs/originals/LIFT_s1.check_research",
+      "sha256": "5c23e5d6c2593dc11ffba21b2871a73f7a35b35ed6c11789f1985881466c6747",
+      "bytes": 438
+    },
+    {
+      "original": "b32-schedule-pairs/originals/LIFT_s2.check",
+      "project_path": "b32-schedule-pairs/originals/LIFT_s2.check",
+      "sha256": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367",
+      "bytes": 438
+    },
+    {
+      "original": "b32-schedule-pairs/originals/LIFT_s2.check_research",
+      "project_path": "b32-schedule-pairs/originals/LIFT_s2.check_research",
+      "sha256": "adcfec1e20440a218d29e0c4064eca9fb81630cd34df6b2130530b04d739b367",
+      "bytes": 438
+    },
+    {
+      "original": "b32-schedule-pairs/originals/LIFT_s9.check",
+      "project_path": "b32-schedule-pairs/originals/LIFT_s9.check",
+      "sha256": "e299a74cc0629b5dbfd467b796a017e6491e532f15c597628b2fc7d096d155f6",
+      "bytes": 438
+    },
+    {
+      "original": "b32-schedule-pairs/manifest.json",
+      "project_path": "b32-schedule-pairs/manifest.json",
+      "sha256": "67e4b7d62133988ea46dc254bd3d18d5a716a7c998379c60dd2b797ebc465cfa",
+      "bytes": 837
+    }
+  ]
+}

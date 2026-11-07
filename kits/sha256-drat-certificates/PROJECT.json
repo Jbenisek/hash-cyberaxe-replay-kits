@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sha256-drat-certificates",
+  "title": "TWO SCOPED SHA-256 FORMULA CERTIFICATES",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sha256-drat-certificates.zip",
+  "source_archive_sha256": "6076a13012d709a35cd34aa1bfc0c987c250c696b09f3956fbcf26280da40c11",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sha256-drat-certificates",
+  "tool_families": [],
+  "original_payload_files": 12,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "sha256-drat-certificates/check.py"
+  ],
+  "timeout_seconds": 60,
+  "verification_scope": "File identities only; DRAT proof replay requires the documented external checker."
+}

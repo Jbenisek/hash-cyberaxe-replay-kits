@@ -1,0 +1,9 @@
+{
+  "format": "hashsmash-scaled-sigma-audit-kit-v1",
+  "files": {
+    "original/schedcnf3.py": "89083bdf81f33c236d94f4b253218789ac6a147cf700de7b643a8601b58b293f",
+    "replay.py": "d3d041d811e97521001853f899b2775ef7cf36c6b4a1945d8afeed6405d9e97f",
+    "README.txt": "e97234d17e1268134b62f59ee2053f8e18fc4a8fcd7e793ee75dd897354a1e52",
+    "records.json": "f056ccc0635ea40b4ff5c2477e937781ddc0f35348d8bcca0e2a8b7816e89559"
+  }
+}

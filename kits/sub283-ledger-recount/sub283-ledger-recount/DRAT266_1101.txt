@@ -1,0 +1,2 @@
+solve: s UNSATISFIABLE 309 s, proof 299M
+check: s VERIFIED 527 s

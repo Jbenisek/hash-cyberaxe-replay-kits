@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-p9-deletion-replay",
+  "title": "P9 row deletion: replay what the saved evidence actually says",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "p9-deletion-replay.zip",
+  "source_archive_sha256": "814bfce129bb7b39d45821c6f6be055c60b3978d07521918111850131af45f2a",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/p9-deletion-replay",
+  "tool_families": [],
+  "original_payload_files": 42,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "p9-deletion-replay/replay.py"
+  ],
+  "expected": "p9-deletion",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

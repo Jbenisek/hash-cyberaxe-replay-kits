@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-historical-common-cv",
+  "title": "Historical common-chaining-value SHA-256 compression pairs",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "historical-common-cv.zip",
+  "source_archive_sha256": "71d794909e271c380087b5b1f19249e11999e83164762fc902ead4581bed1f26",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/historical-common-cv",
+  "tool_families": [],
+  "original_payload_files": 4,
+  "replay_command": [
+    "node",
+    "historical-common-cv/replay.cjs"
+  ],
+  "expected": "historical-common-cv",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

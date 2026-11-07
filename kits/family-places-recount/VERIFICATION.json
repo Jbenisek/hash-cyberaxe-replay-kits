@@ -1,0 +1,38 @@
+{
+  "project_id": "hash-cyberaxe-family-places-recount",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_root": "originals",
+    "map_cells": 344539,
+    "distinct_shape_D_L_families": 205176,
+    "summary_places": 4344,
+    "ranked_word_D_families_at_R_ge40": 177,
+    "ranked_rows_shift_ge6": 28,
+    "ranked_rows_shift_ge8": 22,
+    "shift_flag_and_offset_mismatches": [],
+    "recorded_best_verdicts": {
+      "UNSAT": 111734,
+      "IMPL_UNSAT": 210259,
+      "SAT": 5296,
+      "CAP": 2448,
+      "UNK": 7566,
+      "HELD": 3860,
+      "IMPL_SAT": 2349,
+      "NONE": 948,
+      "MIXED": 68,
+      "CONFLICT": 11
+    },
+    "recorded_best_layers": {
+      "sched": 343190,
+      "state": 401,
+      "": 948
+    },
+    "persisted_rank_policy_reproduced": true,
+    "proofs_replayed": 0,
+    "research_programs_executed": false,
+    "scope": "Exact retained-table aggregation and rank-policy reproduction only. A family is not a witness, a rank is not a price, shift flags are not contest acceptance, and saved SAT/UNSAT labels are not independently checked certificates."
+  },
+  "finite_replay": "passed"
+}

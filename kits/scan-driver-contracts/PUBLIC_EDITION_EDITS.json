@@ -1,0 +1,16 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "scan-driver-kit/scan_driver.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "91fa85bf3435f617d9131c70b4f8c7daa447857c351ff7cff42ff6f28739eb13",
+      "original_bytes": 10596,
+      "published_sha256": "67ec37d0470e8677bf54f4addaefe4e2dd2720a55a43d780946b4e8e8db6f9fa",
+      "published_bytes": 10589
+    }
+  ]
+}

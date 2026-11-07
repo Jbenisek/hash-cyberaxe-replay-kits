@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-interrupted-move-tests",
+  "title": "Six historical tunnel-move tests: transcript and interpretation replay",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "interrupted-move-tests.zip",
+  "source_archive_sha256": "79892a08c9c3edc679266886bf6a2e002137f2139097c0ddff10c53b7cbbb4ab",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/interrupted-move-tests",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "interrupted-move-tests/replay.py"
+  ],
+  "expected": "interrupted-moves",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Exact local signed-word class recount, not a full-message attack.",
+  "files": [
+    {
+      "path": "CLASSVALS3.tsv",
+      "bytes": 3401,
+      "sha256": "f60a2431780b58f284e40ed8b66bb1ea9cd361d5184bae1b4998782bcab32e54"
+    },
+    {
+      "path": "CLASSVALS3_k8.tsv",
+      "bytes": 28392,
+      "sha256": "29e85248691ee3237b5ba708a578dc01bfdbfc7287bc01462a803f236699b7cc"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 6271,
+      "sha256": "5f1996720d18f32f241946a64d33dfd0a1f3b87aa0462b9dc54abd85c848515d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4391,
+      "sha256": "52b1184da846ebba61255957c7c3607532a3603e01a4edb7e047ceba963c37c4"
+    }
+  ]
+}

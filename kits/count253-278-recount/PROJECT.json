@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-count253-278-recount",
+  "title": "COUNT253 / COUNT278: raw exports and exact saved-data recount",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "count253-278-recount.zip",
+  "source_archive_sha256": "e4cdd1fa85c4a6fed99b6b48f0cbed19c0f6eddddf9350c3a65a8ba4652c7f44",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/count253-278-recount",
+  "tool_families": [],
+  "original_payload_files": 10,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "count253-278-recount/replay.py"
+  ],
+  "expected": "count253-278",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

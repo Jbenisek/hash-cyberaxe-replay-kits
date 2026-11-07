@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "original": "replay.py",
+      "project_path": "replay.py",
+      "sha256": "4b2f07d3c601033a52e487bc2a9a92a22d773c7b138024b52add91b8c1a99811",
+      "bytes": 8973
+    },
+    {
+      "original": "data.json",
+      "project_path": "data.json",
+      "sha256": "bee54836f9aa3aa01799b4340ba35e861f1c27e02e1adcdfd6c662d093e312d6",
+      "bytes": 177932
+    },
+    {
+      "original": "README.md",
+      "project_path": "README_ORIGINAL.md",
+      "sha256": "a5fb13eff741244dc6205f32570700c5cdce0131561f6b06f2f88f2c9edfeb72",
+      "bytes": 4765
+    },
+    {
+      "original": "MANIFEST.json",
+      "project_path": "MANIFEST.json",
+      "sha256": "b8a433648cd87724f5802998bad5a2ddfc6fe0fbb3ffd0707f4f3d1722d25870",
+      "bytes": 542
+    }
+  ]
+}

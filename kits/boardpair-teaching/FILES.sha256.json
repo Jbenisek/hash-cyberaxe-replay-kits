@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "boardpair-kit/boardpairs/gen_boardpair.py": {
+      "bytes": 4873,
+      "sha256": "4c20d1691d24288b210f5f7a0b302aee08ba02ddc8cb88eb7c72b6721470ddf7"
+    },
+    "boardpair-kit/boardpairs/wit/r37_tab17.json": {
+      "bytes": 630,
+      "sha256": "e1ed5b4a89aad156050eb895a86c803b019ef926869bc5b378332a0a3fb879ed"
+    },
+    "boardpair-kit/boardpairs/wit/r38_s102.json": {
+      "bytes": 629,
+      "sha256": "18faa629b35329c05e9d0e20a42497e571f4553ad97d81049b2066b5cf3926a8"
+    },
+    "boardpair-kit/kit/char_pair_profile.py": {
+      "bytes": 12295,
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611"
+    },
+    "boardpair-kit/kit/indep_verify.py": {
+      "bytes": 2816,
+      "sha256": "dec3ad8f2be2ffaecc6e0e63801a12d75de19c3977685a8ff5133fde278b0513"
+    },
+    "boardpair-kit/kit/sha_cnf.py": {
+      "bytes": 23585,
+      "sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa"
+    },
+    "boardpair-kit/MANIFEST.json": {
+      "bytes": 2548,
+      "sha256": "e1d3a9e059ec57fb36b9fb3257437e43ed87f0b6e02742029140786f44444eb9"
+    },
+    "boardpair-kit/README.md": {
+      "bytes": 3829,
+      "sha256": "d29af7425f35018dfc0de88ee62b31aaa75096c4579ea488c0ee1f0ff3993a10"
+    },
+    "boardpair-kit/replay.py": {
+      "bytes": 7944,
+      "sha256": "653945b9455362fa5dea296e44ba2a8a4949f1c8905ea4cc401298d738a20d66"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2101,
+      "sha256": "212cd0fb15c1c12fe111baa3ba6dea130d6267ff51a13527a16650f6401b9fe5"
+    },
+    "PROJECT.json": {
+      "bytes": 720,
+      "sha256": "746c632b409d1248fa422344a589418c68ca16a7f4bbc7885db77aa2d4ca3e76"
+    },
+    "README.md": {
+      "bytes": 2977,
+      "sha256": "6108238c2354cc786964ec333982064bd0b74889b199d38a1b12e0cae5248da3"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 3100,
+      "sha256": "b61fd0428062111c648c08637b77994c1cc95f3cf47fa5164800fc4ba9214693"
+    }
+  }
+}

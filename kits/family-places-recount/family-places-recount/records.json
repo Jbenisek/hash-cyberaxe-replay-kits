@@ -1,0 +1,765 @@
+{
+  "passed": true,
+  "source_root": "originals",
+  "source_pins": {
+    "FAMILY_PLACES.tsv": "5fb090aadd7a3ed09d4eaa990af4bc87e42c448dd593f5f0be4ed237e75b49b9",
+    "places_summary.tsv": "f79b6b39d2eed575f333fc9cd72513b722d262e21484d10da9c9546a84f1d5af",
+    "top_families.tsv": "fab20a4d290c54b0f17caf05cfce30b5ade547469375602e84b527bceba69c6f"
+  },
+  "map_cells": 344539,
+  "distinct_shape_D_L_families": 205176,
+  "summary_places": 4344,
+  "ranked_word_D_families_at_R_ge40": 177,
+  "ranked_rows_shift_ge6": 28,
+  "ranked_rows_shift_ge8": 22,
+  "shift_flag_and_offset_mismatches": [],
+  "recorded_best_verdicts": {
+    "UNSAT": 111734,
+    "IMPL_UNSAT": 210259,
+    "SAT": 5296,
+    "CAP": 2448,
+    "UNK": 7566,
+    "HELD": 3860,
+    "IMPL_SAT": 2349,
+    "NONE": 948,
+    "MIXED": 68,
+    "CONFLICT": 11
+  },
+  "recorded_best_layers": {
+    "sched": 343190,
+    "state": 401,
+    "": 948
+  },
+  "persisted_rank_policy_reproduced": true,
+  "shift_ge6_candidates": [
+    {
+      "rank": 1,
+      "normalized_D": "0,1,3,8",
+      "normalized_L": "16,17,31",
+      "absolute_D": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "absolute_L": [
+        23,
+        24,
+        38
+      ],
+      "R": 40,
+      "shift": 7,
+      "recorded_layer": "state",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": "R40 y7 BASE d35 wall36 win26-32(0.61s)"
+    },
+    {
+      "rank": 116,
+      "normalized_D": "0,1,2,3,5,7",
+      "normalized_L": "8,12,17,20,21",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        15
+      ],
+      "absolute_L": [
+        16,
+        20,
+        25,
+        28,
+        29
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "state",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 117,
+      "normalized_D": "0,1,2,3,4,5,8,9",
+      "normalized_L": "10,13,21,26,33",
+      "absolute_D": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "absolute_L": [
+        16,
+        19,
+        27,
+        32,
+        39
+      ],
+      "R": 40,
+      "shift": 6,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 118,
+      "normalized_D": "0,1,2,3,4,8,9",
+      "normalized_L": "12,18,19,21,26",
+      "absolute_D": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "absolute_L": [
+        18,
+        24,
+        25,
+        27,
+        32
+      ],
+      "R": 40,
+      "shift": 6,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 125,
+      "normalized_D": "0,1,3,5",
+      "normalized_L": "8,10,16,17,18,19",
+      "absolute_D": [
+        9,
+        10,
+        12,
+        14
+      ],
+      "absolute_L": [
+        17,
+        19,
+        25,
+        26,
+        27,
+        28
+      ],
+      "R": 40,
+      "shift": 9,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 126,
+      "normalized_D": "0,1,2,3,4,6",
+      "normalized_L": "8,9,13,18,21,22",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "absolute_L": [
+        16,
+        17,
+        21,
+        26,
+        29,
+        30
+      ],
+      "R": 41,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 127,
+      "normalized_D": "0,1,2,3,5",
+      "normalized_L": "7,8,12,17,20,21",
+      "absolute_D": [
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "absolute_L": [
+        17,
+        18,
+        22,
+        27,
+        30,
+        31
+      ],
+      "R": 42,
+      "shift": 10,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 128,
+      "normalized_D": "0,1,2,3,4",
+      "normalized_L": "8,9,16,18,24,31",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "absolute_L": [
+        16,
+        17,
+        24,
+        26,
+        32,
+        39
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "state",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 129,
+      "normalized_D": "0,1,2,3,5,6,7",
+      "normalized_L": "10,13,14,19,21,23",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "absolute_L": [
+        18,
+        21,
+        22,
+        27,
+        29,
+        31
+      ],
+      "R": 42,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 143,
+      "normalized_D": "0,2,3,4,6",
+      "normalized_L": "8,9,13,17,18,21,22",
+      "absolute_D": [
+        8,
+        10,
+        11,
+        12,
+        14
+      ],
+      "absolute_L": [
+        16,
+        17,
+        21,
+        25,
+        26,
+        29,
+        30
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 144,
+      "normalized_D": "0,1,2,4,5",
+      "normalized_L": "8,9,10,16,17,18,19",
+      "absolute_D": [
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "absolute_L": [
+        17,
+        18,
+        19,
+        25,
+        26,
+        27,
+        28
+      ],
+      "R": 40,
+      "shift": 9,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 145,
+      "normalized_D": "0,1,3,4,5,7",
+      "normalized_L": "8,9,12,17,18,20,21",
+      "absolute_D": [
+        8,
+        9,
+        11,
+        12,
+        13,
+        15
+      ],
+      "absolute_L": [
+        16,
+        17,
+        20,
+        25,
+        26,
+        28,
+        29
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 146,
+      "normalized_D": "0,1,2,3,4,5,6",
+      "normalized_L": "8,9,10,11,16,17,20",
+      "absolute_D": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "absolute_L": [
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        29
+      ],
+      "R": 40,
+      "shift": 9,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 147,
+      "normalized_D": "0,3,5",
+      "normalized_L": "10,15,16,19,20,23,25",
+      "absolute_D": [
+        10,
+        13,
+        15
+      ],
+      "absolute_L": [
+        20,
+        25,
+        26,
+        29,
+        30,
+        33,
+        35
+      ],
+      "R": 40,
+      "shift": 10,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 148,
+      "normalized_D": "0,1,2,3,4,5,7",
+      "normalized_L": "8,9,12,17,18,20,21",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "absolute_L": [
+        16,
+        17,
+        20,
+        25,
+        26,
+        28,
+        29
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 149,
+      "normalized_D": "0,1,3",
+      "normalized_L": "5,8,10,16,18,19,24",
+      "absolute_D": [
+        12,
+        13,
+        15
+      ],
+      "absolute_L": [
+        17,
+        20,
+        22,
+        28,
+        30,
+        31,
+        36
+      ],
+      "R": 42,
+      "shift": 12,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 150,
+      "normalized_D": "0,1,3,4,6",
+      "normalized_L": "8,11,16,17,19,20,24",
+      "absolute_D": [
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "absolute_L": [
+        16,
+        19,
+        24,
+        25,
+        27,
+        28,
+        32
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 151,
+      "normalized_D": "0,2,3,4,5,6",
+      "normalized_L": "8,9,10,13,19,21,22",
+      "absolute_D": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "absolute_L": [
+        16,
+        17,
+        18,
+        21,
+        27,
+        29,
+        30
+      ],
+      "R": 41,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 152,
+      "normalized_D": "0,1,5",
+      "normalized_L": "8,10,16,17,18,19,24",
+      "absolute_D": [
+        8,
+        9,
+        13
+      ],
+      "absolute_L": [
+        16,
+        18,
+        24,
+        25,
+        26,
+        27,
+        32
+      ],
+      "R": 41,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 153,
+      "normalized_D": "0,3,4,6,8,9",
+      "normalized_L": "11,13,16,21,22,24,25",
+      "absolute_D": [
+        6,
+        9,
+        10,
+        12,
+        14,
+        15
+      ],
+      "absolute_L": [
+        17,
+        19,
+        22,
+        27,
+        28,
+        30,
+        31
+      ],
+      "R": 42,
+      "shift": 6,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 154,
+      "normalized_D": "0,1,2,3,5,7,8",
+      "normalized_L": "10,12,15,20,21,23,24",
+      "absolute_D": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15
+      ],
+      "absolute_L": [
+        17,
+        19,
+        22,
+        27,
+        28,
+        30,
+        31
+      ],
+      "R": 42,
+      "shift": 7,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 165,
+      "normalized_D": "0,1,2,4",
+      "normalized_L": "6,7,11,14,15,16,19,20",
+      "absolute_D": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "absolute_L": [
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        31
+      ],
+      "R": 40,
+      "shift": 11,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 166,
+      "normalized_D": "0,1,2,3",
+      "normalized_L": "5,7,8,12,16,17,20,21",
+      "absolute_D": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "absolute_L": [
+        16,
+        18,
+        19,
+        23,
+        27,
+        28,
+        31,
+        32
+      ],
+      "R": 42,
+      "shift": 11,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 167,
+      "normalized_D": "0,1,2,4,5,6,7",
+      "normalized_L": "8,10,11,12,17,18,19,21",
+      "absolute_D": [
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "absolute_L": [
+        16,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        29
+      ],
+      "R": 40,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 168,
+      "normalized_D": "0,1,2,3,5,6",
+      "normalized_L": "8,9,10,11,16,17,19,20",
+      "absolute_D": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "absolute_L": [
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        28,
+        29
+      ],
+      "R": 40,
+      "shift": 9,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 169,
+      "normalized_D": "0,3",
+      "normalized_L": "5,10,15,16,19,20,23,25",
+      "absolute_D": [
+        12,
+        15
+      ],
+      "absolute_L": [
+        17,
+        22,
+        27,
+        28,
+        31,
+        32,
+        35,
+        37
+      ],
+      "R": 41,
+      "shift": 12,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 170,
+      "normalized_D": "0,1,5,6",
+      "normalized_L": "8,10,13,15,21,22,23,24",
+      "absolute_D": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "absolute_L": [
+        16,
+        18,
+        21,
+        23,
+        29,
+        30,
+        31,
+        32
+      ],
+      "R": 44,
+      "shift": 8,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    },
+    {
+      "rank": 176,
+      "normalized_D": "0,7,8",
+      "normalized_L": "10,12,14,15,19,23,24,27,28",
+      "absolute_D": [
+        6,
+        13,
+        14
+      ],
+      "absolute_L": [
+        16,
+        18,
+        20,
+        21,
+        25,
+        29,
+        30,
+        33,
+        34
+      ],
+      "R": 42,
+      "shift": 6,
+      "recorded_layer": "sched",
+      "recorded_verdict": "SAT",
+      "recorded_value_context": ""
+    }
+  ],
+  "proofs_replayed": 0,
+  "research_programs_executed": false,
+  "scope": "Exact retained-table aggregation and rank-policy reproduction only. A family is not a witness, a rank is not a price, shift flags are not contest acceptance, and saved SAT/UNSAT labels are not independently checked certificates."
+}

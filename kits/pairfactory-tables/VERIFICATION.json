@@ -1,0 +1,162 @@
+{
+  "project_id": "hash-cyberaxe-pairfactory-tables",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "sources": [
+      {
+        "path": "research/game/climber/guided/pairfactory/CLASS_SUMMARY.tsv",
+        "sha256": "bb79a1ad081dfa51a7f88864e39125bad0968fc5772839c39791d9cff1f1976d",
+        "rows": 128,
+        "columns": [
+          "#class",
+          "signs(5,7,8,14,16,29,30)",
+          "rule_good",
+          "n_priced",
+          "bestA",
+          "meanA",
+          "worstA",
+          "stageB(sig)"
+        ]
+      },
+      {
+        "path": "research/game/climber/guided/pairfactory/RESULTS.tsv",
+        "sha256": "19eeb4e5456544ca27c75df0fcff769db5757219230a4ca2fd6894120af53edc",
+        "rows": 54,
+        "columns": [
+          "#job",
+          "source",
+          "band",
+          "kind",
+          "verdict",
+          "wall_s",
+          "cpu_s",
+          "indep",
+          "result",
+          "excl"
+        ]
+      },
+      {
+        "path": "research/game/climber/guided/pairfactory/RESULTS2.tsv",
+        "sha256": "1aee1325f47de2fc4b669544bead85a0178394b3138ea951b27f5f63e69223c5",
+        "rows": 121,
+        "columns": [
+          "#job",
+          "class",
+          "try",
+          "source",
+          "band",
+          "verdict",
+          "wall_s",
+          "cpu_s",
+          "indep",
+          "result"
+        ]
+      },
+      {
+        "path": "research/game/climber/guided/pairfactory/TAILS_B.tsv",
+        "sha256": "f0ed76f70b78778889f3172a15b1b03cd9067804f287822ba78ae3580b2fe5a2",
+        "rows": 7,
+        "columns": [
+          "#sig",
+          "mean_lin",
+          "lcb999",
+          "dir"
+        ]
+      }
+    ],
+    "classes": {
+      "rows": 128,
+      "priced_classes": 33,
+      "sum_n_priced": 90,
+      "rule_good_labels": {
+        "True": 16,
+        "False": 112
+      },
+      "impossible_labels": 95
+    },
+    "results": {
+      "RESULTS.tsv": {
+        "rows": 54,
+        "verdicts": {
+          "SAT": 54
+        },
+        "distinct_job_numbers": 54,
+        "reused_job_numbers": 0,
+        "distinct_nonempty_result_labels": 54,
+        "indep_labels": {
+          "INDEP_VERIFIED": 54
+        }
+      },
+      "RESULTS2.tsv": {
+        "rows": 121,
+        "verdicts": {
+          "UNSAT": 117,
+          "UNDECIDED": 4
+        },
+        "distinct_job_numbers": 115,
+        "reused_job_numbers": 6,
+        "distinct_nonempty_result_labels": 0,
+        "indep_labels": {
+          "-": 121
+        }
+      }
+    },
+    "stage_b_rows": 7,
+    "stage_b_summary_entries_matched": 7,
+    "scope": "Exact saved-table parsing, internal rounded-value consistency and identities only. Reported INDEP_VERIFIED is a historical verifier label, not statistical independence. UNSAT/impossible labels are not replayed proof certificates. Tail estimates and confidence labels are not exact success laws.",
+    "tail_observations": {
+      "passed": true,
+      "seed_files": 98,
+      "chain_observations": 1960,
+      "groups": [
+        {
+          "signature": "pf_013",
+          "recorded_hits": 6222,
+          "mean_log2": "-74.4242",
+          "lcb999_log2": "-74.5594"
+        },
+        {
+          "signature": "pf_011",
+          "recorded_hits": 6238,
+          "mean_log2": "-74.4137",
+          "lcb999_log2": "-74.6077"
+        },
+        {
+          "signature": "pf_005",
+          "recorded_hits": 6201,
+          "mean_log2": "-74.4248",
+          "lcb999_log2": "-74.5834"
+        },
+        {
+          "signature": "pf_023",
+          "recorded_hits": 6201,
+          "mean_log2": "-74.4268",
+          "lcb999_log2": "-74.5737"
+        },
+        {
+          "signature": "pf_053",
+          "recorded_hits": 6229,
+          "mean_log2": "-74.4227",
+          "lcb999_log2": "-74.5353"
+        },
+        {
+          "signature": "p_pin39b_mid40_ctl2_ctl_pub39_b16",
+          "recorded_hits": 6332,
+          "mean_log2": "-74.3950",
+          "lcb999_log2": "-74.5575"
+        },
+        {
+          "signature": "db6c9b07fb",
+          "recorded_hits": 6307,
+          "mean_log2": "-74.4023",
+          "lcb999_log2": "-74.5542"
+        }
+      ],
+      "rounded_pairs_matched": 7,
+      "scope": "Arithmetic replay of a hash-pinned numeric projection. Original full JSON files are not in this kit. Source hashes identify them; projection identity is verified, not derivable without those originals. No generator, collision witness, independence law, confidence coverage or attack probability certified."
+    }
+  },
+  "finite_replay": "passed"
+}

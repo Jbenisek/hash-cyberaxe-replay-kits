@@ -1,0 +1,61 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "dig38-verdict-kit/MANIFEST.json": {
+      "bytes": 863,
+      "sha256": "ac627ef603792865d4e1146b2cc83c57e636edfbb8d3307b52f2314fa58f9d34"
+    },
+    "dig38-verdict-kit/README.md": {
+      "bytes": 2259,
+      "sha256": "d2a2c0217f36d24751bf7e4b6df9de28fe39daa8d6630c8b3776e092996adfac"
+    },
+    "dig38-verdict-kit/replay.py": {
+      "bytes": 3548,
+      "sha256": "33149b8758688dafee1fa05ba5a127a6f08e9c3c21aad94c1a816c1115ec2ec1"
+    },
+    "dig38-verdict-kit/sources/analyze.py": {
+      "bytes": 1805,
+      "sha256": "457bdde652008dfbce2389eeb123b38d3b3cc11a8d2f5a43084234a5154ef843"
+    },
+    "dig38-verdict-kit/sources/b14R.txt": {
+      "bytes": 11249,
+      "sha256": "2eaedf117163154bd8fe95e972fab07eea418cbd7b4322ee777f0948462c033d"
+    },
+    "dig38-verdict-kit/sources/build_records.py": {
+      "bytes": 5547,
+      "sha256": "af1679d1a0d28726eb36347a1a0ee516bd05805c78b4390d4e0aaef3c5cc2eee"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1404,
+      "sha256": "39d0ef3d6a53fc7cbd16ab8692a5ae1e27d0a28c461ed687c89369648771c28c"
+    },
+    "PROJECT.json": {
+      "bytes": 687,
+      "sha256": "2ae5a715d6d9c35a46fd79d926170375e8628e5d82791fbb6fc63b5d70e07505"
+    },
+    "README.md": {
+      "bytes": 2558,
+      "sha256": "9c0bcdad86063737f7b11e651162ad94747702b851ed2cc972e1f298422a8034"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 1078,
+      "sha256": "0bc7414158e77c8f1368a2246afcd05e707e73a256b42b6b95b20b764dc93dab"
+    }
+  }
+}

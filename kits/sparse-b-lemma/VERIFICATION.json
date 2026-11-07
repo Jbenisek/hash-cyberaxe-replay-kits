@@ -1,0 +1,30 @@
+{
+  "project_id": "hash-cyberaxe-sparse-b-lemma",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "root_residues_exhaustively_checked": 8190,
+    "exhaustive_widths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "local_recurrence_controls": 1024,
+    "orientation_width_combinations": 64,
+    "trivial_root_retained_without_nonzero_assumption": true,
+    "message_schedules_constructed": 0,
+    "collisions_checked": 0,
+    "scope": "Finite controls for modular cancellation and XOR top-bit conversion; not full schedules, feasibility evidence or an attack-price certificate."
+  },
+  "finite_replay": "passed"
+}

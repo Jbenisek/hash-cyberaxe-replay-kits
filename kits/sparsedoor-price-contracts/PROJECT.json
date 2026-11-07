@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sparsedoor-price-contracts",
+  "title": "What an exact fraction does—and does not—prove",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sparsedoor-price-contracts.zip",
+  "source_archive_sha256": "9e56e5a1904aacda5fbc8e9f07fb97525ca599723cfdfc8024c55056c911e222",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sparsedoor-price-contracts",
+  "tool_families": [
+    "charge-tools"
+  ],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "sparsedoor-price-kit/replay.py"
+  ],
+  "expected": "sparsedoor-price",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

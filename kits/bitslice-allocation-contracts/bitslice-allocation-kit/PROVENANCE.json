@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "path_in_kit": "single_block.py",
+      "source_path": "research/blake3_r3/bitslice/pkg/blake3/experiments/bsrho.py",
+      "sha256": "b8341c83cfbdfd05cc52bd99d8a5e97ac46c0e008549082da4be5d764b917bfa",
+      "source_bytes_unchanged": true,
+      "generated_step_operations": 19022
+    },
+    {
+      "path_in_kit": "fixed_prefix.py",
+      "source_path": "research/blake3_r3/bitslice2/pkg/blake3/experiments/bsrho.py",
+      "sha256": "4f46578df1c1bec00b363b269bd139833fd61c3f734f4c5513685f60cd2ee943",
+      "source_bytes_unchanged": true,
+      "generated_step_operations": 18869
+    }
+  ],
+  "checker": "New finite publication checker, not an original research selftest.",
+  "independent_reference_bundled": false,
+  "scope": "Generated-step allocation equivalence and artificial statistic counterexample only."
+}

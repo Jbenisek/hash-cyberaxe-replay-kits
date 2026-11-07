@@ -1,0 +1,63 @@
+{
+ "name": "FOUND_x_E22-25_s1",
+ "family": "mns38",
+ "R": 38,
+ "chaining": "free (SFS)",
+ "cv": [
+  "2ef010f5",
+  "a9946a89",
+  "89f32b92",
+  "8a88089a",
+  "d5dd61d5",
+  "8f55ddc9",
+  "48b25a0b",
+  "043c4d12"
+ ],
+ "cv_order": "a b c d e f g h",
+ "M1": [
+  "fe3d60dc",
+  "d385bad2",
+  "07c5ebe0",
+  "bfbcda7f",
+  "7680911c",
+  "648fcd26",
+  "2e82c1fe",
+  "401d6f3b",
+  "06ed8ffc",
+  "9dabf863",
+  "e7809446",
+  "2bf9f5dc",
+  "bafc72e1",
+  "165f713d",
+  "ef6c5b66",
+  "7079745e"
+ ],
+ "M2": [
+  "fe3d60dc",
+  "d385bad2",
+  "07c5ebe0",
+  "bfbcda7f",
+  "7680911c",
+  "648fcd26",
+  "2e82c1fe",
+  "7e7b71fb",
+  "06ed9000",
+  "9dabf863",
+  "e77f1446",
+  "2bf9f5dc",
+  "bafc72e1",
+  "165f713d",
+  "ef6c5b66",
+  "7079745a"
+ ],
+ "out": [
+  "01bcf945",
+  "2fcea441",
+  "dc6a63ba",
+  "f12fec26",
+  "20d15cbe",
+  "e2c18b3b",
+  "91809c46",
+  "eaaf535a"
+ ]
+}

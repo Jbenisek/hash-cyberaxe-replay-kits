@@ -1,0 +1,73 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 2059,
+      "sha256": "a89510e2075d538514a6aeab65ee80f9bc1ee310ed663b72c25ba1cd71e3f942"
+    },
+    "PROJECT.json": {
+      "bytes": 652,
+      "sha256": "ee0af813446645b4fa00827b720fb395850bea6896f200284c80ca981f82c11d"
+    },
+    "README.md": {
+      "bytes": 2754,
+      "sha256": "ac7033e5af6f05f749fff82bdee2c8edb8407e0d35d93060febead4b3cb6b4c6"
+    },
+    "redecoded-pairs/current-decode.txt": {
+      "bytes": 1719,
+      "sha256": "82b538e1d1b4c68cfcb0c8864f0a3bff8e601335876bb1641c536a61a866da18"
+    },
+    "redecoded-pairs/decoder-control.py": {
+      "bytes": 2251,
+      "sha256": "1fbe09a4a0643d62a26de4c3610edfcc8d11f11ced5a8f1e440ef20f55e0af28"
+    },
+    "redecoded-pairs/decoder-fixtures.json": {
+      "bytes": 2226,
+      "sha256": "54a320ccda2514105767f442515b3b37d16ae0638774a12374b0037e5aa3663e"
+    },
+    "redecoded-pairs/manifest.json": {
+      "bytes": 2177,
+      "sha256": "c03a1cd6abdae903ce89697a6674e0498d0014ad95a357aec9f577b279c7413f"
+    },
+    "redecoded-pairs/pairs.json": {
+      "bytes": 282719,
+      "sha256": "ebb8b174e952ce1d85eac996f11ab4d167489c722c00f3bf5e9605a9f420e12c"
+    },
+    "redecoded-pairs/previous-decode.txt": {
+      "bytes": 1560,
+      "sha256": "87f884490c41dd549b5ea647d86b29b6e5fed884e0fe78be316bffe3e5daa3ad"
+    },
+    "redecoded-pairs/README.txt": {
+      "bytes": 3238,
+      "sha256": "5a849e856da1a55a7be51c97b6ecdbf7ff9b575a7fa0d8e3770bf41ea877769a"
+    },
+    "redecoded-pairs/reference.cjs": {
+      "bytes": 2184,
+      "sha256": "907c17a1f23f763538d28337fcd263ef94258c00116263ad388091e9cc66a211"
+    },
+    "redecoded-pairs/replay.cjs": {
+      "bytes": 3331,
+      "sha256": "ac83596ae5e55be757eb0c8731671d4b8b7450604c5f94b5a734581d59374a01"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 813,
+      "sha256": "71959ca11549f81c30713c5d355d42fb2d58bded2bbbe99dadb669db10bab6e6"
+    }
+  }
+}

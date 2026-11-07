@@ -1,0 +1,24 @@
+{
+  "project_id": "hash-cyberaxe-standard-iv-prefixes",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "source_records": 51,
+    "distinct_message_pairs": 39,
+    "full_mask_prefix_checks": 6,
+    "first_mask_violation_rows": [
+      18,
+      19,
+      20,
+      21,
+      15,
+      18
+    ],
+    "full_64_step_equal_states": 0,
+    "hashlib_controls": 3,
+    "mutation_and_unknown_symbol_controls": true,
+    "scope": "Raw-block standard-IV prefix examples, not collisions or valid-padding certificates. Only six pairs have matching row masks here; malformed whole XML was not silently repaired."
+  },
+  "finite_replay": "passed"
+}

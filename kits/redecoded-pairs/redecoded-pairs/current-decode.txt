@@ -1,0 +1,30 @@
+def decode(mapf, modelf):
+    mp = json.load(open(mapf)); n = mp['n']
+    val = {}
+    # 11-01 fix (HASH$CyberAxe S39_CHECK): a solver log without -q has 'c ...' statistics lines full of integers that overwrote model
+    # variables and mixed M1/M2 bits. When 'v' lines exist, read ONLY them; a bare literal file (no 'v' lines) is read whole.
+    lines = open(modelf).read().split('\n')
+    vl = [l[1:] for l in lines if l.startswith('v')]
+    for tok in (' '.join(vl) if vl else ' '.join(l for l in lines if not l.startswith(('c', 's')))).split():
+        try: l = int(tok)
+        except ValueError: continue
+        if l: val[abs(l)] = l > 0
+    def wv(bits):
+        v = 0
+        for i, b in enumerate(bits):
+            if b == 1: bit = 1
+            elif b == -1: bit = 0
+            else: bit = 1 if val.get(abs(b), False) != (b < 0) else 0
+            v |= bit << i
+        return v
+    out = {}
+    for k in ('1', '2'):
+        W = [wv(w) for w in mp['W' + k]]
+        if mp['chaining'] == 'iv': chain = IV
+        else: chain = [wv(mp['A' + k][str(-1-i)]) for i in range(4)] + [wv(mp['E' + k][str(-1-i)]) for i in range(4)]
+        out[k] = (W, chain, sha_ref(n, chain, W))
+        print(f"M{k}: W=" + " ".join(f"{w:08x}" for w in W)); print(f"   chain=" + " ".join(f"{w:08x}" for w in chain))
+        print(f"   out=" + " ".join(f"{w:08x}" for w in out[k][2]))
+    print("messages differ:", out['1'][0] != out['2'][0], " outputs equal:", out['1'][2] == out['2'][2])
+    print("state XOR diff per register:", " ".join(f"{x ^ y:08x}" for x, y in zip(out['1'][2], out['2'][2])),
+          " chaining XOR diff:", " ".join(f"{x ^ y:08x}" for x, y in zip(out['1'][1], out['2'][1])))

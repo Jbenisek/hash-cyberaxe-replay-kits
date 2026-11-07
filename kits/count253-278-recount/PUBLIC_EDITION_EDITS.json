@@ -1,0 +1,16 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "count253-278-recount/README.txt",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "2c7cde288f15f894177bae6d1c6bd5f08b90fd6d905e676b3fa2f69569574ab6",
+      "original_bytes": 2735,
+      "published_sha256": "4d2eadcf528ffb3a675e6b815bdaf4d8a57cbda85fc04c6b1f693b792d02d3a5",
+      "published_bytes": 2732
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "project_id": "hash-cyberaxe-sha256-factory-pairs",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "hashlib_equivalent_controls": 4,
+    "chosen_cv_collisions": 33,
+    "distinct_common_cvs": 33,
+    "standard_iv_schedule_examples": 5,
+    "chosen_cv_schedule_examples": 4,
+    "distinct_schedule_examples": 9,
+    "standard_iv_collisions": 0,
+    "mutation_and_extension_controls": 99,
+    "scope": "Finite 39-step chosen-CV compression collisions and nine noncolliding schedule objects (five standard-IV, four chosen-CV). No padded-message eligibility, full-round collision, discovery cost, sampler law or claim of new round records."
+  },
+  "finite_replay": "passed"
+}

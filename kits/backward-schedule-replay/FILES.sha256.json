@@ -1,0 +1,69 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "backward-schedule-kit/check.py": {
+      "bytes": 5328,
+      "sha256": "e9e2f22c41263f8ade55986a9d838e14034d1094282e1181fc154c09e64486c2"
+    },
+    "backward-schedule-kit/LESSON.md": {
+      "bytes": 5793,
+      "sha256": "280ca1ef8b656cfff9be9287202193a335c1ac42f4b1a2ed3d3f2edb44f618fb"
+    },
+    "backward-schedule-kit/MANIFEST.json": {
+      "bytes": 1077,
+      "sha256": "8be922ed872c3d8a060a8617cf775bbbb26cb486d313090075cff5a702eb0948"
+    },
+    "backward-schedule-kit/README.md": {
+      "bytes": 3555,
+      "sha256": "b1d190d24467373072746559012ade929ff4fb79ac69e5052c92f84c0d6d0493"
+    },
+    "backward-schedule-kit/reference.py": {
+      "bytes": 3843,
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61"
+    },
+    "backward-schedule-kit/replay.py": {
+      "bytes": 1204,
+      "sha256": "86907ec96254a893e5c633d839c563800ea5d67be9de921ffb4a530975a18d82"
+    },
+    "backward-schedule-kit/SCHED_TAILLIGHTEST_board_tail.txt": {
+      "bytes": 505,
+      "sha256": "a44679e91014f36eff1eb148c56ea52424057d46120a3836f114e6c45a5a716e"
+    },
+    "backward-schedule-kit/VALUE_SCREEN_PRICED_TRAILS_1031.tsv": {
+      "bytes": 588,
+      "sha256": "5d8f34821965db1472c9bfaa9b43cf8600cae18c8349eaca1ce83d17c6e13e2b"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1946,
+      "sha256": "9970724226af3cf4434d54ef3db3bbea2e15feb1a08bc7ae52506a414a5fede2"
+    },
+    "PROJECT.json": {
+      "bytes": 712,
+      "sha256": "26fe282389ca03a8ef8836ae6adf3c6e276899b04c0ef0119e06532f55cd11ec"
+    },
+    "README.md": {
+      "bytes": 2816,
+      "sha256": "969f43f34cb170ac03a75ba061e6334ade646f6fc08e0f07e00b8426fd22df30"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 2505,
+      "sha256": "d848fc7f0dedbce703611c43af792c94e688aa1c907e08b94d51ff4114273058"
+    }
+  }
+}

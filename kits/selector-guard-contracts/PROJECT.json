@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-selector-guard-contracts",
+  "title": "SHA-256 ENCODER SELECTOR GUARDS / FINITE COUNTEREXAMPLE",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "selector-guard-contracts.zip",
+  "source_archive_sha256": "e01fd85b850b1e96d47a4d04945d245cfd942341ca2daf6a277ea9e18d428a9e",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/selector-guard-contracts",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "selector-guard-kit/replay.py"
+  ],
+  "expected": "selector-guard",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

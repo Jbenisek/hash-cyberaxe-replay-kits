@@ -1,0 +1,75 @@
+{
+  "sources": [
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k1.json",
+      "sha256": "6cb04758e03ee64e75e8b03cbf5d9216881483d10aa559ccce5666068902aa28",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k2.json",
+      "sha256": "0b50be798419bec2c730c14e109555156a09350ceff5ffa3b3f225986609a063",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k5.json",
+      "sha256": "35b8c0c435708cbeee36c237f220767c13540f72190004e4b5b44a0608d1e805",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k6.json",
+      "sha256": "8033d7a3f700974f0f92fa064b0f76b2065c70b1404edb14d23531e93adb8523",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k8.json",
+      "sha256": "b8a3e379ad93030a28b3f3ed430958068bef785d49991d8fc3c269abf8bf542d",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k9.json",
+      "sha256": "ded90b3384a8c4d88628c2350ba0067742e07128cc01060b6d4ffc0cf8ca7681",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_k11.json",
+      "sha256": "9ae7d1802df88cd540375704aa84354c37b0fdcf526adac853edf8079489331b",
+      "scope": "distributed numerical data"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/drop_q2.py",
+      "sha256": "eb4995a9647e850c0645a7443ffb2f711a20d6a2d662696a358f626000c26c69",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/_inst_drop.py",
+      "sha256": "da9d6262a48b64fd27f3b3581de9e08d80a22b3ae9eac47323284dc995c518a2",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/tail_q.py",
+      "sha256": "06a3ae7fe97b749d8b07a76c5a4c50b7dd74beee43527c8086931acc9971ce23",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r5-U01/work2/tail_q.log",
+      "sha256": "5b8e6e1e83326350f40504fef6002d35214b52861289d3f17ecde6c36dfb5ca2",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r6-U05/work/cone5_copy_of_U04.py",
+      "sha256": "f6fc43048cab1ae2262a2457e5a43e093c6b1fae86e963126eae7841929ee5d8",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/dig/incoming/sha3-r6-U05/work/cone5_rerun_out.json",
+      "sha256": "8b78ba11d2cbca3e04db68ccca4daa9ecebd6734ec52ef5705aa08839000fbdb",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    },
+    {
+      "path": "research/tools/build_pkg/scratch/pkgR5L/pkg/sha3-256-r5/experiments/r5.py",
+      "sha256": "7fd4e4f811ce05a9a651d4dbfee4a52af582877b7b7934a3538cb7210b2b99ea",
+      "scope": "source fingerprint only; driver not bundled or executed"
+    }
+  ],
+  "scope": "Historical project lineage; no blanket novelty or reuse license asserted."
+}

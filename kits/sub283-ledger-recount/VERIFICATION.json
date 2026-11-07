@@ -1,0 +1,79 @@
+{
+  "project_id": "hash-cyberaxe-sub283-ledger-recount",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "rows_recounted": 436,
+    "tables_recounted": 4,
+    "oracle_rows": 24,
+    "oracle_labels": 20,
+    "proofs_replayed": 0,
+    "certificate_collection_verified": false,
+    "summaries": [
+      {
+        "file": "SUB283_ORACLE_1101.tsv",
+        "rows": 24,
+        "recorded_statuses": {
+          "HELD": 1,
+          "UNSATISFIABLE": 23
+        },
+        "count_min": 252,
+        "count_max": 280
+      },
+      {
+        "file": "POCKET266_1101.tsv",
+        "rows": 48,
+        "recorded_statuses": {
+          "-": 37,
+          "HELD": 10,
+          "UNSATISFIABLE": 1
+        },
+        "count_min": 264,
+        "count_max": 302,
+        "generator_labels": {
+          "ok": 48
+        },
+        "min_count_by_generator_label": {
+          "ok": 264
+        }
+      },
+      {
+        "file": "POCKET268_1101.tsv",
+        "rows": 336,
+        "recorded_statuses": {
+          "-": 336
+        },
+        "count_min": 240,
+        "count_max": 336,
+        "generator_labels": {
+          "gen": 273,
+          "incomplete": 63
+        },
+        "min_count_by_generator_label": {
+          "gen": 245,
+          "incomplete": 240
+        }
+      },
+      {
+        "file": "WIDEMAP283_v2_1101.tsv",
+        "rows": 28,
+        "recorded_statuses": {
+          "-": 28
+        },
+        "count_min": 260,
+        "count_max": 351,
+        "generator_labels": {
+          "gen": 25,
+          "incomplete": 3
+        },
+        "min_count_by_generator_label": {
+          "gen": 260,
+          "incomplete": 295
+        }
+      }
+    ],
+    "scope": "Exact recount of retained TSV rows and a 65-byte reported checker summary. No cryptographic execution, complete-characteristic validation or certificate replay."
+  },
+  "finite_replay": "passed"
+}

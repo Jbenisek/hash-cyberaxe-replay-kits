@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "bitcost-kit/bitcost.py",
+      "project_path": "bitcost-kit/bitcost.py",
+      "sha256": "254dd5cde6663e6f24ed4c1b2ed4a6820934408a3feb5a393b931dce6d2bc814",
+      "bytes": 2552
+    },
+    {
+      "original": "bitcost-kit/check.py",
+      "project_path": "bitcost-kit/check.py",
+      "sha256": "8a1d95b93800aca17e6f519c12277f1e3978f7ce26ed73a168fad3ffbb7ed645",
+      "bytes": 3335
+    },
+    {
+      "original": "bitcost-kit/README.md",
+      "project_path": "bitcost-kit/README.md",
+      "sha256": "236f0e7640c055c02fe8ad81b61c7bda09bdbc77330c2458b198b6dcd582dfd6",
+      "bytes": 3150
+    },
+    {
+      "original": "bitcost-kit/replay.py",
+      "project_path": "bitcost-kit/replay.py",
+      "sha256": "8ada88a5f09874e55057b31b52ce8188676b8cc2d29b0c7a66ef696a07ce91b0",
+      "bytes": 1157
+    },
+    {
+      "original": "bitcost-kit/PROVENANCE.json",
+      "project_path": "bitcost-kit/PROVENANCE.json",
+      "sha256": "2394ec57e7bd3ba72757dcdba2f70f101452b86c0353e8a40194c56c3b2225a9",
+      "bytes": 498
+    },
+    {
+      "original": "bitcost-kit/MANIFEST.json",
+      "project_path": "bitcost-kit/MANIFEST.json",
+      "sha256": "6bc8509c716872c9fb5d47f1b89545bb1aa953403dfeddf30ab81c08930484e5",
+      "bytes": 744
+    }
+  ]
+}

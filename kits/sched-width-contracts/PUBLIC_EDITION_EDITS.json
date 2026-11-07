@@ -1,0 +1,36 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "sched-width-kit/PROVENANCE.json",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "e338ecaf45e97f8f5828ca784eef6c1289b3b059762bb5bca32ac348288a5241",
+      "original_bytes": 626,
+      "published_sha256": "601e7a09ea339e660d294b2888de67d2127511f29b16768a54b1a76c6773f00e",
+      "published_bytes": 633
+    },
+    {
+      "path": "sched-width-kit/README.md",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "0f8e7ab9d056620ea5ab4d0343157c9df4236543cb1fdb930de0c882b0d91c9b",
+      "original_bytes": 3088,
+      "published_sha256": "62e7ce32316f70f28e1e30279f2d4132b8627307c4a604d45331ff2c9634ce18",
+      "published_bytes": 3095
+    },
+    {
+      "path": "sched-width-kit/schedcnf.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "39e152c8c950f07a9244e28fc87f9b911ac9201a05cc6734070faad30bd287c1",
+      "original_bytes": 11088,
+      "published_sha256": "f442b063a19cb413bd3d96698395b5ca44a32ef3e9942f1096446a048399d7a4",
+      "published_bytes": 11095
+    }
+  ]
+}

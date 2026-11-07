@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "overlap-kit/dariia_overlap.py",
+      "project_path": "overlap-kit/dariia_overlap.py",
+      "sha256": "8415c9b129ddd0ab1ad5a16e91564326e7471109e1a0a8e1d2c1c25574eab8dd",
+      "bytes": 1726
+    },
+    {
+      "original": "overlap-kit/check_contract.py",
+      "project_path": "overlap-kit/check_contract.py",
+      "sha256": "f763b2ffc055aba8019e896f5f55fae14e4db48cd27026b6ee56336f4367835a",
+      "bytes": 4224
+    },
+    {
+      "original": "overlap-kit/replay.py",
+      "project_path": "overlap-kit/replay.py",
+      "sha256": "4dc2eed629fd10874cc9678131cd11e5da295444005b6151029786d4837edd42",
+      "bytes": 921
+    },
+    {
+      "original": "overlap-kit/README.md",
+      "project_path": "overlap-kit/README.md",
+      "sha256": "a64e768253b2d3d304dac5b6389359bc9c017232b85ab010d37217163492826d",
+      "bytes": 3685
+    },
+    {
+      "original": "overlap-kit/MANIFEST.json",
+      "project_path": "overlap-kit/MANIFEST.json",
+      "sha256": "f71b6cf47c388e38d302f42bda7c506955aa576160e938947385433b28c2c84b",
+      "bytes": 610
+    }
+  ]
+}

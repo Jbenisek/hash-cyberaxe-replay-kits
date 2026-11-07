@@ -1,0 +1,5739 @@
+{
+  "format": "hashsmash-sub283-saved-ledgers-v1",
+  "source_pins": {
+    "SUB283_ORACLE_1101.tsv": "f30e57365845cc0b3ecfa4becb01b6c67b8b8f7ecdb4e2622b0bab6143d9afae",
+    "DRAT266_1101.txt": "487d244db1166840fc6c0e4849517f6b72a3931012ae022b3f17df351a7cfeb5",
+    "POCKET266_1101.tsv": "bc47fb3c1016fe491344e2d9ef0e70ddc9208ea22ac79e8a350ac3b23eff9cdd",
+    "POCKET268_1101.tsv": "f2c3c989e7fc4c281320a31ce30ead831f51b0e126660168c9d5228edab30606",
+    "WIDEMAP283_v2_1101.tsv": "c2a70ed917cd0db5210817cf3db2008a5e3f8795902e98b0157ea063de2cca39"
+  },
+  "row_count": 436,
+  "rows": [
+    {
+      "id": 1,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "pocket268",
+        "find": "w6-12_free_s7",
+        "count": "252",
+        "verdict": "UNSATISFIABLE",
+        "secs": "60",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 2,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w8-12_free_s97",
+        "count": "260",
+        "verdict": "UNSATISFIABLE",
+        "secs": "49",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 3,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap2",
+        "find": "w8-12_free_s97",
+        "count": "260",
+        "verdict": "UNSATISFIABLE",
+        "secs": "49",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 4,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "pocket268",
+        "find": "w6-12_free_s1",
+        "count": "261",
+        "verdict": "UNSATISFIABLE",
+        "secs": "64",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 5,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-12_free_s11",
+        "count": "262",
+        "verdict": "UNSATISFIABLE",
+        "secs": "49",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 6,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-12_free_s11",
+        "count": "262",
+        "verdict": "UNSATISFIABLE",
+        "secs": "50",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 7,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-13_free_s7",
+        "count": "265",
+        "verdict": "UNSATISFIABLE",
+        "secs": "12",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 8,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-13_free_s7",
+        "count": "265",
+        "verdict": "UNSATISFIABLE",
+        "secs": "12",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 9,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-10_free_s23",
+        "count": "266",
+        "verdict": "HELD",
+        "secs": "300",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 10,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w8-13_free_s1",
+        "count": "267",
+        "verdict": "UNSATISFIABLE",
+        "secs": "10",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 11,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap2",
+        "find": "w8-13_free_s1",
+        "count": "267",
+        "verdict": "UNSATISFIABLE",
+        "secs": "10",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 12,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w8-13_free_s41",
+        "count": "270",
+        "verdict": "UNSATISFIABLE",
+        "secs": "26",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 13,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap2",
+        "find": "w8-13_free_s41",
+        "count": "270",
+        "verdict": "UNSATISFIABLE",
+        "secs": "25",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 14,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-11_free_s3",
+        "count": "271",
+        "verdict": "UNSATISFIABLE",
+        "secs": "32",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 15,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-13_free_s11",
+        "count": "271",
+        "verdict": "UNSATISFIABLE",
+        "secs": "14",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 16,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-11_free_s3",
+        "count": "271",
+        "verdict": "UNSATISFIABLE",
+        "secs": "30",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 17,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-13_free_s11",
+        "count": "271",
+        "verdict": "UNSATISFIABLE",
+        "secs": "15",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 18,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-12_free_s97",
+        "count": "275",
+        "verdict": "UNSATISFIABLE",
+        "secs": "60",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 19,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-12_free_s97",
+        "count": "275",
+        "verdict": "UNSATISFIABLE",
+        "secs": "59",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 20,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "pocket268",
+        "find": "w6-12_free_s13",
+        "count": "276",
+        "verdict": "UNSATISFIABLE",
+        "secs": "74",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 21,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-12_free_s7",
+        "count": "276",
+        "verdict": "UNSATISFIABLE",
+        "secs": "68",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 22,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w7-12_free_s7",
+        "count": "276",
+        "verdict": "UNSATISFIABLE",
+        "secs": "65",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 23,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w8-12_free_s23",
+        "count": "279",
+        "verdict": "UNSATISFIABLE",
+        "secs": "119",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 24,
+      "file": "SUB283_ORACLE_1101.tsv",
+      "recorded": {
+        "map": "widemap",
+        "find": "w6-10_free_s59",
+        "count": "280",
+        "verdict": "UNSATISFIABLE",
+        "secs": "45",
+        "registry": "-"
+      }
+    },
+    {
+      "id": 25,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "294",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 26,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "285",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 27,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 28,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 29,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "287",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 30,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 31,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 32,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-10",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 33,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "288",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 34,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "283",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 35,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 36,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "264",
+        "probe": "HELD",
+        "secs": "121"
+      }
+    },
+    {
+      "id": 37,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "302",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 38,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "268",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 39,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 40,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w5-11",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 41,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "294",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 42,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "285",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 43,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 44,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 45,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "287",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 46,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 47,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 48,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-10",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 49,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "288",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 50,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "283",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 51,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 52,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "264",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 53,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "302",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 54,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "268",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 55,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 56,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-11",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 57,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "266",
+        "probe": "HELD",
+        "secs": "121"
+      }
+    },
+    {
+      "id": 58,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "271",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 59,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "266",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 60,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "270",
+        "probe": "UNSATISFIABLE",
+        "secs": "55"
+      }
+    },
+    {
+      "id": 61,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "266",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 62,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "266",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 63,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "269",
+        "probe": "HELD",
+        "secs": "121"
+      }
+    },
+    {
+      "id": 64,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w6-9",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "266",
+        "probe": "HELD",
+        "secs": "120"
+      }
+    },
+    {
+      "id": 65,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "1",
+        "c2": "ok",
+        "count": "294",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 66,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "11",
+        "c2": "ok",
+        "count": "285",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 67,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "23",
+        "c2": "ok",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 68,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "3",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 69,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "41",
+        "c2": "ok",
+        "count": "287",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 70,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "59",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 71,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "7",
+        "c2": "ok",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 72,
+      "file": "POCKET266_1101.tsv",
+      "recorded": {
+        "win": "w7-10",
+        "mode": "free",
+        "seed": "97",
+        "c2": "ok",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 73,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "278",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 74,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "11",
+        "c2": "incomplete",
+        "count": "270",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 75,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "13",
+        "c2": "incomplete",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 76,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "17",
+        "c2": "incomplete",
+        "count": "281",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 77,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "19",
+        "c2": "gen",
+        "count": "290",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 78,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "2",
+        "c2": "incomplete",
+        "count": "286",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 79,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "23",
+        "c2": "incomplete",
+        "count": "273",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 80,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "29",
+        "c2": "incomplete",
+        "count": "285",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 81,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "3",
+        "c2": "incomplete",
+        "count": "278",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 82,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "31",
+        "c2": "incomplete",
+        "count": "275",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 83,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "37",
+        "c2": "gen",
+        "count": "291",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 84,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "273",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 85,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "43",
+        "c2": "incomplete",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 86,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "5",
+        "c2": "incomplete",
+        "count": "298",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 87,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "7",
+        "c2": "incomplete",
+        "count": "278",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 88,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "290",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 89,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 90,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 91,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 92,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 93,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 94,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 95,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 96,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 97,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 98,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 99,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 100,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 101,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 102,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 103,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 104,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 105,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 106,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 107,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 108,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 109,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 110,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 111,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 112,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 113,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 114,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 115,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 116,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 117,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 118,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 119,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 120,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w10-11",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 121,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 122,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "11",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 123,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "13",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 124,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "17",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 125,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "19",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 126,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "2",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 127,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "23",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 128,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "29",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 129,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "3",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 130,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "31",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 131,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "37",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 132,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 133,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "43",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 134,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "5",
+        "c2": "gen",
+        "count": "269",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 135,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 136,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 137,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 138,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 139,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 140,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 141,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 142,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 143,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 144,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 145,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 146,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 147,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 148,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 149,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 150,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 151,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 152,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 153,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 154,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 155,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 156,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 157,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 158,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 159,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 160,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 161,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 162,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 163,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 164,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 165,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 166,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 167,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 168,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w11-12",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 169,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "261",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 170,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "11",
+        "c2": "gen",
+        "count": "328",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 171,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "13",
+        "c2": "gen",
+        "count": "276",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 172,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "17",
+        "c2": "gen",
+        "count": "297",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 173,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "19",
+        "c2": "gen",
+        "count": "288",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 174,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "2",
+        "c2": "gen",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 175,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "23",
+        "c2": "gen",
+        "count": "287",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 176,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "29",
+        "c2": "gen",
+        "count": "304",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 177,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "3",
+        "c2": "gen",
+        "count": "297",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 178,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "31",
+        "c2": "gen",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 179,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "37",
+        "c2": "gen",
+        "count": "294",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 180,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "331",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 181,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "43",
+        "c2": "gen",
+        "count": "300",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 182,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "5",
+        "c2": "gen",
+        "count": "316",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 183,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "252",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 184,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 185,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 186,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 187,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 188,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 189,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 190,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 191,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 192,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 193,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 194,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 195,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 196,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 197,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 198,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 199,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 200,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 201,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 202,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 203,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 204,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 205,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 206,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 207,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 208,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 209,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 210,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 211,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 212,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 213,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 214,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 215,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 216,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w6-12",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 217,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "258",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 218,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "11",
+        "c2": "gen",
+        "count": "325",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 219,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "13",
+        "c2": "gen",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 220,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "17",
+        "c2": "incomplete",
+        "count": "262",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 221,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "19",
+        "c2": "incomplete",
+        "count": "259",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 222,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "2",
+        "c2": "gen",
+        "count": "308",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 223,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 224,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "29",
+        "c2": "incomplete",
+        "count": "247",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 225,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "3",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 226,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "31",
+        "c2": "incomplete",
+        "count": "240",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 227,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "37",
+        "c2": "gen",
+        "count": "333",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 228,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "321",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 229,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "43",
+        "c2": "gen",
+        "count": "328",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 230,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "5",
+        "c2": "incomplete",
+        "count": "246",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 231,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "7",
+        "c2": "incomplete",
+        "count": "272",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 232,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "97",
+        "c2": "incomplete",
+        "count": "251",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 233,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 234,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 235,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 236,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 237,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 238,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 239,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 240,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 241,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 242,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 243,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 244,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 245,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 246,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 247,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 248,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 249,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 250,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 251,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 252,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 253,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 254,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 255,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 256,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 257,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 258,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 259,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 260,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 261,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 262,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 263,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 264,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 265,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 266,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "11",
+        "c2": "incomplete",
+        "count": "274",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 267,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "13",
+        "c2": "incomplete",
+        "count": "269",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 268,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "17",
+        "c2": "incomplete",
+        "count": "269",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 269,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "19",
+        "c2": "incomplete",
+        "count": "280",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 270,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "2",
+        "c2": "incomplete",
+        "count": "270",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 271,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "23",
+        "c2": "incomplete",
+        "count": "255",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 272,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "29",
+        "c2": "incomplete",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 273,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "3",
+        "c2": "incomplete",
+        "count": "261",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 274,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "31",
+        "c2": "incomplete",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 275,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "37",
+        "c2": "incomplete",
+        "count": "266",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 276,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "265",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 277,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "43",
+        "c2": "incomplete",
+        "count": "268",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 278,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "5",
+        "c2": "incomplete",
+        "count": "272",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 279,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "7",
+        "c2": "incomplete",
+        "count": "267",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 280,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "free",
+        "seed": "97",
+        "c2": "incomplete",
+        "count": "269",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 281,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 282,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 283,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 284,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 285,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 286,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 287,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 288,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 289,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 290,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 291,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 292,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 293,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 294,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 295,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 296,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 297,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 298,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 299,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 300,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 301,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 302,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 303,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 304,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 305,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 306,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 307,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 308,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 309,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 310,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 311,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 312,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-10",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 313,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "305",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 314,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "11",
+        "c2": "incomplete",
+        "count": "254",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 315,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "13",
+        "c2": "incomplete",
+        "count": "275",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 316,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "17",
+        "c2": "incomplete",
+        "count": "275",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 317,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "19",
+        "c2": "incomplete",
+        "count": "263",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 318,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "2",
+        "c2": "incomplete",
+        "count": "263",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 319,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "23",
+        "c2": "incomplete",
+        "count": "255",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 320,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "29",
+        "c2": "incomplete",
+        "count": "293",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 321,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "3",
+        "c2": "incomplete",
+        "count": "257",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 322,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "31",
+        "c2": "incomplete",
+        "count": "263",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 323,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "37",
+        "c2": "incomplete",
+        "count": "262",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 324,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "272",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 325,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "43",
+        "c2": "incomplete",
+        "count": "251",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 326,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "5",
+        "c2": "incomplete",
+        "count": "281",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 327,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "7",
+        "c2": "incomplete",
+        "count": "267",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 328,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "free",
+        "seed": "97",
+        "c2": "incomplete",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 329,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 330,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 331,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 332,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 333,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 334,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 335,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 336,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 337,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 338,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 339,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 340,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 341,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 342,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 343,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 344,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 345,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 346,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 347,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 348,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 349,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 350,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 351,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 352,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 353,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 354,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 355,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 356,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 357,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 358,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 359,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 360,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-12",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 361,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "281",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 362,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "11",
+        "c2": "incomplete",
+        "count": "280",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 363,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "13",
+        "c2": "gen",
+        "count": "276",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 364,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "17",
+        "c2": "gen",
+        "count": "336",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 365,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "19",
+        "c2": "gen",
+        "count": "279",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 366,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "2",
+        "c2": "gen",
+        "count": "271",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 367,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "23",
+        "c2": "incomplete",
+        "count": "289",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 368,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "29",
+        "c2": "incomplete",
+        "count": "308",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 369,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "3",
+        "c2": "gen",
+        "count": "282",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 370,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "31",
+        "c2": "incomplete",
+        "count": "288",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 371,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "37",
+        "c2": "incomplete",
+        "count": "294",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 372,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "272",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 373,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "43",
+        "c2": "incomplete",
+        "count": "285",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 374,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "5",
+        "c2": "incomplete",
+        "count": "269",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 375,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "7",
+        "c2": "incomplete",
+        "count": "283",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 376,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "296",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 377,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "1",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 378,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "11",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 379,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "13",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 380,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "17",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 381,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "19",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 382,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "2",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 383,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "23",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 384,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "29",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 385,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "3",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 386,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "31",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 387,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "37",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 388,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "41",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 389,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "43",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 390,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "5",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 391,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "7",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 392,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "keep",
+        "seed": "97",
+        "c2": "gen",
+        "count": "277",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 393,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "1",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 394,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "11",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 395,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "13",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 396,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "17",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 397,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "19",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 398,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "2",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 399,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "23",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 400,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "29",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 401,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "3",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 402,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "31",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 403,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "37",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 404,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "41",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 405,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "43",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 406,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "5",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 407,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "7",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 408,
+      "file": "POCKET268_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "strip",
+        "seed": "97",
+        "c2": "gen",
+        "count": "245",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 409,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w6-14",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "300",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 410,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w6-14",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "332",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 411,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w6-14",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "335",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 412,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w6-14",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "337",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 413,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w7-14",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "300",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 414,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w7-14",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "332",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 415,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w7-14",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "335",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 416,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w7-14",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "337",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 417,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "314",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 418,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "337",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 419,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "323",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 420,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-12",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "260",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 421,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-13",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "267",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 422,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-13",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "270",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 423,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-13",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "314",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 424,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-13",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "312",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 425,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-14",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "351",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 426,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-14",
+        "mode": "free",
+        "seed": "41",
+        "c2": "gen",
+        "count": "292",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 427,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-14",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "329",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 428,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w8-14",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "343",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 429,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "1",
+        "c2": "incomplete",
+        "count": "295",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 430,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "299",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 431,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "287",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 432,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-13",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "290",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 433,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-14",
+        "mode": "free",
+        "seed": "1",
+        "c2": "gen",
+        "count": "314",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 434,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-14",
+        "mode": "free",
+        "seed": "41",
+        "c2": "incomplete",
+        "count": "311",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 435,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-14",
+        "mode": "free",
+        "seed": "7",
+        "c2": "gen",
+        "count": "286",
+        "probe": "-",
+        "secs": "-"
+      }
+    },
+    {
+      "id": 436,
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "recorded": {
+        "win": "w9-14",
+        "mode": "free",
+        "seed": "97",
+        "c2": "gen",
+        "count": "316",
+        "probe": "-",
+        "secs": "-"
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "file": "SUB283_ORACLE_1101.tsv",
+      "rows": 24,
+      "recorded_statuses": {
+        "HELD": 1,
+        "UNSATISFIABLE": 23
+      },
+      "count_min": 252,
+      "count_max": 280
+    },
+    {
+      "file": "POCKET266_1101.tsv",
+      "rows": 48,
+      "recorded_statuses": {
+        "-": 37,
+        "HELD": 10,
+        "UNSATISFIABLE": 1
+      },
+      "count_min": 264,
+      "count_max": 302,
+      "generator_labels": {
+        "ok": 48
+      },
+      "min_count_by_generator_label": {
+        "ok": 264
+      }
+    },
+    {
+      "file": "POCKET268_1101.tsv",
+      "rows": 336,
+      "recorded_statuses": {
+        "-": 336
+      },
+      "count_min": 240,
+      "count_max": 336,
+      "generator_labels": {
+        "gen": 273,
+        "incomplete": 63
+      },
+      "min_count_by_generator_label": {
+        "gen": 245,
+        "incomplete": 240
+      }
+    },
+    {
+      "file": "WIDEMAP283_v2_1101.tsv",
+      "rows": 28,
+      "recorded_statuses": {
+        "-": 28
+      },
+      "count_min": 260,
+      "count_max": 351,
+      "generator_labels": {
+        "gen": 25,
+        "incomplete": 3
+      },
+      "min_count_by_generator_label": {
+        "gen": 260,
+        "incomplete": 295
+      }
+    }
+  ],
+  "oracle_find_labels": 20,
+  "repeated_oracle_find_labels": {
+    "w6-12_free_s7": 2,
+    "w8-12_free_s97": 2,
+    "w8-13_free_s1": 2,
+    "w8-13_free_s41": 2
+  },
+  "distinct_formula_count": null,
+  "proofs_replayed": 0,
+  "certificate_collection_verified": false,
+  "drat266": {
+    "summary_bytes": 65,
+    "reported_solver_seconds": 309,
+    "reported_checker_seconds": 527,
+    "reported_size_text": "299M",
+    "proof_payload_included": false
+  },
+  "count_unit": "Recorded owner_count STATE: value bits plus difference bits over A/E rows, including chaining rows. Not an attack-work exponent.",
+  "scope": "Exact recount of retained TSV rows and a 65-byte reported checker summary. No cryptographic execution, complete-characteristic validation or certificate replay."
+}

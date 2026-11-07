@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-lawbase-example",
+  "title": "LAWBASE: FROM A MESSAGE PAIR TO A SEARCH BASE",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "lawbase-example.zip",
+  "source_archive_sha256": "370b3f14798f5e47f73fada69f0c9e8614ae322c7fcecebc4c3dea73c2b76a00",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/lawbase-example",
+  "tool_families": [
+    "seed-characteristics"
+  ],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "lawbase-example/replay.py"
+  ],
+  "expected": "lawbase-example",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

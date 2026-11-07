@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "fulltrail-builder-kit/fulltrail.py",
+      "project_path": "fulltrail-builder-kit/fulltrail.py",
+      "sha256": "1513a08d9ebd015d55070dbac441c9d7bb0be4ddf958ec173bf9cb8ffb979465",
+      "bytes": 1564
+    },
+    {
+      "original": "fulltrail-builder-kit/replay.py",
+      "project_path": "fulltrail-builder-kit/replay.py",
+      "sha256": "1c3edd1295cbaf2e223503d095b2da17a5e9b4ec0fe8ddde58b6c932dce31d4a",
+      "bytes": 6574
+    },
+    {
+      "original": "fulltrail-builder-kit/README.txt",
+      "project_path": "fulltrail-builder-kit/README.txt",
+      "sha256": "c192f2b649db20bb75a4a56b83cfdaf94b2b20bfd1b17a9a1d467378a094e0db",
+      "bytes": 2718
+    },
+    {
+      "original": "fulltrail-builder-kit/example.pair",
+      "project_path": "fulltrail-builder-kit/example.pair",
+      "sha256": "8fd409c27126fc770cd5bb872666f3797bbf830e25b2cd6c326e95487b616b80",
+      "bytes": 344
+    },
+    {
+      "original": "fulltrail-builder-kit/manifest.json",
+      "project_path": "fulltrail-builder-kit/manifest.json",
+      "sha256": "becd1e629110faf653ead375282d131bea53b4f0d5232a28f26c86283227a5fe",
+      "bytes": 660
+    }
+  ]
+}

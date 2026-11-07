@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "original": "poseidon-api-kit/poseidon_ref.py",
+      "project_path": "poseidon-api-kit/poseidon_ref.py",
+      "sha256": "344246fc03ae862cd42beabcade902edea45d23df6cb62751f741c3df636f171",
+      "bytes": 3102
+    },
+    {
+      "original": "poseidon-api-kit/finite-witnesses.json",
+      "project_path": "poseidon-api-kit/finite-witnesses.json",
+      "sha256": "dd6dd429e8b69c6271bc438de48054c6bf912f47635d243a2a94be3e3778d7ae",
+      "bytes": 146059
+    },
+    {
+      "original": "poseidon-api-kit/README.md",
+      "project_path": "poseidon-api-kit/README.md",
+      "sha256": "6d2fd02bb7535a9758558cbabeb1bdcb4e3d7cf6def505d44c98d534cb6d9e48",
+      "bytes": 5364
+    },
+    {
+      "original": "poseidon-api-kit/api_replay.py",
+      "project_path": "poseidon-api-kit/api_replay.py",
+      "sha256": "9bf36c80648317c9bbaf9d70207c29e711c376fdd1f9174e0d17846b18fffff4",
+      "bytes": 5735
+    },
+    {
+      "original": "poseidon-api-kit/replay.py",
+      "project_path": "poseidon-api-kit/replay.py",
+      "sha256": "ec372fb3cd3424939353650ba3860323314bd8a06a92431f9c8710555a602483",
+      "bytes": 1247
+    },
+    {
+      "original": "poseidon-api-kit/verify_collision.py",
+      "project_path": "poseidon-api-kit/verify_collision.py",
+      "sha256": "c78a48a119c772c52450cd3fed27d30f11538289695baf44534ed1b2be9e62c2",
+      "bytes": 1896
+    },
+    {
+      "original": "poseidon-api-kit/check_log_contract.py",
+      "project_path": "poseidon-api-kit/check_log_contract.py",
+      "sha256": "06ed1692a83d389126030cfc7cc52a2ab3b38f51c1d32921a56e85714d70a57d",
+      "bytes": 5741
+    },
+    {
+      "original": "poseidon-api-kit/MANIFEST.json",
+      "project_path": "poseidon-api-kit/MANIFEST.json",
+      "sha256": "973ddd71c73b1db9748a11e32cd1467edd4971a77943fe62662c7c8bfde0af62",
+      "bytes": 1198
+    }
+  ]
+}

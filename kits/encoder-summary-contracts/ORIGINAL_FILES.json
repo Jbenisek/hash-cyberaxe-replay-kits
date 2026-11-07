@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "original": "encoder-summary-kit/MANIFEST.json",
+      "project_path": "encoder-summary-kit/MANIFEST.json",
+      "sha256": "e0c1dcb1c05ed37ab2b4e75059ac6b4e4be76df17b2f65faaf2c8423b8e13318",
+      "bytes": 2552
+    },
+    {
+      "original": "encoder-summary-kit/README.md",
+      "project_path": "encoder-summary-kit/README.md",
+      "sha256": "fe43237f1cd6f4e29adf4915e10e2bf48fcfe555da2e2b98f14ca40b6765adcf",
+      "bytes": 3901
+    },
+    {
+      "original": "encoder-summary-kit/replay.py",
+      "project_path": "encoder-summary-kit/replay.py",
+      "sha256": "66f3d5ea1a1ef7acca16a936b52936d1f4fec9b8bf9f674275d95599f4804d04",
+      "bytes": 1615
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k1.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k1.json",
+      "sha256": "6cb04758e03ee64e75e8b03cbf5d9216881483d10aa559ccce5666068902aa28",
+      "bytes": 4195
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k11.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k11.json",
+      "sha256": "9ae7d1802df88cd540375704aa84354c37b0fdcf526adac853edf8079489331b",
+      "bytes": 4404
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k2.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k2.json",
+      "sha256": "0b50be798419bec2c730c14e109555156a09350ceff5ffa3b3f225986609a063",
+      "bytes": 3697
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k5.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k5.json",
+      "sha256": "35b8c0c435708cbeee36c237f220767c13540f72190004e4b5b44a0608d1e805",
+      "bytes": 3162
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k6.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k6.json",
+      "sha256": "8033d7a3f700974f0f92fa064b0f76b2065c70b1404edb14d23531e93adb8523",
+      "bytes": 3990
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k8.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k8.json",
+      "sha256": "b8a3e379ad93030a28b3f3ed430958068bef785d49991d8fc3c269abf8bf542d",
+      "bytes": 3783
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k9.json",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/drop_k9.json",
+      "sha256": "ded90b3384a8c4d88628c2350ba0067742e07128cc01060b6d4ffc0cf8ca7681",
+      "bytes": 4197
+    },
+    {
+      "original": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/summ_drop.py",
+      "project_path": "encoder-summary-kit/research/dig/incoming/sha3-r5-U01/work2/summ_drop.py",
+      "sha256": "d08b8c36a1b694f03a3d8301a768f9fd7ed2e22eb715e37b7bffe603b703ca49",
+      "bytes": 928
+    },
+    {
+      "original": "encoder-summary-kit/research/game/climber/guided/minsup/sha_cnf.py",
+      "project_path": "encoder-summary-kit/research/game/climber/guided/minsup/sha_cnf.py",
+      "sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa",
+      "bytes": 23585
+    },
+    {
+      "original": "encoder-summary-kit/research/public_library/scripts/check_minsup_encoder_contract.py",
+      "project_path": "encoder-summary-kit/research/public_library/scripts/check_minsup_encoder_contract.py",
+      "sha256": "e899cc09402a71f0b613ce143008abd35f91bbf2d3d8d84cfeb6d441a76e964f",
+      "bytes": 6715
+    },
+    {
+      "original": "encoder-summary-kit/research/public_library/scripts/check_sha3_ablation_summary.py",
+      "project_path": "encoder-summary-kit/research/public_library/scripts/check_sha3_ablation_summary.py",
+      "sha256": "b46a24bcbcb43f8ebedca7ff0a4355991c843e41b154566c7ed61f4707f49aee",
+      "bytes": 3341
+    },
+    {
+      "original": "encoder-summary-kit/research/tools/indep_sha256_check.py",
+      "project_path": "encoder-summary-kit/research/tools/indep_sha256_check.py",
+      "sha256": "b241e3c742b9f345fc7a049897a6dfd6342573a2d899fa05876134eb40b5fc61",
+      "bytes": 3843
+    }
+  ]
+}

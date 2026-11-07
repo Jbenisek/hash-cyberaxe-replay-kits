@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "sparsedoor-price-kit/price.py",
+      "project_path": "sparsedoor-price-kit/price.py",
+      "sha256": "e3a88e025bc3fd6cbd80d37f37c249288d3303a5510cb557c381ec408f2324a2",
+      "bytes": 2905
+    },
+    {
+      "original": "sparsedoor-price-kit/check_contract.py",
+      "project_path": "sparsedoor-price-kit/check_contract.py",
+      "sha256": "7bea1b9afd0a7738f1187a41a367fd940a3b76dcab030af7725642a73645a6ce",
+      "bytes": 4294
+    },
+    {
+      "original": "sparsedoor-price-kit/replay.py",
+      "project_path": "sparsedoor-price-kit/replay.py",
+      "sha256": "be270a33fbb7c0a9137637dac5c00f60ae893ed127c2636d4b63a2eeb599d46c",
+      "bytes": 859
+    },
+    {
+      "original": "sparsedoor-price-kit/README.md",
+      "project_path": "sparsedoor-price-kit/README.md",
+      "sha256": "f2766a9de17b90409dfb35b7015b2b3bf1969bdeafa8a972cca6e297a124b5bf",
+      "bytes": 2947
+    },
+    {
+      "original": "sparsedoor-price-kit/MANIFEST.json",
+      "project_path": "sparsedoor-price-kit/MANIFEST.json",
+      "sha256": "796fc756d5d91d486fa09b774261dfb8e8c94c2aa56a556b8112cecf8fc15eb5",
+      "bytes": 458
+    }
+  ]
+}

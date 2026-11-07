@@ -1,0 +1,19 @@
+{
+  "original_sources": [
+    {
+      "path": "research/luna_jobs/d126_memory_rule/price.py",
+      "sha256": "2a6484638a1580df5396dd83719e37582286923abc9b763d5ea9bafd145d8726"
+    },
+    {
+      "path": "research/tools/build_pkg/scratch/pkgR37c/pkg/sha256-r37/experiments/xtab.py",
+      "sha256": "4390038acf00946ef6a6c2b59b5c39a56d9498b22c4668a14958b4e144ea1378"
+    },
+    {
+      "path": "research/tools/build_pkg/scratch/pkgR38d/work/src/ledger38d.py",
+      "sha256": "d1e7ed3cfaaa9deb06113f1a1ef840a59f1a70b379546ebc6dbc503b1fe2c57a"
+    }
+  ],
+  "selection": "Only whitelisted AST arithmetic definitions and numeric inputs; no full original modules or operational prose.",
+  "original_source_bytes_checked_offline": false,
+  "included_input_bytes_checked_offline": true
+}

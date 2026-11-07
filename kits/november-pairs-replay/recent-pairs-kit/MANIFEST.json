@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "pairs.json",
+      "bytes": 8517,
+      "sha256": "d4129fe8643a5749b38a450b9952b637fe0eef49c5dda7522cffe412b3757273"
+    },
+    {
+      "path": "sha256-replay.js",
+      "bytes": 6335,
+      "sha256": "a08df68ee8b4a98949d94896486fc04cabad9e71087f3a0719003088a3fa1b8c"
+    },
+    {
+      "path": "replay.cjs",
+      "bytes": 2254,
+      "sha256": "09bf12f75ebe2511cd0fa7f5600a4cc1fe82251979dfc00e9a4e2a2a4ad589c3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1722,
+      "sha256": "2cfb2d505acb1aba8f2b2117f20da28a5e745e7824fd91c074cd712b9ed80f71"
+    }
+  ]
+}

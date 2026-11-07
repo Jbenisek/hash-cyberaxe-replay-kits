@@ -1,0 +1,354 @@
+{
+  "project_id": "hash-cyberaxe-saved-outcome-ledgers",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:45.984641+00:00",
+    "sources": [
+      {
+        "path": "research/levers_1021/oracle_results.tsv",
+        "sha256": "bc7666aae1d5cc6bbbdb236bd8e0e48cff8e3ec562b0223684984431bc658db1",
+        "bytes": 192,
+        "source_url": "archive/research/levers_1021/oracle_results.tsv",
+        "original_present": null,
+        "tested_edition": "retained publication bytes"
+      },
+      {
+        "path": "research/luna/L002/SPARSE42_RESULTS.tsv",
+        "sha256": "72bec6cc2004e27cff29b6cedc7f8e100fc19194064bda86515d5158eaac9c91",
+        "bytes": 317,
+        "source_url": "archive/research/luna/L002/SPARSE42_RESULTS.tsv",
+        "original_present": null,
+        "tested_edition": "retained publication bytes"
+      },
+      {
+        "path": "research/luna/audit_packets/RESOLVE_1028.tsv",
+        "sha256": "2f864931bfd85c558309bcc2586484d201359fcaf4cfb304c9566ccce7ceb37c",
+        "bytes": 15847,
+        "source_url": "archive/research/luna/audit_packets/RESOLVE_1028.tsv",
+        "original_present": null,
+        "tested_edition": "retained publication bytes"
+      },
+      {
+        "path": "research/runs_1101/s42/HORIZON.tsv",
+        "sha256": "97c95887d154af936d3d0f5b768cfe8df81439b06d9f25beb37cac49e4ec6261",
+        "bytes": 294,
+        "source_url": "archive/research/runs_1101/s42/HORIZON.tsv",
+        "original_present": null,
+        "tested_edition": "retained publication bytes"
+      },
+      {
+        "path": "research/runs_1101/s42/design/FIX_SCAN.tsv",
+        "sha256": "89f589ecd009dc656955d37cde7b8307d0b64fe0cefdc1fedb021b0169912128",
+        "bytes": 276,
+        "source_url": "archive/research/runs_1101/s42/design/FIX_SCAN.tsv",
+        "original_present": null,
+        "tested_edition": "retained publication bytes"
+      }
+    ],
+    "oracle_recorded_fields": {
+      "R": "39",
+      "carry_positions": "2208",
+      "admissible_subspace_dim": "1",
+      "admissible_weight1_bits": "1125",
+      "weight0_inconsistent": "False",
+      "fixed_point_from_weight0": "False",
+      "fixed_point_from_any_weight1": "False",
+      "best_mismatch": "781"
+    },
+    "sparse_records": [
+      {
+        "job": 0,
+        "steps": 42,
+        "words": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "kicks": [
+          16,
+          19,
+          20,
+          21,
+          27,
+          28,
+          29,
+          30
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      },
+      {
+        "job": 1,
+        "steps": 42,
+        "words": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "kicks": [
+          16,
+          19,
+          20,
+          21,
+          27,
+          28,
+          30
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      },
+      {
+        "job": 2,
+        "steps": 42,
+        "words": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "kicks": [
+          16,
+          19,
+          20,
+          21,
+          27,
+          29,
+          30
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      },
+      {
+        "job": 3,
+        "steps": 43,
+        "words": [
+          5,
+          6,
+          7,
+          8,
+          13
+        ],
+        "kicks": [
+          21,
+          22,
+          36
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      },
+      {
+        "job": 5,
+        "steps": 45,
+        "words": [
+          0,
+          1,
+          7,
+          8,
+          10,
+          15
+        ],
+        "kicks": [
+          23,
+          24,
+          38
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      },
+      {
+        "job": 4,
+        "steps": 44,
+        "words": [
+          0,
+          6,
+          7,
+          8,
+          9,
+          14
+        ],
+        "kicks": [
+          22,
+          23,
+          37
+        ],
+        "saved_verdict": "UNSATISFIABLE"
+      }
+    ],
+    "resolver": {
+      "rows": 112,
+      "verified_labels": 31,
+      "not_pair_labels": 81,
+      "verified_steps": {
+        "38": 29,
+        "39": 2
+      }
+    },
+    "horizons": [
+      {
+        "words": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "kicks": [
+          17,
+          25,
+          26,
+          40,
+          41
+        ],
+        "recorded_horizon": 17
+      },
+      {
+        "words": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "kicks": [
+          17,
+          25,
+          26,
+          40,
+          41
+        ],
+        "recorded_horizon": 17
+      },
+      {
+        "words": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "kicks": [
+          17,
+          25,
+          26,
+          40
+        ],
+        "recorded_horizon": 15
+      },
+      {
+        "words": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "kicks": [
+          17,
+          25,
+          26,
+          40
+        ],
+        "recorded_horizon": 15
+      },
+      {
+        "words": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "kicks": [
+          17,
+          25,
+          26,
+          40
+        ],
+        "recorded_horizon": 15
+      }
+    ],
+    "fixed_prefix_scan": [
+      {
+        "fix_to": 31,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 29,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 27,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 25,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 23,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 21,
+        "propagation_marker": "failed"
+      },
+      {
+        "fix_to": 19,
+        "propagation_marker": "ok"
+      },
+      {
+        "fix_to": 17,
+        "propagation_marker": "ok"
+      },
+      {
+        "fix_to": 15,
+        "propagation_marker": "ok"
+      }
+    ],
+    "malformed_controls_rejected": 4,
+    "scope": "Retained-byte identity and finite saved-ledger parsing only. No solver, generator, oracle or proof certificate executed. VERIFIED and UNSAT labels remain historical labels; existing independent witness replays are separate evidence. Propagation markers and recorded horizons are not complete solver decisions. Missing original oracle source remains explicitly unavailable.",
+    "original_presence_checked": false
+  },
+  "finite_replay": "passed"
+}

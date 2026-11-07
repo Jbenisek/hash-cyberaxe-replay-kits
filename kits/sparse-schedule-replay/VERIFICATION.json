@@ -1,0 +1,49 @@
+{
+  "project_id": "hash-cyberaxe-sparse-schedule-replay",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:08:00.997291+00:00",
+    "source_sha256": "e3aba6d0e0a4747566a52c96fd0eb57fc885e46ef138874c015711ac1bb13b35",
+    "source_pins": {
+      "verify.py": "e3aba6d0e0a4747566a52c96fd0eb57fc885e46ef138874c015711ac1bb13b35",
+      "code/modular.py": "9cf365f15e8c18e47ea3f29071dab3a8e44a987de10f0b4b386933c9fb532fc6",
+      "code/explore.py": "c080f33d4193f64316338e25e81ac8bb9295f8a806e0db1f08c81ea373c5fb2d",
+      "data/results.json": "cd747b161427cea4c6ca4b943cdeb8a6925092ec2a776d3d803eaf49cc584530"
+    },
+    "cases": [
+      {
+        "case": "default-99-quick-checks-26-linear-four-modular-64-basis-five-support",
+        "passed": true
+      },
+      {
+        "case": "summary-and-saved-regression-statuses-not-verified",
+        "passed": true
+      },
+      {
+        "case": "wrong-saved-linear-weight-rejected-with-assertions",
+        "passed": true
+      },
+      {
+        "case": "optimized-python-removes-weight-guard-and-still-prints-pass",
+        "passed": true
+      },
+      {
+        "case": "empty-witness-maps-accepted-with-lower-check-count",
+        "passed": true
+      },
+      {
+        "case": "unknown-cli-option-rejected",
+        "passed": true
+      }
+    ],
+    "quick_checks": 99,
+    "linear_witnesses": 26,
+    "modular_witnesses": 4,
+    "basis_checks": 64,
+    "late_support_groups_checked": 5,
+    "scope": "Quick linear/modular schedule and sigma-inverse checks only; no compression collision, global minimum proof, full support recomputation, compiler, or expensive enumeration executed."
+  },
+  "finite_replay": "passed"
+}

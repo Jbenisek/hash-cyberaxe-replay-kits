@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-early-state-contracts",
+  "title": "When the template proves the wrong thing",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "early-state-contracts.zip",
+  "source_archive_sha256": "efec7c60f5b15d2efc974e43fa970c6343f4391b2d154934c5a69e3466b9518e",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/early-state-contracts",
+  "tool_families": [],
+  "original_payload_files": 9,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "early-state-kit/replay.py"
+  ],
+  "expected": "early-state",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

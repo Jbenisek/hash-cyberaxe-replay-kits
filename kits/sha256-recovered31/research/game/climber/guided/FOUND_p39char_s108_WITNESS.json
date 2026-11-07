@@ -1,0 +1,5 @@
+{"name":"p39char_s108","w":32,"R":39,"chaining":"sfs","found":"2026-10-26 15:25 MDT cloud, kissat seed 108, ~3 min, published 39-step characteristic (SIGNED=1)",
+ "cv":["5f4522e0","826c92cf","456eb5d5","e041bca2","a5acaa42","5e107841","192eb9dd","ba0c9694"],
+ "M1":["95c46877","22ffbff9","42f56ac2","1ceba22f","268def9f","03f09c39","2a039084","05f1997b","4092ed8e","44403a0c","a2ffba68","0703980f","f8c6e623","b05f04c1","43660040","4891771f"],
+ "M2":["95c46877","22ffbff9","42f56ac2","1ceba22f","268def9f","03f09c39","2a039084","05f1997b","0092ed8e","4cc02a0c","e2ffba68","0101bb3b","f8d6fe23","b05f04c1","43660040","4891771f"],
+ "checks":["sha_cnf --decode: messages differ True, outputs equal True","char_pair_profile.py recompute: collision=True, COND=116 (same characteristic as published)"]}

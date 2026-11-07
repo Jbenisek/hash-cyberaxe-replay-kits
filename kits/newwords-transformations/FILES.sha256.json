@@ -1,0 +1,65 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "newwords-kit/kit/char_pair_profile.py": {
+      "bytes": 12295,
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611"
+    },
+    "newwords-kit/MANIFEST.json": {
+      "bytes": 996,
+      "sha256": "768ea65da871ebb3ddba5411ea5ffa309b936ac7401f5bf11f316ae6dbb764d8"
+    },
+    "newwords-kit/newwords/nw.py": {
+      "bytes": 3917,
+      "sha256": "7f78c0ea2113ad2dad0719073befea20862001ff801c81f456e060b026382a1b"
+    },
+    "newwords-kit/newwords/nw2.py": {
+      "bytes": 4369,
+      "sha256": "ae862e7e76a1c482344337251b51ec7c42e7cf8474fc84f7cfac9ee0d878841f"
+    },
+    "newwords-kit/newwords/nw3.py": {
+      "bytes": 4386,
+      "sha256": "234f7071722859e1fb7d6483dd3fc1f29309f5d53cbf6620c99dc51efda7d628"
+    },
+    "newwords-kit/README.md": {
+      "bytes": 2967,
+      "sha256": "34832742896f24be0dd7ca94ce8293bf481445fb60f42b0c45e0f17c2c301f96"
+    },
+    "newwords-kit/replay.py": {
+      "bytes": 3824,
+      "sha256": "f90252308f13ac6c10ab86694afb3ff1aad6cf1a4308dc512830ad41c61510b7"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1555,
+      "sha256": "1df79bbe1747af07919aef08ffc3633d77de8b44d56b57fe689e34be8f074de9"
+    },
+    "PROJECT.json": {
+      "bytes": 664,
+      "sha256": "cca10eb17c9acf644943c9fa2d36293d3eb068a5359ec70579fbff4d7e5b8cf7"
+    },
+    "README.md": {
+      "bytes": 2755,
+      "sha256": "1864496ec4b5c2fd5b8989c4993e32b42923ec9260f4bc5c98ce0f4105a66c80"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 4085,
+      "sha256": "db97ccdb60ba0bb4c312f522b5c4b75d8f7b0dc7b382353661078c79495b427d"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "kind": "exact-formula-proof-pack",
+  "files": {
+    "pub39.cnf": {
+      "bytes": 7875495,
+      "sha256": "3a595329018c66d95360ec34ca8767ab8ef4e93d9f533fb9b48c7aec681ec56d",
+      "source": "research/tools/profile/pub39iv/pub39_iv.cnf"
+    },
+    "pub39.drat": {
+      "bytes": 66131387,
+      "sha256": "3810f1b9a6398367f44fcd4404831941eaaba9f8d391a1c619f10396ea9cf2cd",
+      "source": "research/runs_1101/drat/pub39.drat"
+    },
+    "pub39.map.json": {
+      "bytes": 102561,
+      "sha256": "92e93d40421eccb6a37e879159625009483b1a51082cef42fca159164c5a4a92",
+      "source": "research/tools/profile/pub39iv/pub39_iv.map"
+    },
+    "pub39.xml": {
+      "bytes": 4962,
+      "sha256": "50af55d0fb481531da615b5edc6a927243fc8ab7f1d0f05c7dd87bea1bfbd7b2",
+      "source": "research/game/climber/guided/d6full_head/sat5/s92/PUB39_R39_wopt_102.xml"
+    },
+    "joint46.cnf": {
+      "bytes": 8213653,
+      "sha256": "e715ad6c1d58d9f870dacbe9fb89a39b4ce0cde4c0e158c81f95c4fc1187e6b8",
+      "source": "research/runs_1101/kepler40/TRAIL40_JOINT46_w3-6_s1.cnf"
+    },
+    "joint46.drat": {
+      "bytes": 64397620,
+      "sha256": "3da67e08bbecd4ff3a88816e25a789d6592dda1a2147bab56b2166734bad07ee",
+      "source": "research/runs_1101/kepler40/TRAIL40_JOINT46_w3-6_s1.drat"
+    },
+    "joint46.map.json": {
+      "bytes": 109370,
+      "sha256": "b52b7245dddfd402eb42266b9d9edfb4aadaa57b0981f3b2b9033afac4ebfa5e",
+      "source": "research/runs_1101/kepler40/TRAIL40_JOINT46_w3-6_s1.map"
+    },
+    "joint46.xml": {
+      "bytes": 5074,
+      "sha256": "35b54ac5f7259b694ea357e0cc00afb6bacca41b8c06310a784fd7120c492c52",
+      "source": "research/runs_1101/kepler40/TRAIL40_JOINT46_w3-6_s1.xml"
+    },
+    "encoder.py": {
+      "bytes": 27429,
+      "sha256": "cb02f7a8615528db855d66c364288dd94f2c4ffe3de667f875b073c1f0b66811",
+      "source": "research/game/climber/guided/kit/sha_cnf.py"
+    },
+    "check.py": {
+      "bytes": 5070,
+      "sha256": "6b92cc7aa04b5765e49a05c93218aed6fe28d7982e26a04aabc0ef7e49e5031a",
+      "source": "publication-wrapper"
+    },
+    "README.txt": {
+      "bytes": 4098,
+      "sha256": "0e50e61f0f95417fd600e85008c4221882b1658213e60d610c051eca9c5d5f02",
+      "source": "publication-wrapper"
+    }
+  },
+  "proofs": [
+    {
+      "id": "pub39-standard-iv",
+      "formula": "pub39.cnf",
+      "proof": "pub39.drat",
+      "map": "pub39.map.json",
+      "xml": "pub39.xml",
+      "context": {
+        "rounds": 39,
+        "chaining": "iv"
+      },
+      "shape": {
+        "variables": 82195,
+        "clauses": 380081,
+        "largest_variable": 82195,
+        "max_clause_width": 3
+      }
+    },
+    {
+      "id": "joint46-40-free-cv",
+      "formula": "joint46.cnf",
+      "proof": "joint46.drat",
+      "map": "joint46.map.json",
+      "xml": "joint46.xml",
+      "context": {
+        "rounds": 40,
+        "chaining": "free"
+      },
+      "shape": {
+        "variables": 86033,
+        "clauses": 394911,
+        "largest_variable": 86033,
+        "max_clause_width": 3
+      }
+    }
+  ],
+  "audited_checker_sha256": "92bf19b6e2173516cb6f42fa097e69e7ec5ee12085638b7594ec1f6a12f6aede",
+  "audited_checker_source_sha256": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+  "fresh_proof_checks": [
+    {
+      "performed": true,
+      "verified": true,
+      "returncode": 0,
+      "wall_seconds": 11.688000000023749,
+      "checker_limit_seconds": 40,
+      "parent_timeout_seconds": 55,
+      "warning_lines": 1074,
+      "log_sha256": "e8fb4d7fd4c029d69c47971a08b9d3a14d38a7635774b0077bfdf7e21c1e0360",
+      "method": "One low-priority copied checker at a time in an already-running Ubuntu. No solver, launcher, service or network operation."
+    },
+    {
+      "performed": true,
+      "verified": true,
+      "returncode": 0,
+      "wall_seconds": 7.217999999993481,
+      "checker_limit_seconds": 40,
+      "parent_timeout_seconds": 55,
+      "warning_lines": 152,
+      "log_sha256": "87a488eb4a13b063aca27fa33f174196fbdbefd8df816cddfd0b02e39cf1c27d",
+      "method": "One low-priority copied checker at a time in an already-running Ubuntu. No solver, launcher, service or network operation."
+    }
+  ],
+  "reconstruction": {
+    "passed": true,
+    "finished_at": "2026-11-02T10:48:40.736004+00:00",
+    "source_sha256": "cb02f7a8615528db855d66c364288dd94f2c4ffe3de667f875b073c1f0b66811",
+    "explicit_environment": {
+      "SIGNED": "1",
+      "BITORDER": "msb"
+    },
+    "cleared_optional_controls": [
+      "EQLINK",
+      "DIFFVARS",
+      "BITORDER",
+      "CHAINREV",
+      "SIGNED",
+      "KOFF",
+      "EXTRAW",
+      "ROW_SELECTORS",
+      "SEL_FROM",
+      "SEL_GRAN",
+      "PREHEAD_K",
+      "PREHEAD_ROWS",
+      "MODDIFF",
+      "SCHED_ONLY",
+      "NEAR_K",
+      "REQUIRE_DIFF",
+      "SYMBREAK",
+      "XORMODE",
+      "XOR3",
+      "PIN1",
+      "PIN2"
+    ],
+    "records": [
+      {
+        "id": "pub39-standard-iv",
+        "xml": "research/game/climber/guided/d6full_head/sat5/s92/PUB39_R39_wopt_102.xml",
+        "xml_sha256": "50af55d0fb481531da615b5edc6a927243fc8ab7f1d0f05c7dd87bea1bfbd7b2",
+        "normalized_cnf_identical": true,
+        "all_retained_map_fields_identical": true,
+        "additional_map_fields": [
+          "W1all",
+          "W2all"
+        ],
+        "generated_stdout": "n=39 vars=82195 clauses=380081 shape rows=43 signed-bits-as-x=118",
+        "original_cnf_sha256": "3a595329018c66d95360ec34ca8767ab8ef4e93d9f533fb9b48c7aec681ec56d",
+        "normalized_cnf_sha256": "3a595329018c66d95360ec34ca8767ab8ef4e93d9f533fb9b48c7aec681ec56d"
+      },
+      {
+        "id": "joint46-40-free-cv",
+        "xml": "research/runs_1101/kepler40/TRAIL40_JOINT46_w3-6_s1.xml",
+        "xml_sha256": "35b54ac5f7259b694ea357e0cc00afb6bacca41b8c06310a784fd7120c492c52",
+        "normalized_cnf_identical": true,
+        "all_retained_map_fields_identical": true,
+        "additional_map_fields": [
+          "W1all",
+          "W2all"
+        ],
+        "generated_stdout": "n=40 vars=86033 clauses=394911 shape rows=44 signed-bits-as-x=212",
+        "original_cnf_sha256": "e715ad6c1d58d9f870dacbe9fb89a39b4ce0cde4c0e158c81f95c4fc1187e6b8",
+        "normalized_cnf_sha256": "e715ad6c1d58d9f870dacbe9fb89a39b4ce0cde4c0e158c81f95c4fc1187e6b8"
+      }
+    ],
+    "scope": "Exact clause-sequence reproduction up to platform newlines, and retained-map-field identity. No solver, search, original launcher or universal encoder-correctness proof."
+  },
+  "scope": "Exact stored CNF/proof identities, formula syntax, map context and optionally fresh checker acceptance. A CNF refutation does not independently prove encoder correctness, literature novelty, a whole cell impossible or a collision attack price.",
+  "warnings": [
+    "The checker reports duplicate-literal and ignored unit-deletion warnings; acceptance is under this checker's documented semantics, not strict warning-free DRAT syntax.",
+    "Historical timing summaries are not used as fresh runtime measurements.",
+    "No proof, launcher, binary or coordination payload was admitted to the public site by this private audit."
+  ]
+}

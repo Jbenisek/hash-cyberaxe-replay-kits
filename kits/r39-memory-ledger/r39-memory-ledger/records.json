@@ -1,0 +1,77 @@
+{
+  "format": "hashsmash-r39-memory-ledger-v1",
+  "source_sha256": "9aadb937a355c4836db1ef3ee267c5029f50e3875bd1b48863ac3a934bb41cf0",
+  "rows": [
+    {
+      "source_label": "register file, 256 x 32",
+      "declared_bytes": 8192
+    },
+    {
+      "source_label": "body records: 2 kernel images x 710 x 5",
+      "declared_bytes": 7100
+    },
+    {
+      "source_label": "other instructions: (1192 executed-block + 1100 routines + 1765 generator and relocation) x 36",
+      "declared_bytes": 146052
+    },
+    {
+      "source_label": "table: 26,052 words x 32 (171,008 records of 39 bits, packed)",
+      "declared_bytes": 833664
+    },
+    {
+      "source_label": "lane array, 256 words",
+      "declared_bytes": 8192
+    },
+    {
+      "source_label": "stage-1 save area, 32 words (also holds a parked stage-2 bank, by swap)",
+      "declared_bytes": 1024
+    },
+    {
+      "source_label": "parked stage-2 scalars (`cur`, `it2`, `bact`, `live`, `occ`, `nf`), 6 words",
+      "declared_bytes": 192
+    },
+    {
+      "source_label": "queue, 3584 pairs x 8 bytes (4 per word)",
+      "declared_bytes": 28704
+    },
+    {
+      "source_label": "stage-2 lane records (256 x 32 bits: shorter trail's id, in-place flag, wheel link), 32 words",
+      "declared_bytes": 1024
+    },
+    {
+      "source_label": "timing wheel, 2048 buckets x 2",
+      "declared_bytes": 4096
+    },
+    {
+      "source_label": "free-slot stack, 128 x 8 bits, 4 words",
+      "declared_bytes": 128
+    },
+    {
+      "source_label": "constants and counters, 128 words",
+      "declared_bytes": 4096
+    },
+    {
+      "source_label": "advice: the published pair, `CV_PUB`, `M`, `M'`",
+      "declared_bytes": 160
+    }
+  ],
+  "declared_total_bytes": 1042624,
+  "computed_total_bytes": 1042624,
+  "ceiling_bytes": 1048576,
+  "headroom_bytes": 5952,
+  "instruction_bytes": 146052,
+  "packed_record_bytes": 833664,
+  "packed_record_bits_divisible_by_eight": true,
+  "table_word_bytes": 833664,
+  "queue_payload_bytes": 28672,
+  "queue_declared_bytes": 28704,
+  "queue_unexplained_allowance_bytes": 32,
+  "reported_live_base_scalars": 24,
+  "reported_deepest_scalars_with_links": 42,
+  "reported_scalar_allowance": 48,
+  "reported_register_total_with_allowance": 254,
+  "program_liveness_verified": false,
+  "current_price_verified": false,
+  "queue_allowance_origin_verified": false,
+  "scope": "Historical table arithmetic only. Not a liveness proof, compiler census, current filing price, success bound or collision replay."
+}

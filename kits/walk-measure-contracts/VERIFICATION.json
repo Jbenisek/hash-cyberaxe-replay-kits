@@ -1,0 +1,130 @@
+{
+  "project_id": "hash-cyberaxe-walk-measure-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:08:05.823155+00:00",
+    "source_sha256": "ea3720d4bd96a2a28c8c54cadcba9f4f5f42c1d7b3f4d3f5fb65d30ac03e3629",
+    "cases": [
+      {
+        "name": "first-repeat-includes-return-to-initial-state",
+        "passed": true
+      },
+      {
+        "name": "permutation-cycle-repeats-without-distinct-input-collision",
+        "passed": true
+      },
+      {
+        "name": "exact-random-map-law-through-five-states",
+        "passed": true,
+        "enumerations": [
+          {
+            "N": 1,
+            "maps": 1,
+            "counts_by_repeat_index": [
+              1
+            ]
+          },
+          {
+            "N": 2,
+            "maps": 4,
+            "counts_by_repeat_index": [
+              2,
+              2
+            ]
+          },
+          {
+            "N": 3,
+            "maps": 27,
+            "counts_by_repeat_index": [
+              9,
+              12,
+              6
+            ]
+          },
+          {
+            "N": 4,
+            "maps": 256,
+            "counts_by_repeat_index": [
+              64,
+              96,
+              72,
+              24
+            ]
+          },
+          {
+            "N": 5,
+            "maps": 3125,
+            "counts_by_repeat_index": [
+              625,
+              1000,
+              900,
+              480,
+              120
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sorted-accumulator-matches-direct-likelihood-including-duplicates",
+        "passed": true
+      },
+      {
+        "name": "unit-rate-hazard-valid-through-final-state",
+        "passed": true
+      },
+      {
+        "name": "unvalidated-last-hazard-can-exceed-one",
+        "passed": true,
+        "invalid_probability": 4
+      },
+      {
+        "name": "invalid-survival-hazard-raises-domain-error",
+        "passed": true
+      },
+      {
+        "name": "empty-sample-produces-boundary-fit-without-evidence",
+        "passed": true,
+        "fit": 0.05000000005371451
+      },
+      {
+        "name": "short-walk-sample-saturates-hard-coded-upper-fit-bound",
+        "passed": true
+      },
+      {
+        "name": "valid-small-state-sample-can-crash-unconstrained-fit-search",
+        "passed": true
+      },
+      {
+        "name": "interval-search-also-enters-invalid-hazard-domain",
+        "passed": true
+      },
+      {
+        "name": "empty-sample-interval-spans-arbitrary-search-bracket",
+        "passed": true,
+        "lo": 0.020000000000000025,
+        "hi": 5.999999999999995
+      },
+      {
+        "name": "run-seeds-map-set-initial-state-and-control-key-match-code",
+        "passed": true
+      },
+      {
+        "name": "shift-affects-real-map-only-and-is-absent-from-output-metadata",
+        "passed": true
+      },
+      {
+        "name": "same-seed-is-reproducible-not-an-independent-replication",
+        "passed": true
+      },
+      {
+        "name": "zero-trials-not-rejected-by-run",
+        "passed": true
+      }
+    ],
+    "actual_rho_imported": false,
+    "scope": "Exact extracted estimator and run wiring; exhaustive synthetic maps up to five states. No real Poseidon map, full-width rate, interval coverage or attack price certified."
+  },
+  "finite_replay": "passed"
+}

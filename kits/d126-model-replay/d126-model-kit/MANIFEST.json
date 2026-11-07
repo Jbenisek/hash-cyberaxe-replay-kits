@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "price.py",
+      "bytes": 6278,
+      "sha256": "1c066a7647f5ead8dc9e4eb650193b890c584010d5569c37b8088ba2368874a7"
+    },
+    {
+      "path": "model37.py",
+      "bytes": 19102,
+      "sha256": "5a382ce398e4e7671145d49d0aedde6e9bf3dcc0f59b9076d9da285b3b250c04"
+    },
+    {
+      "path": "model38.py",
+      "bytes": 1144,
+      "sha256": "2abe5c854d04f544395884f360c6b987f04d58f1b5da7a053f902c46d2158387"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4680,
+      "sha256": "1037342b7bec1108d73f8047e90e61ec06391b522b317ef39c755d6f4e699bfd"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1793,
+      "sha256": "c90ab91cf1d3cc849fce30fe6585c1ae5f3d0cf38ae4125a4cf2e037154c4822"
+    },
+    {
+      "path": "runs/costs.json",
+      "bytes": 132,
+      "sha256": "02c4ad8666084abdbdebd10a03edd972f47e5a7e7ae7aad6c800a49f6920aa0d"
+    },
+    {
+      "path": "runs/pre1.json",
+      "bytes": 200,
+      "sha256": "553e80c110fa3f1e83f86b8e34c2e6e92568ed3316a17cc5ef7456b4441a7cbd"
+    },
+    {
+      "path": "runs/pre2.json",
+      "bytes": 147,
+      "sha256": "ea062fb5984a8e7b51b3ef00a48af79a37724c56d12303ed0e967805d0a3ee4f"
+    },
+    {
+      "path": "check37.py",
+      "bytes": 8845,
+      "sha256": "9e140d06f81e40049e6ce75be693ee3044096107f177a5bbc7e6f333726db233"
+    },
+    {
+      "path": "check38.py",
+      "bytes": 6093,
+      "sha256": "08dbbfd2f10a5b7b168a913b69011cc10f4f5b0e90ebcb0b3b503e8f0dd516e4"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 780,
+      "sha256": "361b5fd23427723e45a0fc345c4ca7abe8af378466e14923a22ef3ac3c9ea3db"
+    }
+  ]
+}

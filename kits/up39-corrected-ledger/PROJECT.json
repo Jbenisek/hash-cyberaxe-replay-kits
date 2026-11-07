@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-up39-corrected-ledger",
+  "title": "UP39 corrected job ledger: saved receipts, not new verdict proofs",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "up39-corrected-ledger.zip",
+  "source_archive_sha256": "317fcb48274551d8027b08ede8a3e3b400a376886d323a0ee9bbf74c14efac66",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/up39-corrected-ledger",
+  "tool_families": [],
+  "original_payload_files": 7,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "up39-corrected-ledger/replay.py"
+  ],
+  "expected": "up39-ledger",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

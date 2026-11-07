@@ -1,0 +1,23 @@
+{
+  "source_files": [
+    {
+      "path": "research/game/climber/guided/scan40_topslide/census_0.tsv",
+      "sha256": "8e564903a5f58ab7b8e6b0ccd0a47404db05b2736b2371029c4646f601bdfad3"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/alpha_set_W10_64.tsv",
+      "sha256": "34d192cb862e5ae0a90d31b6b7c5a9140776d85da69900e62c0e9036b1182797"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/CLASS_MAP_38.tsv",
+      "sha256": "e796d8bd8940a4535c203a4d9fa2e011793562bb0cd962dbcd62823712fc7dbf"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/RES.txt",
+      "sha256": "d9652f3e4bb2184a35d63ef518075851e9acc977cd38d35b21f297d9239260f9"
+    }
+  ],
+  "source_bytes_unchanged": true,
+  "scope": "Exact saved-record counts and joins only. No UNSAT certificate replay, CNF identity equivalence, exhaustive alpha-domain proof, sampling-law proof or attack-price claim. Timeout return codes remain unresolved. No original program executed.",
+  "recount": "New publication parser and cross-record checks; historical programs not included."
+}

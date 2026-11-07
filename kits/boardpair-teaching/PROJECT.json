@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-boardpair-teaching",
+  "title": "SHA-256 board-pair teaching kit",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "boardpair-teaching.zip",
+  "source_archive_sha256": "5b3cc2f36edd0745ccaedde26bbee04c8fdb8a16d75efa4bdb3373380025ff19",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/boardpair-teaching",
+  "tool_families": [
+    "sha-pair-encoder",
+    "independent-sha-checks"
+  ],
+  "original_payload_files": 9,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "boardpair-kit/replay.py",
+    "--encode"
+  ],
+  "expected": "boardpair",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "Original numeric witnesses, independent checker, and numeric identity baselines.",
+  "files": [
+    {
+      "path": "research/game/climber/guided/PAIRS_39.tsv",
+      "sha256": "6624ad62c17b8d07d1ec7635d3f04d707257be33c770bdd3f5a4841df0abc6c0",
+      "bytes": 24606
+    },
+    {
+      "path": "research/public_library/qa/replay_pairs39.cjs",
+      "sha256": "02423b6a93925e64cf2ba265daa3db1d51290f419609b0f95d6cc938c672da88",
+      "bytes": 6263
+    },
+    {
+      "path": "research/public_library/site/data/witnesses.json",
+      "sha256": "d15d53e15a83b486940ed25151201f450726c664f1f9c2c30374e0783b81d3c0",
+      "bytes": 43853
+    },
+    {
+      "path": "research/public_library/qa/resolve31-normalized.json",
+      "sha256": "8fbfc08567e1f5d0c31abc4b70c1be441f1ef83d353a1706d7f9834d898b62a4",
+      "bytes": 85945
+    },
+    {
+      "path": "normalized-witnesses.json",
+      "sha256": "ce746538403100a2a7690c741cfcbaa3fcd9b7b37a776174ed9c6c539844c1fe",
+      "bytes": 238590
+    },
+    {
+      "path": "README.md",
+      "sha256": "304faf32770a1f41f6af7acd9deb52a7e1af59d0cc49e7d8a22863e5b52866b3",
+      "bytes": 1328
+    }
+  ]
+}

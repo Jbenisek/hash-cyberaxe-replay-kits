@@ -1,0 +1,4 @@
+# R=39 D=8,9,10,11,12 L=16,17,24,26 weight 7 per word {16: 3, 17: 1, 24: 2, 26: 1}
+M1 ffffffff ffffffff ffffffff bbfd7bfe 6e2336d1 ffffffff ffffffff ffff55ff a2004040 52120911 bbe00d8c 7ffd13d2 bcfc7110 e26af25f 6889b7b9 662bc0af
+M2 ffffffff ffffffff ffffffff bbfd7bfe 6e2336d1 ffffffff ffffffff ffff55ff a2004048 42100910 bbe00d84 40016a51 bd017110 e26af25f 6889b7b9 662bc0af
+difference support through word 38 : [8, 9, 10, 11, 12, 16, 17, 24, 26] | wanted [8, 9, 10, 11, 12, 16, 17, 24, 26] -> VERIFIED

@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "original": "sub283-ledger-recount/DRAT266_1101.txt",
+      "project_path": "sub283-ledger-recount/DRAT266_1101.txt",
+      "sha256": "487d244db1166840fc6c0e4849517f6b72a3931012ae022b3f17df351a7cfeb5",
+      "bytes": 65
+    },
+    {
+      "original": "sub283-ledger-recount/manifest.json",
+      "project_path": "sub283-ledger-recount/manifest.json",
+      "sha256": "5b12f8e6cb39fecb34400c29e6a8a8dd4194622f0d9719202166e9b88edd2baf",
+      "bytes": 1260
+    },
+    {
+      "original": "sub283-ledger-recount/POCKET266_1101.tsv",
+      "project_path": "sub283-ledger-recount/POCKET266_1101.tsv",
+      "sha256": "bc47fb3c1016fe491344e2d9ef0e70ddc9208ea22ac79e8a350ac3b23eff9cdd",
+      "bytes": 1294
+    },
+    {
+      "original": "sub283-ledger-recount/POCKET268_1101.tsv",
+      "project_path": "sub283-ledger-recount/POCKET268_1101.tsv",
+      "sha256": "f2c3c989e7fc4c281320a31ce30ead831f51b0e126660168c9d5228edab30606",
+      "bytes": 9337
+    },
+    {
+      "original": "sub283-ledger-recount/README.txt",
+      "project_path": "sub283-ledger-recount/README.txt",
+      "sha256": "b4c7a1cb065310e60c343882b2e84a781acd83091bd965f85bf509c1dd0910d0",
+      "bytes": 2012
+    },
+    {
+      "original": "sub283-ledger-recount/records.json",
+      "project_path": "sub283-ledger-recount/records.json",
+      "sha256": "c849414ec605cc0eb0ae861cc55c19d3f30bfc7a37069456a200f47b510df1a4",
+      "bytes": 118643
+    },
+    {
+      "original": "sub283-ledger-recount/replay.py",
+      "project_path": "sub283-ledger-recount/replay.py",
+      "sha256": "17433ce670b37b6927cf87ca02da33a32773cc61526cfc7d256d1055e85fa726",
+      "bytes": 5394
+    },
+    {
+      "original": "sub283-ledger-recount/SUB283_ORACLE_1101.tsv",
+      "project_path": "sub283-ledger-recount/SUB283_ORACLE_1101.tsv",
+      "sha256": "f30e57365845cc0b3ecfa4becb01b6c67b8b8f7ecdb4e2622b0bab6143d9afae",
+      "bytes": 1133
+    },
+    {
+      "original": "sub283-ledger-recount/WIDEMAP283_v2_1101.tsv",
+      "project_path": "sub283-ledger-recount/WIDEMAP283_v2_1101.tsv",
+      "sha256": "c2a70ed917cd0db5210817cf3db2008a5e3f8795902e98b0157ea063de2cca39",
+      "bytes": 791
+    }
+  ]
+}

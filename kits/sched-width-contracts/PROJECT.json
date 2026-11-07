@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sched-width-contracts",
+  "title": "Small-word tests can change the algebra",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sched-width-contracts.zip",
+  "source_archive_sha256": "51df5c77f0a92e7ca55d8aaf65805732a53d91145b145a8ce4128c4cfb769e06",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sched-width-contracts",
+  "tool_families": [],
+  "original_payload_files": 6,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "sched-width-kit/replay.py"
+  ],
+  "expected": "sched-width",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

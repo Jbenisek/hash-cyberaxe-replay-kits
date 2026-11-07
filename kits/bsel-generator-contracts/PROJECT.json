@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-bsel-generator-contracts",
+  "title": "BLAKE3 / MASKED WALK AND RETAINED GENERATOR REPLAY",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "bsel-generator-contracts.zip",
+  "source_archive_sha256": "367ff2019bac241fd67ada5c98d4c595465c8c0d77160b4b3d70149b475eac20",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/bsel-generator-contracts",
+  "tool_families": [],
+  "original_payload_files": 8,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "bsel-generator-kit/replay.py"
+  ],
+  "expected": "bsel-generator",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

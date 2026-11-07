@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-four-pattern-replay",
+  "title": "Four-pattern witness replay and verifier boundaries",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "four-pattern-replay.zip",
+  "source_archive_sha256": "da8031bf7406409549622f2fd33e1832348a53128c3ab5e72d4e4df53eff75ae",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/four-pattern-replay",
+  "tool_families": [],
+  "original_payload_files": 11,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "four-pattern-kit/replay.py"
+  ],
+  "expected": "four-pattern",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

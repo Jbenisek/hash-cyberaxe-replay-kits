@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "selector-guard-kit/sha_cnf.py",
+      "project_path": "selector-guard-kit/sha_cnf.py",
+      "sha256": "cb02f7a8615528db855d66c364288dd94f2c4ffe3de667f875b073c1f0b66811",
+      "bytes": 27429
+    },
+    {
+      "original": "selector-guard-kit/check.py",
+      "project_path": "selector-guard-kit/check.py",
+      "sha256": "36e1befcc1885034940b0eba1d8443e3fde66f3f1206a400d571646e321256bb",
+      "bytes": 6909
+    },
+    {
+      "original": "selector-guard-kit/replay.py",
+      "project_path": "selector-guard-kit/replay.py",
+      "sha256": "b84d47ce66afcea743c0d1f374406ea3c42c03664eb03c754e72b41b44243fc4",
+      "bytes": 1143
+    },
+    {
+      "original": "selector-guard-kit/README.txt",
+      "project_path": "selector-guard-kit/README.txt",
+      "sha256": "e92d22d7dda6a4ecd8c42546a2fa3e8afbf6d516550eb5470b365a88e0e9fac4",
+      "bytes": 2005
+    },
+    {
+      "original": "selector-guard-kit/PROVENANCE.json",
+      "project_path": "selector-guard-kit/PROVENANCE.json",
+      "sha256": "e968f4a1deddccce0077b554fabcdc2b4eb692346b9ee9b4b055924825f1999f",
+      "bytes": 736
+    },
+    {
+      "original": "selector-guard-kit/MANIFEST.json",
+      "project_path": "selector-guard-kit/MANIFEST.json",
+      "sha256": "a94126ac60df418abcba189451853170c70b8bf5d22504430254415307d3d4e0",
+      "bytes": 746
+    }
+  ]
+}

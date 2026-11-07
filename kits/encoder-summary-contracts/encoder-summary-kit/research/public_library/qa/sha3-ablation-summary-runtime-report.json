@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "finished_at": "2026-11-07T21:22:53.400920+00:00",
+  "source_sha256": "d08b8c36a1b694f03a3d8301a768f9fd7ed2e22eb715e37b7bffe603b703ca49",
+  "archived_input_files": [
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k1.json",
+      "sha256": "6cb04758e03ee64e75e8b03cbf5d9216881483d10aa559ccce5666068902aa28"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k2.json",
+      "sha256": "0b50be798419bec2c730c14e109555156a09350ceff5ffa3b3f225986609a063"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k5.json",
+      "sha256": "35b8c0c435708cbeee36c237f220767c13540f72190004e4b5b44a0608d1e805"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k6.json",
+      "sha256": "8033d7a3f700974f0f92fa064b0f76b2065c70b1404edb14d23531e93adb8523"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k8.json",
+      "sha256": "b8a3e379ad93030a28b3f3ed430958068bef785d49991d8fc3c269abf8bf542d"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k9.json",
+      "sha256": "ded90b3384a8c4d88628c2350ba0067742e07128cc01060b6d4ffc0cf8ca7681"
+    },
+    {
+      "source_identifier": "research/dig/incoming/sha3-r5-U01/work2/drop_k11.json",
+      "sha256": "9ae7d1802df88cd540375704aa84354c37b0fdcf526adac853edf8079489331b"
+    }
+  ],
+  "results": [
+    {
+      "case": "seven archived seed files",
+      "files": 7,
+      "records": 252,
+      "groups": 6,
+      "unmodified_ok": 23,
+      "unmodified_sampled_points": 736,
+      "dropped_F_ok": 28
+    },
+    {
+      "case": "empty folder",
+      "result": "prints empty list; no missing-data failure"
+    },
+    {
+      "case": "paired synthetic baseline",
+      "DF_gain": 2
+    },
+    {
+      "case": "duplicate baseline attempt",
+      "result": "both records counted; last record used for paired baseline"
+    },
+    {
+      "case": "backup filename matches glob",
+      "result": "duplicate file contributes again; no independent-trial or dedup check"
+    },
+    {
+      "case": "event count exceeds number of points",
+      "result": "printed without validation"
+    }
+  ],
+  "scope": "Six bounded read-only summary fixtures, not a connector rerun, independent sampling claim or zero-probability theorem. Original archived numerical data were separately recounted by the SHA-3 local-objects kit."
+}

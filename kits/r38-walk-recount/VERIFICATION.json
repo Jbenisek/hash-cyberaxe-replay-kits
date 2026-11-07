@@ -1,0 +1,54 @@
+{
+  "project_id": "hash-cyberaxe-r38-walk-recount",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "integer_rows": 8,
+    "guard_patterns": 64,
+    "rows": [
+      {
+        "WALK": 12,
+        "N": 350337613786393238609118711,
+        "time_log2_up": "76.7652485"
+      },
+      {
+        "WALK": 6,
+        "N": 328007972343454540512244659,
+        "time_log2_up": "76.6702335"
+      },
+      {
+        "WALK": 7,
+        "N": 331729579250610990195057001,
+        "time_log2_up": "76.6865102"
+      },
+      {
+        "WALK": 8,
+        "N": 335451186157767439877869343,
+        "time_log2_up": "76.7026054"
+      },
+      {
+        "WALK": 9,
+        "N": 339172793064923889560681685,
+        "time_log2_up": "76.7185230"
+      },
+      {
+        "WALK": 10,
+        "N": 342894399972080339243494027,
+        "time_log2_up": "76.7342669"
+      },
+      {
+        "WALK": 11,
+        "N": 346616006879236788926306369,
+        "time_log2_up": "76.7498409"
+      },
+      {
+        "WALK": 13,
+        "N": 354059220693549688291931053,
+        "time_log2_up": "76.7804933"
+      }
+    ],
+    "scope": "Exact arithmetic under the explicit inherited budget. No new success law, primitive-price authorization, full port or memory proof."
+  },
+  "finite_replay": "passed"
+}

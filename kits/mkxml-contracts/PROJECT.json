@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-mkxml-contracts",
+  "title": "Reproduce the SHA-2 mask corrections",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "mkxml-contracts.zip",
+  "source_archive_sha256": "a81da0a9f1f98ba8a52e8c98725a9d82629b4c383ecd0966a9b8341e88b8d76e",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/mkxml-contracts",
+  "tool_families": [
+    "seed-characteristics"
+  ],
+  "original_payload_files": 7,
+  "replay_command": [
+    "{python}",
+    "-I",
+    "-B",
+    "mkxml-kit/replay.py"
+  ],
+  "expected": "mkxml",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

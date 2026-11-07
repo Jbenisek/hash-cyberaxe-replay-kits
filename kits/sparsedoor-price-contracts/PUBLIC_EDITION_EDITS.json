@@ -1,0 +1,26 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "sparsedoor-price-kit/check_contract.py",
+      "reasons": [
+        "Python 3.14 compatibility: Python 3.14 words the same math domain error as 'ValueError: expected a nonnegative input' (the kit's deliberate-failure test failed on 3.14 before any edit)"
+      ],
+      "original_sha256": "c242ed4ed32b58fe2d2273c076ed434a741c56d3b886a6c26c14016f5308614d",
+      "original_bytes": 4251,
+      "published_sha256": "984ced79008b23f2543aed85336c369b465a426b2b04e92884eff243606a4d6d",
+      "published_bytes": 4294
+    },
+    {
+      "path": "sparsedoor-price-kit/price.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "b386ed58a46e0805f5a4f8f517590ee58673b4dfad4bae9d333198369eb0c27f",
+      "original_bytes": 2898,
+      "published_sha256": "e3a88e025bc3fd6cbd80d37f37c249288d3303a5510cb557c381ec408f2324a2",
+      "published_bytes": 2905
+    }
+  ]
+}

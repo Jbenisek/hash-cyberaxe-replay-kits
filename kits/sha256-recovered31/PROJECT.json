@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-sha256-recovered31",
+  "title": "Recovered SHA-256 witness set",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "sha256-recovered31.zip",
+  "source_archive_sha256": "777dd13af01039a89eed860e189d0aa6e2e2c54dd40025bbf1638daefdb7a93a",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/sha256-recovered31",
+  "tool_families": [],
+  "original_payload_files": 36,
+  "replay_command": [
+    "node",
+    "research/public_library/qa/replay_resolve31.cjs"
+  ],
+  "expected": {
+    "verified": 31,
+    "r38": 29,
+    "r39": 2,
+    "standard_iv": 0,
+    "one_step_collisions": 0
+  },
+  "timeout_seconds": 300,
+  "require_passed": false
+}

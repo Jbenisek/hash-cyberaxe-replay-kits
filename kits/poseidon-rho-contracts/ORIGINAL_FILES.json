@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "rho-contract-kit/rho.py",
+      "project_path": "rho-contract-kit/rho.py",
+      "sha256": "b5bd922909b12d8871b381c7a1bc4255541241b45df0adb18fe5ad4c3f53773c",
+      "bytes": 68539
+    },
+    {
+      "original": "rho-contract-kit/check.py",
+      "project_path": "rho-contract-kit/check.py",
+      "sha256": "120d309f8d83f578c5932b68246aed5b2680584d0444c4648bec1794ea4c9c5a",
+      "bytes": 5021
+    },
+    {
+      "original": "rho-contract-kit/README.md",
+      "project_path": "rho-contract-kit/README.md",
+      "sha256": "256371ed29f58696bda0e90a7fb7dd4af0c2135e1f5b1ef514777b51ce38b8d0",
+      "bytes": 4451
+    },
+    {
+      "original": "rho-contract-kit/replay.py",
+      "project_path": "rho-contract-kit/replay.py",
+      "sha256": "0001ef7eafde5092c45ba7f0f48e0ae1d056e0637e2d805d514b683cf79cd054",
+      "bytes": 1096
+    },
+    {
+      "original": "rho-contract-kit/PROVENANCE.json",
+      "project_path": "rho-contract-kit/PROVENANCE.json",
+      "sha256": "07ebcd51bf8af0c38b5b9ea223d6ed8fee242c9b89c684bef55f61d1f6d12e34",
+      "bytes": 483
+    },
+    {
+      "original": "rho-contract-kit/MANIFEST.json",
+      "project_path": "rho-contract-kit/MANIFEST.json",
+      "sha256": "8d4bbd677a1c3c07e17ac0f8d12b929425395c1ae05c1c996896cf156c6a893f",
+      "bytes": 741
+    }
+  ]
+}

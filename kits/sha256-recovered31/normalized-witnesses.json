@@ -1,0 +1,3660 @@
+{
+  "schema_version": 1,
+  "registry": "research/luna/audit_packets/RESOLVE_1028.tsv",
+  "registry_sha256": "2f864931bfd85c558309bcc2586484d201359fcaf4cfb304c9566ccce7ceb37c",
+  "checker": "research/public_library/qa/replay_resolve31.cjs",
+  "checker_sha256": "164eb635c640e9044d505d8903f43c482e914a52899b6f63875fe0237da9a72b",
+  "method": "Fresh finite replay; plain JavaScript SHA-256 compression. No solver or project encoder imports. Constants agree with canonical SHA-256; abc control checks 64 rounds.",
+  "known_answer": {
+    "message": "abc",
+    "rounds": 64,
+    "standard_iv": true,
+    "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+    "digest": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+    "pass": true
+  },
+  "summary": {
+    "verified": 31,
+    "r38": 29,
+    "r39": 2,
+    "standard_iv": 0,
+    "one_step_collisions": 0
+  },
+  "limits": [
+    "These are fixed finite witnesses, not collision probability estimates or work-factor proofs.",
+    "Free shared CV is not standard-IV hashing. No padding/domain eligibility is asserted.",
+    "One-step failure only concerns these concrete pairs.",
+    "No signed characteristic, minimum support, solver model, generation-time claim or all-solutions statement is reverified."
+  ],
+  "records": [
+    {
+      "id": "FOUND_x_A18-21_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A18-21_s1.json",
+      "source_sha256": "02a01b3098904685fe6703a8e635fe6dadde1fdf46c2e0392f67dd0cb6a6660d",
+      "registry_page": "found_0006_FOUND_x_A18-21_s1_02a01b309890.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "5ed58028",
+          "2c745893",
+          "f0e88c8a",
+          "a4200cd4",
+          "9d9a9029",
+          "1974051f",
+          "d07b0995",
+          "81040f11",
+          "06e98ffc",
+          "b8e6f10f",
+          "3d80a696",
+          "53b15f59",
+          "dcb772b6",
+          "461d60dd",
+          "82aab713",
+          "92a218bd"
+        ],
+        [
+          "5ed58028",
+          "2c745893",
+          "f0e88c8a",
+          "a4200cd4",
+          "9d9a9029",
+          "1974051f",
+          "d07b0995",
+          "bf6211d1",
+          "06e99000",
+          "b8e6f10f",
+          "3d7f2696",
+          "53b15f59",
+          "dcb772b6",
+          "461d60dd",
+          "82aab713",
+          "92a218b9"
+        ]
+      ],
+      "chaining": [
+        "4fffbabd",
+        "968d0924",
+        "41c2582f",
+        "cc248ef5",
+        "a67a962b",
+        "94ce6ce7",
+        "fba53b72",
+        "6662b890"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "13deb694",
+        "93acbf2a",
+        "66fdd5ba",
+        "87ee878f",
+        "ee5e4d4c",
+        "ed52d229",
+        "6b95428d",
+        "24b3f928"
+      ],
+      "expected_output": [
+        "63de7151",
+        "2a39c84e",
+        "a8c02de9",
+        "54131684",
+        "94d8e377",
+        "82213f10",
+        "673a7dff",
+        "8b16b1b8"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "cdad0a54",
+            "aa6bbfb8",
+            "d56f1759",
+            "332264af",
+            "cd8c5278",
+            "832cba33",
+            "e8f80d9b",
+            "d1f7fb1d"
+          ],
+          [
+            "0e9d2e54",
+            "aa6bbfb8",
+            "d56f1759",
+            "332264af",
+            "0e7c7678",
+            "832cba33",
+            "e8f80d9b",
+            "d1f7fb1d"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A30-33_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A30-33_s1.json",
+      "source_sha256": "15feda6d52b107b9000c8bc708b6280946bf658a7b4fb0dc74b1f5680a3e1ada",
+      "registry_page": "found_0033_FOUND_x_A30-33_s1_15feda6d52b1.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "8821273c",
+          "c0f3753c",
+          "33fa8774",
+          "1ad002e1",
+          "19566379",
+          "d56caf23",
+          "a8665f2b",
+          "c00caf02",
+          "06ed8ffc",
+          "959c7853",
+          "e7809447",
+          "2ff9f5de",
+          "befc72c1",
+          "929d6145",
+          "ef2957b6",
+          "b07c5ebc"
+        ],
+        [
+          "8821273c",
+          "c0f3753c",
+          "33fa8774",
+          "1ad002e1",
+          "19566379",
+          "d56caf23",
+          "a8665f2b",
+          "fe6ab1c2",
+          "06ed9000",
+          "959c7853",
+          "e77f1447",
+          "2ff9f5de",
+          "befc72c1",
+          "929d6145",
+          "ef2957b6",
+          "b07c5eb8"
+        ]
+      ],
+      "chaining": [
+        "9469de1a",
+        "3b90d1fb",
+        "f2d0eab3",
+        "f67d8482",
+        "14ac2cc1",
+        "aafa5c40",
+        "034eb16a",
+        "03650a0f"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "6f0494e4",
+        "d4b238e0",
+        "a15a72a7",
+        "8beca6e5",
+        "0509c16f",
+        "8a7d92cc",
+        "515fe0fc",
+        "a553c8a0"
+      ],
+      "expected_output": [
+        "036e72fe",
+        "10430adb",
+        "942b5d5a",
+        "826a2b67",
+        "19b5ee30",
+        "3577ef0c",
+        "54ae9266",
+        "a8b8d2af"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "55f30960",
+            "aa9566df",
+            "c7832393",
+            "97d7f729",
+            "ce5e0167",
+            "b0041daf",
+            "8dcc4436",
+            "54c4eb0b"
+          ],
+          [
+            "9502a560",
+            "aa9566df",
+            "c7832393",
+            "97d7f729",
+            "0d6d9d67",
+            "b0041daf",
+            "8dcc4436",
+            "54c4eb0b"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E32-35_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E32-35_s1.json",
+      "source_sha256": "1dabdb188e459d8b8d329ff29803bc90ad37aba0f3e7f254874086bfba6ee1f3",
+      "registry_page": "found_0046_FOUND_x_E32-35_s1_1dabdb188e45.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "de6fc132",
+          "6eab7c16",
+          "c0f24e57",
+          "4e914cb3",
+          "ba87472b",
+          "1a768468",
+          "08ab7b20",
+          "41954e21",
+          "06e98ffc",
+          "a9e2f1aa",
+          "3d80a695",
+          "33b15f57",
+          "dcb772d6",
+          "ca1f70dd",
+          "92eceebb",
+          "bf86d187"
+        ],
+        [
+          "de6fc132",
+          "6eab7c16",
+          "c0f24e57",
+          "4e914cb3",
+          "ba87472b",
+          "1a768468",
+          "08ab7b20",
+          "7ff350e1",
+          "06e99000",
+          "a9e2f1aa",
+          "3d7f2695",
+          "33b15f57",
+          "dcb772d6",
+          "ca1f70dd",
+          "92eceebb",
+          "bf86d183"
+        ]
+      ],
+      "chaining": [
+        "b25f218c",
+        "2707f0a1",
+        "a8098b79",
+        "9ce5ecb1",
+        "20b57f63",
+        "7030a5ee",
+        "9e200914",
+        "0d6782e4"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "13c54e96",
+        "4cad8bf5",
+        "7ea59cda",
+        "be9c05ea",
+        "57e9621c",
+        "749f33a7",
+        "060f72d0",
+        "41bee941"
+      ],
+      "expected_output": [
+        "c6247022",
+        "73b57c96",
+        "26af2853",
+        "5b81f29b",
+        "789ee17f",
+        "e4cfd995",
+        "a42f7be4",
+        "4f266c25"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "c1de3f13",
+            "3acd3f37",
+            "f4b7176e",
+            "1b8b898b",
+            "aaaf7e3e",
+            "c81a080a",
+            "12bf3cbb",
+            "1376f5b4"
+          ],
+          [
+            "80ce1b13",
+            "3acd3f37",
+            "f4b7176e",
+            "1b8b898b",
+            "699f5a3e",
+            "c81a080a",
+            "12bf3cbb",
+            "1376f5b4"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE24-27_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE24-27_s1.json",
+      "source_sha256": "1f3d7a51c74589bdecb74cb126292e06bb9b8c5f5b12972dbfdeac97bfadbb80",
+      "registry_page": "found_0048_FOUND_x_AE24-27_s1_1f3d7a51c745.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "08a55203",
+          "e2cb76cb",
+          "21d5dac3",
+          "dfb22285",
+          "8459ae6e",
+          "59ee6550",
+          "ba98098d",
+          "80842e0c",
+          "06e98ffc",
+          "339ff7bd",
+          "27809446",
+          "3bf9f3dc",
+          "7b3b74e1",
+          "065d713d",
+          "006c559e",
+          "713b6456"
+        ],
+        [
+          "08a55203",
+          "e2cb76cb",
+          "21d5dac3",
+          "dfb22285",
+          "8459ae6e",
+          "59ee6550",
+          "ba98098d",
+          "bee230cc",
+          "06e99000",
+          "339ff7bd",
+          "277f1446",
+          "3bf9f3dc",
+          "7b3b74e1",
+          "065d713d",
+          "006c559e",
+          "713b6452"
+        ]
+      ],
+      "chaining": [
+        "333b4e8c",
+        "2de2fe22",
+        "267f376d",
+        "b209cac3",
+        "b006a0ed",
+        "278eb10a",
+        "d13d0c7e",
+        "4c6c9bae"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "d84c66d4",
+        "79ceb02e",
+        "7c2c52b6",
+        "fabf433e",
+        "d649c8e5",
+        "758b48e4",
+        "55020180",
+        "5328e64f"
+      ],
+      "expected_output": [
+        "0b87b560",
+        "a7b1ae50",
+        "a2ab8a23",
+        "acc90e01",
+        "865069d2",
+        "9d19f9ee",
+        "263f0dfe",
+        "9f9581fd"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "c7795230",
+            "062f64f6",
+            "a04de79b",
+            "2e361d79",
+            "9588ec62",
+            "fdd879ef",
+            "46c85562",
+            "a16e9d2e"
+          ],
+          [
+            "8689ae30",
+            "062f64f6",
+            "a04de79b",
+            "2e361d79",
+            "54994862",
+            "fdd879ef",
+            "46c85562",
+            "a16e9d2e"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE26-29_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE26-29_s1.json",
+      "source_sha256": "24d8fdf028c38b7eca61da4c22456be83b129ed4949afd6debb8d249b0a48ece",
+      "registry_page": "found_0057_FOUND_x_AE26-29_s1_24d8fdf028c3.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "2f20937d",
+          "28964c36",
+          "a38ee6bf",
+          "3809c204",
+          "7f921cae",
+          "0cef5701",
+          "9b1990fc",
+          "811ccf20",
+          "06e98ffc",
+          "36daf3aa",
+          "fd80a695",
+          "53b15f57",
+          "dcb772b6",
+          "461f60dd",
+          "83aaeea3",
+          "fee27227"
+        ],
+        [
+          "2f20937d",
+          "28964c36",
+          "a38ee6bf",
+          "3809c204",
+          "7f921cae",
+          "0cef5701",
+          "9b1990fc",
+          "bf7ad1e0",
+          "06e99000",
+          "36daf3aa",
+          "fd7f2695",
+          "53b15f57",
+          "dcb772b6",
+          "461f60dd",
+          "83aaeea3",
+          "fee27223"
+        ]
+      ],
+      "chaining": [
+        "a0e0ac0d",
+        "001e8f60",
+        "eb1ce5c8",
+        "368316cf",
+        "14e8ff3c",
+        "1f3956b6",
+        "e8a034fa",
+        "807690b1"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "966d8433",
+        "9d44a606",
+        "c166fc7d",
+        "a9686030",
+        "067c51fd",
+        "fff79410",
+        "ef143980",
+        "35ec326c"
+      ],
+      "expected_output": [
+        "374e3040",
+        "9d633566",
+        "ac83e245",
+        "dfeb76ff",
+        "1b655139",
+        "1f30eac6",
+        "d7b46e7a",
+        "b662c31d"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "876742f8",
+            "968c1393",
+            "88618bce",
+            "f7ea134c",
+            "9d5c35e7",
+            "25b5a8b3",
+            "e897c90a",
+            "6f8aca31"
+          ],
+          [
+            "48771ef8",
+            "968c1393",
+            "88618bce",
+            "f7ea134c",
+            "5e6c11e7",
+            "25b5a8b3",
+            "e897c90a",
+            "6f8aca31"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E16-19_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E16-19_s1.json",
+      "source_sha256": "2c8f16830aec03b7be09b864cf656539315b1a8a8d84e2e3a93f8be04a574019",
+      "registry_page": "found_0072_FOUND_x_E16-19_s1_2c8f16830aec.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "59534f8a",
+          "58b374f2",
+          "f05598c8",
+          "3e19c66d",
+          "b08a9600",
+          "32d47291",
+          "679844e8",
+          "c0142f24",
+          "06ef8ffc",
+          "a6b5f852",
+          "a7809447",
+          "1bf9f3de",
+          "7b3b74e1",
+          "065f713d",
+          "f06e5b6e",
+          "e5a47e5c"
+        ],
+        [
+          "59534f8a",
+          "58b374f2",
+          "f05598c8",
+          "3e19c66d",
+          "b08a9600",
+          "32d47291",
+          "679844e8",
+          "fe7231e4",
+          "06ef9000",
+          "a6b5f852",
+          "a77f1447",
+          "1bf9f3de",
+          "7b3b74e1",
+          "065f713d",
+          "f06e5b6e",
+          "e5a47e58"
+        ]
+      ],
+      "chaining": [
+        "23e90019",
+        "f75f0578",
+        "54da0e85",
+        "a08b3d9d",
+        "ca8a8a41",
+        "d83721c9",
+        "28736843",
+        "6998a453"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "fe39936f",
+        "74ea2a89",
+        "b09fa5d1",
+        "4614c00f",
+        "e3369a17",
+        "8b467b95",
+        "15d4869b",
+        "d973c15f"
+      ],
+      "expected_output": [
+        "22229388",
+        "6c493001",
+        "0579b456",
+        "e69ffdac",
+        "adc12458",
+        "637d9d5e",
+        "3e47eede",
+        "430c65b2"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "efe371b4",
+            "f59898e7",
+            "c9c4390e",
+            "512ae36e",
+            "6521ed33",
+            "bb6dbbe0",
+            "b3b9e3d8",
+            "7f6d2aee"
+          ],
+          [
+            "30d34db4",
+            "f59898e7",
+            "c9c4390e",
+            "512ae36e",
+            "a611c933",
+            "bb6dbbe0",
+            "b3b9e3d8",
+            "7f6d2aee"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_pub39w11v",
+      "source": "research/game/climber/guided/newpairs_1027/FOUND_pub39w11v.txt",
+      "source_sha256": "345676958a9fa3ebf9ec73ed477b784be5f564207512a993f85dd1a9629cbd88",
+      "registry_page": "found_0089_FOUND_pub39w11v_345676958a9f.md",
+      "registry_kind": "txt_pair",
+      "rounds": 39,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "5dfbb9fa",
+          "267e2c88",
+          "b0d05def",
+          "1ad60efb",
+          "34ea4120",
+          "c0dd9f55",
+          "86e164bb",
+          "0ad1a9e2",
+          "d28c011a",
+          "564bf8b1",
+          "97ecddd7",
+          "b8c29b34",
+          "e806e5d2",
+          "b06404c1",
+          "43670040",
+          "4891771f"
+        ],
+        [
+          "5dfbb9fa",
+          "267e2c88",
+          "b0d05def",
+          "1ad60efb",
+          "34ea4120",
+          "c0dd9f55",
+          "86e164bb",
+          "0ad1a9e2",
+          "928c011a",
+          "5ecbe8b1",
+          "d7ecddd7",
+          "b2c0be60",
+          "e816fdd2",
+          "b06404c1",
+          "43670040",
+          "4891771f"
+        ]
+      ],
+      "chaining": [
+        "684cabd7",
+        "e776325d",
+        "281032c8",
+        "ade5a196",
+        "e510d17e",
+        "4297e40a",
+        "b4b2cbd7",
+        "852bbb1c"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "1cb4f9cd",
+        "47d28e88",
+        "31c59cb6",
+        "8d8dacdc",
+        "d148b149",
+        "88bd3fe8",
+        "07454b6d",
+        "7d72e720"
+      ],
+      "expected_output": [
+        "8501a5a4",
+        "2f48c0e5",
+        "59d5cf7e",
+        "3b734e72",
+        "b65982c7",
+        "cb5523f2",
+        "bbf81744",
+        "029ea23c"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 40,
+        "output_equal": false,
+        "outputs": [
+          [
+            "52965afb",
+            "042b2c2a",
+            "6fe2c150",
+            "dfab3e4c",
+            "ec70a14c",
+            "13e09553",
+            "3d700bbf",
+            "8c710689"
+          ],
+          [
+            "12b07c3b",
+            "042b2c2a",
+            "6fe2c150",
+            "dfab3e4c",
+            "ac8ac28c",
+            "13e09553",
+            "3d700bbf",
+            "8c710689"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E24-27_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E24-27_s1.json",
+      "source_sha256": "37aec014d7fbe4addba0007a98768ef7b14a20a85814d531217f7cea7402be96",
+      "registry_page": "found_0096_FOUND_x_E24-27_s1_37aec014d7fb.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "edebf007",
+          "8ba2292a",
+          "94976fb5",
+          "26885013",
+          "c8e0bf18",
+          "d19ab573",
+          "c4728176",
+          "011d0f3c",
+          "06ef8ffc",
+          "b2f5113e",
+          "3d80a694",
+          "53b15f77",
+          "dcb772b6",
+          "45df60d5",
+          "92abfcab",
+          "0ec38fe7"
+        ],
+        [
+          "edebf007",
+          "8ba2292a",
+          "94976fb5",
+          "26885013",
+          "c8e0bf18",
+          "d19ab573",
+          "c4728176",
+          "3f7b11fc",
+          "06ef9000",
+          "b2f5113e",
+          "3d7f2694",
+          "53b15f77",
+          "dcb772b6",
+          "45df60d5",
+          "92abfcab",
+          "0ec38fe3"
+        ]
+      ],
+      "chaining": [
+        "f1f2ad0f",
+        "fa52706b",
+        "9c66fc4a",
+        "f169df66",
+        "9542261d",
+        "5f73196b",
+        "b8aa5914",
+        "9d792c4d"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "b4a5bfbd",
+        "fb810fbf",
+        "12921720",
+        "ea8b80a4",
+        "80745d62",
+        "792be420",
+        "ce15da76",
+        "c64c5b9d"
+      ],
+      "expected_output": [
+        "a6986ccc",
+        "f5d3802a",
+        "aef9136a",
+        "dbf5600a",
+        "15b6837f",
+        "d89efd8b",
+        "86c0338a",
+        "63c587ea"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "2f9882d1",
+            "aef83028",
+            "97e80c09",
+            "03fbf686",
+            "04b820b6",
+            "dfe776cd",
+            "31d63d34",
+            "6b8f06c3"
+          ],
+          [
+            "708866d1",
+            "aef83028",
+            "97e80c09",
+            "03fbf686",
+            "45a804b6",
+            "dfe776cd",
+            "31d63d34",
+            "6b8f06c3"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A26-29_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A26-29_s1.json",
+      "source_sha256": "38adfcd0e55a3ba9490efbb9787d42a9dcf8e28f2b948038a742f535c8bf0838",
+      "registry_page": "found_0099_FOUND_x_A26-29_s1_38adfcd0e55a.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "07de6982",
+          "458e2ca3",
+          "4e6c7176",
+          "5405f44c",
+          "cc903931",
+          "9e8931f7",
+          "08b78b5a",
+          "018cce11",
+          "06e98ffc",
+          "35adda36",
+          "27809445",
+          "2bf9f5bc",
+          "bafc72e1",
+          "165d711d",
+          "6c6ca1be",
+          "857e855e"
+        ],
+        [
+          "07de6982",
+          "458e2ca3",
+          "4e6c7176",
+          "5405f44c",
+          "cc903931",
+          "9e8931f7",
+          "08b78b5a",
+          "3fead0d1",
+          "06e99000",
+          "35adda36",
+          "277f1445",
+          "2bf9f5bc",
+          "bafc72e1",
+          "165d711d",
+          "6c6ca1be",
+          "857e855a"
+        ]
+      ],
+      "chaining": [
+        "8473e74b",
+        "af5d3b4d",
+        "daca1389",
+        "686de01d",
+        "bbe2bf10",
+        "5c12d324",
+        "19b8e9e6",
+        "a3af69e0"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "987bff32",
+        "e1fa02b4",
+        "a0a09166",
+        "93f859eb",
+        "da0880dd",
+        "e8927eab",
+        "8e5724ec",
+        "4dfb213d"
+      ],
+      "expected_output": [
+        "1cefe67d",
+        "91573e01",
+        "7b6aa4ef",
+        "fc663a08",
+        "95eb3fed",
+        "44a551cf",
+        "a8100ed2",
+        "f1aa8b1d"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "cd3ea6a5",
+            "47d93a7f",
+            "bcc4163d",
+            "090e7183",
+            "47344ead",
+            "361b5401",
+            "024b6891",
+            "32068ecc"
+          ],
+          [
+            "8c4ecaa5",
+            "47d93a7f",
+            "bcc4163d",
+            "090e7183",
+            "064472ad",
+            "361b5401",
+            "024b6891",
+            "32068ecc"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E20-23_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E20-23_s1.json",
+      "source_sha256": "3a1eec1e61dd4cf9cb2b9a0218d276a6c1ca879b5fa5ba55d47478e5e814a7e9",
+      "registry_page": "found_0103_FOUND_x_E20-23_s1_3a1eec1e61dd.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "beaa53ce",
+          "1fdf4d26",
+          "a4b38340",
+          "c04e7a90",
+          "3bc12ec6",
+          "97e097df",
+          "500c9258",
+          "c11c8f29",
+          "06e98ffc",
+          "faac57a4",
+          "e7809445",
+          "0ff9f5bc",
+          "befc72e1",
+          "165d711d",
+          "7d2a63b6",
+          "d1f6f85e"
+        ],
+        [
+          "beaa53ce",
+          "1fdf4d26",
+          "a4b38340",
+          "c04e7a90",
+          "3bc12ec6",
+          "97e097df",
+          "500c9258",
+          "ff7a91e9",
+          "06e99000",
+          "faac57a4",
+          "e77f1445",
+          "0ff9f5bc",
+          "befc72e1",
+          "165d711d",
+          "7d2a63b6",
+          "d1f6f85a"
+        ]
+      ],
+      "chaining": [
+        "eb18fa33",
+        "d7444694",
+        "776a6642",
+        "c20e8995",
+        "a1198eea",
+        "effeceb5",
+        "a177c97a",
+        "37cfd0a2"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "db13917c",
+        "ffaa2620",
+        "8a5d43a9",
+        "aeab7854",
+        "ffc8e6b9",
+        "84689456",
+        "87e24a8c",
+        "1eb6c726"
+      ],
+      "expected_output": [
+        "c62c8baf",
+        "d6ee6cb4",
+        "01c7a9eb",
+        "70ba01e9",
+        "a0e275a3",
+        "7467630b",
+        "295a1406",
+        "568697c8"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "aefa6bb3",
+            "b257d810",
+            "77148c62",
+            "4c6bcd3e",
+            "4523a5e7",
+            "efc7b56e",
+            "25e05dd0",
+            "bfb21b2e"
+          ],
+          [
+            "700a87b3",
+            "b257d810",
+            "77148c62",
+            "4c6bcd3e",
+            "0633c1e7",
+            "efc7b56e",
+            "25e05dd0",
+            "bfb21b2e"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE32-35_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE32-35_s1.json",
+      "source_sha256": "3cc6fbca03133c432c618072467f8dce6543e56c77ba91e6038e276bd28dd946",
+      "registry_page": "found_0108_FOUND_x_AE32-35_s1_3cc6fbca0313.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "4af3a3c0",
+          "bb4a679b",
+          "3af534b8",
+          "d3bb50ea",
+          "ca5e18fa",
+          "98226e70",
+          "ef605973",
+          "809dae20",
+          "06e98ffc",
+          "9ba077eb",
+          "e7809447",
+          "3ff9f3de",
+          "7f3b74c1",
+          "829f6145",
+          "006d8f7e",
+          "115a837c"
+        ],
+        [
+          "4af3a3c0",
+          "bb4a679b",
+          "3af534b8",
+          "d3bb50ea",
+          "ca5e18fa",
+          "98226e70",
+          "ef605973",
+          "befbb0e0",
+          "06e99000",
+          "9ba077eb",
+          "e77f1447",
+          "3ff9f3de",
+          "7f3b74c1",
+          "829f6145",
+          "006d8f7e",
+          "115a8378"
+        ]
+      ],
+      "chaining": [
+        "0de0d57c",
+        "ac6de42e",
+        "edb021d8",
+        "e0e6dc41",
+        "e7592c8a",
+        "7f2be154",
+        "5521d1df",
+        "572ebd5a"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "6d45f30f",
+        "51142519",
+        "6a88653b",
+        "3d773278",
+        "58be8b54",
+        "72186bda",
+        "9f0e3e06",
+        "d639f189"
+      ],
+      "expected_output": [
+        "7b26c88b",
+        "fd820947",
+        "58388713",
+        "1e5e0eb9",
+        "4017b7de",
+        "f1444d2e",
+        "f4300fe5",
+        "2d68aee3"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "7efc571f",
+            "19b3d73d",
+            "3ec446f1",
+            "4b6f417c",
+            "d8015031",
+            "d7ea6ca8",
+            "c73a3db9",
+            "f63cfb60"
+          ],
+          [
+            "3e0c7b1f",
+            "19b3d73d",
+            "3ec446f1",
+            "4b6f417c",
+            "97117431",
+            "d7ea6ca8",
+            "c73a3db9",
+            "f63cfb60"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E14-17_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E14-17_s1.json",
+      "source_sha256": "412a480c7e3328f9fb3475864678fccc402b5a17b21f3ea84a8e8557d7ba1bd5",
+      "registry_page": "found_0116_FOUND_x_E14-17_s1_412a480c7e33.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "084319d7",
+          "de2c46a0",
+          "3a5dda9c",
+          "299a8b3f",
+          "f7cee43a",
+          "4eee5665",
+          "ff0c27cb",
+          "c0042f02",
+          "06eb8ffc",
+          "97d19313",
+          "3d80a696",
+          "37b15f79",
+          "e0b772d6",
+          "ca1d70dd",
+          "92eaf8f3",
+          "df0efd8d"
+        ],
+        [
+          "084319d7",
+          "de2c46a0",
+          "3a5dda9c",
+          "299a8b3f",
+          "f7cee43a",
+          "4eee5665",
+          "ff0c27cb",
+          "fe6231c2",
+          "06eb9000",
+          "97d19313",
+          "3d7f2696",
+          "37b15f79",
+          "e0b772d6",
+          "ca1d70dd",
+          "92eaf8f3",
+          "df0efd89"
+        ]
+      ],
+      "chaining": [
+        "7180cfbe",
+        "315fb471",
+        "3d932b86",
+        "76e3e5cb",
+        "14abc19e",
+        "429a7261",
+        "19273b8d",
+        "8a7a27fb"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "031ee560",
+        "1334cc14",
+        "3b531b34",
+        "03d66700",
+        "a15c7454",
+        "c3175650",
+        "2696063f",
+        "48615069"
+      ],
+      "expected_output": [
+        "749fb51e",
+        "44948085",
+        "78e646ba",
+        "7aba4ccb",
+        "b60835f2",
+        "05b1c8b1",
+        "3fbd41cc",
+        "d2db7864"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "9f9d2025",
+            "347e99d1",
+            "50c7f79a",
+            "b23700ff",
+            "e3358a2e",
+            "e3f6e6b5",
+            "dc3e91dd",
+            "b1102e3a"
+          ],
+          [
+            "608d3c25",
+            "347e99d1",
+            "50c7f79a",
+            "b23700ff",
+            "a425a62e",
+            "e3f6e6b5",
+            "dc3e91dd",
+            "b1102e3a"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E30-33_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E30-33_s1.json",
+      "source_sha256": "50dcb2b969a43175984a89960a444e3b3c53fc3efebcf5b19e64ebaadc44df93",
+      "registry_page": "found_0143_FOUND_x_E30-33_s1_50dcb2b969a4.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "11112663",
+          "fcc88528",
+          "e19b1960",
+          "acd5ca95",
+          "ccfd654a",
+          "1108e79a",
+          "6abe42c5",
+          "80956e20",
+          "06e98ffc",
+          "42d373ae",
+          "fd80a696",
+          "57b15f59",
+          "e0b772d6",
+          "c9dd70d5",
+          "83e9f523",
+          "42e4241d"
+        ],
+        [
+          "11112663",
+          "fcc88528",
+          "e19b1960",
+          "acd5ca95",
+          "ccfd654a",
+          "1108e79a",
+          "6abe42c5",
+          "bef370e0",
+          "06e99000",
+          "42d373ae",
+          "fd7f2696",
+          "57b15f59",
+          "e0b772d6",
+          "c9dd70d5",
+          "83e9f523",
+          "42e42419"
+        ]
+      ],
+      "chaining": [
+        "198c39f0",
+        "61f95801",
+        "c6856f55",
+        "884b57f3",
+        "d0ff97e5",
+        "e3330edc",
+        "b5767aa9",
+        "0a841099"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "1209bf00",
+        "4264909a",
+        "155d7904",
+        "425afa9e",
+        "9dc31a2c",
+        "cb4d7a88",
+        "09b3e872",
+        "efd89369"
+      ],
+      "expected_output": [
+        "2b95f8f0",
+        "a45de89b",
+        "dbe2e859",
+        "caa65291",
+        "6ec2b211",
+        "ae808964",
+        "bf2a631b",
+        "fa5ca402"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "a42ae822",
+            "74031701",
+            "08e9ffef",
+            "9da8d0f7",
+            "b12c87f0",
+            "80f62908",
+            "80c3f531",
+            "1437f90b"
+          ],
+          [
+            "633acc22",
+            "74031701",
+            "08e9ffef",
+            "9da8d0f7",
+            "703c6bf0",
+            "80f62908",
+            "80c3f531",
+            "1437f90b"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E22-25_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E22-25_s1.json",
+      "source_sha256": "524382f6ad709b84ad19cb7869b3181a3f1e89cf7d1adb74aca68e1a09e708ab",
+      "registry_page": "found_0147_FOUND_x_E22-25_s1_524382f6ad70.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "fe3d60dc",
+          "d385bad2",
+          "07c5ebe0",
+          "bfbcda7f",
+          "7680911c",
+          "648fcd26",
+          "2e82c1fe",
+          "401d6f3b",
+          "06ed8ffc",
+          "9dabf863",
+          "e7809446",
+          "2bf9f5dc",
+          "bafc72e1",
+          "165f713d",
+          "ef6c5b66",
+          "7079745e"
+        ],
+        [
+          "fe3d60dc",
+          "d385bad2",
+          "07c5ebe0",
+          "bfbcda7f",
+          "7680911c",
+          "648fcd26",
+          "2e82c1fe",
+          "7e7b71fb",
+          "06ed9000",
+          "9dabf863",
+          "e77f1446",
+          "2bf9f5dc",
+          "bafc72e1",
+          "165f713d",
+          "ef6c5b66",
+          "7079745a"
+        ]
+      ],
+      "chaining": [
+        "2ef010f5",
+        "a9946a89",
+        "89f32b92",
+        "8a88089a",
+        "d5dd61d5",
+        "8f55ddc9",
+        "48b25a0b",
+        "043c4d12"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "01bcf945",
+        "2fcea441",
+        "dc6a63ba",
+        "f12fec26",
+        "20d15cbe",
+        "e2c18b3b",
+        "91809c46",
+        "eaaf535a"
+      ],
+      "expected_output": [
+        "30ad0a3a",
+        "d9630eca",
+        "665d8f4c",
+        "7bb7f4c0",
+        "f6aebe93",
+        "72176904",
+        "da32f651",
+        "eeeba06c"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "47321505",
+            "ab5163ce",
+            "b9c1cfd3",
+            "66f26c54",
+            "57be491a",
+            "b0273a87",
+            "2b73e546",
+            "95bce958"
+          ],
+          [
+            "08423905",
+            "ab5163ce",
+            "b9c1cfd3",
+            "66f26c54",
+            "18ce6d1a",
+            "b0273a87",
+            "2b73e546",
+            "95bce958"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E28-31_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E28-31_s1.json",
+      "source_sha256": "5d2176bc2fb602c446d73fd98de4c593a7b95d2af61ef59f8539d2f3f104f297",
+      "registry_page": "found_0167_FOUND_x_E28-31_s1_5d2176bc2fb6.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "b3034665",
+          "d1c76a30",
+          "d61b0930",
+          "5cd80da2",
+          "9fc058d7",
+          "ba8cd8e3",
+          "ffa32592",
+          "c194ce3f",
+          "06eb8ffc",
+          "cadf1316",
+          "3d80a695",
+          "53b15f77",
+          "dcb772d6",
+          "c9df70d5",
+          "81ebbcd3",
+          "4284611f"
+        ],
+        [
+          "b3034665",
+          "d1c76a30",
+          "d61b0930",
+          "5cd80da2",
+          "9fc058d7",
+          "ba8cd8e3",
+          "ffa32592",
+          "fff2d0ff",
+          "06eb9000",
+          "cadf1316",
+          "3d7f2695",
+          "53b15f77",
+          "dcb772d6",
+          "c9df70d5",
+          "81ebbcd3",
+          "4284611b"
+        ]
+      ],
+      "chaining": [
+        "ad56e8ca",
+        "5da0f841",
+        "1737e406",
+        "ca79ed35",
+        "374d1f37",
+        "9f818932",
+        "fe3513d1",
+        "0298bfa9"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "452a7898",
+        "4451d29c",
+        "deeeed1e",
+        "54bf0ed4",
+        "0448f272",
+        "f6027829",
+        "fd5ecb81",
+        "042e0525"
+      ],
+      "expected_output": [
+        "f2816162",
+        "a1f2cadd",
+        "f626d124",
+        "1f38fc09",
+        "3b9611a9",
+        "9584015b",
+        "fb93df52",
+        "06c6c4ce"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "c1de72ef",
+            "a2cb70d9",
+            "5b89b6a2",
+            "a968da53",
+            "dfbde933",
+            "a3ca7ba4",
+            "f4378bfa",
+            "fff78b2a"
+          ],
+          [
+            "02ced6ef",
+            "a2cb70d9",
+            "5b89b6a2",
+            "a968da53",
+            "20ae4d33",
+            "a3ca7ba4",
+            "f4378bfa",
+            "fff78b2a"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A16-19_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A16-19_s1.json",
+      "source_sha256": "82e1d37574143e8bd9acb4e341a6a718654321fb8558ba0e3bece37800a26a8b",
+      "registry_page": "found_0227_FOUND_x_A16-19_s1_82e1d3757414.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "80581246",
+          "a9b6c1cb",
+          "ef8f886d",
+          "3f590ef6",
+          "6c6241aa",
+          "acdcc34a",
+          "5affbf12",
+          "41840e0f",
+          "06ef8ffc",
+          "485329ad",
+          "4180a773",
+          "57b76005",
+          "dcbb72f6",
+          "c9dd70d5",
+          "82a9d4db",
+          "ceb73485"
+        ],
+        [
+          "80581246",
+          "a9b6c1cb",
+          "ef8f886d",
+          "3f590ef6",
+          "6c6241aa",
+          "acdcc34a",
+          "5affbf12",
+          "7fe210cf",
+          "06ef9000",
+          "485329ad",
+          "417f2773",
+          "57b76005",
+          "dcbb72f6",
+          "c9dd70d5",
+          "82a9d4db",
+          "ceb73481"
+        ]
+      ],
+      "chaining": [
+        "3af8971b",
+        "9f5e5eec",
+        "928f1ea4",
+        "f4bc25bf",
+        "08feded6",
+        "04694819",
+        "afdf61e9",
+        "f19d1667"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "21f12398",
+        "f41f96db",
+        "93d8a938",
+        "0b7bf0a2",
+        "54865844",
+        "31f9e2bd",
+        "1d14e11f",
+        "ecd586d4"
+      ],
+      "expected_output": [
+        "5ce9bab3",
+        "937df5c7",
+        "2667c7dc",
+        "00381661",
+        "5d85371a",
+        "36632ad6",
+        "ccf44308",
+        "de729d3b"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "5289f69e",
+            "c14f8284",
+            "86aeb57f",
+            "8894cef7",
+            "a9ff637b",
+            "58efa05d",
+            "e1d944a6",
+            "0eb1f786"
+          ],
+          [
+            "11999a9e",
+            "c14f8284",
+            "86aeb57f",
+            "8894cef7",
+            "690f077b",
+            "58efa05d",
+            "e1d944a6",
+            "0eb1f786"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A14-17_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A14-17_s1.json",
+      "source_sha256": "88debc283d0bbca1b110dfaa9d4680e465a1112f0b6fd53cca76e8e34e77e629",
+      "registry_page": "found_0237_FOUND_x_A14-17_s1_88debc283d0b.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "1688e144",
+          "e3323867",
+          "af259e8b",
+          "d4864957",
+          "4110c32d",
+          "e48d69b8",
+          "6e172c8c",
+          "c115cf2d",
+          "06ef8ffc",
+          "afef13d1",
+          "3d80a695",
+          "33b15f77",
+          "dcb772b6",
+          "45df60d5",
+          "92ebfac3",
+          "0ec191e7"
+        ],
+        [
+          "1688e144",
+          "e3323867",
+          "af259e8b",
+          "d4864957",
+          "4110c32d",
+          "e48d69b8",
+          "6e172c8c",
+          "ff73d1ed",
+          "06ef9000",
+          "afef13d1",
+          "3d7f2695",
+          "33b15f77",
+          "dcb772b6",
+          "45df60d5",
+          "92ebfac3",
+          "0ec191e3"
+        ]
+      ],
+      "chaining": [
+        "31d8d84a",
+        "e30e41e8",
+        "241c3018",
+        "15860ee3",
+        "3388da82",
+        "dcc4f6a7",
+        "b0977684",
+        "b97e6531"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "bf9340a1",
+        "3fa891be",
+        "61f2fa3f",
+        "ebb2f342",
+        "7e1fc9dd",
+        "10424aaa",
+        "c8ae499c",
+        "23dbf4ec"
+      ],
+      "expected_output": [
+        "f16c18eb",
+        "22b6d3a6",
+        "860f2a57",
+        "01390225",
+        "b1a8a45f",
+        "ed074151",
+        "7945c020",
+        "dd5a5a1d"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "9a1862d9",
+            "a2a18289",
+            "63c4c1d6",
+            "77790922",
+            "1fdcdd48",
+            "5ae4c084",
+            "c0d9c12e",
+            "822caecd"
+          ],
+          [
+            "5b27fed9",
+            "a2a18289",
+            "63c4c1d6",
+            "77790922",
+            "e0ec7948",
+            "5ae4c084",
+            "c0d9c12e",
+            "822caecd"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A22-25_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A22-25_s1.json",
+      "source_sha256": "8adf98faf6ab18530f3f7d1a62a5f5cdd4894101628aa7785a5212a8d9aea118",
+      "registry_page": "found_0241_FOUND_x_A22-25_s1_8adf98faf6ab.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "6d4e87e9",
+          "e3fced8d",
+          "a328379a",
+          "794a61ab",
+          "5f1ab2d2",
+          "0acb3c7e",
+          "c20a1061",
+          "00146f39",
+          "06ed8ffc",
+          "4f3b27a2",
+          "4180a773",
+          "37b76005",
+          "dcbb72d6",
+          "461f60dd",
+          "82ab10ab",
+          "2f39c96d"
+        ],
+        [
+          "6d4e87e9",
+          "e3fced8d",
+          "a328379a",
+          "794a61ab",
+          "5f1ab2d2",
+          "0acb3c7e",
+          "c20a1061",
+          "3e7271f9",
+          "06ed9000",
+          "4f3b27a2",
+          "417f2773",
+          "37b76005",
+          "dcbb72d6",
+          "461f60dd",
+          "82ab10ab",
+          "2f39c969"
+        ]
+      ],
+      "chaining": [
+        "9c432a62",
+        "78f4417c",
+        "c4c2913b",
+        "dccfcaa2",
+        "2794729b",
+        "1dbbc213",
+        "7d0d5dd7",
+        "65fdbc04"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "d6d87e0d",
+        "888b8b65",
+        "24890bdf",
+        "7d3494ba",
+        "f13a3126",
+        "c95caf18",
+        "95dd07a7",
+        "ff50282d"
+      ],
+      "expected_output": [
+        "731ba86f",
+        "017fcce1",
+        "e94b9d1a",
+        "5a045f5c",
+        "18cea3c1",
+        "e718712b",
+        "12ea657e",
+        "654de431"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "fa7fb5d5",
+            "4fccbf89",
+            "4d4e1ca0",
+            "0158d681",
+            "9a5be960",
+            "0ef5f339",
+            "466a0cef",
+            "fbdac3ab"
+          ],
+          [
+            "bb9011d5",
+            "4fccbf89",
+            "4d4e1ca0",
+            "0158d681",
+            "5b6c4560",
+            "0ef5f339",
+            "466a0cef",
+            "fbdac3ab"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A32-35_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A32-35_s1.json",
+      "source_sha256": "98e66733ea043b73d8d9e6edb35455cb1c2afab1749e820e6ef7a6ca15a382f7",
+      "registry_page": "found_0258_FOUND_x_A32-35_s1_98e66733ea04.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "1041d005",
+          "b03ab4a2",
+          "022e2baa",
+          "dfac2e90",
+          "72a619ae",
+          "2baafd71",
+          "59a23c0e",
+          "01844e1d",
+          "06e98ffc",
+          "98a2579d",
+          "a7809445",
+          "0ff9f5bc",
+          "befc72e1",
+          "169f7125",
+          "6c2b5d66",
+          "b43b5496"
+        ],
+        [
+          "1041d005",
+          "b03ab4a2",
+          "022e2baa",
+          "dfac2e90",
+          "72a619ae",
+          "2baafd71",
+          "59a23c0e",
+          "3fe250dd",
+          "06e99000",
+          "98a2579d",
+          "a77f1445",
+          "0ff9f5bc",
+          "befc72e1",
+          "169f7125",
+          "6c2b5d66",
+          "b43b5492"
+        ]
+      ],
+      "chaining": [
+        "b1893a17",
+        "6a669ea8",
+        "86a0f531",
+        "00f65525",
+        "ac832858",
+        "2420bdba",
+        "00c4cdc7",
+        "15796c0a"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "0f71b0f8",
+        "acf20ce5",
+        "5131bf2e",
+        "af76d63c",
+        "4e47d852",
+        "cc9175cf",
+        "6c462e7f",
+        "8b4947ad"
+      ],
+      "expected_output": [
+        "c0faeb0f",
+        "1758ab8d",
+        "d7d2b45f",
+        "b06d2b61",
+        "facb00aa",
+        "f0b23389",
+        "6d0afc46",
+        "a0c2b3b7"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "65c07d9f",
+            "79d84fa0",
+            "33930216",
+            "52281453",
+            "bfdf8da2",
+            "7268960c",
+            "cd564396",
+            "81bf9a89"
+          ],
+          [
+            "26d0999f",
+            "79d84fa0",
+            "33930216",
+            "52281453",
+            "80efa9a2",
+            "7268960c",
+            "cd564396",
+            "81bf9a89"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "p39char_s108",
+      "source": "research/game/climber/guided/FOUND_p39char_s108_WITNESS.json",
+      "source_sha256": "9babb5c10605eba5bf5aabeee71dcdfe601c2a57c5608f2d4553d7b59c7f4f90",
+      "registry_page": "found_0264_FOUND_p39char_s108_WITNESS_9babb5c10605.md",
+      "registry_kind": "json_pair",
+      "rounds": 39,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "95c46877",
+          "22ffbff9",
+          "42f56ac2",
+          "1ceba22f",
+          "268def9f",
+          "03f09c39",
+          "2a039084",
+          "05f1997b",
+          "4092ed8e",
+          "44403a0c",
+          "a2ffba68",
+          "0703980f",
+          "f8c6e623",
+          "b05f04c1",
+          "43660040",
+          "4891771f"
+        ],
+        [
+          "95c46877",
+          "22ffbff9",
+          "42f56ac2",
+          "1ceba22f",
+          "268def9f",
+          "03f09c39",
+          "2a039084",
+          "05f1997b",
+          "0092ed8e",
+          "4cc02a0c",
+          "e2ffba68",
+          "0101bb3b",
+          "f8d6fe23",
+          "b05f04c1",
+          "43660040",
+          "4891771f"
+        ]
+      ],
+      "chaining": [
+        "5f4522e0",
+        "826c92cf",
+        "456eb5d5",
+        "e041bca2",
+        "a5acaa42",
+        "5e107841",
+        "192eb9dd",
+        "ba0c9694"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "30194e6d",
+        "67783315",
+        "3c5c1760",
+        "a1d5089c",
+        "5953598d",
+        "e00ee3f0",
+        "0be98573",
+        "27e0c12a"
+      ],
+      "expected_output": [
+        "8f5e714d",
+        "e9e4c5e4",
+        "81cacd35",
+        "8216c53e",
+        "ff0003cf",
+        "3e1f5c31",
+        "25183f50",
+        "e1ed57be"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 40,
+        "output_equal": false,
+        "outputs": [
+          [
+            "ee2a99fa",
+            "b285e13c",
+            "ace6e8ea",
+            "1c9dd402",
+            "47b8ab02",
+            "b763d1ce",
+            "f93d9dcd",
+            "c5f61c07"
+          ],
+          [
+            "adc4b7ba",
+            "b285e13c",
+            "ace6e8ea",
+            "1c9dd402",
+            "0752c8c2",
+            "b763d1ce",
+            "f93d9dcd",
+            "c5f61c07"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE18-21_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE18-21_s1.json",
+      "source_sha256": "a737f8ff3523b132ed3833c8f2487a5b3fd44561bccc78a10a3aa7b137e5238a",
+      "registry_page": "found_0286_FOUND_x_AE18-21_s1_a737f8ff3523.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "761c8413",
+          "7e396a2c",
+          "d2f2cce9",
+          "9aa0eaba",
+          "fe315699",
+          "7817df57",
+          "f2aa3915",
+          "4085ee09",
+          "06eb8ffc",
+          "aba1da15",
+          "e7809447",
+          "2bf9f5be",
+          "bafc72c1",
+          "929d6145",
+          "ff2957b6",
+          "b178dc74"
+        ],
+        [
+          "761c8413",
+          "7e396a2c",
+          "d2f2cce9",
+          "9aa0eaba",
+          "fe315699",
+          "7817df57",
+          "f2aa3915",
+          "7ee3f0c9",
+          "06eb9000",
+          "aba1da15",
+          "e77f1447",
+          "2bf9f5be",
+          "bafc72c1",
+          "929d6145",
+          "ff2957b6",
+          "b178dc70"
+        ]
+      ],
+      "chaining": [
+        "6b0db44b",
+        "43daf96b",
+        "630633ed",
+        "e4010f0d",
+        "51e72984",
+        "6edb83f1",
+        "38a47c26",
+        "17ca5b0f"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "e1155f70",
+        "d18f0238",
+        "fd88b95b",
+        "0c1aa50c",
+        "93e03740",
+        "3e5cf4a0",
+        "bb74c16f",
+        "1ae99582"
+      ],
+      "expected_output": [
+        "4c2313bb",
+        "1569fba3",
+        "608eed48",
+        "f01bb419",
+        "e5c760c4",
+        "ad387891",
+        "f4193d95",
+        "32b3f091"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "0b2f1d91",
+            "24f058db",
+            "34953625",
+            "e189c868",
+            "75d67f6c",
+            "02bbbb31",
+            "770170c6",
+            "d33f1c7e"
+          ],
+          [
+            "4a3eb991",
+            "24f058db",
+            "34953625",
+            "e189c868",
+            "b4e61b6c",
+            "02bbbb31",
+            "770170c6",
+            "d33f1c7e"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A28-31_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A28-31_s1.json",
+      "source_sha256": "ab46bf93920478229d49a067b126a20dae1a560c1e69f02f4ab7b265509b85b9",
+      "registry_page": "found_0291_FOUND_x_A28-31_s1_ab46bf939204.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "ee95dd6b",
+          "0a739dd9",
+          "48fc1ba0",
+          "e7a88f2a",
+          "3cf0e2cb",
+          "7404c59d",
+          "8fda4db5",
+          "8084ee19",
+          "06e98ffc",
+          "a75327a4",
+          "0180a772",
+          "37b76005",
+          "dcbb72d6",
+          "461d60fd",
+          "16e8c723",
+          "73d37c55"
+        ],
+        [
+          "ee95dd6b",
+          "0a739dd9",
+          "48fc1ba0",
+          "e7a88f2a",
+          "3cf0e2cb",
+          "7404c59d",
+          "8fda4db5",
+          "bee2f0d9",
+          "06e99000",
+          "a75327a4",
+          "017f2772",
+          "37b76005",
+          "dcbb72d6",
+          "461d60fd",
+          "16e8c723",
+          "73d37c51"
+        ]
+      ],
+      "chaining": [
+        "760ca5dc",
+        "7393f763",
+        "b33356c8",
+        "34f06124",
+        "ab54ddb3",
+        "97a740b9",
+        "38444faa",
+        "62284599"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "7bc7eced",
+        "20dcf5f4",
+        "f64b6c18",
+        "afa1d96b",
+        "f2d490bf",
+        "618e72f2",
+        "2d666021",
+        "9e52efc6"
+      ],
+      "expected_output": [
+        "f1d492c9",
+        "9470ed57",
+        "a97ec2e0",
+        "e4923a8f",
+        "9e296e72",
+        "f935b3ab",
+        "65aaafcb",
+        "007b355f"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "e8d5e792",
+            "ef5be450",
+            "d4104cbc",
+            "2b3bcd3c",
+            "34c67aed",
+            "8a7bd178",
+            "99d2c29c",
+            "8f8ea5ba"
+          ],
+          [
+            "27c5cb92",
+            "ef5be450",
+            "d4104cbc",
+            "2b3bcd3c",
+            "73b65eed",
+            "8a7bd178",
+            "99d2c29c",
+            "8f8ea5ba"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE28-31_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE28-31_s1.json",
+      "source_sha256": "ac00ecbd5da5ebf41e9eba3a5b1f98772ae675936b9cf79189702963212f5ed9",
+      "registry_page": "found_0293_FOUND_x_AE28-31_s1_ac00ecbd5da5.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "4fd0a252",
+          "abf5b2a8",
+          "38b6a889",
+          "3cb58624",
+          "9f610114",
+          "0a8bf96e",
+          "4a471daf",
+          "810ccf05",
+          "06ef8ffc",
+          "dacb7310",
+          "3d80a694",
+          "57b15f57",
+          "e0b772b6",
+          "461f60dd",
+          "93eab0b3",
+          "9f1e8eef"
+        ],
+        [
+          "4fd0a252",
+          "abf5b2a8",
+          "38b6a889",
+          "3cb58624",
+          "9f610114",
+          "0a8bf96e",
+          "4a471daf",
+          "bf6ad1c5",
+          "06ef9000",
+          "dacb7310",
+          "3d7f2694",
+          "57b15f57",
+          "e0b772b6",
+          "461f60dd",
+          "93eab0b3",
+          "9f1e8eeb"
+        ]
+      ],
+      "chaining": [
+        "32088b2e",
+        "b4f7e676",
+        "1295796e",
+        "48824efd",
+        "e3950978",
+        "eb652b7d",
+        "60118085",
+        "3c082b9a"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "9a77f07a",
+        "79bf672b",
+        "79e5ad54",
+        "2040a19a",
+        "44920126",
+        "bf785acd",
+        "b37b5fe4",
+        "73ad5cc5"
+      ],
+      "expected_output": [
+        "cc807ba8",
+        "2eb74da1",
+        "8c7b26c2",
+        "68c2f097",
+        "28270a9e",
+        "aadd864a",
+        "138ce069",
+        "afb5885f"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "4fb3a160",
+            "4f6fd6f0",
+            "8c54e099",
+            "c267fc51",
+            "ad001602",
+            "2ff72ca3",
+            "1f89db52",
+            "ef838b7e"
+          ],
+          [
+            "8ea33d60",
+            "4f6fd6f0",
+            "8c54e099",
+            "c267fc51",
+            "ebefb202",
+            "2ff72ca3",
+            "1f89db52",
+            "ef838b7e"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E26-29_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E26-29_s1.json",
+      "source_sha256": "bf37c99f672006f99435859c2823c789e3783a91203ae0e3a29e8d93ca02371c",
+      "registry_page": "found_0319_FOUND_x_E26-29_s1_bf37c99f6720.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "d290bc05",
+          "1bda9404",
+          "08f6bffc",
+          "458544fc",
+          "08d97c80",
+          "9dae1b95",
+          "9439d508",
+          "409dee35",
+          "06ef8ffc",
+          "392da743",
+          "4180a773",
+          "3bb76005",
+          "e0bb72f6",
+          "c9dd70d5",
+          "82e9d2db",
+          "2f1b468d"
+        ],
+        [
+          "d290bc05",
+          "1bda9404",
+          "08f6bffc",
+          "458544fc",
+          "08d97c80",
+          "9dae1b95",
+          "9439d508",
+          "7efbf0f5",
+          "06ef9000",
+          "392da743",
+          "417f2773",
+          "3bb76005",
+          "e0bb72f6",
+          "c9dd70d5",
+          "82e9d2db",
+          "2f1b4689"
+        ]
+      ],
+      "chaining": [
+        "2bb7cc0d",
+        "47f79cc7",
+        "3da42f21",
+        "04c63fe5",
+        "facd7dbc",
+        "6be16a6a",
+        "a7e2e88a",
+        "766bc9fc"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "010932e1",
+        "5f0275f7",
+        "95c0ec8c",
+        "bbac0c42",
+        "34ba818a",
+        "e0c50ff4",
+        "2b86b62d",
+        "1d633ddf"
+      ],
+      "expected_output": [
+        "2cc0feee",
+        "a6fa12be",
+        "d3651bad",
+        "c0724c27",
+        "2f87ff46",
+        "4ca67a5e",
+        "d3699eb7",
+        "93cf07db"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "4c697a73",
+            "4900cfa8",
+            "9ca6a518",
+            "9a872c71",
+            "cea9028a",
+            "a09bebf4",
+            "88a7f87e",
+            "a1f28029"
+          ],
+          [
+            "8b591e73",
+            "4900cfa8",
+            "9ca6a518",
+            "9a872c71",
+            "0d98a68a",
+            "a09bebf4",
+            "88a7f87e",
+            "a1f28029"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A14-17_s2",
+      "source": "research/luna/L002/witnesses/FOUND_x_A14-17_s2.json",
+      "source_sha256": "bfc7aab19ac521dd4e45deef946c470aa92dfc4241379b755bec724a7bbf776e",
+      "registry_page": "found_0323_FOUND_x_A14-17_s2_bfc7aab19ac5.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "d0506133",
+          "4596f2a7",
+          "13464405",
+          "2d9bdc29",
+          "c9098971",
+          "8588a2ec",
+          "2dbb2e81",
+          "c005ef1a",
+          "06eb8ffc",
+          "b4e7931b",
+          "3d80a694",
+          "57b15f77",
+          "e0b772b6",
+          "461f60dd",
+          "83eaeea3",
+          "dea37027"
+        ],
+        [
+          "d0506133",
+          "4596f2a7",
+          "13464405",
+          "2d9bdc29",
+          "c9098971",
+          "8588a2ec",
+          "2dbb2e81",
+          "fe63f1da",
+          "06eb9000",
+          "b4e7931b",
+          "3d7f2694",
+          "57b15f77",
+          "e0b772b6",
+          "461f60dd",
+          "83eaeea3",
+          "dea37023"
+        ]
+      ],
+      "chaining": [
+        "34158b3c",
+        "29d00ea3",
+        "14dc90c5",
+        "c00432ee",
+        "aa8f7da1",
+        "8480ce2c",
+        "c333f620",
+        "f5b4cf3b"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "d51a5333",
+        "0a1eb75e",
+        "1a70face",
+        "18833b07",
+        "2445d3e0",
+        "dfe68b3c",
+        "3ace027f",
+        "e45dd2e2"
+      ],
+      "expected_output": [
+        "092fde6f",
+        "33eec601",
+        "2f4d8b93",
+        "d8876df5",
+        "ced55181",
+        "64675968",
+        "fe01f89f",
+        "da12a21d"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "cdb88cb4",
+            "feea61d6",
+            "1efb4823",
+            "da752dbc",
+            "3d05d378",
+            "a8c6a20c",
+            "a31a815c",
+            "3082d1ba"
+          ],
+          [
+            "8cc870b4",
+            "feea61d6",
+            "1efb4823",
+            "da752dbc",
+            "fc15b778",
+            "a8c6a20c",
+            "a31a815c",
+            "3082d1ba"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE30-33_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE30-33_s1.json",
+      "source_sha256": "c3f6c8dd84ccccdc0ddebe23bbf4a6387a903f00dfa7acdaf3aadc9cfc85453b",
+      "registry_page": "found_0331_FOUND_x_AE30-33_s1_c3f6c8dd84cc.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "2e8fae94",
+          "1785966c",
+          "e5a8f68e",
+          "d4a1405d",
+          "5dadc9f1",
+          "52ca5ecd",
+          "8d747196",
+          "c1858e00",
+          "06ed8ffc",
+          "41e1914d",
+          "fd80a697",
+          "37b15f79",
+          "e0b772b6",
+          "461d60fd",
+          "16aae713",
+          "0ec40bed"
+        ],
+        [
+          "2e8fae94",
+          "1785966c",
+          "e5a8f68e",
+          "d4a1405d",
+          "5dadc9f1",
+          "52ca5ecd",
+          "8d747196",
+          "ffe390c0",
+          "06ed9000",
+          "41e1914d",
+          "fd7f2697",
+          "37b15f79",
+          "e0b772b6",
+          "461d60fd",
+          "16aae713",
+          "0ec40be9"
+        ]
+      ],
+      "chaining": [
+        "a8916df7",
+        "2be7348e",
+        "86828991",
+        "21d6dbc2",
+        "e5aed3da",
+        "48f0ff6f",
+        "cb994160",
+        "75545073"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "1192c419",
+        "7c33b5d4",
+        "ee554e1a",
+        "b4958ba6",
+        "0905e3bb",
+        "8d04e779",
+        "40b80e6e",
+        "ac701ede"
+      ],
+      "expected_output": [
+        "ba243210",
+        "a81aea62",
+        "74d7d7ab",
+        "d66c6768",
+        "eeb4b795",
+        "d5f5e6e8",
+        "0c514fce",
+        "21c46f51"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "7db49650",
+            "3d79f8a7",
+            "02b63f65",
+            "102c29dc",
+            "c39769eb",
+            "51f6e32a",
+            "589e28d9",
+            "b60c5ee1"
+          ],
+          [
+            "bca4f250",
+            "3d79f8a7",
+            "02b63f65",
+            "102c29dc",
+            "0287c5eb",
+            "51f6e32a",
+            "589e28d9",
+            "b60c5ee1"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE22-25_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE22-25_s1.json",
+      "source_sha256": "d269f23badae6be15128bdc6034e1ca28b59b6feee897dc3b4f95376fce02e6c",
+      "registry_page": "found_0359_FOUND_x_AE22-25_s1_d269f23badae.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "4f112072",
+          "d8f525dc",
+          "6ee82bc1",
+          "6ed4d30b",
+          "dee0e5b4",
+          "6e56ce17",
+          "8abd40f8",
+          "801c2f29",
+          "06ef8ffc",
+          "21a07857",
+          "27809445",
+          "2ff9f5dc",
+          "befc72e1",
+          "165f713d",
+          "ff6e5b66",
+          "61d5fa1e"
+        ],
+        [
+          "4f112072",
+          "d8f525dc",
+          "6ee82bc1",
+          "6ed4d30b",
+          "dee0e5b4",
+          "6e56ce17",
+          "8abd40f8",
+          "be7a31e9",
+          "06ef9000",
+          "21a07857",
+          "277f1445",
+          "2ff9f5dc",
+          "befc72e1",
+          "165f713d",
+          "ff6e5b66",
+          "61d5fa1a"
+        ]
+      ],
+      "chaining": [
+        "58e6f71b",
+        "60041746",
+        "35799050",
+        "d4ff1a06",
+        "eec0e822",
+        "8b0a5529",
+        "f1618e34",
+        "a81fc057"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "23fe1ba7",
+        "b3fd659b",
+        "73ed9073",
+        "886beb8b",
+        "24ab335f",
+        "18c891f8",
+        "0bb8d1d3",
+        "a76d8c1a"
+      ],
+      "expected_output": [
+        "7ce512c2",
+        "14017ce1",
+        "a96720c3",
+        "5d6b0591",
+        "136c1b81",
+        "a3d2e721",
+        "fd1a6007",
+        "4f8d4c71"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "92ca472e",
+            "840232ed",
+            "e976f5eb",
+            "48ecaa79",
+            "8f6b0c77",
+            "afb58888",
+            "0a2a202c",
+            "b3d8922a"
+          ],
+          [
+            "53da232e",
+            "840232ed",
+            "e976f5eb",
+            "48ecaa79",
+            "507ae877",
+            "afb58888",
+            "0a2a202c",
+            "b3d8922a"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_E18-21_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_E18-21_s1.json",
+      "source_sha256": "d343a2453f1282cff462bb861c51f111cfe16b41ef9cf567470de3e7c37045db",
+      "registry_page": "found_0361_FOUND_x_E18-21_s1_d343a2453f12.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "413b1172",
+          "a8f1bfa2",
+          "15ab5231",
+          "21857b0d",
+          "a953badb",
+          "e6428865",
+          "4938eb43",
+          "818c0e15",
+          "06ef8ffc",
+          "c79477cc",
+          "e7809447",
+          "2ff9f5de",
+          "befc72c1",
+          "925d613d",
+          "012a53d6",
+          "815914bc"
+        ],
+        [
+          "413b1172",
+          "a8f1bfa2",
+          "15ab5231",
+          "21857b0d",
+          "a953badb",
+          "e6428865",
+          "4938eb43",
+          "bfea10d5",
+          "06ef9000",
+          "c79477cc",
+          "e77f1447",
+          "2ff9f5de",
+          "befc72c1",
+          "925d613d",
+          "012a53d6",
+          "815914b8"
+        ]
+      ],
+      "chaining": [
+        "e0f87590",
+        "18912f80",
+        "50597880",
+        "645783c5",
+        "832f03c1",
+        "c0219d4a",
+        "3e4bdb25",
+        "33b9b28f"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "b09a060f",
+        "9780580d",
+        "be91c0b5",
+        "6c8db57b",
+        "d5d604be",
+        "e407b207",
+        "3a193c42",
+        "d0a7ed37"
+      ],
+      "expected_output": [
+        "91927b9f",
+        "b011878d",
+        "0eeb3935",
+        "d0e53940",
+        "5905087f",
+        "a4294f51",
+        "78651767",
+        "04619fc6"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "cdcb12d0",
+            "c92b358f",
+            "e7d9d08d",
+            "22e9447a",
+            "71bbdade",
+            "95f7a208",
+            "22538d2c",
+            "6dd2eed1"
+          ],
+          [
+            "8edaeed0",
+            "c92b358f",
+            "e7d9d08d",
+            "22e9447a",
+            "32cbb6de",
+            "95f7a208",
+            "22538d2c",
+            "6dd2eed1"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A20-23_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A20-23_s1.json",
+      "source_sha256": "e5c0d91565ac9cf67f8a8df4861f5beb330037a8866ba31416c24b7a300c2d22",
+      "registry_page": "found_0394_FOUND_x_A20-23_s1_e5c0d91565ac.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "c1c5d99e",
+          "3e8ade84",
+          "e137cf6d",
+          "07873cf1",
+          "efddd8fa",
+          "7bff163a",
+          "b79261ef",
+          "008c2e1f",
+          "06eb8ffc",
+          "40392939",
+          "4180a772",
+          "57b76005",
+          "dcbb72f6",
+          "c9dd70d5",
+          "82e9d2db",
+          "2f1b468d"
+        ],
+        [
+          "c1c5d99e",
+          "3e8ade84",
+          "e137cf6d",
+          "07873cf1",
+          "efddd8fa",
+          "7bff163a",
+          "b79261ef",
+          "3eea30df",
+          "06eb9000",
+          "40392939",
+          "417f2772",
+          "57b76005",
+          "dcbb72f6",
+          "c9dd70d5",
+          "82e9d2db",
+          "2f1b4689"
+        ]
+      ],
+      "chaining": [
+        "3d44731e",
+        "189b487d",
+        "c7b52f76",
+        "6cd1f8c4",
+        "6e4765cd",
+        "4af03069",
+        "3227b806",
+        "54d71f56"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "5123bb73",
+        "79a5e644",
+        "c6af6ee1",
+        "432299d2",
+        "1ed73828",
+        "a60efb5e",
+        "38e556e6",
+        "6b28f0e1"
+      ],
+      "expected_output": [
+        "8e682e91",
+        "92412ec1",
+        "8e649e57",
+        "aff49296",
+        "8d1e9df5",
+        "f0ff2bc7",
+        "6b0d0eec",
+        "c0001037"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "e05de951",
+            "69bf03f0",
+            "415b15ba",
+            "338167a5",
+            "819bdcec",
+            "69c76891",
+            "d836b364",
+            "8dbc763c"
+          ],
+          [
+            "a16d8d51",
+            "69bf03f0",
+            "415b15ba",
+            "338167a5",
+            "42ab80ec",
+            "69c76891",
+            "d836b364",
+            "8dbc763c"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_AE20-23_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_AE20-23_s1.json",
+      "source_sha256": "ef1ec3b0a6c8c7c092f3b3cb0b99ab775cd483408b946745e34f41abec42b4f6",
+      "registry_page": "found_0409_FOUND_x_AE20-23_s1_ef1ec3b0a6c8.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "b60e50d5",
+          "634cf19c",
+          "da2c2e5f",
+          "02c83d4b",
+          "91b0187e",
+          "f5177764",
+          "05a46ee2",
+          "41054f01",
+          "06ef8ffc",
+          "53a67a2b",
+          "27809445",
+          "3ff9f3dc",
+          "7f3b74c1",
+          "829d6145",
+          "ef6b99ee",
+          "885d892e"
+        ],
+        [
+          "b60e50d5",
+          "634cf19c",
+          "da2c2e5f",
+          "02c83d4b",
+          "91b0187e",
+          "f5177764",
+          "05a46ee2",
+          "7f6351c1",
+          "06ef9000",
+          "53a67a2b",
+          "277f1445",
+          "3ff9f3dc",
+          "7f3b74c1",
+          "829d6145",
+          "ef6b99ee",
+          "885d892a"
+        ]
+      ],
+      "chaining": [
+        "47edd92b",
+        "1d0e996a",
+        "0baf8e98",
+        "fed68124",
+        "0a617f1c",
+        "b0be7d8e",
+        "f68582df",
+        "fc4a8cfc"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "8e1b5e38",
+        "d62852f7",
+        "87015610",
+        "fc00ca55",
+        "b0ad5aaf",
+        "46473411",
+        "c054300b",
+        "4efc4e77"
+      ],
+      "expected_output": [
+        "d6093763",
+        "f336ec61",
+        "92b0e4a8",
+        "fad74b79",
+        "bb0ed9cb",
+        "f705b19f",
+        "b6d9b2ea",
+        "4b46db73"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "00ca90fd",
+            "ab29f7a2",
+            "e1d7e18f",
+            "85d7d734",
+            "79fb65a7",
+            "616bd83d",
+            "3cccb6f0",
+            "bc9ebd07"
+          ],
+          [
+            "bfba2cfd",
+            "ab29f7a2",
+            "e1d7e18f",
+            "85d7d734",
+            "38eb01a7",
+            "616bd83d",
+            "3cccb6f0",
+            "bc9ebd07"
+          ]
+        ]
+      },
+      "verified": true
+    },
+    {
+      "id": "FOUND_x_A24-27_s1",
+      "source": "research/luna/L002/witnesses/FOUND_x_A24-27_s1.json",
+      "source_sha256": "f3834177787ec537d4ec134c6b393b134b747f5740937749ba47a0e1c19a587a",
+      "registry_page": "found_0417_FOUND_x_A24-27_s1_f3834177787e.md",
+      "registry_kind": "json_pair:mns38",
+      "rounds": 38,
+      "word_bits": 32,
+      "model": "semi-free-start compression, shared chosen CV",
+      "word_order": "a b c d e f g h; message words in algorithm order",
+      "messages": [
+        [
+          "e76d6a00",
+          "029397f6",
+          "9667c560",
+          "24515cb9",
+          "37d7bb20",
+          "c9b1db03",
+          "c1d75aa0",
+          "819c4e21",
+          "06eb8ffc",
+          "d035a9cd",
+          "0180a772",
+          "5bb76005",
+          "e0bb72f6",
+          "ca1d70fd",
+          "16eac6eb",
+          "fff1e84d"
+        ],
+        [
+          "e76d6a00",
+          "029397f6",
+          "9667c560",
+          "24515cb9",
+          "37d7bb20",
+          "c9b1db03",
+          "c1d75aa0",
+          "bffa50e1",
+          "06eb9000",
+          "d035a9cd",
+          "017f2772",
+          "5bb76005",
+          "e0bb72f6",
+          "ca1d70fd",
+          "16eac6eb",
+          "fff1e849"
+        ]
+      ],
+      "chaining": [
+        "95f75080",
+        "a0cd87d5",
+        "6faa330b",
+        "e73830fe",
+        "8019cf2a",
+        "172cfd28",
+        "bcfaae31",
+        "4edf67b4"
+      ],
+      "messages_differ": true,
+      "differing_words": [
+        7,
+        8,
+        10,
+        15
+      ],
+      "standard_iv": false,
+      "internal_state_equal": true,
+      "feedforward_equal": true,
+      "expected_state": [
+        "c2995d34",
+        "847013f7",
+        "4bb81c6c",
+        "48df2f79",
+        "2caf5486",
+        "85dc7d28",
+        "b8b666f5",
+        "b039cd5b"
+      ],
+      "expected_output": [
+        "5890adb4",
+        "253d9bcc",
+        "bb624f77",
+        "30176077",
+        "acc923b0",
+        "9d097a50",
+        "75b11526",
+        "ff19350f"
+      ],
+      "output_convention": "feed-forward included: working_state[i] + common_cv[i] mod 2^32",
+      "one_step_control": {
+        "rounds": 39,
+        "output_equal": false,
+        "outputs": [
+          [
+            "c18e3080",
+            "6366e509",
+            "f41a4702",
+            "32f04d6a",
+            "756330a2",
+            "43dc51ae",
+            "42d72b59",
+            "0795cea9"
+          ],
+          [
+            "809e0c80",
+            "6366e509",
+            "f41a4702",
+            "32f04d6a",
+            "34730ca2",
+            "43dc51ae",
+            "42d72b59",
+            "0795cea9"
+          ]
+        ]
+      },
+      "verified": true
+    }
+  ]
+}

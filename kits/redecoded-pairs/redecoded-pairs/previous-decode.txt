@@ -1,0 +1,29 @@
+def decode(mapf, modelf):
+    mp = json.load(open(mapf)); n = mp['n']; w = mp.get('wbits', 32); m = (1 << w) - 1; hx = (w + 3) // 4   # hex digits per word
+    val = {}
+    for tok in open(modelf).read().split():
+        try: l = int(tok)
+        except ValueError: continue
+        if l: val[abs(l)] = l > 0
+    def wv(bits):
+        v = 0
+        for i, b in enumerate(bits):
+            if b == 1: bit = 1
+            elif b == -1: bit = 0
+            else: bit = 1 if val.get(abs(b), False) != (b < 0) else 0
+            v |= bit << i
+        return v
+    out = {}
+    for k in ('1', '2'):
+        W = [wv(w_) for w_ in mp['W' + k]]
+        if mp['chaining'] == 'iv': chain = [x & m for x in IV]
+        else: chain = [wv(mp['A' + k][str(-1-i)]) for i in range(4)] + [wv(mp['E' + k][str(-1-i)]) for i in range(4)]
+        out[k] = (W, chain, sha_ref(n, chain, W, w))
+        print(f"M{k}: W=" + " ".join(f"{x:0{hx}x}" for x in W)); print(f"   chain=" + " ".join(f"{x:0{hx}x}" for x in chain))
+        print(f"   out=" + " ".join(f"{x:0{hx}x}" for x in out[k][2]))
+        if 'H' + k in mp:
+            Hv = [wv(x) for x in mp['H' + k]]
+            print(f"   H{k}=" + " ".join(f"{x:0{hx}x}" for x in Hv))
+    print("messages differ:", out['1'][0] != out['2'][0], " outputs equal:", out['1'][2] == out['2'][2])
+    print("state XOR diff per register:", " ".join(f"{x ^ y:0{hx}x}" for x, y in zip(out['1'][2], out['2'][2])),
+          " chaining XOR diff:", " ".join(f"{x ^ y:0{hx}x}" for x, y in zip(out['1'][1], out['2'][1])))

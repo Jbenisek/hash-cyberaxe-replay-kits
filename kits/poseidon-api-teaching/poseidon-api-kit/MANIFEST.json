@@ -1,0 +1,40 @@
+{
+  "scope": "Project reference API, publication wrapper and already-public numerical data; no imported executable or paper.",
+  "files": [
+    {
+      "path": "poseidon_ref.py",
+      "bytes": 3102,
+      "sha256": "344246fc03ae862cd42beabcade902edea45d23df6cb62751f741c3df636f171"
+    },
+    {
+      "path": "finite-witnesses.json",
+      "bytes": 146059,
+      "sha256": "dd6dd429e8b69c6271bc438de48054c6bf912f47635d243a2a94be3e3778d7ae"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5364,
+      "sha256": "6d2fd02bb7535a9758558cbabeb1bdcb4e3d7cf6def505d44c98d534cb6d9e48"
+    },
+    {
+      "path": "api_replay.py",
+      "bytes": 5735,
+      "sha256": "9bf36c80648317c9bbaf9d70207c29e711c376fdd1f9174e0d17846b18fffff4"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1247,
+      "sha256": "ec372fb3cd3424939353650ba3860323314bd8a06a92431f9c8710555a602483"
+    },
+    {
+      "path": "verify_collision.py",
+      "bytes": 1896,
+      "sha256": "c78a48a119c772c52450cd3fed27d30f11538289695baf44534ed1b2be9e62c2"
+    },
+    {
+      "path": "check_log_contract.py",
+      "bytes": 5741,
+      "sha256": "06ed1692a83d389126030cfc7cc52a2ab3b38f51c1d32921a56e85714d70a57d"
+    }
+  ]
+}

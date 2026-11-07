@@ -1,0 +1,37 @@
+[
+  {
+    "id": "44360f1dabfca509b333",
+    "path": "research/levers_1021/oracle_results.tsv",
+    "href": "archive/research/levers_1021/oracle_results.tsv",
+    "sha256": "bc7666aae1d5cc6bbbdb236bd8e0e48cff8e3ec562b0223684984431bc658db1",
+    "kind": "dataset"
+  },
+  {
+    "id": "dd5fc55c5c32af568a14",
+    "path": "research/luna/L002/SPARSE42_RESULTS.tsv",
+    "href": "archive/research/luna/L002/SPARSE42_RESULTS.tsv",
+    "sha256": "72bec6cc2004e27cff29b6cedc7f8e100fc19194064bda86515d5158eaac9c91",
+    "kind": "dataset"
+  },
+  {
+    "id": "d77e4f958c7ed70e1240",
+    "path": "research/luna/audit_packets/RESOLVE_1028.tsv",
+    "href": "archive/research/luna/audit_packets/RESOLVE_1028.tsv",
+    "sha256": "2f864931bfd85c558309bcc2586484d201359fcaf4cfb304c9566ccce7ceb37c",
+    "kind": "dataset"
+  },
+  {
+    "id": "8e8cd8d491c0b702e173",
+    "path": "research/runs_1101/s42/HORIZON.tsv",
+    "href": "archive/research/runs_1101/s42/HORIZON.tsv",
+    "sha256": "97c95887d154af936d3d0f5b768cfe8df81439b06d9f25beb37cac49e4ec6261",
+    "kind": "dataset"
+  },
+  {
+    "id": "f2192845e9c75d79f3e5",
+    "path": "research/runs_1101/s42/design/FIX_SCAN.tsv",
+    "href": "archive/research/runs_1101/s42/design/FIX_SCAN.tsv",
+    "sha256": "89f589ecd009dc656955d37cde7b8307d0b64fe0cefdc1fedb021b0169912128",
+    "kind": "dataset"
+  }
+]

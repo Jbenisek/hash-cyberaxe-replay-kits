@@ -1,0 +1,36 @@
+{
+  "edition": "HASH$CyberAxe public GitHub edition 2026-11-06",
+  "note": "Files edited for the public edition, each with its reason; nothing else in them changed. Recorded digests (manifests, replay pins) were updated to the published bytes. original_sha256 identifies the library's archived bytes.",
+  "files": [
+    {
+      "path": "newwords-kit/newwords/nw.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "e09652fca986ac020b65f8f254f060e132eb19a419af9f7f003e0b2438f756d1",
+      "original_bytes": 3912,
+      "published_sha256": "7f78c0ea2113ad2dad0719073befea20862001ff801c81f456e060b026382a1b",
+      "published_bytes": 3917
+    },
+    {
+      "path": "newwords-kit/newwords/nw2.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "de9c21a9bba2efb917f0905ba9f6a0c7908d7d7d708be8522cf5fc98b8c4350b",
+      "original_bytes": 4364,
+      "published_sha256": "ae862e7e76a1c482344337251b51ec7c42e7cf8474fc84f7cfac9ee0d878841f",
+      "published_bytes": 4369
+    },
+    {
+      "path": "newwords-kit/newwords/nw3.py",
+      "reasons": [
+        "agent names replaced with HASH$CyberAxe credit / owner quotes with CyberAxe"
+      ],
+      "original_sha256": "bad717a1bbef93baea6b70ee01c1b899df7870d0844413f38b2bb18462743081",
+      "original_bytes": 4381,
+      "published_sha256": "234f7071722859e1fb7d6483dd3fc1f29309f5d53cbf6620c99dc51efda7d628",
+      "published_bytes": 4386
+    }
+  ]
+}

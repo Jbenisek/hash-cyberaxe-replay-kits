@@ -1,0 +1,863 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-02T19:00:34.140322+00:00",
+  "scope": "Exact recount of two retained sampled pools and 70 recorded filter rows. Not an exact population success law, new sampling, or complete attack price.",
+  "source_pins": {
+    "research/r38_cv0/utab38_cv0.py": {
+      "sha256": "e89e2c0df1de31f9be3aa2af043a4ec46e731f1093aac1c7a96505521f00a2d4",
+      "bytes": 53543
+    },
+    "research/r38_cv0/recount/pool_cv0pick2_1048576.bin": {
+      "sha256": "e74d2aba29de3d696f9c09a7dae564b68e35629c34cfdf87479c858e55f2e322",
+      "bytes": 4194304
+    },
+    "research/r38_cv0/recount/pool_cv0fresh1_1048576.bin": {
+      "sha256": "f33e3e203fd0073a2674d94688c93fe05c3e25f55bd0de285ceecebd89424e1e",
+      "bytes": 4194304
+    },
+    "research/r38_cv0/recount/scan64.txt": {
+      "sha256": "cfc5a354515eba50ec6bdfa26fddc080037a30bb31b858ea97faf41b121ffa3a",
+      "bytes": 3006
+    },
+    "research/r38_cv0/recount/recount_top3.txt": {
+      "sha256": "4bbb6ecb8d484a496af31fbab46b07eb272a0de1d772550a8d9d363780bc9937",
+      "bytes": 191
+    },
+    "research/r38_cv0/recount/recount_scanbest.txt": {
+      "sha256": "bb6332b79189d65e99ec23821b8b7594490bf0fd1fea731105ba2772442acca3",
+      "bytes": 187
+    },
+    "research/r38_cv0/recount/cv0_recount.py": {
+      "sha256": "8d6f501dc3f01e8b93d990ca5077e9a8986898b96dc584b359cd4b819ff6a0d5",
+      "bytes": 1453
+    },
+    "research/r38_cv0/scan_out.txt": {
+      "sha256": "e5846d5871dd783293cad374905c2bed681c52192533d7237fa69969bfeda192",
+      "bytes": 547
+    }
+  },
+  "numpy_version": "1.26.2",
+  "reference_literals": {
+    "K": [
+      1116352408,
+      1899447441,
+      3049323471,
+      3921009573,
+      961987163,
+      1508970993,
+      2453635748,
+      2870763221,
+      3624381080,
+      310598401,
+      607225278,
+      1426881987,
+      1925078388,
+      2162078206,
+      2614888103,
+      3248222580,
+      3835390401,
+      4022224774,
+      264347078,
+      604807628,
+      770255983,
+      1249150122,
+      1555081692,
+      1996064986,
+      2554220882,
+      2821834349,
+      2952996808,
+      3210313671,
+      3336571891,
+      3584528711,
+      113926993,
+      338241895,
+      666307205,
+      773529912,
+      1294757372,
+      1396182291,
+      1695183700,
+      1986661051
+    ],
+    "PCV": [
+      2510440793,
+      3020242837,
+      468731710,
+      514538364,
+      1695310803,
+      3863559483,
+      3976220445,
+      3950947027
+    ],
+    "PMX": [
+      3171188373,
+      499730577,
+      1270760843,
+      3353099274,
+      2338469345,
+      2641768686,
+      1453171616,
+      2497556930,
+      1179538525,
+      2818885938,
+      2901196405,
+      3358065010,
+      2588764008,
+      370382130,
+      3758975641,
+      1605534331
+    ],
+    "PMY": [
+      3171188373,
+      499730577,
+      1270760843,
+      3353099274,
+      2338469345,
+      2641768686,
+      1453171616,
+      3034427842,
+      1108237405,
+      2282015026,
+      2850925791,
+      3357543794,
+      2588764008,
+      370382130,
+      3758975641,
+      1542621819
+    ]
+  },
+  "derived_constants": {
+    "KK7c": "40b794c4",
+    "D7c": "20000000",
+    "F7d": "03bff800"
+  },
+  "pool_interpretation": "1048576 little-endian uint32 q words per retained file; explicit decoding matches all saved counts. Original code used native array(I).",
+  "recorded_rows_recounted": 70,
+  "scalar_vector_comparisons": 9450,
+  "rows": [
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b6f16774",
+      "passed": 63906,
+      "members": 1048576,
+      "rate_fraction": "31953/524288",
+      "ratio_to_inherited_baseline": 0.9110686587591241,
+      "local_filter_gain_bits": -0.13436831427514867
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "ef6ed721",
+      "passed": 27001,
+      "members": 1048576,
+      "rate_fraction": "27001/1048576",
+      "ratio_to_inherited_baseline": 0.3849367016423358,
+      "local_filter_gain_bits": -1.3773068639747867
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "602dfd7f",
+      "passed": 57188,
+      "members": 1048576,
+      "rate_fraction": "14297/262144",
+      "ratio_to_inherited_baseline": 0.8152942518248175,
+      "local_filter_gain_bits": -0.2946072514550431
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "52c6abc8",
+      "passed": 112747,
+      "members": 1048576,
+      "rate_fraction": "112747/1048576",
+      "ratio_to_inherited_baseline": 1.6073648494525548,
+      "local_filter_gain_bits": 0.6846974378819654
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b7c18f22",
+      "passed": 53921,
+      "members": 1048576,
+      "rate_fraction": "53921/1048576",
+      "ratio_to_inherited_baseline": 0.7687186359489051,
+      "local_filter_gain_bits": -0.37947245092574683
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "048df4d4",
+      "passed": 87260,
+      "members": 1048576,
+      "rate_fraction": "21815/262144",
+      "ratio_to_inherited_baseline": 1.2440123175182483,
+      "local_filter_gain_bits": 0.3150007703033355
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "cf20ffc6",
+      "passed": 128685,
+      "members": 1048576,
+      "rate_fraction": "128685/1048576",
+      "ratio_to_inherited_baseline": 1.8345831432481752,
+      "local_filter_gain_bits": 0.8754522889602424
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "2c48e546",
+      "passed": 5895,
+      "members": 1048576,
+      "rate_fraction": "5895/1048576",
+      "ratio_to_inherited_baseline": 0.08404140054744526,
+      "local_filter_gain_bits": -3.5727559850934014
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "e559956b",
+      "passed": 43595,
+      "members": 1048576,
+      "rate_fraction": "43595/1048576",
+      "ratio_to_inherited_baseline": 0.6215071852189781,
+      "local_filter_gain_bits": -0.6861570245752237
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "377c1c83",
+      "passed": 62954,
+      "members": 1048576,
+      "rate_fraction": "31477/524288",
+      "ratio_to_inherited_baseline": 0.8974965784671532,
+      "local_filter_gain_bits": -0.15602165593816855
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "aec0f8aa",
+      "passed": 23348,
+      "members": 1048576,
+      "rate_fraction": "5837/262144",
+      "ratio_to_inherited_baseline": 0.3328581204379562,
+      "local_filter_gain_bits": -1.5870207300782875
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "cb7a84c0",
+      "passed": 122745,
+      "members": 1048576,
+      "rate_fraction": "122745/1048576",
+      "ratio_to_inherited_baseline": 1.7499002052919708,
+      "local_filter_gain_bits": 0.8072726492372523
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "26a2205f",
+      "passed": 26757,
+      "members": 1048576,
+      "rate_fraction": "26757/1048576",
+      "ratio_to_inherited_baseline": 0.3814581432481752,
+      "local_filter_gain_bits": -1.3904033336105701
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "511df33e",
+      "passed": 108871,
+      "members": 1048576,
+      "rate_fraction": "108871/1048576",
+      "ratio_to_inherited_baseline": 1.552107093978102,
+      "local_filter_gain_bits": 0.6342281056053746
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b56a2758",
+      "passed": 52970,
+      "members": 1048576,
+      "rate_fraction": "26485/524288",
+      "ratio_to_inherited_baseline": 0.7551608120437956,
+      "local_filter_gain_bits": -0.4051441947757788
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "dad822a0",
+      "passed": 72144,
+      "members": 1048576,
+      "rate_fraction": "4509/65536",
+      "ratio_to_inherited_baseline": 1.0285127737226278,
+      "local_filter_gain_bits": 0.040559711676994195
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b7d1f597",
+      "passed": 67868,
+      "members": 1048576,
+      "rate_fraction": "16967/262144",
+      "ratio_to_inherited_baseline": 0.9675524635036497,
+      "local_filter_gain_bits": -0.047588204395718335
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "ca315f60",
+      "passed": 97798,
+      "members": 1048576,
+      "rate_fraction": "48899/524288",
+      "ratio_to_inherited_baseline": 1.3942461222627738,
+      "local_filter_gain_bits": 0.47948525849869
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "6f902d8b",
+      "passed": 31353,
+      "members": 1048576,
+      "rate_fraction": "31353/1048576",
+      "ratio_to_inherited_baseline": 0.4469804972627737,
+      "local_filter_gain_bits": -1.1617162100472251
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "64f402af",
+      "passed": 46398,
+      "members": 1048576,
+      "rate_fraction": "23199/524288",
+      "ratio_to_inherited_baseline": 0.6614678375912408,
+      "local_filter_gain_bits": -0.5962570845295381
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "c3b59f58",
+      "passed": 83004,
+      "members": 1048576,
+      "rate_fraction": "20751/262144",
+      "ratio_to_inherited_baseline": 1.1833371350364963,
+      "local_filter_gain_bits": 0.24286115884502812
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "33d51f0c",
+      "passed": 33316,
+      "members": 1048576,
+      "rate_fraction": "8329/262144",
+      "ratio_to_inherited_baseline": 0.47496578467153283,
+      "local_filter_gain_bits": -1.0741045057861476
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "1ca79f64",
+      "passed": 44323,
+      "members": 1048576,
+      "rate_fraction": "44323/1048576",
+      "ratio_to_inherited_baseline": 0.6318858348540146,
+      "local_filter_gain_bits": -0.6622641699787086
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b886efcc",
+      "passed": 66328,
+      "members": 1048576,
+      "rate_fraction": "8291/131072",
+      "ratio_to_inherited_baseline": 0.9455976277372263,
+      "local_filter_gain_bits": -0.08070167872051284
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "3b92f40a",
+      "passed": 71860,
+      "members": 1048576,
+      "rate_fraction": "17965/262144",
+      "ratio_to_inherited_baseline": 1.0244639598540146,
+      "local_filter_gain_bits": 0.034869231928999815
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "402fc08f",
+      "passed": 76343,
+      "members": 1048576,
+      "rate_fraction": "76343/1048576",
+      "ratio_to_inherited_baseline": 1.0883753421532847,
+      "local_filter_gain_bits": 0.12217617688201413
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "8d7e1246",
+      "passed": 129723,
+      "members": 1048576,
+      "rate_fraction": "129723/1048576",
+      "ratio_to_inherited_baseline": 1.849381272810219,
+      "local_filter_gain_bits": 0.8870426848220208
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "6d75b224",
+      "passed": 20811,
+      "members": 1048576,
+      "rate_fraction": "20811/1048576",
+      "ratio_to_inherited_baseline": 0.2966896669708029,
+      "local_filter_gain_bits": -1.7529734129952783
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "520cb17a",
+      "passed": 98165,
+      "members": 1048576,
+      "rate_fraction": "98165/1048576",
+      "ratio_to_inherited_baseline": 1.3994782162408759,
+      "local_filter_gain_bits": 0.48488903062940447
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "f563782e",
+      "passed": 61836,
+      "members": 1048576,
+      "rate_fraction": "15459/262144",
+      "ratio_to_inherited_baseline": 0.8815579379562044,
+      "local_filter_gain_bits": -0.1818727050863416
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "5220faa3",
+      "passed": 126590,
+      "members": 1048576,
+      "rate_fraction": "63295/524288",
+      "ratio_to_inherited_baseline": 1.8047160127737227,
+      "local_filter_gain_bits": 0.8517718347873762
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "f0e76361",
+      "passed": 32502,
+      "members": 1048576,
+      "rate_fraction": "16251/524288",
+      "ratio_to_inherited_baseline": 0.4633610857664234,
+      "local_filter_gain_bits": -1.1097912067683178
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "e0991eb4",
+      "passed": 47828,
+      "members": 1048576,
+      "rate_fraction": "11957/262144",
+      "ratio_to_inherited_baseline": 0.6818544708029197,
+      "local_filter_gain_bits": -0.5524642392959203
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "0d3873ec",
+      "passed": 131965,
+      "members": 1048576,
+      "rate_fraction": "131965/1048576",
+      "ratio_to_inherited_baseline": 1.8813440921532847,
+      "local_filter_gain_bits": 0.9117637375604816
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "6e3a7619",
+      "passed": 26249,
+      "members": 1048576,
+      "rate_fraction": "26249/1048576",
+      "ratio_to_inherited_baseline": 0.3742158987226277,
+      "local_filter_gain_bits": -1.4180572414902788
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "81129014",
+      "passed": 101008,
+      "members": 1048576,
+      "rate_fraction": "6313/65536",
+      "ratio_to_inherited_baseline": 1.4400091240875912,
+      "local_filter_gain_bits": 0.5260779528024615
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "c9a41998",
+      "passed": 93677,
+      "members": 1048576,
+      "rate_fraction": "93677/1048576",
+      "ratio_to_inherited_baseline": 1.3354955520072993,
+      "local_filter_gain_bits": 0.41737517095041143
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "a74e0402",
+      "passed": 26191,
+      "members": 1048576,
+      "rate_fraction": "26191/1048576",
+      "ratio_to_inherited_baseline": 0.3733890282846715,
+      "local_filter_gain_bits": -1.4212485590528954
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "2853b992",
+      "passed": 28912,
+      "members": 1048576,
+      "rate_fraction": "1807/65536",
+      "ratio_to_inherited_baseline": 0.41218065693430656,
+      "local_filter_gain_bits": -1.2786512920959272
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "ac0b3eed",
+      "passed": 7778,
+      "members": 1048576,
+      "rate_fraction": "3889/524288",
+      "ratio_to_inherited_baseline": 0.11088617700729927,
+      "local_filter_gain_bits": -3.172848563526318
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "2a51c774",
+      "passed": 17829,
+      "members": 1048576,
+      "rate_fraction": "17829/1048576",
+      "ratio_to_inherited_baseline": 0.25417712135036497,
+      "local_filter_gain_bits": -1.9760939166287281
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "ef4973af",
+      "passed": 30511,
+      "members": 1048576,
+      "rate_fraction": "30511/1048576",
+      "ratio_to_inherited_baseline": 0.43497661952554745,
+      "local_filter_gain_bits": -1.2009902382962643
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "1fa9e2e4",
+      "passed": 47610,
+      "members": 1048576,
+      "rate_fraction": "23805/524288",
+      "ratio_to_inherited_baseline": 0.6787465784671532,
+      "local_filter_gain_bits": -0.5590550745168263
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "8db42135",
+      "passed": 116196,
+      "members": 1048576,
+      "rate_fraction": "29049/262144",
+      "ratio_to_inherited_baseline": 1.6565351277372262,
+      "local_filter_gain_bits": 0.7281687968840385
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "05cf25b4",
+      "passed": 102550,
+      "members": 1048576,
+      "rate_fraction": "51275/524288",
+      "ratio_to_inherited_baseline": 1.4619924726277371,
+      "local_filter_gain_bits": 0.5479358832940499
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "299455d3",
+      "passed": 22223,
+      "members": 1048576,
+      "rate_fraction": "22223/1048576",
+      "ratio_to_inherited_baseline": 0.3168196852189781,
+      "local_filter_gain_bits": -1.6582661165232264
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "e1d91e6d",
+      "passed": 60908,
+      "members": 1048576,
+      "rate_fraction": "15227/262144",
+      "ratio_to_inherited_baseline": 0.8683280109489051,
+      "local_filter_gain_bits": -0.20368797113616696
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "c46bb28e",
+      "passed": 91624,
+      "members": 1048576,
+      "rate_fraction": "11453/131072",
+      "ratio_to_inherited_baseline": 1.3062271897810218,
+      "local_filter_gain_bits": 0.38540584410097894
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "cb44bfa1",
+      "passed": 120432,
+      "members": 1048576,
+      "rate_fraction": "7527/65536",
+      "ratio_to_inherited_baseline": 1.7169251824817517,
+      "local_filter_gain_bits": 0.7798271731698021
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "3eae32d9",
+      "passed": 83740,
+      "members": 1048576,
+      "rate_fraction": "20935/262144",
+      "ratio_to_inherited_baseline": 1.1938298357664234,
+      "local_filter_gain_bits": 0.25559721466713786
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "3aa1760b",
+      "passed": 63086,
+      "members": 1048576,
+      "rate_fraction": "31543/524288",
+      "ratio_to_inherited_baseline": 0.8993784215328468,
+      "local_filter_gain_bits": -0.1529998245351015
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "938ee415",
+      "passed": 99758,
+      "members": 1048576,
+      "rate_fraction": "49879/524288",
+      "ratio_to_inherited_baseline": 1.422188640510949,
+      "local_filter_gain_bits": 0.5081128381497948
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "fd552903",
+      "passed": 75879,
+      "members": 1048576,
+      "rate_fraction": "75879/1048576",
+      "ratio_to_inherited_baseline": 1.081760378649635,
+      "local_filter_gain_bits": 0.11338096236325335
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "d4ba9043",
+      "passed": 101885,
+      "members": 1048576,
+      "rate_fraction": "101885/1048576",
+      "ratio_to_inherited_baseline": 1.4525119753649636,
+      "local_filter_gain_bits": 0.5385500581072056
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "40023ce5",
+      "passed": 74560,
+      "members": 1048576,
+      "rate_fraction": "1165/16384",
+      "ratio_to_inherited_baseline": 1.062956204379562,
+      "local_filter_gain_bits": 0.08808215658111575
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "43e0e295",
+      "passed": 88706,
+      "members": 1048576,
+      "rate_fraction": "44353/524288",
+      "ratio_to_inherited_baseline": 1.2646270529197081,
+      "local_filter_gain_bits": 0.33871198710726486
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "45f6ca7d",
+      "passed": 110635,
+      "members": 1048576,
+      "rate_fraction": "110635/1048576",
+      "ratio_to_inherited_baseline": 1.5772553604014599,
+      "local_filter_gain_bits": 0.6574162538889383
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "8cde88da",
+      "passed": 104639,
+      "members": 1048576,
+      "rate_fraction": "104639/1048576",
+      "ratio_to_inherited_baseline": 1.4917740647810218,
+      "local_filter_gain_bits": 0.5770290501357883
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "7f671af5",
+      "passed": 80751,
+      "members": 1048576,
+      "rate_fraction": "80751/1048576",
+      "ratio_to_inherited_baseline": 1.1512174954379562,
+      "local_filter_gain_bits": 0.2031604224773163
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "c8cb61f4",
+      "passed": 111502,
+      "members": 1048576,
+      "rate_fraction": "55751/524288",
+      "ratio_to_inherited_baseline": 1.589615647810219,
+      "local_filter_gain_bits": 0.668677979327732
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "b5351aea",
+      "passed": 54641,
+      "members": 1048576,
+      "rate_fraction": "54641/1048576",
+      "ratio_to_inherited_baseline": 0.778983234489051,
+      "local_filter_gain_bits": -0.36033581638191686
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "dc3620e4",
+      "passed": 55507,
+      "members": 1048576,
+      "rate_fraction": "55507/1048576",
+      "ratio_to_inherited_baseline": 0.791329265510949,
+      "local_filter_gain_bits": -0.33764998188573203
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "e60cc013",
+      "passed": 41457,
+      "members": 1048576,
+      "rate_fraction": "41457/1048576",
+      "ratio_to_inherited_baseline": 0.5910270301094891,
+      "local_filter_gain_bits": -0.7587039825671736
+    },
+    {
+      "recorded_file": "scan64.txt",
+      "pool": "cv0pick2",
+      "cv0": "17b17268",
+      "passed": 74293,
+      "members": 1048576,
+      "rate_fraction": "74293/1048576",
+      "ratio_to_inherited_baseline": 1.0591497490875912,
+      "local_filter_gain_bits": 0.08290658082471147
+    },
+    {
+      "recorded_file": "recount_top3.txt",
+      "pool": "cv0fresh1",
+      "cv0": "4d2f1627",
+      "passed": 136827,
+      "members": 1048576,
+      "rate_fraction": "136827/1048576",
+      "ratio_to_inherited_baseline": 1.9506586450729928,
+      "local_filter_gain_bits": 0.9639613360464903
+    },
+    {
+      "recorded_file": "recount_top3.txt",
+      "pool": "cv0fresh1",
+      "cv0": "89a535cf",
+      "passed": 116489,
+      "members": 1048576,
+      "rate_fraction": "116489/1048576",
+      "ratio_to_inherited_baseline": 1.6607122490875912,
+      "local_filter_gain_bits": 0.7318021197918263
+    },
+    {
+      "recorded_file": "recount_top3.txt",
+      "pool": "cv0fresh1",
+      "cv0": "c583bc7f",
+      "passed": 110871,
+      "members": 1048576,
+      "rate_fraction": "110871/1048576",
+      "ratio_to_inherited_baseline": 1.58061986770073,
+      "local_filter_gain_bits": 0.6604904474410792
+    },
+    {
+      "recorded_file": "recount_scanbest.txt",
+      "pool": "cv0fresh1",
+      "cv0": "0d3873ec",
+      "passed": 131776,
+      "members": 1048576,
+      "rate_fraction": "2059/16384",
+      "ratio_to_inherited_baseline": 1.8786496350364963,
+      "local_filter_gain_bits": 0.9096960316717274
+    },
+    {
+      "recorded_file": "recount_scanbest.txt",
+      "pool": "cv0fresh1",
+      "cv0": "8d7e1246",
+      "passed": 129468,
+      "members": 1048576,
+      "rate_fraction": "32367/262144",
+      "ratio_to_inherited_baseline": 1.845745894160584,
+      "local_filter_gain_bits": 0.8842039492631304
+    },
+    {
+      "recorded_file": "recount_scanbest.txt",
+      "pool": "cv0fresh1",
+      "cv0": "cf20ffc6",
+      "passed": 128241,
+      "members": 1048576,
+      "rate_fraction": "128241/1048576",
+      "ratio_to_inherited_baseline": 1.8282533074817517,
+      "local_filter_gain_bits": 0.8704659719988505
+    }
+  ],
+  "fresh_winner": {
+    "recorded_file": "recount_top3.txt",
+    "pool": "cv0fresh1",
+    "cv0": "4d2f1627",
+    "passed": 136827,
+    "members": 1048576,
+    "rate_fraction": "136827/1048576",
+    "ratio_to_inherited_baseline": 1.9506586450729928,
+    "local_filter_gain_bits": 0.9639613360464903
+  },
+  "inherited_uniform_cv_baseline": {
+    "numerator": 287309824,
+    "denominator": 4294967296,
+    "class_size_reproved": false
+  },
+  "sampling_driver_executed": false,
+  "new_samples_generated": 0,
+  "important_boundaries": [
+    "These binary pools are selected G-passing q samples, not the entire q population.",
+    "The 64-CV pick2 scan does not contain 4d2f1627. Do not describe it as a second retained recount of that CV.",
+    "The earlier 16-CV output records 136375 for 4d2f1627, but its source pool identity is not established by this audit.",
+    "An exact count on a sampled pool remains a sample estimate of the underlying event probability.",
+    "Fixing CV0 changes the law. A population argument, selection/generation cost and downstream success revalidation are needed before any attack-score reduction.",
+    "The common uniform-CV baseline is inherited, not independently enumerated here."
+  ]
+}

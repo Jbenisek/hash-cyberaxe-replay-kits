@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "research/game/climber/guided/scan40_topslide/census_0.tsv",
+      "bytes": 1128,
+      "sha256": "8e564903a5f58ab7b8e6b0ccd0a47404db05b2736b2371029c4646f601bdfad3"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/alpha_set_W10_64.tsv",
+      "bytes": 1024,
+      "sha256": "34d192cb862e5ae0a90d31b6b7c5a9140776d85da69900e62c0e9036b1182797"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/CLASS_MAP_38.tsv",
+      "bytes": 1086,
+      "sha256": "e796d8bd8940a4535c203a4d9fa2e011793562bb0cd962dbcd62823712fc7dbf"
+    },
+    {
+      "path": "research/game/climber/guided/w38p/steer/classmap/RES.txt",
+      "bytes": 3449,
+      "sha256": "d9652f3e4bb2184a35d63ef518075851e9acc977cd38d35b21f297d9239260f9"
+    },
+    {
+      "path": "check.py",
+      "bytes": 4716,
+      "sha256": "0218566ceaed51f61cc4e3c0c82f13310bbb9583c384292504f0883ec7ee6497"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1193,
+      "sha256": "6479f824d0ad70cb765673cf71ad79f4793a915eac6af86c493c356208a0cef5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3520,
+      "sha256": "f4da66427bce6e39529d8676519c810dd742710dbba7c9201844fe569c924b8f"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 1115,
+      "sha256": "b92661396386a4d071e73d4f49e79b22c8f44e79bdddd41e526767bd635dbcd2"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Explicitly reviewed project encoder dependencies and numerical controls. No external paper payload, solver binary or campaign launcher.",
+  "files": [
+    {
+      "path": "boardpairs/gen_boardpair.py",
+      "bytes": 4873,
+      "sha256": "4c20d1691d24288b210f5f7a0b302aee08ba02ddc8cb88eb7c72b6721470ddf7",
+      "lineage": "Project middle-band pin generator; historical source retained unchanged."
+    },
+    {
+      "path": "kit/char_pair_profile.py",
+      "bytes": 12295,
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611",
+      "lineage": "Project characteristic profiler; embedded pin39b is an external published numerical control, not a project novelty claim. The bundle tests the two separately attributed JSON seeds, not that preset."
+    },
+    {
+      "path": "kit/sha_cnf.py",
+      "bytes": 23585,
+      "sha256": "5a6b7373b8aac2312a9c017436c17ed4d29caed27343d959af76de687e33f1aa",
+      "lineage": "Project encoder; byte-identical to the already distributed guided/minsup/sha_cnf.py. Its totalizer credits Bailleux-Boufkhad 2003; that algorithmic credit is retained."
+    },
+    {
+      "path": "kit/indep_verify.py",
+      "bytes": 2816,
+      "sha256": "dec3ad8f2be2ffaecc6e0e63801a12d75de19c3977685a8ff5133fde278b0513",
+      "lineage": "Project plain-Python compression rechecker; no encoder import. Its success marker, not its exit status alone, determines whether a pair passed."
+    },
+    {
+      "path": "boardpairs/wit/r38_s102.json",
+      "bytes": 629,
+      "sha256": "18faa629b35329c05e9d0e20a42497e571f4553ad97d81049b2066b5cf3926a8",
+      "lineage": "Project P8 FOUND_s102 numerical seed; lineage recorded in boardpairs/setup_seeds.py. That operational setup script is not included."
+    },
+    {
+      "path": "boardpairs/wit/r37_tab17.json",
+      "bytes": 630,
+      "sha256": "e1ed5b4a89aad156050eb895a86c803b019ef926869bc5b378332a0a3fb879ed",
+      "lineage": "External numerical control credited by setup_seeds.py to Table 17 of ePrint 2026/1120. Reference https://eprint.iacr.org/2026/1120 ; no paper text or PDF is included."
+    },
+    {
+      "path": "replay.py",
+      "bytes": 7944,
+      "sha256": "653945b9455362fa5dea296e44ba2a8a4949f1c8905ea4cc401298d738a20d66",
+      "lineage": "Publication-authored bounded replay/instructions"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3829,
+      "sha256": "d29af7425f35018dfc0de88ee62b31aaa75096c4579ea488c0ee1f0ff3993a10",
+      "lineage": "Publication-authored bounded replay/instructions"
+    }
+  ]
+}

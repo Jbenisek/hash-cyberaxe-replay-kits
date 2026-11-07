@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "original": "recent-pairs-kit/pairs.json",
+      "project_path": "recent-pairs-kit/pairs.json",
+      "sha256": "d4129fe8643a5749b38a450b9952b637fe0eef49c5dda7522cffe412b3757273",
+      "bytes": 8517
+    },
+    {
+      "original": "recent-pairs-kit/sha256-replay.js",
+      "project_path": "recent-pairs-kit/sha256-replay.js",
+      "sha256": "a08df68ee8b4a98949d94896486fc04cabad9e71087f3a0719003088a3fa1b8c",
+      "bytes": 6335
+    },
+    {
+      "original": "recent-pairs-kit/replay.cjs",
+      "project_path": "recent-pairs-kit/replay.cjs",
+      "sha256": "09bf12f75ebe2511cd0fa7f5600a4cc1fe82251979dfc00e9a4e2a2a4ad589c3",
+      "bytes": 2254
+    },
+    {
+      "original": "recent-pairs-kit/README.md",
+      "project_path": "recent-pairs-kit/README.md",
+      "sha256": "2cfb2d505acb1aba8f2b2117f20da28a5e745e7824fd91c074cd712b9ed80f71",
+      "bytes": 1722
+    },
+    {
+      "original": "recent-pairs-kit/MANIFEST.json",
+      "project_path": "recent-pairs-kit/MANIFEST.json",
+      "sha256": "3b54565ebaa8e4d5855020677f29d102ea06861e7aecf262073dc21db0c85dea",
+      "bytes": 604
+    }
+  ]
+}

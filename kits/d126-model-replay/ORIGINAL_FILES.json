@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "original": "d126-model-kit/price.py",
+      "project_path": "d126-model-kit/price.py",
+      "sha256": "1c066a7647f5ead8dc9e4eb650193b890c584010d5569c37b8088ba2368874a7",
+      "bytes": 6278
+    },
+    {
+      "original": "d126-model-kit/model37.py",
+      "project_path": "d126-model-kit/model37.py",
+      "sha256": "5a382ce398e4e7671145d49d0aedde6e9bf3dcc0f59b9076d9da285b3b250c04",
+      "bytes": 19102
+    },
+    {
+      "original": "d126-model-kit/model38.py",
+      "project_path": "d126-model-kit/model38.py",
+      "sha256": "2abe5c854d04f544395884f360c6b987f04d58f1b5da7a053f902c46d2158387",
+      "bytes": 1144
+    },
+    {
+      "original": "d126-model-kit/README.md",
+      "project_path": "d126-model-kit/README.md",
+      "sha256": "1037342b7bec1108d73f8047e90e61ec06391b522b317ef39c755d6f4e699bfd",
+      "bytes": 4680
+    },
+    {
+      "original": "d126-model-kit/replay.py",
+      "project_path": "d126-model-kit/replay.py",
+      "sha256": "c90ab91cf1d3cc849fce30fe6585c1ae5f3d0cf38ae4125a4cf2e037154c4822",
+      "bytes": 1793
+    },
+    {
+      "original": "d126-model-kit/runs/costs.json",
+      "project_path": "d126-model-kit/runs/costs.json",
+      "sha256": "02c4ad8666084abdbdebd10a03edd972f47e5a7e7ae7aad6c800a49f6920aa0d",
+      "bytes": 132
+    },
+    {
+      "original": "d126-model-kit/runs/pre1.json",
+      "project_path": "d126-model-kit/runs/pre1.json",
+      "sha256": "553e80c110fa3f1e83f86b8e34c2e6e92568ed3316a17cc5ef7456b4441a7cbd",
+      "bytes": 200
+    },
+    {
+      "original": "d126-model-kit/runs/pre2.json",
+      "project_path": "d126-model-kit/runs/pre2.json",
+      "sha256": "ea062fb5984a8e7b51b3ef00a48af79a37724c56d12303ed0e967805d0a3ee4f",
+      "bytes": 147
+    },
+    {
+      "original": "d126-model-kit/check37.py",
+      "project_path": "d126-model-kit/check37.py",
+      "sha256": "9e140d06f81e40049e6ce75be693ee3044096107f177a5bbc7e6f333726db233",
+      "bytes": 8845
+    },
+    {
+      "original": "d126-model-kit/check38.py",
+      "project_path": "d126-model-kit/check38.py",
+      "sha256": "08dbbfd2f10a5b7b168a913b69011cc10f4f5b0e90ebcb0b3b503e8f0dd516e4",
+      "bytes": 6093
+    },
+    {
+      "original": "d126-model-kit/PROVENANCE.json",
+      "project_path": "d126-model-kit/PROVENANCE.json",
+      "sha256": "361b5fd23427723e45a0fc345c4ca7abe8af378466e14923a22ef3ac3c9ea3db",
+      "bytes": 780
+    },
+    {
+      "original": "d126-model-kit/MANIFEST.json",
+      "project_path": "d126-model-kit/MANIFEST.json",
+      "sha256": "e7e699382971a0813f8ba2cf36901d17396424368366bcaf9606c08dde083d37",
+      "bytes": 1625
+    }
+  ]
+}

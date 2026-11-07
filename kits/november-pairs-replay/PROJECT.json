@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-november-pairs-replay",
+  "title": "One colliding control and three incomplete state candidates",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "november-pairs-replay.zip",
+  "source_archive_sha256": "99d72598d3cbf56f2f9a23618bdd2b1ff945970c9138c2e4c11c12b6989c4092",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/november-pairs-replay",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "node",
+    "recent-pairs-kit/replay.cjs"
+  ],
+  "expected": "recent-pairs",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

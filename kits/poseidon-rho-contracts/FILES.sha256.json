@@ -1,0 +1,61 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "sha256": "decde4f692f0304b7f9e60e9f0aa72c2144c9da0d0e49cb3fabc84be00046ec4"
+    },
+    "check_project.py": {
+      "bytes": 2958,
+      "sha256": "2d01db987e930c49126dc5e208807f6040829b7f3a7bcd9c19610a5cf39f76d8"
+    },
+    "ORIGINAL_FILES.json": {
+      "bytes": 1333,
+      "sha256": "d141535442e81889b7cd0ead3f9c17bda2dc2fe14c65aa7b7b72b5ca368025e5"
+    },
+    "PROJECT.json": {
+      "bytes": 719,
+      "sha256": "90167798ab2f0903e5d5d15646b31f88326568c63ef94d136a7b03dea1f17203"
+    },
+    "README.md": {
+      "bytes": 2612,
+      "sha256": "e4f56e2fc7efc3505e3afc5266660a58e58094999e7b51652fbf2d990efdc848"
+    },
+    "rho-contract-kit/check.py": {
+      "bytes": 5021,
+      "sha256": "120d309f8d83f578c5932b68246aed5b2680584d0444c4648bec1794ea4c9c5a"
+    },
+    "rho-contract-kit/MANIFEST.json": {
+      "bytes": 741,
+      "sha256": "8d4bbd677a1c3c07e17ac0f8d12b929425395c1ae05c1c996896cf156c6a893f"
+    },
+    "rho-contract-kit/PROVENANCE.json": {
+      "bytes": 483,
+      "sha256": "07ebcd51bf8af0c38b5b9ea223d6ed8fee242c9b89c684bef55f61d1f6d12e34"
+    },
+    "rho-contract-kit/README.md": {
+      "bytes": 4451,
+      "sha256": "256371ed29f58696bda0e90a7fb7dd4af0c2135e1f5b1ef514777b51ce38b8d0"
+    },
+    "rho-contract-kit/replay.py": {
+      "bytes": 1096,
+      "sha256": "0001ef7eafde5092c45ba7f0f48e0ae1d056e0637e2d805d514b683cf79cd054"
+    },
+    "rho-contract-kit/rho.py": {
+      "bytes": 68539,
+      "sha256": "b5bd922909b12d8871b381c7a1bc4255541241b45df0adb18fe5ad4c3f53773c"
+    },
+    "RIGHTS.md": {
+      "bytes": 345,
+      "sha256": "7a7ea01175f82a792fea612ddee506247ffc77b1b4a6503ad8989b9066f78016"
+    },
+    "VERIFICATION.json": {
+      "bytes": 3441,
+      "sha256": "a8ccfcb9d282892b1ada8a721ccc4b4ec2649a29bab56fa613427d066ffc3d6a"
+    }
+  }
+}

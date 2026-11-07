@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "original": "cv0-filter-recount/cv0fresh1.bin",
+      "project_path": "cv0-filter-recount/cv0fresh1.bin",
+      "sha256": "f33e3e203fd0073a2674d94688c93fe05c3e25f55bd0de285ceecebd89424e1e",
+      "bytes": 4194304
+    },
+    {
+      "original": "cv0-filter-recount/cv0pick2.bin",
+      "project_path": "cv0-filter-recount/cv0pick2.bin",
+      "sha256": "e74d2aba29de3d696f9c09a7dae564b68e35629c34cfdf87479c858e55f2e322",
+      "bytes": 4194304
+    },
+    {
+      "original": "cv0-filter-recount/manifest.json",
+      "project_path": "cv0-filter-recount/manifest.json",
+      "sha256": "5fd73bb193089ded76c84c1fa58626dee5a57a2bc164cabd5f4187a3c912097b",
+      "bytes": 877
+    },
+    {
+      "original": "cv0-filter-recount/README.txt",
+      "project_path": "cv0-filter-recount/README.txt",
+      "sha256": "7c81ff704bc8177ab27751a101bb16c76793f40150e6dbd761eb8a66ab2e2be0",
+      "bytes": 2027
+    },
+    {
+      "original": "cv0-filter-recount/records.json",
+      "project_path": "cv0-filter-recount/records.json",
+      "sha256": "aa083a2e7b6140de5fa7da6ab1b7fd64e5b6d96e0661c11c39e8a7a230837f90",
+      "bytes": 26446
+    },
+    {
+      "original": "cv0-filter-recount/replay.py",
+      "project_path": "cv0-filter-recount/replay.py",
+      "sha256": "3077c74faa3eba9825423337b7a9c00e642d19a9939f297ba3ecde16f96c02a8",
+      "bytes": 4203
+    }
+  ]
+}

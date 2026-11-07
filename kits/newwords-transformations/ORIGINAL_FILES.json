@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "original": "newwords-kit/newwords/nw.py",
+      "project_path": "newwords-kit/newwords/nw.py",
+      "sha256": "7f78c0ea2113ad2dad0719073befea20862001ff801c81f456e060b026382a1b",
+      "bytes": 3917
+    },
+    {
+      "original": "newwords-kit/newwords/nw2.py",
+      "project_path": "newwords-kit/newwords/nw2.py",
+      "sha256": "ae862e7e76a1c482344337251b51ec7c42e7cf8474fc84f7cfac9ee0d878841f",
+      "bytes": 4369
+    },
+    {
+      "original": "newwords-kit/newwords/nw3.py",
+      "project_path": "newwords-kit/newwords/nw3.py",
+      "sha256": "234f7071722859e1fb7d6483dd3fc1f29309f5d53cbf6620c99dc51efda7d628",
+      "bytes": 4386
+    },
+    {
+      "original": "newwords-kit/kit/char_pair_profile.py",
+      "project_path": "newwords-kit/kit/char_pair_profile.py",
+      "sha256": "1b9e8011a2104447f9941cc19134a13abd56191c2bd834985f9ef7dc85ee8611",
+      "bytes": 12295
+    },
+    {
+      "original": "newwords-kit/replay.py",
+      "project_path": "newwords-kit/replay.py",
+      "sha256": "f90252308f13ac6c10ab86694afb3ff1aad6cf1a4308dc512830ad41c61510b7",
+      "bytes": 3824
+    },
+    {
+      "original": "newwords-kit/README.md",
+      "project_path": "newwords-kit/README.md",
+      "sha256": "34832742896f24be0dd7ca94ce8293bf481445fb60f42b0c45e0f17c2c301f96",
+      "bytes": 2967
+    },
+    {
+      "original": "newwords-kit/MANIFEST.json",
+      "project_path": "newwords-kit/MANIFEST.json",
+      "sha256": "768ea65da871ebb3ddba5411ea5ffa309b936ac7401f5bf11f316ae6dbb764d8",
+      "bytes": 996
+    }
+  ]
+}

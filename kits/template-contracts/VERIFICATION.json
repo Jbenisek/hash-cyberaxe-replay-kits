@@ -1,0 +1,75 @@
+{
+  "project_id": "hash-cyberaxe-template-contracts",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:08:05.074338+00:00",
+    "cases": [
+      {
+        "case": "numeric-line-and-block-slots-reconstruct-two-synthetic-rows",
+        "passed": true
+      },
+      {
+        "case": "extract-and-fill-roundtrip-on-fitting-row",
+        "passed": true
+      },
+      {
+        "case": "negative-number-slot-rejected-and-old-extraction-file-retained",
+        "passed": true
+      },
+      {
+        "case": "fill-accepts-repeated-slot-but-extractor-regex-rejects-it",
+        "passed": true
+      },
+      {
+        "case": "block-string-is-expanded-as-character-lines-without-schema-validation",
+        "passed": true
+      },
+      {
+        "case": "newrow-refills-dummy-only-and-refuses-existing-destination",
+        "passed": true
+      },
+      {
+        "case": "newrow-failure-leaves-partial-copy-and-temporary-values-file",
+        "passed": true
+      },
+      {
+        "case": "loo-EXACT-means-universal-newline-text-equality-not-byte-identity",
+        "passed": true
+      },
+      {
+        "case": "duplicate-derived-row-keys-overwrite-values-and-FAILED-still-exits-zero",
+        "passed": true
+      },
+      {
+        "case": "loo-reports-ALL-FIT-but-heldout-row-fails-actual-extraction",
+        "passed": true
+      }
+    ],
+    "input_files": [
+      {
+        "path": "research/launch/port/extract.py",
+        "sha256": "defe4d79fffa4ea40b37abab8f781b137f9ac2044d0d1faf0795ed24dd9cc5cb"
+      },
+      {
+        "path": "research/launch/port/filltmpl.py",
+        "sha256": "4622198f9a101ee7d2ab09f87cf61bb70a9bb4ba9b0df828e3c155314781ad79"
+      },
+      {
+        "path": "research/launch/port/mktmpl.py",
+        "sha256": "ca6dfd7f02ff33d4089376f0a50cec6e02002fc2402715c21423e7f6b34812f8"
+      },
+      {
+        "path": "research/launch/port/newrow.py",
+        "sha256": "003eab8c9a3a92639e8b8d372e05b5ba9b900acdc12840093c20782363f795fe"
+      },
+      {
+        "path": "research/launch/port/loo_test.py",
+        "sha256": "28d5c805933dccba30da90e28bef48613f6296ccd1fdc7807d81b1f5503db88a"
+      }
+    ],
+    "scope": "Ten disposable text-template interface controls. No actual research/submission package, verifier, server or solver was run. Text reconstruction is not scientific validity or a price proof."
+  },
+  "finite_replay": "passed"
+}

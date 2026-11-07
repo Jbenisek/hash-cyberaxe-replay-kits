@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project_id": "hash-cyberaxe-standard-iv-prefixes",
+  "title": "Standard-IV prefix examples: replay the actual conditions",
+  "brand": "HASH$CyberAxe",
+  "edition": "2026-11-05",
+  "source_archive": "standard-iv-prefixes.zip",
+  "source_archive_sha256": "4aab3a3e6f9a1af47119b21e4f4e5edf38d5216ef7028ad54e03f8e23e64c0d8",
+  "repository_url": "https://github.com/Jbenisek/hash-cyberaxe-replay-kits/tree/main/kits/standard-iv-prefixes",
+  "tool_families": [],
+  "original_payload_files": 5,
+  "replay_command": [
+    "{python}",
+    "-B",
+    "prefix-pairs-kit/replay.py"
+  ],
+  "expected": "prefix-pairs",
+  "timeout_seconds": 300,
+  "require_passed": false
+}

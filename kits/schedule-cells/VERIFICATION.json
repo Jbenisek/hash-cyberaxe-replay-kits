@@ -1,0 +1,90 @@
+{
+  "project_id": "hash-cyberaxe-schedule-cells",
+  "scope": "Finite documented replay and source identity checks.",
+  "source_bytes_preserved": true,
+  "output": {
+    "passed": true,
+    "finished_at": "2026-11-06T01:07:47.917931+00:00",
+    "source_sha256": "870a069cdbca5398fc157248b4b0c7a9e3eaef2ade87e988692d329e4e9cd27e",
+    "input_files": [
+      {
+        "path": "chi37.txt",
+        "sha256": "a13112c78c9a088c50c281c00d4d3a1acb1dda6ce1dd56aac434da87a3dc67f4"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "check_cells.py",
+        "sha256": "870a069cdbca5398fc157248b4b0c7a9e3eaef2ade87e988692d329e4e9cd27e"
+      },
+      {
+        "path": "chi37.txt",
+        "sha256": "a13112c78c9a088c50c281c00d4d3a1acb1dda6ce1dd56aac434da87a3dc67f4"
+      }
+    ],
+    "cases": [
+      {
+        "name": "pinned_32_member_and_64_assignment_enumerations",
+        "passed": true,
+        "members": 32,
+        "distinct_members": 32,
+        "cancelling_members": 32
+      },
+      {
+        "name": "independent_bit_formula_and_rank",
+        "passed": true,
+        "changed_output_bits": [
+          10,
+          12,
+          19
+        ],
+        "free_input_bits": [
+          4,
+          6,
+          20,
+          22,
+          27,
+          31
+        ],
+        "rank": 3,
+        "successful_assignments": 8,
+        "assignments": 64,
+        "independent_uniform_word_count": 268435456,
+        "uniform_word_domain": 2147483648
+      },
+      {
+        "name": "missing_characteristic_rejected",
+        "passed": true
+      },
+      {
+        "name": "cwd_not_script_location_controls_input_path",
+        "passed": true
+      },
+      {
+        "name": "31_member_list_rejected",
+        "passed": true
+      },
+      {
+        "name": "wrong_bit29_orientation_rejected",
+        "passed": true
+      },
+      {
+        "name": "duplicate_list_members_are_not_rejected_by_original",
+        "passed": true,
+        "warning": "The original counts iterations, not distinct admitted members; this wrapper separately verifies the pinned list has 32 distinct values."
+      },
+      {
+        "name": "edited_early_word_exposes_unvalidated_zero_label",
+        "passed": true,
+        "warning": "The original prints a contradictory hard-coded zero statement on this modified input. Do not treat its prose as validation of arbitrary characteristics."
+      }
+    ],
+    "admitted_members": 32,
+    "admitted_distinct_members": 32,
+    "free_model_fraction": "1/8",
+    "rank": 3,
+    "stdout_sha256": "076297b33b3929e82a32bfaafb42b3081ad965638fe28e1e6f790f31f0cd055d",
+    "scope": "Exact local schedule cancellation for the pinned characteristic plus adversarial interface controls. No full compression replay, new probability for the complete attack, or general characteristic parser certification."
+  },
+  "finite_replay": "passed"
+}

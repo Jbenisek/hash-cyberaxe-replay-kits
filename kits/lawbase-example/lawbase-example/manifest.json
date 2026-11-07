@@ -1,0 +1,12 @@
+{
+  "format": "hashsmash-lawbase-example-v1",
+  "files": {
+    "originals/lawbase.py": "a6e1cf0c62710affe52a7f46640e0892cfeac7b23b2a13f0a3824112a7425d2f",
+    "originals/LIFT_s9.check": "e299a74cc0629b5dbfd467b796a017e6491e532f15c597628b2fc7d096d155f6",
+    "originals/example-R40-E29.xml": "7a61f9afcb5609c30bd5afb5b661c453fe3ec7dbc837cb577bdb032c053ccdcf",
+    "replay.py": "1a97bfbc4cd2d9c381281524bdd04a1eeab94d1a19a5a04f0ff382aa02f5b0c8",
+    "README.txt": "edff5cbc626d9c77985f8a546fee338269bf23c54f1d01972bea6f343f09e2bc",
+    "golden-b32-records.json": "be99263dfcb05708a7354c8e71aa24bf56f019a960474132714510d7ca48b734",
+    "records.json": "db2c579a47c6ea2a5bafdb465f388ebb38f400c5df40422040669133b7b65896"
+  }
+}
